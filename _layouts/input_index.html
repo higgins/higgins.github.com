@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <meta content='{{ site.title }}' property='og:title' />
+    <title>{{ site.title }}</title>
+    {% include head.html %}
+  </head>
+  <body>
+    <div class="wrapper">
+      {% include header.html %}
+        <section class="content landing">
+          <article>
+            <div class="mark"></div>
+            <header>
+              <h3 class="post-title">{{ page.title }}</h3>
+              </small>
+            </header>
+            {{ content }}
+          </article>
+        </section>
+      {% include footer.html %}
+    </div>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+@media (max-width: 768px) {
+  .fork-me {
+    display: none;
+  }
+  .wrapper {
+    overflow: hidden;
+  }
+}
+
+@media (max-width: 480px) {
+
+  .wrapper {
+    padding: 15px;
+  }
+
+  article img {
+    margin: 0 !important;
+    float: none !important;
+    min-width: 100% !important;
+  }
+
+}
