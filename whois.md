@@ -1,6 +1,6 @@
 ---
 layout: whois
-title: <img src="http://www.gravatar.com/avatar/68f8007e01f10468a7e6a0073470737f?s=800" class="avatar" />whois
+title: <img src="http://www.gravatar.com/avatar/68f8007e01f10468a7e6a0073470737f?s=800" class="avatar" />
 ---
 
 **Justin Higgins**. <br />
