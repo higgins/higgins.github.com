@@ -1,0 +1,439 @@
+html, body {
+    width: auto;
+    height: auto;
+    margin: 0px;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    -webkit-animation-delay: 1s;
+    -webkit-animation-name: fade_white;
+    -webkit-animation-duration: 2000ms;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-fill-mode: forwards;
+
+    -moz-animation-name: fade_white;
+    -moz-animation-duration: 2000ms;
+    -moz-animation-timing-function: linear;
+    -moz-transform-origin: 50% 50%;
+
+    -ms-animation-name: spin;
+    -ms-animation-duration: 2000ms;
+    -ms-animation-timing-function: linear;
+    -ms-transform-origin: 50% 50%;
+
+    animation-name: spin;
+    animation-duration: 2000ms;
+    animation-timing-function: linear;
+}
+
+#main {
+    display: block
+    text-align: center;
+    position: relative;
+    width: 30rem;
+    margin: auto;
+    padding: 1.5rem 0 0;
+    border-radius: .25rem;
+    overflow: hidden;
+}
+
+.card {
+    text-size-adjust: auto;
+    -webkit-text-size-adjust: auto;
+    -ms-text-size-adjust: auto;
+    -moz-text-size-adjust: auto;
+
+    padding: 1.5rem;
+    background: #fff;
+    opacity: 0;
+    margin: 10 1rem 1rem;
+    border-radius: 3px;
+    user-select: none;
+    line-height: 110%;
+
+    -webkit-animation-delay: 3.9s;
+    -webkit-animation-name: fade_in;
+    -webkit-animation-duration: 4000ms;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-fill-mode: forwards;
+
+    -moz-animation-delay: 3.9s;
+    -moz-animation-name: fade_in;
+    -moz-animation-duration: 4000ms;
+    -moz-animation-timing-function: linear;
+    -moz-transform-origin: 50% 50%;
+
+    -ms-animation-delay: 3.9s;
+    -ms-animation-name: fade_in;
+    -ms-animation-duration: 4000ms;
+    -ms-animation-timing-function: linear;
+    -ms-transform-origin: 50% 50%;
+
+    animation-name: fade_in;
+    animation-delay: 3.9s;
+    animation-duration: 4000ms;
+    animation-timing-function: linear;
+}
+
+.large {
+    min-width: 94px;
+    min-height: 94px;
+}
+.red {
+    background-color: rgb(115, 22, 5);
+    color: rgb(255, 255, 255);
+    border-color: rgb(115, 22, 5);
+    clear: none;
+}
+
+.blue {
+    background-color: rgb(85, 126, 244);
+    color: rgb(255, 255, 255);
+    border-color: rgb(85, 126, 244);
+}
+
+.yellow {
+    background-color: rgb(244, 185, 85);
+    color: rgb(255, 255, 255);
+    border-color: rgb(244, 185, 85);
+}
+
+.square {
+    font-size: 12px;
+    font-weight: bold;
+    margin: 21px;
+    min-width: 92px;
+    min-height: 92px;
+    display: inline-block;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+}
+
+.nav {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    list-style-type:none;
+}
+
+.nav li {
+    display:inline-block;
+}
+
+a:link,{
+    color: rgb(85, 126, 244);
+}
+
+a:link, a:visited {
+    color: rgb(244, 185, 85);
+}
+
+#sig {
+    text-align: right;
+}
+
+#get {
+    -webkit-animation-delay: 1s;
+    -webkit-animation-name: spin_right;
+    -webkit-animation-duration: 2000ms;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-fill-mode: forwards;
+
+    -moz-animation-name: spin_right;
+    -moz-animation-duration: 2000ms;
+    -moz-animation-timing-function: linear;
+    -moz-transform-origin: 50% 50%;
+
+    -ms-animation-name: spin_right;
+    -ms-animation-duration: 2000ms;
+    -ms-animation-timing-function: linear;
+    -ms-transform-origin: 50% 50%;
+
+    animation-name: spin_right;
+    animation-duration: 2000ms;
+    animation-timing-function: linear;
+}
+
+#give {
+    -webkit-animation-delay: 1s;
+    -webkit-animation-name: spin_left;
+    -webkit-animation-duration: 2000ms;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-fill-mode: forwards;
+
+    -moz-animation-name: spin_left;
+    -moz-animation-duration: 2000ms;
+    -moz-animation-timing-function: linear;
+    -moz-transform-origin: 50% 50%;
+
+    -ms-animation-name: spin_left;
+    -ms-animation-duration: 2000ms;
+    -ms-animation-timing-function: linear;
+    -ms-transform-origin: 50% 50%;
+
+    animation-name: spin_left;
+    animation-duration: 2000ms;
+    animation-timing-function: linear;
+}
+
+#perspective {
+    -webkit-animation-delay: 1s;
+    -webkit-animation-name: spin_center;
+    -webkit-animation-duration: 2000ms;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-fill-mode: forwards;
+
+    -moz-animation-name: spin_center;
+    -moz-animation-duration: 2000ms;
+    -moz-animation-timing-function: linear;
+    -moz-transform-origin: 50% 50%;
+
+    -ms-animation-name: spin_center;
+    -ms-animation-duration: 2000ms;
+    -ms-animation-timing-function: linear;
+    -ms-transform-origin: 50% 50%;
+
+    animation-name: spin_center;
+    animation-duration: 2000ms;
+    animation-timing-function: linear;
+}
+
+#pulsar {
+    border: 3px solid  rgb(85, 126, 244);
+    border-radius: 50%;
+    height: 87px;
+    width: 87px;
+    position: relative;
+    opacity: 0.0
+
+    -webkit-animation-delay: 0s;
+    -webkit-animation-name: pulsate;
+    -webkit-animation-duration: 8s;
+    -webkit-animation-timing-function: ease-out;
+    -webkit-animation-iteration-count: 1;
+
+    -moz-animation-delay: 0s;
+    -moz-animation-name: pulsate;
+    -moz-animation-duration: 8s;
+    -moz-animation-timing-function: ease-out;
+    -moz-animation-iteration-count: 1;
+
+    -ms-animation-delay: 0s;
+    -ms-animation-name: pulsate;
+    -ms-animation-duration: 8s;
+    -ms-animation-timing-function: ease-out;
+    -ms-animation-iteration-count: 1;
+
+    animation-name: pulsate;
+    animation-delay: 0s;
+    animation-duration: 8s;
+    animation-timing-function: ease-out;
+}
+
+@-ms-keyframes spin_right {
+    from { -ms-transform: translate(0em) rotate(0deg); }
+    to { -ms-transform: translate(138px) rotate(360deg); }
+}
+
+@-moz-keyframes spin_right {
+    from { -moz-transform: translate(0) rotate(0deg); }
+    to { -moz-transform: translate(138px) rotate(360deg); }
+}
+
+@-webkit-keyframes spin_right {
+    0% {
+        -webkit-transform: translate(0) rotate(0deg) ;
+        -webkit-transform-origin: 50% 50%;
+    }
+
+    40% {
+        -webkit-transform: translate(138px) rotate(300deg) ;
+        -webkit-transform-origin: 50% 50%;
+        //-webkit-opacity: 0.60;
+    }
+
+    100% {
+        -webkit-transform: translate(138px) rotate(720deg) ;
+        -webkit-transform-origin: 50% 50%;
+        -webkit-border-radius:50%;
+        //-webkit-opacity: 0;
+    }
+}
+
+@-ms-keyframes spin_left {
+    from { -ms-transform: translate(0em) rotate(0deg); }
+    to { -ms-transform: translate(-138px) rotate(360deg); }
+}
+
+@-moz-keyframes spin_left {
+    from { -moz-transform: translate(0) rotate(0deg); }
+    to { -moz-transform: translate(-138px) rotate(360); }
+}
+
+@-webkit-keyframes spin_left {
+    0% {
+        -webkit-transform: translate(0) rotate(0deg) ;
+        -webkit-transform-origin: 50% 50%;
+    }
+
+    40% {
+        -webkit-transform: translate(-138px) rotate(420deg) ;
+        -webkit-transform-origin: 50% 50%;
+        //-webkit-opacity: 0.60;
+    }
+
+    100% {
+        -webkit-transform: translate(-138px) rotate(720deg) ;
+        -webkit-transform-origin: 50% 50%;
+        -webkit-border-radius:50%;
+        //-webkit-opacity: 0;
+    }
+}
+
+@-ms-keyframes spin_center {
+    from { -ms-transform: rotate(0deg); }
+    to { -ms-transform: rotate(360deg); }
+}
+
+@-moz-keyframes spin_center {
+    from { -moz-transform: rotate(0deg); }
+    to { -moz-transform: rotate(360deg); }
+}
+
+@-webkit-keyframes spin_center {
+    0% {
+        -webkit-transform: rotate(0deg) ;
+        -webkit-transform-origin: 50% 50%;
+    }
+
+    40% {
+        -webkit-transform: rotate(360deg) ;
+        -webkit-transform-origin: 50% 50%;
+        //-webkit-opacity: 0.60;
+    }
+
+    100% {
+        -webkit-transform: rotate(720deg) ;
+        -webkit-transform-origin: 50% 50%;
+        -webkit-border-radius:50%;
+        //-webkit-opacity: 0;
+    }
+}
+
+@-ms-keyframes fade_white {
+    0% {
+        background-color: rgb(0,0,0);
+    }
+
+    100% {
+        background-color: rgb(255,255,255);
+    }
+}
+
+@-moz-keyframes fade_white {
+    0% {
+        background-color: rgb(0,0,0);
+    }
+
+    100% {
+        background-color: rgb(255,255,255);
+    }
+}
+
+@-webkit-keyframes fade_white {
+    0% {
+        background-color: rgb(0,0,0);
+    }
+
+    100% {
+        background-color: rgb(255,255,255);
+    }
+}
+
+@-ms-keyframes pulsate {
+    0% {
+        opacity: 0.0;
+    }
+    10% {
+        -ms-transform: scale(0.1, 0.1);
+        opacity: 0.0;
+    }
+    20% {
+        -ms-transform: scale(0.1, 0.1);
+        opacity: 1.0;
+    }
+    100% {
+        -ms-transform: scale(2.1, 2.1);
+        opacity: 0.0;
+    }
+}
+
+@-moz-keyframes pulsate {
+    0% {
+        opacity: 0.0;
+    }
+    10% {
+        -moz-transform: scale(0.1, 0.1);
+        opacity: 0.0;
+    }
+    20% {
+        -moz-transform: scale(0.1, 0.1);
+        opacity: 1.0;
+    }
+    100% {
+        -moz-transform: scale(2.1, 2.1);
+        opacity: 0.0;
+    }
+}
+
+@-webkit-keyframes pulsate {
+    0% {
+        opacity: 0.0;
+    }
+    10% {
+        -webkit-transform: scale(0.1, 0.1);
+        opacity: 0.0;
+    }
+    20% {
+        -webkit-transform: scale(0.1, 0.1);
+        opacity: 1.0;
+    }
+    100% {
+        -webkit-transform: scale(2.1, 2.1);
+        opacity: 0.0;
+    }
+}
+
+@-ms-keyframes fade_in {
+    0% {
+        background-color: rgb(0,0,0);
+    }
+
+    100% {
+        background-color: rgb(255,255,255);
+    }
+}
+
+@-moz-keyframes fade_in {
+    0% {
+        background-color: rgb(0,0,0);
+    }
+
+    100% {
+        background-color: rgb(255,255,255);
+    }
+}
+
+@-webkit-keyframes fade_in {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        background-color: rgb(255,255,255);
+        opacity: 1;
+    }
+}

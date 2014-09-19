@@ -8,10 +8,12 @@ rdiscount:
 google_analytics: UA-48567204-1
 timezone:         Pacific/San Francisco
 paginate: 5
-links: 
+links:
   - name:         About
     url:          /whois
   - name:         Input
     url:          /i
   - name:         Output
     url:          /o
+  - name:         Next
+    url:          /next
