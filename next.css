@@ -26,6 +26,9 @@ body {
     animation-duration: 2000ms;
     animation-timing-function: linear;
 }
+form {
+    padding: 0;
+}
 
 #main {
     display: block
