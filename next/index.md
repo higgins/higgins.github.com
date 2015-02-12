@@ -1,4 +1,0 @@
----
-layout: next
-title: next
----
