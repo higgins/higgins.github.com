@@ -1,0 +1,70 @@
+{
+    "people": [
+        {
+            "name": "Noam Chomsky",
+            "description": "",
+            "sources": ["", ""],
+            "image": ""
+        },
+        {
+            "name": "",
+            "description": "",
+            "sources": ["", ""],
+            "image": ""
+        },
+        {
+            "name": "",
+            "description": "",
+            "sources": ["", ""],
+            "image": ""
+        },
+        {
+            "name": "",
+            "description": "",
+            "sources": ["", ""],
+            "image": ""
+        },
+        {
+            "name": "",
+            "description": "",
+            "sources": ["", ""],
+            "image": ""
+        },
+        {
+            "name": "",
+            "description": "",
+            "sources": ["", ""],
+            "image": ""
+        },
+        {
+            "name": "",
+            "description": "",
+            "sources": ["", ""],
+            "image": ""
+        },
+        {
+            "name": "",
+            "description": "",
+            "sources": ["", ""],
+            "image": ""
+        },
+        {
+            "name": "",
+            "description": "",
+            "sources": ["", ""],
+            "image": ""
+        },
+        {
+            "name": "",
+            "description": "",
+            "sources": ["", ""],
+            "image": ""
+        },
+        {
+            "name": "",
+            "description": "",
+            "sources": ["", ""],
+            "image": ""
+        }
+    ]
+}

@@ -1,0 +1,203 @@
+/* [sass, scss, main.scss] */
+@font-face {
+  font-family: oswald;
+  src: url('../assets/typeface/oswald.ttf'); }
+
+@font-face {
+  font-family: lusitana;
+  src: url('../assets/typeface/lusitana.ttf'); }
+
+/* line 1, /Users/watts/Dropbox/encapsulate_me/mixture/scss/_logo.scss */
+.square, #logo_i, #small_red, #logo_who, #logo_o, #small_blue {
+  margin: 0 auto;
+  display: inline-block;
+  width: 53.33px;
+  height: 53.33px;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s; }
+
+/* line 14, /Users/watts/Dropbox/encapsulate_me/mixture/scss/_logo.scss */
+.square:hover, #logo_i:hover, #small_red:hover, #logo_who:hover, #logo_o:hover, #small_blue:hover, .square.active, .active#logo_i, .active#small_red, .active#logo_who, .active#logo_o, .active#small_blue {
+  background-color: #000000; }
+
+/* line 19, /Users/watts/Dropbox/encapsulate_me/mixture/scss/_logo.scss */
+#logo div {
+  text-align: center; }
+/* line 22, /Users/watts/Dropbox/encapsulate_me/mixture/scss/_logo.scss */
+#logo ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+  /* line 27, /Users/watts/Dropbox/encapsulate_me/mixture/scss/_logo.scss */
+  #logo ul li {
+    text-align: center;
+    display: inline;
+    padding: 0 13.33px 0 13.33px; }
+
+/* line 35, /Users/watts/Dropbox/encapsulate_me/mixture/scss/_logo.scss */
+#logo_i, #small_red {
+  background-color: #731605; }
+
+/* line 40, /Users/watts/Dropbox/encapsulate_me/mixture/scss/_logo.scss */
+#logo_who {
+  background-color: #f4b955; }
+
+/* line 45, /Users/watts/Dropbox/encapsulate_me/mixture/scss/_logo.scss */
+#logo_o, #small_blue {
+  background-color: #557ef4; }
+
+/* line 50, /Users/watts/Dropbox/encapsulate_me/mixture/scss/_logo.scss */
+.home {
+  position: relative;
+  top: 40%; }
+
+/* line 55, /Users/watts/Dropbox/encapsulate_me/mixture/scss/_logo.scss */
+.nav_header {
+  background: #000000;
+  position: relative;
+  padding-top: 5px;
+  box-shadow: 0 0 2px #2f343a; }
+
+/* line 1, /Users/watts/Dropbox/encapsulate_me/mixture/scss/_inputs.scss */
+.input_title {
+  position: relative;
+  text-align: center;
+  padding: 45px 0 35px;
+  color: #f6f6f6;
+  font-family: oswald;
+  font-size: 70px;
+  font-weight: normal;
+  text-shadow: 1px 1px 0px rgba(47, 52, 58, 0.2);
+  text-decoration: none; }
+
+/* line 13, /Users/watts/Dropbox/encapsulate_me/mixture/scss/_inputs.scss */
+.input_title:hover {
+  background-color: #000000;
+  opacity: .7; }
+
+/* line 18, /Users/watts/Dropbox/encapsulate_me/mixture/scss/_inputs.scss */
+.inputs {
+  background-color: #b5c2b7;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  height: 200px;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  float: none; }
+  /* line 30, /Users/watts/Dropbox/encapsulate_me/mixture/scss/_inputs.scss */
+  .inputs a {
+    display: block;
+    height: 200px; }
+
+/* line 36, /Users/watts/Dropbox/encapsulate_me/mixture/scss/_inputs.scss */
+#input_people {
+  background-image: url('../images/inputs/people/chomsky_foucault.jpg'); }
+
+/* line 40, /Users/watts/Dropbox/encapsulate_me/mixture/scss/_inputs.scss */
+#input_books {
+  background-image: url('../images/inputs/books/generic_bg.jpg'); }
+
+/* line 44, /Users/watts/Dropbox/encapsulate_me/mixture/scss/_inputs.scss */
+#input_music {
+  background-image: url('../images/inputs/music/generic_bg.jpg'); }
+
+/* line 48, /Users/watts/Dropbox/encapsulate_me/mixture/scss/_inputs.scss */
+#input_film {
+  background-image: url('../images/inputs/film/waking_life.jpg'); }
+
+/* line 52, /Users/watts/Dropbox/encapsulate_me/mixture/scss/_inputs.scss */
+#inputs_coming {
+  text-align: center; }
+
+/* line 1, /Users/watts/Dropbox/encapsulate_me/mixture/scss/_whois.scss */
+#whois {
+  background-color: #000000;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 490px;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  float: none; }
+  /* line 13, /Users/watts/Dropbox/encapsulate_me/mixture/scss/_whois.scss */
+  #whois a {
+    text-decoration: none; }
+  /* line 17, /Users/watts/Dropbox/encapsulate_me/mixture/scss/_whois.scss */
+  #whois a:link {
+    color: #f4b955; }
+  /* line 21, /Users/watts/Dropbox/encapsulate_me/mixture/scss/_whois.scss */
+  #whois a:visited {
+    color: #f4b955; }
+  /* line 26, /Users/watts/Dropbox/encapsulate_me/mixture/scss/_whois.scss */
+  #whois .title {
+    position: relative;
+    padding: 10px 0px 0px 20px;
+    color: #f4b955;
+    font-family: oswald;
+    font-size: 42px;
+    font-weight: normal;
+    text-shadow: 1px 1px 0px rgba(47, 52, 58, 0.2); }
+  /* line 36, /Users/watts/Dropbox/encapsulate_me/mixture/scss/_whois.scss */
+  #whois .body {
+    position: relative;
+    padding: 10px 10px 0px 20px;
+    text-align: left;
+    color: #eeeeee;
+    font-size: 18px; }
+  /* line 44, /Users/watts/Dropbox/encapsulate_me/mixture/scss/_whois.scss */
+  #whois .tiny_logo {
+    height: 20px;
+    padding: 0px 0px 0px 2px; }
+  /* line 49, /Users/watts/Dropbox/encapsulate_me/mixture/scss/_whois.scss */
+  #whois .social_sig {
+    position: relative;
+    padding: 10px 0px 0px 20px;
+    color: #f4b955;
+    font-family: oswald;
+    font-size: 24px;
+    font-weight: normal;
+    text-shadow: 1px 1px 0px rgba(47, 52, 58, 0.2); }
+  /* line 59, /Users/watts/Dropbox/encapsulate_me/mixture/scss/_whois.scss */
+  #whois .contact {
+    display: block;
+    padding: 20px;
+    text-align: right; }
+  /* line 65, /Users/watts/Dropbox/encapsulate_me/mixture/scss/_whois.scss */
+  #whois .social_square {
+    height: 32px; }
+
+/* line 71, /Users/watts/Dropbox/encapsulate_me/mixture/scss/_whois.scss */
+#small_red {
+  margin: 0px 0px 0px 5px;
+  width: 15px;
+  height: 15px; }
+
+/* line 78, /Users/watts/Dropbox/encapsulate_me/mixture/scss/_whois.scss */
+#small_blue {
+  margin: 0px 0px 0px 5px;
+  width: 15px;
+  height: 15px; }
+
+/* line 1, /Users/watts/Dropbox/encapsulate_me/mixture/scss/_outputs.scss */
+#outputs_coming {
+  text-align: center; }
+
+/* line 9, /Users/watts/Dropbox/encapsulate_me/mixture/scss/main.scss */
+body {
+  background: #f6f6f6;
+  color: #2f343a;
+  font-family: lusitana;
+  padding: 0;
+  margin: 0;
+  font-weight: lighter;
+  font-style: normal;
+  line-height: 1.5;
+  position: relative;
+  cursor: auto; }
