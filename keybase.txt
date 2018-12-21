@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/higgins
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://encapsulate.me
+  * I am higgins (https://keybase.io/higgins) on keybase.
+  * I have a public key ASC7Vl77j1Yy5B3axAY1Gc5BaiJwNmJYaf44pc7c-fb7Lwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01209ac3242b9a3a5ab4a8a31c1bc5ccae3ee5cc12fbb33a6ee18930a8bc5e4b30260a",
+      "host": "keybase.io",
+      "kid": "0120bb565efb8f5632e41ddac4063519ce416a227036625869fe38a5cedcf9f6fb2f0a",
+      "uid": "5d5da4c73588b50bb7f7cbf1b7153200",
+      "username": "higgins"
+    },
+    "merkle_root": {
+      "ctime": 1512717868,
+      "hash": "c7ed3e5f78b87c7cc0bb6e83e99969324f9596c4ad77af0c02f4dd0d1686138fddf37aff09983198152106dec84324abda50ce59ccdfc24a29180edf642fa88a",
+      "hash_meta": "487430aac22cbfc5defc1c5c26205455142a7208f10f69694288b3d476acf18d",
+      "seqno": 1790594
+    },
+    "service": {
+      "hostname": "encapsulate.me",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.36"
+  },
+  "ctime": 1512717885,
+  "expire_in": 504576000,
+  "prev": "63e024e93be249b68fe2a04efaa7108740eea395183f8817c4d4bc493e8a7f95",
+  "seqno": 17,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgu1Ze+49WMuQd2sQGNRnOQWoicDZiWGn+OKXO3Pn2+y8Kp3BheWxvYWTFA0V7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwOWFjMzI0MmI5YTNhNWFiNGE4YTMxYzFiYzVjY2FlM2VlNWNjMTJmYmIzM2E2ZWUxODkzMGE4YmM1ZTRiMzAyNjBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwYmI1NjVlZmI4ZjU2MzJlNDFkZGFjNDA2MzUxOWNlNDE2YTIyNzAzNjYyNTg2OWZlMzhhNWNlZGNmOWY2ZmIyZjBhIiwidWlkIjoiNWQ1ZGE0YzczNTg4YjUwYmI3ZjdjYmYxYjcxNTMyMDAiLCJ1c2VybmFtZSI6ImhpZ2dpbnMifSwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE1MTI3MTc4NjgsImhhc2giOiJjN2VkM2U1Zjc4Yjg3YzdjYzBiYjZlODNlOTk5NjkzMjRmOTU5NmM0YWQ3N2FmMGMwMmY0ZGQwZDE2ODYxMzhmZGRmMzdhZmYwOTk4MzE5ODE1MjEwNmRlYzg0MzI0YWJkYTUwY2U1OWNjZGZjMjRhMjkxODBlZGY2NDJmYTg4YSIsImhhc2hfbWV0YSI6IjQ4NzQzMGFhYzIyY2JmYzVkZWZjMWM1YzI2MjA1NDU1MTQyYTcyMDhmMTBmNjk2OTQyODhiM2Q0NzZhY2YxOGQiLCJzZXFubyI6MTc5MDU5NH0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJlbmNhcHN1bGF0ZS5tZSIsInByb3RvY29sIjoiaHR0cDoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMzYifSwiY3RpbWUiOjE1MTI3MTc4ODUsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJwcmV2IjoiNjNlMDI0ZTkzYmUyNDliNjhmZTJhMDRlZmFhNzEwODc0MGVlYTM5NTE4M2Y4ODE3YzRkNGJjNDkzZThhN2Y5NSIsInNlcW5vIjoxNywidGFnIjoic2lnbmF0dXJlIn2jc2lnxEDYvUJ9AUgPWKy6YbMQ0LlgUZtG5TmX5uubfXHxC+DO4Tr30r3twUSLVosHBYe+e/wbabdgbeTCsEqk8E+TZM4KqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQgvNWtdEVZdUPJ5xnZ1WZiwgKud1IUmhIv8iyaHmH9uzCjdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/higgins
+
+==================================================================
