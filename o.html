@@ -1,6 +1,5 @@
-<!doctype html>
-<html class="no-js" lang="en">
-  <head>
+<html>
+<head>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<meta content="justin higgins" property="og:title" />
@@ -13,32 +12,57 @@
 
 	<title>justin higgins</title>
 
-	<link href="/assets/css/foundation.min.css" rel="stylesheet" type="text/css" media="all"/>
-	<link href="/assets/css/main.min.css" rel="stylesheet" type="text/css" media="all"/>
-	<script src="/bower_components/foundation/js/vendor/modernizr.js"></script>
-  </head>
-  <body style="background: #000000">
-
-   <section id="logo" class=home>
-  <div class="row">
-    <div class="small-4 columns">
-      <div>
-        <ul>
-          <li><a id="logo_i" href="/i"></a></li>
-          <li><a id="logo_who" href="/whois"></a></li>
-          <li><a id="logo_o" href="/o"></a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-	<script src="/bower_components/jquery/dist/jquery.min.js"></script>
-<script src="/assets/js/foundation.min.js"></script>
-<script>
-$(document).foundation();
-</script>
-
-  </body>
+  <style>
+    html, body {
+      height: 100%;
+      overflow: hidden;
+      background: black;
+      cursor: auto;
+    }
+    ul {
+      position: relative;
+      top: 40%;
+      list-style-type: none;
+      text-align: center;
+    }
+   li {
+     display: inline;
+     padding: 0 13.33px;
+   }
+   a {
+     display: inline-block;
+     width: 53.3px;
+     height: 53.3px;
+     outline: 0;
+     -webkit-transition: .4s;
+     -moz-transition: .4s;
+     -ms-transition: .4s;
+     -o-transition: .4s;
+     transition: .4s;
+   }
+   a.i {
+     background: Maroon;
+     filter: brightness(90%);
+   }
+   a.who {
+     background: Gold;
+     filter: hue-rotate(-35deg) brightness(110%);
+     opacity: 0.97;
+   }
+   a.o {
+     background: DodgerBlue;
+     filter: hue-rotate(-5deg) brightness(80%);
+   }
+   a:hover {
+     background: black;
+   }
+  </style>
+</head>
+<body>
+  <ul>
+    <li><a class="i" href="/i"></a></li>
+    <li><a class="who" href="/whois"></a></li>
+    <li><a class="o" href="/o"></a></li>
+  </ul>
+</body>
 </html>
