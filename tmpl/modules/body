@@ -1,7 +1,9 @@
 <body>
-  <ul>
-    <li><a class="i" href="/i"></a></li>
-    <li><a class="who" href="/whois"></a></li>
-    <li><a class="o" href="/o"></a></li>
-  </ul>
+  <header>
+    <div class="logo">
+      <div class="i"></div>
+      <div class="w"></div>
+      <div class="o"></div>
+    </div>
+  </header>
 </body>

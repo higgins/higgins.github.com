@@ -12,48 +12,36 @@
 	<title>justin higgins</title>
 
   <style>
-    html, body {
-      height: 100%;
-      overflow: hidden;
-      background: black;
-      cursor: auto;
-    }
-    ul {
-      position: relative;
-      top: 40%;
-      list-style-type: none;
-      text-align: center;
-    }
-   li {
-     display: inline;
-     padding: 0 13.33px;
+   html, body {
+     overflow: hidden;
+     cursor: auto;
    }
-   a {
-     display: inline-block;
-     width: 53.3px;
-     height: 53.3px;
-     outline: 0;
-     -webkit-transition: .4s;
-     -moz-transition: .4s;
-     -ms-transition: .4s;
-     -o-transition: .4s;
-     transition: .4s;
+   header {
+     height: 100vh;
    }
-   a.i {
+   .logo {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100%;
+   }
+   .logo div {
+     width: 20px;
+     height: 20px;
+     margin: 0px 5px;
+   }
+   .logo .i {
      background: Maroon;
      filter: brightness(90%);
    }
-   a.who {
+   .logo .w {
      background: Gold;
      filter: hue-rotate(-35deg) brightness(110%);
      opacity: 0.97;
    }
-   a.o {
+   .logo .o {
      background: DodgerBlue;
      filter: hue-rotate(-5deg) brightness(80%);
-   }
-   a:hover {
-     background: black;
    }
   </style>
 </head>
