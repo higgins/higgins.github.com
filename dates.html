@@ -1,0 +1,91 @@
+<html>
+  <head>
+    <style type="text/css">
+      h3 {
+          text-align: center;
+      }
+      #dates {
+          display: flex;
+          flex-wrap: wrap;
+      }
+      #dates > div {
+	        border: 1px solid lightgrey;
+	        height: 20px;
+	        width: 20px;
+	        margin: 1px;
+      }
+      .special {
+          background: dodgerblue;
+          border: 1px solid dodgerblue !important;
+      }
+      .today-special {
+          display: inline-block;
+          border-top: 20px solid gold !important;
+          border-right: 20px solid dodgerblue !important;
+          width: 0px !important;
+          height: 0px !important;
+      }
+      .today {
+          border: 1px solid gold !important;
+          background: gold !important;
+      }
+      .past {
+          background: maroon;
+          border: 1px solid maroon !important;
+      }
+    </style>
+  </head>
+  <body>
+    <h3></h3>
+    <div id="dates">
+    </div>
+    <script type="text/javascript">
+      const now = new Date();
+      const today = [now.getMonth() + 1, now.getDate(), now.getFullYear()].join('/');
+      const year = now.getFullYear();
+      const isLeapYear = year % 4 === 0;
+      let h3 = document.getElementsByTagName('h3')[0];
+      h3.insertAdjacentHTML('beforeend', year)
+      const febDays = isLeapYear ? 28 : 29;
+      let months = [31,febDays,31,30,31,30,31,31,30,31,30,31];
+      let days = [];
+      let dates = document.getElementById('dates');
+      let daysInYear;
+      let pastEvent = true;
+      let specialDates = '01/25/2019 02/12/2019 03/16/2019 04/07/2019 05/01/2019 06/01/2019'.split(' ').map(dateStr => (new Date(dateStr)).getTime());
+      months.forEach((daysInMonth, month) => {
+          let day = 1;
+          while (day <= daysInMonth) {
+              let dateStr = [month + 1, day, year].join('/');
+              let date = new Date(dateStr);
+              if (pastEvent) {
+                  pastEvent = date < now;
+              }
+              let dateElem = ["<div id='", dateStr, "'"];
+              let classes = [];
+              const specialDay = specialDates.includes(date.getTime());
+              if (dateStr === today) {
+                  if (specialDates.includes(new Date(today).getTime())) {
+                      classes.push('today-special');
+                  } else {
+                      classes.push('today');
+                  }
+              } else if (specialDay) {
+                  classes.push('special');
+                  if (pastEvent) {
+                      classes.push('past');
+                  }
+              }
+              if (classes.length) {
+                  dateElem.push(" class='");
+                  dateElem.push(classes.join(" "));
+                  dateElem.push("'");
+              }
+              dateElem = dateElem.concat(["title='", dateStr, "'></div>"]);
+              dates.insertAdjacentHTML('beforeend', dateElem.join(''));
+              day++;
+          }
+      });
+      </script>
+  </body>
+</html>
