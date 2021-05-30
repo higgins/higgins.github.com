@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	  <meta charset="utf-8" />
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	  <meta content="justin higgins" property="og:title" />
+	  <meta content="http://encapsulate.me" property="og:url" />
+	  <meta content="profile" property="og:type" />
+	  <meta content="justin" property="og:profile:first_name" />
+	  <meta content="higgins" property="og:profile:last_name" />
+	  <meta content="higgins" property="og:profile:username" />
+	  <meta content="male" property="og:profile:gender" />
+	  <title>Justin Higgins</title>
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Work+Sans">
+    <style>
+      html, body {
+          overflow: hidden;
+          cursor: auto;
+          font-family: 'Work Sans', sans-serif;
+          width: 800px;
+      }
+      .logo {
+          display: flex;
+          align-items: center;
+          margin: 10px;
+      }
+      .logo div {
+          width: 20px;
+          height: 20px;
+          margin: 0px 5px;
+      }
+      .logo .i {
+          background: Maroon;
+          filter: brightness(90%);
+      }
+      .logo .w {
+          background: Gold;
+          filter: hue-rotate(-35deg) brightness(110%);
+          opacity: 0.97;
+      }
+      .logo .o {
+          background: DodgerBlue;
+          filter: hue-rotate(-5deg) brightness(80%);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <a href="/">
+        <div class="logo">
+          <div class="i"></div>
+          <div class="w"></div>
+          <div class="o"></div>
+        </div>
+      </a>
+    </header>
+    <main>
+      <h1>Helpful Twitter</h1>
+      <section>
+        <p>I'd like to be more helpful on <a href="https://twitter.com/justinprojects">twitter</a>.</p>
+        <p>To me, that means answering questions.</p>
+        <p>Unfortunately, the main feed can get pretty noisy no matter how well you prune it.</p>
+        <p>Fortunately, there is 'advanced search' to filter your own feed.</p>
+        <p>Here, we have a simple mechanism to redirect to a prefilled advanced search of (approximately) any tweet the people you follow that asks a question today.</p>
+        <p>It is an approximation.</p>
+        <p>If you don't want to press that button each time, use this URL to auto redirect: <a href="/helpful.html?auto=true">AUTO REDIRECT</a></p>
+      </section>
+      <section>
+        <button onClick="todaysQuestions()">Today's questions</button>
+      </section>
+    </main>
+    <script>
+      const now = new Date();
+      const month = now.getMonth() + 1;
+      const since = `${now.getFullYear()}-${month}-${now.getDate()}`;
+      const until = `${now.getFullYear()}-${month + 1}-${now.getDate()}`;
+      const url = `https://twitter.com/search?pf=on&q=%3F%20until%3A${until}%20since%3A${since}%20-filter%3Alinks%20-filter%3Areplies&src=typed_query`
+      function getQueryVariable(variable) {
+          var query = window.location.search.substring(1);
+          var vars = query.split('&');
+          for (var i = 0; i < vars.length; i++) {
+              var pair = vars[i].split('=');
+              if (decodeURIComponent(pair[0]) == variable) {
+                  return decodeURIComponent(pair[1]);
+              }
+          }
+      }
+      if (getQueryVariable('auto')) {
+          todaysQuestions();
+      }
+      function todaysQuestions() {
+          window.location.replace(url);
+      }
+    </script>
+  </body>
+</html>
