@@ -47,13 +47,11 @@
   </head>
   <body>
     <header>
-      <a href="/">
-        <div class="logo">
-          <div class="i"></div>
-          <div class="w"></div>
-          <div class="o"></div>
-        </div>
-      </a>
+      <div class="logo" style="cursor: pointer" onClick="author()">
+        <div class="i"></div>
+        <div class="w"></div>
+        <div class="o"></div>
+      </div>
     </header>
     <main>
       <h1>Helpful Twitter</h1>
@@ -61,8 +59,8 @@
         <p>I'd like to be more helpful on <a href="https://twitter.com/justinprojects">twitter</a>.</p>
         <p>To me, that means answering questions.</p>
         <p>Unfortunately, the main feed can get pretty noisy no matter how well you prune it.</p>
-        <p>Fortunately, there is 'advanced search' to filter your own feed.</p>
-        <p>Here, we have a simple mechanism to redirect to a prefilled advanced search of (approximately) any tweet the people you follow that asks a question today.</p>
+        <p>Fortunately, there is 'advanced search'.</p>
+        <p>Here, we have a simple mechanism to redirect to a prefilled advanced search of (approximately) today's tweets that ask a question from the people you follow.</p>
         <p>It is an approximation.</p>
         <p>If you don't want to press that button each time, use this URL to auto redirect: <a href="/helpful.html?auto=true">AUTO REDIRECT</a></p>
       </section>
@@ -91,6 +89,9 @@
       }
       function todaysQuestions() {
           window.location.replace(url);
+      }
+      function author() {
+          window.location.replace("https://twitter.com/justinprojects");
       }
     </script>
   </body>
