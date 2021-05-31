@@ -74,8 +74,11 @@
     <script>
       const now = new Date();
       const month = now.getMonth() + 1;
-      const since = `${now.getFullYear()}-${month}-${now.getDate()}`;
-      const until = `${now.getFullYear()}-${month + 1}-${now.getDate()}`;
+      const year = now.getFullYear();
+      const since = `${year}-${month}-${now.getDate()}`;
+      const untilMonth = month === 12 ? 1 : (month + 1)
+      const untilYear = untilMonth === 1 ? year + 1 : year;
+      const until = `${untilYear}-${untilMonth}-${1}`;
       const url = `https://twitter.com/search?pf=on&q=%3F%20until%3A${until}%20since%3A${since}%20-filter%3Alinks%20-filter%3Areplies&src=typed_query`
       function getQueryVariable(variable) {
           var query = window.location.search.substring(1);
