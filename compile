@@ -1,5 +1,0 @@
-#! /bin/bash
-destination=index.html
-template=tmpl/index.tmpl
-moduleDir=tmpl/modules
-cat $moduleDir/open $moduleDir/head $moduleDir/body $moduleDir/close > $destination
