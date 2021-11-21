@@ -1,0 +1,41 @@
+/* Justin overrides of Grip / Github style*/
+.container {
+    width: 600px;
+}
+a {
+    color: dodgerblue;
+}
+img {
+    margin: auto;
+    display: block;
+}
+.preview-page {
+    margin-top: 0px;
+}
+header {
+    height: 100px;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.logo div {
+    width: 20px;
+    height: 20px;
+    margin: 0px 5px;
+}
+.logo .i {
+    background: Maroon;
+    filter: brightness(90%);
+}
+.logo .w {
+    background: Gold;
+    filter: hue-rotate(-35deg) brightness(110%);
+    opacity: 0.97;
+}
+.logo .o {
+    background: DodgerBlue;
+    filter: hue-rotate(-5deg) brightness(80%);
+}
