@@ -31,14 +31,12 @@ files.forEach(file => {
   const ogTitle = parsed.getElementsByTagName("meta").find(h => h.rawAttrs.startsWith('property="og:title"'));
   const ogDescription = parsed.getElementsByTagName("meta").find(h => h.rawAttrs.startsWith('property="og:description"'));
   const ogImage = parsed.getElementsByTagName("meta").find(h => h.rawAttrs.startsWith('property="og:image"'));
-  if (!ogTitle || !ogDescription || !ogImage) {
-    return
-    // TODO:
-    // throw new Error(`File doesn't have have og:title, og:description, og:image. ${file.name}`);
+  if (!ogTitle || !ogDescription) {
+    throw new Error(`File doesn't have have og:title, og:description. ${file.name}`);
   }
-  const title = ogImage.rawAttrs.split('content=')[1].replace(/"/g, '');
-  const description = ogImage.rawAttrs.split('content=')[1].replace(/"/g, '');
-  const imageUrl = ogImage.rawAttrs.split('content=')[1].replace(/"/g, '');
+  const title = ogTitle.rawAttrs.split('content=')[1].replace(/"/g, '');
+  const description = ogDescription.rawAttrs.split('content=')[1].replace(/"/g, '');
+  const imageUrl = ogImage && ogImage.rawAttrs.split('content=')[1].replace(/"/g, '');
 
   const contents = {
     name: file.name,
@@ -46,7 +44,9 @@ files.forEach(file => {
     description,
     imageUrl,
   };
-  console.log(contents);
+  if (imageUrl) {
+    contents.imageUrl = imageUrl;
+  }
   feed.item({
     title,
     description,
