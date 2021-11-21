@@ -1,0 +1,24 @@
+{
+    "name": "encapsulate.me",
+    "version": "1.0.0",
+    "description": "https://encapsulate.me",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "node build.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/higgins/higgins.github.com.git"
+    },
+    "author": "Justin Higgins <npm set init.author.url http://yourblog.com> (https://startingcondition.com)",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/higgins/higgins.github.com/issues"
+    },
+    "homepage": "https://github.com/higgins/higgins.github.com#readme",
+    "dependencies": {
+        "node-html-parser": "^5.1.0",
+        "rss": "^1.2.2"
+    }
+}
