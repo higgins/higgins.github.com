@@ -1,4 +1,4 @@
-# encapsulate.m
+# encapsulate.me
 
 ## Publishing
 1. All blog posts are written in markdown in the `writing/src/` dir.
