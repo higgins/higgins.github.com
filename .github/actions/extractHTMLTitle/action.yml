@@ -5,13 +5,9 @@ inputs:
     description: "The path to the html file you'd like to extract title tag of"
     required: true
 
-  REPO_TOKEN:
-    description: "Github token"
-    required: true
-
 outputs:
-  FILE_CONTENTS:
-    description: "The new files contents"
+  HTML_TITLE:
+    description: "The value of the <title /> in the header."
 
 runs:
   using: "node12"
