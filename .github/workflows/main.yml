@@ -32,7 +32,7 @@ jobs:
       - if: steps.posts.outputs.post0
         id: extract_title
         name: Extract title from HTML source
-        uses: ./.github/actions/extractHTMLTitle/action.yml
+        uses: ./.github/actions/extractHTMLTitle/
         with:
           ADDED_FILE_NAME: steps.posts.outputs.post0
           REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
