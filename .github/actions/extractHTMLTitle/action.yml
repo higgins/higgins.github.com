@@ -1,0 +1,14 @@
+name: 'Extract HTML title'
+description: Extract an html file's title
+inputs:
+  ADDED_FILE_PATH:
+    description: "The path to the html file you'd like to extract title tag of"
+    required: true
+
+outputs:
+  HTML_TITLE:
+    description: "The value of the <title /> in the header."
+
+runs:
+  using: "node12"
+  main: "index.js"

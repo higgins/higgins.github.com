@@ -18,6 +18,8 @@
     },
     "homepage": "https://github.com/higgins/higgins.github.com#readme",
     "dependencies": {
+        "@actions/core": "^1.6.0",
+        "@actions/github": "^5.0.0",
         "node-html-parser": "^5.1.0",
         "rss": "^1.2.2"
     }

@@ -1,0 +1,54 @@
+on: [push]
+
+jobs:
+  publish_blog_to_hn:
+    if: github.ref == 'refs/heads/master'
+    runs-on: ubuntu-latest
+    name: Post to Hackernews
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Setup node
+        uses: actions/setup-node@v2
+        with:
+          node-version: '12'
+      - name: Install workflow dependencies
+        run: npm install
+      - id: files
+        uses: jitterbit/get-changed-files@v1
+      - id: posts
+        name: Detecting posts from newly added files
+        run: |
+          i=0
+          for added_file in ${{ steps.files.outputs.added }}; do
+            echo "Do something with ${added_file}."
+            if [[ "${added_file}" == "writing"* ]];
+            then
+              echo "File ${added_file} matched post."
+              echo "::set-output name=post${i}::${added_file}"
+              echo "::set-output name=url${i}::https://encapsulate.me/${added_file}"
+              ((i=i+1))
+            fi
+          done
+
+      # Test flows extracted branch name
+      # - name: Extract branch name
+      #   shell: bash
+      #   run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
+      #   id: extract_branch
+
+      - if: steps.posts.outputs.post0
+        id: extract_title
+        name: Extract title from HTML source
+        uses: ./.github/actions/extractHTMLTitle/
+        with:
+          ADDED_FILE_PATH: ${{ steps.posts.outputs.post0 }}
+      - if: steps.extract_title.outputs.HTML_TITLE
+        id: publish
+        name: Post to Hackernews
+        uses: higgins/action-hackernews-post@v1.0.0
+        with:
+          POST_TITLE: ${{ steps.extract_title.outputs.HTML_TITLE }}
+          POST_URL: ${{ steps.posts.outputs.url0 }}
+          HN_USERNAME: ${{ secrets.HN_USERNAME }}
+          HN_PASSWORD: ${{ secrets.HN_PASSWORD }}
