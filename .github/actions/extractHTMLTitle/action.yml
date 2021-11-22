@@ -11,4 +11,4 @@ outputs:
 
 runs:
   using: "node14"
-  main: ".github/actions/extractHTMLTitle.js"
+  main: "index.js"
