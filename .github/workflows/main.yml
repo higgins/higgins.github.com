@@ -14,7 +14,7 @@ jobs:
       - name: Install workflow dependencies
         run: npm install
       - id: files
-      uses: jitterbit/get-changed-files@v1
+        uses: jitterbit/get-changed-files@v1
       - id: posts
         name: Detecting posts from newly added files
         run: |
