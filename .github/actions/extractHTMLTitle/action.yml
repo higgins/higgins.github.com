@@ -10,5 +10,5 @@ outputs:
     description: "The new files contents"
 
 runs:
-  using: "node14"
+  using: "node12"
   main: "index.js"
