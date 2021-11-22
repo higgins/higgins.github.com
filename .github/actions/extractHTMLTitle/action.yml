@@ -2,7 +2,7 @@ name: 'Extract HTML title'
 description: Extract an html file's title
 inputs:
   FILE_PATH:
-    description: 'The path to the html file you'd like to extract title tag of'
+    description: "The path to the html file you'd like to extract title tag of"
     required: true
 
 outputs:
