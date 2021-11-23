@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Show HN: This page was posted automatically from a commit</title>
+  <meta property="og:title" content="This page was posted automatically from a commit" />
+  <link href="/styles/grip-styles.css" rel="stylesheet" type="text/css"/>
+  <link href="/styles/blog-styles.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+  <div class="page">
+    <div id="preview-page" class="preview-page" data-autorefresh-url="">
+        <div class="container new-discussion-timeline experiment-repo-nav">
+          <div class="repository-content">
+            <div id="readme" class="readme boxed-group clearfix announce instapaper_body md">
+              <article class="markdown-body entry-content" itemprop="text" id="grip-content">
+                <h2>
+<a id="user-content-show-hn-this-page-was-posted-automatically-from-a-commit" class="anchor" href="#show-hn-this-page-was-posted-automatically-from-a-commit" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>This page was posted automatically from a commit</h2>
+<blockquote>
+<p>tl;dr: This URL was posted to hackernews automatically from a github
+action I wrote:
+<a href="https://github.com/marketplace/actions/post-to-hackernews">action-hackernews-post</a>.</p>
+</blockquote>
+<h3>
+<a id="user-content-motivation" class="anchor" href="#motivation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Motivation</h3>
+<p>Earlier this year I started writing online regularly. I committed to a
+pace of weekly updates on my creative
+project—<a href="https://24hourhomepage.com" rel="nofollow">24HourHomepage</a>—all posted on
+<a href="https://higgins.medium.com" rel="nofollow">Medium</a>.</p>
+<p>I recently migrated all my articles from Medium to this domain with
+the hopes of having a "write once, publish many" sort of flow.</p>
+<p>So I wrote <a href="https://github.com/marketplace/actions/post-to-hackernews">this github
+action</a> to
+submit a URL and title to hackernews.</p>
+<h3>
+<a id="user-content-applications" class="anchor" href="#applications" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Applications</h3>
+<ul>
+<li>Announce new versions of your OSS project</li>
+<li>Publish part of your github pages blog</li>
+</ul>
+<h3>
+<a id="user-content-installation" class="anchor" href="#installation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Installation</h3>
+<p>When configuring your github actions workflow, add the package like so</p>
+<pre><code>uses: higgins/action-hackernews-post@v1.0.1
+with:
+  HN_USERNAME: ${{ secrets.HN_USERNAME }}
+  HN_PASSWORD: ${{ secrets.HN_PASSWORD }}
+  POST_TITLE: "An clock where every second is user submitted content"
+  POST_URL: https://24HourHomepage.com
+</code></pre>
+<p>Be sure to set <code>HN_USERNAME</code> and <code>HN_PASSWORD</code> in github secrets or
+via another secure method.</p>
+<h3>
+<a id="user-content-thank-you" class="anchor" href="#thank-you" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Thank you</h3>
+<p>If you enjoyed this, let me know! <a href="https://twitter.com/justinprojects" rel="nofollow">—justin</a></p>
+
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+  </div>
+  <div>&nbsp;</div>
+  </div><script>
+    function showCanonicalImages() {
+      var images = document.getElementsByTagName('img');
+      if (!images) {
+        return;
+      }
+      for (var index = 0; index < images.length; index++) {
+        var image = images[index];
+        if (image.getAttribute('data-canonical-src') && image.src !== image.getAttribute('data-canonical-src')) {
+          image.src = image.getAttribute('data-canonical-src');
+        }
+      }
+    }
+
+    function scrollToHash() {
+      if (location.hash && !document.querySelector(':target')) {
+        var element = document.getElementById('user-content-' + location.hash.slice(1));
+        if (element) {
+           element.scrollIntoView();
+        }
+      }
+    }
+
+    function autorefreshContent(eventSourceUrl) {
+      var initialTitle = document.title;
+      var contentElement = document.getElementById('grip-content');
+      var source = new EventSource(eventSourceUrl);
+      var isRendering = false;
+
+      source.onmessage = function(ev) {
+        var msg = JSON.parse(ev.data);
+        if (msg.updating) {
+          isRendering = true;
+          document.title = '(Rendering) ' + document.title;
+        } else {
+          isRendering = false;
+          document.title = initialTitle;
+          contentElement.innerHTML = msg.content;
+          showCanonicalImages();
+        }
+      }
+
+      source.onerror = function(e) {
+        if (e.readyState === EventSource.CLOSED && isRendering) {
+          isRendering = false;
+          document.title = initialTitle;
+        }
+      }
+    }
+
+    window.onhashchange = function() {
+      scrollToHash();
+    }
+
+    window.onload = function() {
+      scrollToHash();
+    }
+
+    showCanonicalImages();
+
+    var autorefreshUrl = document.getElementById('preview-page').getAttribute('data-autorefresh-url');
+    if (autorefreshUrl) {
+      autorefreshContent(autorefreshUrl);
+    }
+  </script>
+</body>
+</html>
