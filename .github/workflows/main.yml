@@ -46,7 +46,7 @@ jobs:
       - if: steps.extract_title.outputs.HTML_TITLE
         id: publish
         name: Post to Hackernews
-        uses: higgins/action-hackernews-post@v1.0.0
+        uses: higgins/action-hackernews-post@v1.0.1
         with:
           POST_TITLE: ${{ steps.extract_title.outputs.HTML_TITLE }}
           POST_URL: ${{ steps.posts.outputs.url0 }}
