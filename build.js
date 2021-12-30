@@ -4,6 +4,7 @@ const { parse } = require("node-html-parser");
 const WRITING_DIR = __dirname + "/writing/";
 let files = [];
 
+console.log("BUILDING RSS feed...");
 fs.readdirSync(WRITING_DIR, { withFileTypes: true }).forEach(file => {
   if (!file.isFile()) { return } // exclude src markdown dir
   const date = fs.statSync(WRITING_DIR + file.name);

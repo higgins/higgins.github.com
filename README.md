@@ -15,7 +15,16 @@ grip src/MARKDOWN_FILE --export --no-inline PrettyURLFileName.html
   <link href="/styles/blog-styles.css" rel="stylesheet" type="text/css"/>
   <script src="/scripts/writing.js"></script>
 ```
-
+4. Insert header logo into the body:
+```
+  <header>
+    <div class="logo" style="cursor: pointer" onClick="author()">
+      <div class="i"></div>
+      <div class="w"></div>
+      <div class="o"></div>
+    </div>
+  </header>
+```
 ## To build RSS feed
 ```
 node build.js
