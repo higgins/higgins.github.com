@@ -1,12 +1,102 @@
-* 01/03/2022
+* 01/04/2022
 ** Notes
 *** Me
-- [ ] Rings appointment
+- [ ] Follow up on git-filter privatize idea
+- [ ] Migrate off rewardful
+- [ ] How to manage so many 2022 goals
+- [ ] 2022 Goals brainstorming
+  - [ ] Every Dollar app every day
+  - [ ] iTalki once per week
+  - [ ] Grow garlic, ginger, tumeric
+  - [ ] Daily log
+    - [ ] Did you meditate
+    - [ ] Exercise
+    - [ ] Diet
+    - [ ] Post to twitter -- https://github.com/marketplace/actions/send-tweet-action
+  - [ ] Launch another side project
+  - [ ] 24HourHomepage.com -- 1 Hour of Published content
+  - [ ] Get materially better with my tools
+    - [ ] emacs
+    - [ ] kitchen
+    - [ ] exercise
+    - [ ] language
+  - [ ] Exercise more patience
+*** Glow
+- [ ] EventBridge
+  - [ ] bundle script for lambda
+  - [ ] create, set api key for lambda
+  - [ ] associate to correct bucket
+  - [ ] update screenshot interval
+* 01/03/2022
+** Summary
+
+Energy was pretty sluggish for most of today. Sleep was pretty deep I
+felt. Woke up around 8:30am, late considering my first meeting is at
+9am. Had a cup of panax ginseng tea and made a smoothy (whey protein,
+frozen blueberries, 1cup oatmeal, 1cup milk).
+
+I always overshoot the proportions in a smoothy and wind up with 3x
+more than I need.
+
+I'm pretty sure the smoothy or the large amount of it made me
+sluggish. Ironic because I have that smoothy with oatmeal because I
+think the fiber with help with constant glucose levels. Worth seeing
+if I feel this way with just oatmeal + whey + berries + milk.
+
+Had leftover beans & greens for lunch and added shredded chicken I've
+been sharing with Leche.
+
+A few focusmate calls today.
+
+At 5:30pm, Mariana and I went to buy wedding rings. We both chose a
+simple gold band. Love it.
+
+We ordered Pinches tacos for dinner as we were both hungry. Not the
+best. Ordering food in a rush while hungry leads to meh meals.
+
+Worked on the Glow EventBridge problem for an hour (1 focusmate
+session) and got data flows working end-to-end. Tomorrow, I'll update
+with proper keys and buckets.
+
+Tomorrow we'll have Ramen and finish off any leftovers as we'll drive
+to Tijuana on Wednesday night. Staying till sunday night.
+
+Interacted with a fair amount of people on Twitter today, some chatter
+around 2021 goals and 24HourHomepage.
+
+Food: smoothy, bean & greans & chicken soup, 3 enchilladas, rice & beans
+Drink: 12 oz ginseng tea, 24 oz smoothy, 16oz sparkling water
+
+** Notes
+*** Me
+- [X] Rings appointment
 - [ ] Wake up before sunrise
 - [ ] Workout: push day
 - [ ] 100 push ups
 - [ ] Follow up on git-filter privatize idea
-
+- [ ] Migrate off rewardful
+- [ ] How to manage so many 2022 goals
+- [ ] 2022 Goals brainstorming
+  - [ ] Every Dollar app every day
+  - [ ] iTalki once per week
+  - [ ] Grow garlic, ginger, tumeric
+  - [ ] Daily log
+    - [ ] Did you meditate
+    - [ ] Exercise
+    - [ ] Diet
+    - [ ] Post to twitter -- https://github.com/marketplace/actions/send-tweet-action
+  - [ ] Launch another side project
+  - [ ] 24HourHomepage.com -- 1 Hour of Published content
+  - [ ] Get materially better with my tools
+    - [ ] emacs
+    - [ ] kitchen
+    - [ ] exercise
+    - [ ] language
+  - [ ] Exercise more patience
+*** Glow
+- [X] Deploy code
+- [X] EventBridge connections via `infra`
+  - [X] http request is not going through, log error in rejection handler
 * 01/02/2022
 ** Summary
 I woke up at 8am to a text from David Sierra-Matos that he and Paulina
