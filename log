@@ -1,6 +1,85 @@
-* 01/04/2022
+* 01/05/2022
 ** Notes
 *** Me
+- [ ] Workout (push day)
+*** Glow
+- [ ] HUD polish
+  - [ ] Read chat docs
+  - [ ] React-lottie animation
+* 01/04/2022
+** Summary
+
+I woke up pretty late today. Another night of deep sleep. I've been
+going to sleep listening to binaural music. I would guess I get an
+1-1.5 hours in before the headphones fall out of my ears. Eventually I
+wake up and put them on my nightstand.
+
+When I did get out of bed (around 9:15 I think) I went to CVS to get
+some shampoo to help with itchy scalp. Since growing my hair out I've
+noticed more hair loss. I've attributed this to exercising more which
+raises testosterone and DHT simultaneously, DHT being a hair loss
+chemical. For a while I thought my itchy scalp was psychosomatic
+(still could be) but after looking at pictures of ring worm last night
+I really started scratching.
+
+Bought a Head & Shoulders shampoo with menthol to provide some
+scratching relief. It worked like a charm. No scratching. Honestly, it
+could have been just build up as I wash my hair maybe once every two
+weeks. I'll condition it if I break a good sweat. Shampoo really only
+after the pool, the ocean or a really good sweat.
+
+Had a call with my old friend from college about 2022 goal
+setting. Great to catch up; had been maybe 6 years?
+
+Had the weekly Glow team sync. Partial attendance. Product nearing
+beta, excited to get it in real users hands.
+
+Posted two items on craigslist for sale (some white elephant gift
+Mariana got and an old 6' surfboard I was waaaay too ambitious
+getting. I'm happy using my 8' foam board).
+
+Finalized all the Glow work to sync screenshots. A bit more moving
+parts than I thought.
+
+Had a good chat with Tim in slack. Had a call with Riley on the
+phone. Nice to talk to so many friends today.
+
+Mariana and I had ramen at the local haunt. Something about today's
+bowl was off. Rubbery chicken. One of two eggs I ordered was hard
+boiled. Bummer. Left a bad taste in my mouth.
+
+Took Leche on a few short walks. She ate shredded chicken mixed in her
+bowl of dog food. She's getting better at fishing out just the stuff
+she wants.
+
+I had the last piece of lassagna from NYE for lunch.
+
+Played a little DuoLingo, enough to get 1 crown today.
+
+*** Food
+Lassagna, 1 bowl of ramen, 2 eggs, 4oz chicken breast, popcorn +
+butter + salt + nutri yeast
+
+*** Drink
+12oz tulsi tea (caffeinated, <50mg), 4oz sparkling water, 8oz water,
+12oz gingko biloba, 8oz water
+
+*** Fitness
+100 pushups, dog walks, walking treadmill
+
+*** Wake up
+9:15am
+
+** Notes
+*** Me
+**** Wedding
+- [ ] Book Hotel
+  - [ ] Confirm with Mariana, dates for us vs dates for moms
+- [X] Matthew music request
+
+**** General
+- [ ] Sell craigslist stuff
+- [ ] Workout (push day)
 - [ ] Follow up on git-filter privatize idea
 - [ ] Migrate off rewardful
 - [ ] How to manage so many 2022 goals
@@ -22,11 +101,12 @@
     - [ ] language
   - [ ] Exercise more patience
 *** Glow
-- [ ] EventBridge
-  - [ ] bundle script for lambda
-  - [ ] create, set api key for lambda
-  - [ ] associate to correct bucket
-  - [ ] update screenshot interval
+- [X] Logs for everyone
+- [X] EventBridge
+  - [X] bundle script for lambda
+  - [X] create, set api key for lambda
+  - [X] associate to correct bucket
+  - [X] update screenshot interval
 * 01/03/2022
 ** Summary
 
