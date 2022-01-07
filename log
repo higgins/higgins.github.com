@@ -1,10 +1,70 @@
-* 01/05/2022
+* 01/07/2022
+** Notes
+- [ ] 100 push ups
+- [ ] 100 air squats
+- [ ] Sit ups or mtn climbers
+
+* 01/06/2022
+** Summary
+Today I woke up at 7am for call with Dad, had to reschedule due to
+extreme weather in Oregon (power outage). I could have stayed up then
+but slept in until 9am. Really deep sleep these last few weeks. Maybe
+the cold, maybe the post goal rest? Stopped listening to those
+binaural beats and I'm still getting great rest. Awesome.
+
+Finished most of the the "polishing" glow feature today. Need to sync
+with Charles tomorrow about some edge cases.
+
+Had the "Rosca de Reyes" party tonight. Mariana hecho dos roscas y
+eran delicioso. Yo recibi el bebe y necessito pagar para las tamales
+(o la fiesta proxima?). We ate frijoles, tamales y papas. Delicous.
+
+Took Leche on her evening walk. Lots of protective dogs in the
+neighborhood. Some are so jacked up they look like they'll bust full
+out the gate that holds them to get Leche. She was only afraid of the
+big pit bull looking ones (maybe because of her pitbull incident).
+
+Came home and am going to bed early.
+
 ** Notes
 *** Me
-- [ ] Workout (push day)
+- [ ] Nudge everyone I sent an email to 2022 goals
 *** Glow
-- [ ] HUD polish
-  - [ ] Read chat docs
+- [-] HUD polish
+  - [X] Read chat docs
+  - [X] Scope to group
+  - [X] Get test chat app rendered with react
+  - [ ] React-lottie animation
+  - [ ] Create 30s movie from lottie animation
+* 01/05/2022
+** Summary
+Yesterday I...
+
+Yesterday finished the Glow feature and had mostly focused, good
+energy throughout the day. Finally did a workout in the new year (I'm
+waiting until Jan 10th before booking all the goals).
+
+Tried "German Volume Training" which is basically 10 sets of 10
+reps. Absolutely blasted my pecs. GVT ring dips, bench at 120lbs, push
+ups (20 x 5). Each exercise I got to failure before the final
+set. Dips was pretty quick, maybe only 2 or 3 sets before hit
+failure. Bench by the 6 or 7th. Push ups by the second. Would need to
+check exercise log to be sure.
+
+Drove to Tijuana at 7pm and arrived at 9:30pm. Took Leche on a walk
+immediately. Had a funny conversation about managing long hair (how it
+suuuucks)
+
+** Notes
+*** Me
+- [X] Workout (push day)
+- [X] 100 push ups
+- [X] Pack for Tijuana
+- [ ] Nudge everyone I sent an email to 2022 goals
+*** Glow
+- [-] HUD polish
+  - [X] Read chat docs
+  - [ ] Get test chat app rendered with react
   - [ ] React-lottie animation
 * 01/04/2022
 ** Summary
