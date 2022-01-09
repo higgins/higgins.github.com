@@ -1,9 +1,85 @@
+* 01/09/2022
+** Notes
+*** Me
+- [ ] Breakfast at Delicias
+- [ ] Drive back to LA
+- [ ] Plan meals this week
+- [ ] Nudge friends/family for 2023 goals
+* 01/08/2022
+** Summary
+(Writing this on 01/09/2022)
+
+I woke up without an alarm clock around 10am or so. Great feeling to
+have every now and then.
+
+A nice lazy day. Took Leche for her morning bathroom walk. Returned to
+eat a spinach and cheese omelete. Had an fresh squeeze orange juice
+with the meal.
+
+Made an 10oz cup of gingko biloba tea and chat with Maru while Mariana
+got ready to go meet the wedding photographer downtown.
+
+Photographer (Valeria) was very friendly and asked lots of questions
+about us and the day of. Paid our deposit and will pay the rest on
+wedding day.
+
+Returned to Playas, took Leche for another walk and to ATM before
+heading out for dinner and the nights entertainment: an old singer
+friend of Maru's giving a performance with her band. Sang mostly 60s,
+70s, 80s songs en Ingles. We were early and walked around downtown for
+a little but returned to wait in the car where it was warmer.
+
+Before the show we ate at cevicheria "Nice". Delicious. I think I
+should only get the tuna tostada from now on. It's insanely good. The
+tacos were pale in comparison (and I tried 4 different types)
+
+After a few hours (maybe a dozen songs) we returned home to an excited
+Leche who I took for her night walk. We started to watch "Mindhunter"
+a Netflix show I'd heard good things from David Fincher fans.
+
+Watched two episodes before falling asleep. At some point in the
+second episode Maru spilled Mariana's hot chocolate she rested on the
+headboard. We paused to change the sheets and clean the chocolate
+mattress stain.
+
+Went to bed around 1:30am. Leche slept in Maru's room on top of Maru.
+
+
+*** Food
+
+Spinach, cheese, omelette with avocado and tomatoes on the side. 2.25
+tuna tostadas, 1 taco pescado (frita), 1 taco de camerone, 1 taco de
+pulpo "chicharon", 1 taco de marlin.
+
+*** Drink
+8oz orange juice, 10oz te gingko biloba, 8oz te verde, 12oz clamato
+sin cerveza, 12oz agua mineral
+
+*** Fitness
+Dog walks
+
+Need to figure out what the 100 push ups challenge is if I intend to
+do serious chest routines. I think I just do it anyway or give myself
+a few options to choose from (100 push ups OR 100 air squats OR 5 min
+mountain climbers)
+
 * 01/07/2022
 ** Notes
-- [ ] 100 push ups
-- [ ] 100 air squats
-- [ ] Sit ups or mtn climbers
-
+*** Me
+- [ ] 100 push ups, 100 air squats or 5min mountain climbers
+- [ ] Evaluate tweethunter
+- [ ] `privatize` tool
+  - [ ] privatize init -- create symmetric key
+  - [ ] privatize encrypt -- encrypt (if necessary) file
+  - [ ] privatize decrypt -- decrypt (if necessary) files
+  - [ ]
+*** Glow
+- [X] Render "no messages" empty state
+- [X] Templatize APP ID in chat.html
+- [X] Create video from puppeteer
+  - [X] Restart api & workers on main, see that video is created
+  - [X] Copy over new chat.html
+  - [X] See that chat renders video
 * 01/06/2022
 ** Summary
 Today I woke up at 7am for call with Dad, had to reschedule due to
