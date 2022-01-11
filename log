@@ -1,10 +1,64 @@
 * 01/10/2022
+** Summary
+
+Today I woke up at 6:30am and started my workout by 7:15am. Pretty
+zombie like for the first 45min of the day. Not really tired just
+waking up. Sort of dragging my feet to do the 10x10 lifts.
+
+I didn't do 10x10 leg day but did 5x10 (5 sets, 10 reps) of squat
+(120lbs), bulgarian split squats (bodyweight), deadlift (120lbs) and
+one leg "bow-erianas" (bodyweight). Took Leche on a walk before work.
+
+Deployed last weeks features and hit the backlog. Got three small
+tasks done and commented on a few features. One big one: we may need
+some video processing on the backend. TBD.
+
+My legs were jelly today after the workout. Threw the ball with Leche
+in the driveway for a bit.
+
+Re-watched part of Matrix 4 while eating dinner.
+
+Passively researched a new product.
+
+*** Food
+1 english muffin, 3 hard boiled eggs, half block tempeh, 2 cups red &
+green cabbage, 1 carrot, 10 prunes, tofu garlic noodles
+
+*** Drink
+8oz water, 10oz whey protein drink, 3oz sparkling water, 16oz
+sparkling water
+
+*** Fitness
+superset 1
+5 (sets) x 10 (reps) -- Squat 120lbs
+5 (sets) x 10 (reps) -- Bulgarian split squats
+
+superset 2
+5 (sets) x 10 (reps) -- Deadlift 120lbs
+5 (sets) x 10 (reps) -- One leg "bow-erianas"
+
+Legs are jelly
+
 ** Notes
 *** Me
+- [ ] Pay city hall
+- [ ] Prepare 2022 goals for everyone
+- [X] Workout -- 10x5 (Squats 120, Romanian Split Squats, Deadlift 120, One Leg "bow-erianas")
+- [ ] Privatize -- tool
+  - [ ] Stream-based write / encryption tool
+
 *** Glow
-- [ ] Deploy latest backend
-- [ ] Propose a "jank & drank" hour
-- [ ] Hit the backlog
+- [X] Deploy latest backend
+  - [X] Cut new images
+  - [X] Migrate db
+- [X] Ping Albert about waitlist
+- [-] Hit the backlog
+  - [X] file size -- https://trello.com/c/WlQPodPT/156-file-constraints-on-uploads
+  - [X] linter -- https://trello.com/c/irZ7jSZT/138-add-linter-block-on-merge-if-errors
+  - [-] Log X-forwarded-for -- https://trello.com/c/ozIwpJi6/154-log-x-forwarded-for-header-to-get-request
+  - [ ] Add git-crypt to infra
+  - [ ] Subscribe to end events
+
 * 01/09/2022
 ** Summary
 
