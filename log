@@ -1,9 +1,61 @@
 * 01/12/2022
+** Summary
+
+I woke up at 6:30am this morning and did my DuoLingo sessions while
+waking up. I started my workout by 7:15am and finished by
+8:15am. Another GVT (10x10) chest day, this time I superset my
+exercises and tried to do a 4010 rhythm for the bench. I dropped the
+weight to 100lbs so that I could do the full volume without hitting
+failure. Not bad at all, chest wasn't nearly as on fire as last time.
+
+Had beetroot powder mixed in water again. Maybe that helped with
+indurance too.
+
+Had about 30min before work to work on a 24HourHomepage feature (react
+form to post affiliate data). Hoping to get some time on Saturday to
+finish it up before deploying next week.
+
+Finished out the waitlist Glow features.
+
+At lunch hour I refilled our water and bought some fruit from Trader
+Joes. Confirmed with venue that handing them money (and get receipt)
+is best route forward (bank account number they gave was missing one
+digit).
+
+Threw the ball with Leche after work and went on a few walks with her
+today. Going on one more right now before bed.
+
+Will read more of crypto101.com (research `privatize`) for before
+going to sleep.
+
+*** Food
+*** Drink
+*** Fitness
+superset 10x10 bench 100lbs, inclined push ups (10x10)
+superset 10x10 ring dips, decliped push ups (7x10, started late)
+
 ** Notes
 *** Me
-- [ ] Workout chest
+- [X] Call Bank
+- [X] Workout chest
+- [X] Water + Fruit
+- [X] Email brothers
 - [ ] Privatize -- tool
-- [ ] Build pulley based gym
+- [ ] Design pulley based gym
+- [-] Prepare 2022 goals dollars
+  - [X] Acquire dollars
+  - [X] Find sticker printer
+  - [X] Make sticker
+  - [X] Print stickers
+  - [ ] Write letters
+  - [ ] Mail letters
+*** Glow
+- [X] Waitlist
+  - [X] Tempoary lock username
+  - [X] Don't index waitlisted user
+  - [X] Admin API -- Remove from waitlist
+    - [X] index user
+  - [X] Test "remove from waitlist"
 * 01/11/2022
 ** Summary
 
@@ -45,6 +97,10 @@ api) affiliate form working before work.
 - [X] Cashier's check -- Pay City Hall
 - [X] Smart & Final
 - [ ] Prepare 2022 goals dollars
+  - [ ] Acquire dollars
+  - [ ] Print stickers
+  - [ ] Write letters
+  - [ ] Mail letters
 - [ ] Privatize -- tool
 *** Glow
 - [X] Worker signaling
