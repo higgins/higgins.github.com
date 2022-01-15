@@ -1,3 +1,9 @@
+* 01/15/2022
+** Summary
+** Notes
+*** Me
+- [ ] Kettlebell workout
+- [ ] Wedding venue visit
 * 01/14/2022
 ** Summary
 I woke up at 6:30am today but re-set it for 7:15am. I think in order
@@ -6,8 +12,28 @@ need to do within the first 15minutes of my alarm going off. There are
 also services like BeeMinder which will take your money if you don't
 do your stated goal.
 
+Worked on Glow all day, had a call with half the team about the zombie
+problem. Turns out the chat based solution won't work since we can't
+add an SDK to a widget. We've got a possible solution but will need to
+prototype one thing next week to see it through. It might mean two new
+(hairy) systems on the backend.
 
+Had a delicious chipotle cream salmon with rice for dinner. Talked
+with Pablo about different sales projects.
+
+Returned upstairs to finish the deploy. While it was deploying did
+some product research and responded to emails.
+
+The rest of tonight and (parts of this weekend), I'll work on the
+rewardful migration.
 ** Notes
+*** Me
+- [X] 100 pushups
+- [X] Text Joey
+*** Glow
+- [X] Deploy 0.10.0
+- [X] Spec out new zombie system
+- [X] POC video delayed update
 
 * 01/13/2022
 ** Summary
