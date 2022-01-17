@@ -1,6 +1,35 @@
 * 01/16/2022
 ** Summary
+
+Today I woke up at 9:30am for breakfast with Mariana's
+family. Breaksfast was scheduled for 11am so everyone showed up at
+noon. We had gorditas from "Las Delicias" the breakfast spot we
+love. Delicious.
+
+Everyone stayed and chatted until about 4pm. Rafaella, Mariana's
+neice, is crawling now and like to climb the stairs. We climbed with
+her to make sure she didn't fall. She like feeding Leche crackers. I
+took her to look at the other dogs (from through the screen
+door). They seemed fine with her but when I bent down with her to wave
+at them, they barked and scared her. Close call, nobody likes to make
+baby cry.
+
+Took Leche on a walk after everyone left and then stayed downstairs
+and played with node's crypto package to encrypt streams from stdin. I
+think I have all the pieces to make privatize. Some code
+organizational questions to answer first (where does the key live?
+user specified? an ignored dot file?
+
+We had comida china for dinner. Noticably as good as Americanized
+Chinese food. Took Leche on another walk to see if she would poop (did
+not). Returned and did the dishes.
+
+Going to watch more MindHunter before bed
+
 ** Notes
+*** Me
+- [ ] Privatize -- tool
+  - [ ] test https://github.com/wangsijie/aes-encrypt-stream#readme
 * 01/15/2022
 ** Summary
 I woke up at 8:30am today after attempting to watch a few episodes of
