@@ -1,12 +1,65 @@
-* 01/18/2022
+* 01/19/2022
 ** Notes
 *** Me
+- [ ] Leg day
+- [ ] Pick up rings
+- [ ] 100 push ups
 - [ ] Email Mona about music and reminder
 - [ ] Book hotels
 - [ ] Book Mom's flight
-- [ ] Reply to emails (Claudia)
 - [ ] Prepare dollars
+- [ ] Stylize the affiliate page
+*** Glow
+- [ ] Sync with Torin
+- [ ] git-crypt
+- [ ] Suspend user
 
+* 01/18/2022
+** Summary
+
+I woke up today at 6:30am but didn't stick it. Went back to bed for
+2.5 more hours and finally got up at 9am. Not great. I need to give
+myself more time to rest after returning home from a trip, I
+underestimate the time to return to return.
+
+Worked on fixing CORS for Albert on Glow as he was blocked. Discovered
+an issue with our infrastructure which I patched during our all-hands
+then scheduled a larger fix for 7pm-8pm later. The actual fix took
+about 80minutes to fix because I had to destroy several AWS resources
+before spinning up new ones.
+
+I mailed the remainder of our wedding deposit to SF City Hall and
+talked with Mariana about her job offers and prospects.
+
+Sat down a few times today as returning to the standing desk treadmill
+after 5 days off (and no exercise) was tiring. The knees feel it first
+for some reason.
+
+Had some fake chicken nuggets for lunch and a couple cucumbers. Made a
+shrimp stir fry (green and purple cabbage, carrots, shrimp, garlic,
+ginger) for dinner.
+
+Took Leche on a walk to pick up Mariana from ceramics. On the walk we
+passed a dog owner with his dog on a date outside Madre the mexican
+restaurant. I stopped before passing with Leche and asked if it was
+safe to pass the doberman who looked set on attacking Leche. He said
+"yeah, he's friendly" but then had to pull him off as he lunged toward
+her. Not cool.
+
+Came home to wind down. Doing my push ups now before we finish the
+last episode of MindHunter and hit the hay.
+
+** Notes
+*** Me
+- [ ] 100 push ups
+- [ ] Email Mona about music and reminder
+- [ ] Book hotels
+- [ ] Book Mom's flight
+- [X] Reply to emails (Claudia)
+- [ ] Prepare dollars
+*** Glow
+- [X] Cors
+- [X] Deploy new infra (dev)
 * 01/17/2022
 ** Summary
 
