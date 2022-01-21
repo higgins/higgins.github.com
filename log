@@ -1,15 +1,69 @@
 * 01/20/2022
 ** Summary
+I didn't stick the 6:30am wake up this morning. I went through the
+dream leveled justification of "I can do my workout at lunch", "I
+already missed yesterday's early alarm what's another day?". No bueno.
+
+Still, it was pretty lame I didn't do my workout early morning. No
+guarantee I can get the workout in at lunch time (and I was pretty hungry).
+
+Built a lot of glow features today. forceLogoutUser, fixed displayName
+on search, started the zombie proc problem (2/3 done)
+
+Did my workout and laundry during lunch. Did half of GVT (10x5) on
+legs, just squat and deadlift.
+
+Had a good call with Chase, to catch up and talk 2022 goals. Nice to
+hear from old friends.
+
+Booked hotels for our weddings (in SF and Tecate) and my Mom's flight
+from PDX to SFO. Did my 100 pushups while waiting for Mariana.
+
+Walked with Mariana to 7/11 so she could pick up milk and cereal for
+dinner. I had left over salad and salmon.
+
+It's 8:30pm now, I'm going to work on the affiliate migration and
+finish up laundry before bed.
+
+** Read
+https://www.gutenberg.org/files/31516/31516-h/31516-h.htm
 ** Notes
 *** Me
-- [ ] Leg day
-- [ ] 100 push ups
-- [ ] Book hotels
-- [ ] Book Mom's flight
+- [X] Leg day
+- [ ] Trim beard and shave
+- [X] 100 push ups
+- [X] Book hotels (SF, Tecate)
+- [X] Book Mom's flight
 - [ ] Prepare dollars
 - [ ] 24HourHomepage -- Stylize the affiliate page
+- [ ] Laundry
 *** Glow
-- [ ] Suspend user
+- [X] forceLogoutUser
+  - [X] setAccessToken
+  - [X] forceLogoutUser
+  - [X] test
+    - [X] login twice
+    - [X] see that `user_tokens_${userID}` hash exists
+    - [X] manually expire one of the hash fields
+    - [X] login third time
+    - [X] see that expired key is pruned from the hash
+    - [X] force logout
+    - [X] see that no login key works
+    - [X] see that all hash keys
+- [X] TikTok sucks video notes
+  - TikTok has a creator fund which get distributed amongst users who get views
+  - It is a fixed amount, not percentage of revenue
+  - Creator payout gets depreciated as TikTok gets more popular
+  - Competitors who pay more (eg: Youtube Shorts, IG Reels) are not as
+    enticing due partly to lack of culture there. Feed algorithm sucks
+- [X] displayName search
+- [-] zombie procs
+  - [X] return URL early (reference template)
+  - [X] imStillHere
+  - [ ] worker aborts if heartbeat drops
+  - [ ] worker calls /forceStop
+  - [ ] test
+
 * 01/19/2022
 ** Summary
 Today I woke up at 6:30am...then went back to bed... again! Went to
