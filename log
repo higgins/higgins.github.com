@@ -1,3 +1,77 @@
+* 01/22/2022
+** Summary
+Woke up around 8:30am today after staying awake until around 1:30am to
+watch the first four episodes of Ozark season 4. We capped it at 3
+episodes but then were talking in bed and couldn't sleep for a few
+hours so we watched one more episode. Made it nearly through all of
+the last episode without falling asleep.
+
+Made a beatroot + banana + milkshake for breakfast and had 4 scrambled
+eggs. Made 3 fried eggs, 2 for Mariana and one for Leche.
+
+I hopped on a focusmate call to do the 2022 goals paperwork. It took
+maybe 2.5 hours, maybe less, to get all the cards written. Next year,
+it'd be good to get a label maker system or make it all digital with
+some nice physical touch. Something easier to automate but with a nice
+touch.
+
+Mailed all the dollars for the addresses I knew about. Leche enjoyed
+the new walk we took.
+
+Came home and cleaned the stove top, kitchen counters and bathroom
+sink before guests arrived. Got to diddy with the guitar for a bit
+before chopping veggies for the pizza party.
+
+Did my 100 push ups then took a quick cold shower. My energy levels
+were somewhat low, Mariana commented on it a few times. Mostly from
+the junk food I had last night (milkshake and popcorn), lack of sleep,
+and feeling like the yearly goals work ate up too much of the day.
+
+The party was fun and the pizza was good. It was pretty loud
+sometimes, even with music off or low, with everyone shouting their
+conversations at each other. Maybe two or three simultaneous
+conversations.
+
+We chat for a few hours before I got out some dice to play "sixes" for
+one round. After that, we played Exploding Kittens for two
+rounds. Everyone loved the game. Less so the second round since people
+were getting tired and their tempers short.
+
+I took Leche out twice during the Exploding Kittens games. Once for
+pee, once for poop. She has started going to the laundry room to
+indicate she needs to go out. Odd since we exit through the front door
+nearly all the time.
+
+Going to bed after the guests leave. Tomorrow, we'll go to the beach
+for a bit, buy some sunglasses for me (for the wedding), check out
+some clothing stores for Mariana's new job then head to Simon's in the
+evening for Settlers of Catan and jacuzzi. We'll pick up empanadas for
+Empanada Place
+
+** Notes
+*** Me
+- [X] Send 2022 Dollars
+- [X] Make pizzas for party
+
+* 01/21/2022
+** Summary
+** Notes
+*** Me
+- [X] Trim beard and shave
+- [X] 100 push ups
+- [ ] Prepare dollars
+- [X] Make pizza dough
+- [X] Leche dog food
+*** Glow
+- [X] zombie procs
+  - [X] worker aborts if heartbeat drops
+  - [X] worker calls /forceStop
+  - [X] test
+  - [X] initialize returns a hash of the broadcast for imStillHere verification
+  - [X] test
+- [X] deploy code
+- [X] new certs
+- [X] Smoke test runbook
 * 01/20/2022
 ** Summary
 I didn't stick the 6:30am wake up this morning. I went through the
@@ -35,8 +109,8 @@ https://www.gutenberg.org/files/31516/31516-h/31516-h.htm
 - [X] Book hotels (SF, Tecate)
 - [X] Book Mom's flight
 - [ ] Prepare dollars
-- [ ] 24HourHomepage -- Stylize the affiliate page
-- [ ] Laundry
+- [X] 24HourHomepage -- Stylize the affiliate page
+- [X] Laundry
 *** Glow
 - [X] forceLogoutUser
   - [X] setAccessToken
@@ -62,6 +136,7 @@ https://www.gutenberg.org/files/31516/31516-h/31516-h.htm
   - [X] imStillHere
   - [ ] worker aborts if heartbeat drops
   - [ ] worker calls /forceStop
+  - [ ] initialize returns a hash of the broadcast for imStillHere verification
   - [ ] test
 
 * 01/19/2022
