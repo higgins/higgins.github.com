@@ -1,3 +1,56 @@
+* 01/24/2022
+** Summary
+I woke up at 8:30am today after not sticking the 6:30am landing. I'm
+going to move my phone to the other room. When I keep it in the room
+within arm's reach, I pretty regularly wake up just to tap it to
+sleep. No bueno.
+
+After standup I deployed the waitlist site with Albert. Some back and
+forth to get the terraform config right. Great tool.
+
+Walked with Mariana to her clay studio to pick up the rest of the
+wedding gifts. They look great. Folks are going to love them.
+
+Worked on some other polish tasks before the work day was done. Went
+to Trader Joes to pick up a curry sauce, ended up getting the week's
+groceries too.
+
+Made a veggie curry with like 5 vegetables. I honestly don't know
+which vegetables go well with each other but know that beyond a 5 in a
+curry it runs the risk of getting muddled crazy flavor.
+
+This was great though. Added super firm tofu and ate over rice.
+
+On the way back from Trader Joes, found $10 bill in our
+driveway. Yoink.
+
+From about 7pm till 10:30pm I coded up, tested and migrated off of
+getrewardful.com. Fine to use that service for a little bit but better
+to manage myself (no cost).
+
+It's almost 11pm now, I'll take Leche for a walk and wind down for
+bed. I'd like to wake up and do my chest workout early tomorrow
+morning.
+
+** Notes
+*** Me
+- [ ] Migrate off rewardful (fuck yeah!)
+*** Glow
+- [-] Deploy waitlist site
+  - [X] Create bucket
+  - [X] Create IAM role to upload to s3 bucket
+  - [X] Initialize git-crypt in glow-website
+  - [X] Create scripts/s3_upload based on IAM key stored in glow-website/secrets
+  - [X] Run script
+  - [X] Submit PRs
+  - [X] Setup DNS redirect to cloudfront
+  - [X] Setup CORS
+  - [ ] Test SMS hits phone number
+  - [X] Cloudfront not redirecting properly (/* to index)
+- [X] Increase auth sessions to 60 days (refresh, 90 days)
+- [X] Emoji problem
+- [X] Font size problem
+- [ ] Production sizing
 * 01/23/2022
 ** Summary
 
