@@ -1,3 +1,67 @@
+* 01/25/2022
+** Summary
+
+I woke up at 6:30am today. Actually, a about 5 minutes before. Leche
+was trying sneak on the bed as she does when the sun is about to
+rise. She wasn't very stealthy so I pushed her off. My phone was in
+the other room and I hoped it was still early morning in order to
+catch a few more hours of sleep. Five minutes later or so the alarm
+went off.
+
+Anyway, I was energized enough to start the day with a workout. I made
+a protein, beatroot, banana, oatmeal, eggwhite smoothy and started my
+chest workout. I moved the blender into the laundry room so as to not
+wake up Mariana.
+
+I superset bench press 10x10 at 130lbs with Ring dips 10x10. I
+couldn't do the dips to completion but it was better than the last
+time I did them. I finished the workout with 4 sets of 25 reps of pushups.
+
+I walked to 7/11 to get milk for Mariana. She threw a mini tantrum
+about not having milk last night for cereal or cookies. I got home by
+7:55am and took a shower. Leche didn't want to go on our morning walk
+but eventually she got out of bed. We went up the hill, she did two
+big poops and she went back to bed.
+
+This morning I finished some polish work for Glow and researched
+cloudwatch metrics. We had our all hands and look close to launch. I
+deployed the latest API. Cloudwatch metrics need an agent running
+with each api. Investigating that tomorrow.
+
+I felt great nearly all day. The great feeling of migrating off
+rewardful, waking up early and blasting my pecks. Good energy.
+
+Had some chats with Mariana about seating arrangements for summer. I'm
+not going to stress about it until we get RSVP. It is silly to do the
+planning when each RSVP yes/no changes the arrangement. It's fun,
+yeah, but it's wasted effort until we know who is coming.
+
+Help Mariana carry two pots to the kiln for firing. Cooked some frozen
+shrimp to eat with leftover Berkeley Bowl stirfry for dinner. Leche
+got 3 shrimp mixed into her food.
+
+We walked to the pottery studio to pick up Mariana for the night and
+returned to watch the last episode of Ozark season 4 part 1. Going to
+bed at 10:45pm though I may put on some meditative music to helpf fall
+asleep.
+
+** Notes
+*** Me
+- [ ] Spec out embeddable 24hourhomepage
+- [X] Get measurements for gym
+*** Glow
+- [X] Filter ancient records from search
+- [X] Return version to client
+- [ ] Cloudwatch metrics
+- [ ] Dashboards we care about:
+  - [ ] requests per minute
+  - [ ] http status code per minute
+  - [ ] response time
+- [X] Deploy patch version
+- [ ] Spec out production load test
+- [ ] Sync with James about broadcast context
+
+
 * 01/24/2022
 ** Summary
 I woke up at 8:30am today after not sticking the 6:30am landing. I'm
