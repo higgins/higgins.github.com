@@ -1,3 +1,49 @@
+* 01/26/2022
+** Summary
+I woke up at 8am today. 6:30am came and went. Again, didn't set a goal
+for the morning so didn't wake up to do it. Tomorrow I will wake up at
+6:30am and do my weight exercise (superset: 10x10 pull ups + air
+squats, 10x10 oh press + ring rows)
+
+The cloudwatch problem was solved instantly with fresh eyes: the task
+needed to declare the network bridge. After some IAM roles
+back-and-forth, tested that it worked and deployed it.
+
+The remainder of the work day was spent estimating sizing for
+production. Wrote a proposal that I'd like to build tomorrow.
+
+Mariana and I had lunch at the neighborhood thai place. I ate crab
+fried rice as I'm only eating fish M-Th this year. It might be the
+best lunch dish in the neighborhood. Not too heavy and delicious.
+
+My back was strangely tight all day. Slept on it wrong I think. After
+work, I hung upside down for about a minute, maybe less. It's been a
+while since I've done it. Great mental training too. I did my 100 push
+ups before going outside.
+
+I called my Mom who was feeling sick yesterday from the second
+vaccination dose. She's feeling better today. Left a voicemail for
+Joey and will text tomorrow morning.
+
+Kinda wiped so I'm going to draft ideas for a 24HourHomepage
+embeddable ad and go to bed in order to wake up early! After the
+workout tomorrow, I'll take Leche on a walk and start drafting my new
+outreach plan.
+
+** Notes
+*** Me
+- [X] Call Mom
+- [ ] Text Jacqueline & Jered
+- [X] Deliver Claudia & Servando's 2022 challenges
+
+*** Glow
+- [X] Cloudwatch metrics
+- [X] Add metrics to workers
+- [X] Deploy metrics code
+- [X] Production sizing doc
+- [ ] Deploy production
+- [ ] VPN access to admin
+
 * 01/25/2022
 ** Summary
 
@@ -60,7 +106,6 @@ asleep.
 - [X] Deploy patch version
 - [ ] Spec out production load test
 - [ ] Sync with James about broadcast context
-
 
 * 01/24/2022
 ** Summary
