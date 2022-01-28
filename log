@@ -1,3 +1,59 @@
+* 01/27/2022
+** Summary
+I woke up at 6:30am today but was in deep sleep. I spent about 20min
+writing down my dreams while on the toilet. My workout started at
+about 7am. I had beetroot powder mixed with whey protein powder.
+
+I did two supersets: A) 10x10 pullups, 10x10 ring rows, B) 10x10
+overhead press, 10x10 pushups. Felt good to mix in body weight
+exercises, will do again.
+
+Today I started to deploy our production infrastructure. I had to
+pause that work to investigate an issue with dev. Apparently the
+cloudwatch metrics lib was causing workers to crash. Reverted the
+offending commits and will readdress after prod is up. A few more
+services to deploy tomorrow.
+
+Had some rough chat messages with Joey. Hoping that we'll talk again
+in the future. That was on my mind for most of the day, will mediate
+before sleeping.
+
+Felt noticeably more distracted today. I suspect because of the
+difficult messages earlier. Possibly also because deploying the new
+infrastructure leaves plenty of idle time.
+
+Before sleep, I'm going to change the styling on startingcondition.com
+(so it looks okay on mobile), take Leche for a walk and then take a
+shower.
+
+Oh! On my walk with Leche this morning she took a huge poop that got
+stuck to her butt. She couldn't pinch it so, with the bag, I helped
+her but jeez was that a mistake. Poop everywhere. Came home to wash
+her with soap and water.
+
+** Notes
+*** Me
+- [X] 100 pushups
+- [ ] startingcondition style (mobile + cli tool)
+*** Glow
+- [-] Deploy production environment, piecemeal
+  - [-] infra
+    - [X] vpc
+    - [X] s3
+    - [X] iam
+    - [X] logs
+    - [X] databases
+    - [X] alb
+    - [X] asg
+    - [X] bastion
+    - [ ] search
+    - [ ] containers
+      - [ ] api vars
+      - [ ] workers vars
+      - [ ] create keys for lambda (and other services)
+    - [ ] lambda
+    - [ ] cloudfront
+
 * 01/26/2022
 ** Summary
 I woke up at 8am today. 6:30am came and went. Again, didn't set a goal
