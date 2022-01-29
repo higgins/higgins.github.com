@@ -1,3 +1,85 @@
+* 01/28/2022
+** Summary
+
+I woke up at 6:30am today but was in a zombie mode reading. Took Leche
+on our walk at 8am, she was pretty sluggish for most of the walk.
+
+Goal today was to get the full production stack up but had some
+interrupts because the worker wasn't running. When we cut over to the
+api subdomain, we didn't update an env var referencing that URL and
+the workers didn't fail gracefully. Patched that and learned that our
+dev system is severly under resourced. That's fine for now since
+production is coming online where we won't be as constrained.
+
+Once it is up, we'll need to run audits to see how many concurrent
+users can do a particular feature. Some possible improvements there on
+resolving lack of heartbeats. Look into redis notifications when a
+document is expired.
+
+Also, discovered that our autoscaling groups were confirgured
+wrong. Going to fix that tomorrow while no one is on the sytem.
+
+Took Leche on a few walks. She got to see the neighborhood pig
+(Ramona) again. She was excited nearly the whole time, trying to run
+over for play. Ramona wasn't having it. Leche didn't bark this time
+but still room for improvement in her approach.
+
+Speaking of which, there is a lady in our neighborhood who is training
+her dog insanely well. This 60lb dog sat ONTOP of a fire hydrant
+wating for her owner. She gave her paw to shake while balancing on the
+hydrant. Alternated paws.
+
+I sold the "Bartisian" machine Mariana got as a white elephant gift
+that neither of us use. $180 to someone on craigslist.
+
+We ordered chinese for dinner and started to watch "Halt and Catch
+Fire" a show about a computer company in Texas in the 80s.
+
+Going to watch one more HCF episode before sleep. Tomorrow I'll fix
+the ECS deploy issue, start messaging on 24HourHomepage again.
+
+** Notes
+*** Me
+- [X] 100 pushups
+- [ ] Robin hood
+
+**** On Mind
+- [ ] 24HourHomepage weekly outreach target
+  - [ ] crawl twitter tools
+  - [ ]
+      """
+      I run a creative art/advertising project.
+      I think your NFTs would look great on it and would generate sales for you.
+      If you're interested in hearing more, hmu.
+      Justin
+      """
+  - [ ]
+- [ ] Email affiliates
+- [ ] Email growth list about the project
+- [ ] 24HourHomepage twitter?
+- [ ] Grow twitter following
+- [ ] Prototype book idea
+- [ ] `privatize` tool
+- [ ] Add to gym
+
+*** Glow
+- [X] Investigate HUD link
+- [ ] Spec: unlisted content
+- [ ] Modify autoscaling group's health check type ELB -> EC2
+- [-] Deploy production environment, piecemeal
+  - [-] infra
+    - [X] ssl search
+    - [X] deploy prod website
+    - [X] search
+    - [X] cloudfront
+    - [-] containers
+      - [X] api vars
+      - [X] workers vars
+      - [X] create keys for lambda (and other services)
+      - [ ] TODO: James -- Comet keys, Agora confirm, Wolfram -- SNS arns
+      - [ ] deploy
+    - [ ] lambda
+
 * 01/27/2022
 ** Summary
 I woke up at 6:30am today but was in deep sleep. I spent about 20min
@@ -34,7 +116,7 @@ her with soap and water.
 ** Notes
 *** Me
 - [X] 100 pushups
-- [ ] startingcondition style (mobile + cli tool)
+- [X] startingcondition style (mobile)
 *** Glow
 - [-] Deploy production environment, piecemeal
   - [-] infra
