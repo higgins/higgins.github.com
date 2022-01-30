@@ -1,3 +1,53 @@
+* 01/29/2022
+** Summary
+
+I woke up at 8:30am today and took Leche for a walk. The neighbor
+(Hind) and her skidish dog (Zella) followed us on our walk up the hill
+to help socialize Zella. On the route we me another neighbor (Neil,
+owner of Charlie) and invited him to a regular dog "pack" walk. We'll
+do our first one tomorrow with Jonathan and Inez. Neil said he can't
+make it tomorrow.
+
+Had breakfast (4 eggs, toast, strawberries, tea) with Mariana. Tough
+talk about family (the recent chat with my brother). Spoke of
+different futures of living in LA and plans to save. Good
+talk. Mariana went to swim with Paulina and I worked on Glow.
+
+I fixed the EC2 autoscaling issue on dev and deployed prod. Saw that
+ec2 stabilized in both enironments but the workers were restarting
+every 90 seconds or so. Turns out, I built the image with the dev
+envs. Redeployed and everything is smooth on that env.
+
+We went to Nordstom Rack to find a black tie, black shirt for the
+wedding. Got a tie and belt but will get the shirt in TJ. Mariana got
+some shoes and a shirt for her new job.
+
+Stopped at Target for Mariana to get some more clothes for the job. I
+stayed in the car and practice Spanish en Duolingo. Came home worked
+for a bit more before watching a few episodes of Halt and Catch
+fire. Heading to bead now where I'll fall asleep and Mariana will tell
+me about the rest of the show in the morning.
+
+Tomorrow, I'll do leg exercise in the morning then go on the "Palms
+Puppy Pack" walk at 10am. We'll head to the beach for a few hours if
+its nice out.
+
+** Notes
+*** Me
+- [X] 100 push ups
+- [X] Nordstrom rack
+- [X] Petco appointment
+- [ ] Pitch 20 people on twitter
+*** Glow
+- [ ] Spec: unlisted content
+- [ ] Confirm with James chat and stream keys
+- [ ] increase dev instance size
+- [X] autoscaling group
+- [X] Deploy production environment, piecemeal
+  - [X] infra
+    - [X] containers
+      - [X] deploy
+    - [X] lambda
 * 01/28/2022
 ** Summary
 
@@ -48,10 +98,17 @@ the ECS deploy issue, start messaging on 24HourHomepage again.
   - [ ] crawl twitter tools
   - [ ]
       """
-      I run a creative art/advertising project.
-      I think your NFTs would look great on it and would generate sales for you.
-      If you're interested in hearing more, hmu.
-      Justin
+I run a creative art/advertising project: 24HourHomepage.com
+I think your NFTs would look great on it and would generate sales for you.
+If you're interested in hearing more, hmu.
+Justin
+
+
+
+I run a creative art/advertising project: 24HourHomepage.com
+I think your NFTs would look great on it.
+If you're interested in hearing more, hmu. ✌️
+Justin
       """
   - [ ]
 - [ ] Email affiliates
@@ -76,7 +133,6 @@ the ECS deploy issue, start messaging on 24HourHomepage again.
       - [X] api vars
       - [X] workers vars
       - [X] create keys for lambda (and other services)
-      - [ ] TODO: James -- Comet keys, Agora confirm, Wolfram -- SNS arns
       - [ ] deploy
     - [ ] lambda
 
