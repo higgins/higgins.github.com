@@ -1,6 +1,92 @@
-* 01/30/2022
+* 01/31/2022
 ** Summary
 
+I woke up at 8:30am today. Deep sleep from falling asleep to brain.fm
+last night. I did wake up at 6:30am but caved and slept more. Tonight
+i'm putting my phone further away so I can wake up for exercise.
+
+Today was exhausting. Glow production is shipped and migrated. Had to
+patch a config where we had configured a write node to with a
+read-only setting. After that, started the UUID migration which has
+gone on until now (10pm).
+
+Took Leche to the pet store to pick up new food for her and some
+dental treats. She loves the store and really, any car ride around
+town. She's a great dog.
+
+At sundown, took her with Mariana to her pottery studio to check if
+any new glazed items came out. Returned where I fried up some kale and
+left over chinese food to eat over rice.
+
+I shared some ideas with Jeff Zie, who I met on focusmate a few months
+ago. He's building a book app of some kind and I had offered to point
+him in the right direction re mobile work.
+
+I scheduled a call with Tim for Saturday. Been a while, looking
+forward to that.
+
+Tomorrow we finally get to send the wedding invitations out. It'll
+take a while but I'll start in the morning after my exercise.
+
+Tonight, I'm going to wind down with my 100 push ups and then read
+more about type-graphql in bed before getting some shuteye.
+
+** Notes
+*** Me
+- [ ] Send wedding invitations
+- [ ] 100 pushups
+- [ ] Leg day
+- [X] Leche food & treats
+- [ ] Taxes
+- [ ] Spec books
+
+*** Glow
+- [-] test production apis
+  - [X] Create ES indexes
+    - [X] b
+    - [X] u
+  - [X] deploy patch for type
+  - [X] Invite myself
+  - [X] See that user exists
+  - [ ] Admin remove from waitlist
+- [X] Waitlist removal will index user
+- [ ] Spec: unlisted content
+- [ ] Confirm with James chat and stream keys
+- [ ] increase dev instance size
+- [-] uuids
+  - [X] schema
+    - [X] b
+    - [X] u
+    - [X] u_blocks
+    - [X] u_devices
+    - [X] u_follows
+    - [X] u_reports
+  - [X] writes
+    - [X] b
+    - [X] u
+    - [X] u_blocks
+    - [X] u_devices
+    - [X] u_follows
+    - [X] u_reports
+  - [-] test
+    - [X] create u
+    - [X] search for u, b
+    - [X] follow
+    - [X] block
+    - [ ] Migrate String -> UUID4String on resolver inputs
+      - [ ] auth.admin
+      - [ ] auth
+      - [ ] broadcast.admin
+      - [ ] broadcast
+      - [ ] notification
+      - [ ] search
+      - [ ] user.admin
+      - [ ] user
+      - [ ] userRelation
+    - [ ] PR for mobile app
+
+* 01/30/2022
+** Summary
 I woke up at 9:00am today and got ready for the neighborhood dog "pack
 walk" with Leche. She was so excited. Pulled at the leash for nearly
 the whole walk. Tired herself out about halfway through though
@@ -67,7 +153,6 @@ Tomorrow, I'll take my leg day workouts in the morning. Take Leche on
 a walk and briefly test the production infra (user create). Big goal
 tomorrow is to get UUID feature written and tested. Will need to get
 Leche more food at lunch.
-
 
 ** Notes
 *** Me
