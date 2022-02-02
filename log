@@ -1,3 +1,72 @@
+* 02/01/2022
+** Summary
+
+I woke up at 6:30am today but then went back to bed for 30min before
+getting up to do my workout. I made a beetroot powder and whey protein
+shake with the breakfast. Leg workout today, still doing GVT though I
+haven't had the energy to do the full 10x10 set for legs since the
+first day. Maybe I had breakfast before that workout? The last two leg
+days were on an empty stomach (minus the shake I consumed during) and
+I was gas'd by halfway through it. Did my pushups superset with the
+squats and part of deadlift.
+
+I took Leche on our morning walk. Uneventful mostly. The apartments on
+Motor Ave have taken down their scaffolding. The new face of that
+building looks nice with fresh stucco and paint.
+
+Prepared the migration on dev and communicated it with team. At our
+weekly meeting we did an all hands use of the product and founds some
+bugs. I fixed a few of them today.
+
+At lunch I went to the bank to withdraw money for the Mexico wedding
+tables & chairs. I made a shrimp fried rice for lunch. Pretty
+tasty. Leche got a 6 pieces of shrimp in total today. We threw the
+ball for a little bit on one of our afternoon breaks. She wasn't as
+interested in trading the ball for treats today.
+
+I walked with Mariana and Leche to her studio class and we took the
+long route back (by the restaurants). Some people were eating outside
+the pizza/italian shop on motor. Never seen that, thought the place
+was mostly for deliveries.
+
+I deployed the dev migration while Mariana was at her class. James
+found a bug with an external dependency we didn't catch. Patched it
+and redeployed.
+
+Some news in email from family today. Not the best news but all things
+considered, it could be worse and am thankful we've got each other.
+
+Jason's dog apparently needed stiches in her ear. I'll get the details
+tomorrow but he asked for how to get an emergency sitter.
+
+Scheduled all the email wedding invitations for tomorrow morning. Will
+text Uncle John his since he doesn't use email.
+
+My feet hurt. Leg day plus walking on treadmill. Might watch something
+with Mariana in bed but I'm wiped and will fall asleep.
+
+I write this in bed with Mariana holding Leche. <3
+
+** Notes
+*** Me
+- [X] Add why Tecate (Mariana is from TJ)
+- [X] Cash
+- [ ] Send wedding invitations
+- [X] 100 pushups
+- [X] Leg day
+- [X] Leche food & treats
+- [ ] Taxes
+- [ ] Spec books
+*** Glow
+- [X] screenshot interval
+- [X] fix HUD chat credentials
+- [X] Deploy UUID change
+- [X] add int id
+- [ ] Spec: unlisted content
+- [ ] Confirm with James chat and stream keys
+- [ ] increase dev instance size
+- [X] HUD chat issue
+
 * 01/31/2022
 ** Summary
 
