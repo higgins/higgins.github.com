@@ -1,3 +1,59 @@
+* 02/02/2022
+** Summary
+What a day. I woke up at 6:30am and again stayed in bed until
+7:30am. I checked my notifications on my phone and saw James was
+having some issues with the migration (and patch) last night. Ended up
+spending the morning debugging that.
+
+Before starting work though, I walked with Mariana to Commissary for
+breakfast. I got a burrito and a matcha and was pretty alert from it
+all day. The burrito there is amazing.
+
+I hopped on our standup call and took notes for the team. Used
+startingcondition.com which was a fun icebreaker. Took Leche on our
+usual walk and returned in time to say goodbye to Mariana who is going
+to TJ to take off her braces.
+
+Thawed some salmon in the sink and continued debugging with James. Had
+to make one patch this morning to a worker that was casting the wrong
+type after the UUID work. Determined the issue was on client side.
+
+Broke out the workers to run individually and gave them each
+appropriate resources. Broke out the zombie system from one worker to
+run as a standalone service. Will test it tomorrow. Before that,
+investigated whether redis keyspace notifications would solve our
+problem. They don't.
+
+I baked the salmon then baked some potatoes and half a red onion in
+the fish fat. At the salmon over rice with soy sauce. Potatoes are for
+tomorrow. I gave Leche half a piece of salmon mixed into her bowl of
+kibble.
+
+I took Leche on two night walks. One at dusk and another after
+dinner. I did my 100 pushups then spent this evening writing about a
+new business I want to create on the side. I took three focusmate
+sessions to get all the ideas out (some user stories, some
+roadmapping). Pretty excited to work on it. There's a lot of work and
+research to do before and I'll do it piecemeal in the early mornings
+before I start my Glow responsibilities.
+
+Tomorrow, I'll wake up and blast my pecs: GVT bench + dips, pushups +
+farmer carry.
+
+** Notes
+*** Me
+- [X] 100 push ups
+- [ ] Amazon, research task
+*** Glow
+- [X] Screenshot debug
+- [X] independent workers
+- [X] increase dev instance size
+- [-] killZombie worker
+  - [X] implement
+  - [ ] test
+- [ ] Spec: unlisted content
+- [ ] Confirm with James chat and stream keys
+
 * 02/01/2022
 ** Summary
 
@@ -37,7 +93,7 @@ Some news in email from family today. Not the best news but all things
 considered, it could be worse and am thankful we've got each other.
 
 Jason's dog apparently needed stiches in her ear. I'll get the details
-tomorrow but he asked for how to get an emergency sitter.
+tomorrow but he asked for how to get an emergency sitter
 
 Scheduled all the email wedding invitations for tomorrow morning. Will
 text Uncle John his since he doesn't use email.
