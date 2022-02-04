@@ -1,3 +1,53 @@
+* 02/03/2022
+** Summary
+
+I woke up at 6:30am today half awake already. The kind of awake like I
+woke up at just the right moment of dream cycle, not actually
+rested. I stayed in bed for another 30 minutes before starting my
+workout.
+
+Chest day. I started with dips and pushups superset because I was
+fatigued on the dips last time. That meant today's bench was super
+fatigued after the 10x10 ss set. Took Leche on a walk and bought a
+dozen eggs and some tea for Mariana.
+
+Mike noted there was an issue with user search. Fixed and focused on
+the HUD today. Made a few small but significant changes to that system
+that I'll deploy off hours tomorrow or Saturday.
+
+Had a call with Islam to catch up and chat about 2022 goals. Pinged
+Riley as he might be a domain expert for one of his ideas.
+
+Had beatroot + whey protein with workout. Ate cheesy eggs and toast
+for breakfast. Salmon, rice and potatoes for lunch and dinner. Leche
+ate half a piece of salmon.
+
+We went on a few walks around the block today. Leche was pretty eager
+to play. Invited Sam & Elle over for Ziggy + Leche playtime but Ziggy
+was pooped from daycare. Threw the ball with Leche for 10min or
+so. The best way to get her to drop it is with snacks. I should get
+bigger pieces of meat to treat her because she really doesn't like
+giving it up.
+
+Spent half an hour working on privatize but I'm wiped and am going to
+bed now. Will shower first and call Mariana before passing out the
+moment my head hits the pillow
+
+** Notes
+*** Me
+- [X] 100 push ups
+- [ ] Intro Islam to Riley
+- [ ] Mail 2022 goals for ibash
+- [X] privatize poc
+
+*** Glow
+- [X] killZombie worker
+- [X] HUD logs
+- [X] HUD worker resilience
+  - [X] Worker runs for 3+ minutes without fail but CPU goes upwards of 200% (with 4 CPU locally). It doesn't fall over
+- [ ] Spec: unlisted content
+- [X] Confirm with James chat and stream keys
+
 * 02/02/2022
 ** Summary
 What a day. I woke up at 6:30am and again stayed in bed until
