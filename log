@@ -1,3 +1,58 @@
+* 02/04/2022
+** Summary
+Caught up on sleep today and woke up at 6:30am but got out of bed at
+7am. Did DuoLingo early (apparently you get a 2x points boost if you
+do a lesson before noon). Took Leche on her walk and returned by
+8:30am in order to drive to Trader Joes and CVS for the remainder of
+Mariana's gift (batteries for latte stirrer, snacks from Trader Joes)
+
+Had standup at 9am and noted the deploy would have some
+downtime. Scheduled it for 5pm PT. Did a few "nice to have" features
+and researched different Blue/Green solutions for workers.
+
+This morning someone bought 10 units (at $10/unit) of
+24HourHomepage. They emailed me to let me know the publish system was
+broken. When I shipped the affiliate page I broke publish by including
+picnic.css. During my lunch break I restyled the affiliate page by
+hand and confirmed the publish system worked. I ate leftover salmon
+for dinner.
+
+After lunch, I made the "unlisted content" feature and got it to main
+before the 5pm deploy. Deploy went mostly without a hitch but the
+workers had to get patched because you can't trap SIGKILL in newer
+versions of node. Was doing that to investigate Blue/Green solution.
+
+Made zuccini, shrimp pasta and timed it for when Mariana got back. She
+got her braces off and likes her teeth. Julieta cut her gums to make
+them more aesthetic though I can't tell much difference. Her little
+baby tooth is gone though. :(
+
+We went to her pottery studio to pick up pots she made. Six or seven
+this time. Great looking ones. We brought Leche to the studio. On the
+way back, I held the pots and Mariana walked Leche. I get pretty
+frustrated when Leche plays aggressive with Mariana jumping on her and
+tugging the leash. Frustrating but nothing we can't work on. Sometimes
+Leche just gets in these hyper "I need to play and I'm going to force
+you to play" modes. We threw the ball earlier and she was great about
+dropping it with treats to encourage her.
+
+We watched two episodes of halt and catch fire and are heading to bed
+where I write this. Leche is out our feet.
+
+Tomorrow, I will wake up early do my pushups and review the roadmap
+for the side project. Looking forward to catching up with Tim at 10am.
+
+** Notes
+*** Me
+- [X] 100 push ups
+
+*** Glow
+- [X] Unlisted content
+- [X] Make displayName optional
+- [ ] Deploy latest api
+- [ ] Blue/Green workers
+- [ ] Metrics
+
 * 02/03/2022
 ** Summary
 
