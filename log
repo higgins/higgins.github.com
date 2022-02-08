@@ -1,3 +1,89 @@
+* 02/07/2022
+** Summary
+
+I woke up at 7am today and made eggs for Mariana, me and Leche. It was
+Mariana's first day of her new job and she wanted to get there by
+8:30am. Her new office is super close in Culver City.
+
+Took Leche on her morning walk before standup. A shorter walk since we
+didn't have time for the full up the hill one. After standup I
+deployed the latest APIs in production and debugged the chat issue
+with James. There were a few issues we caught but it looks like
+they're scoped to client-side changes. We'll test the new patch in
+tomorrow's deep dive.
+
+I found a new solution for the metrics problem using Cloudwatch
+filtered metrics. At least I think I have. I need to prove it out
+tomorrow morning before the all hands.
+
+I did three batches of laundry throughout the day and picked up water
+and groceries in my lunch hour. Bought the fancy water ($2/gal) this
+time. Probably not worth it all the time but maybe once in a
+while. We'll see if we can feel any difference.
+
+I was pretty tired today after lunch. I didn't eat a whole lot. About
+a 1.5 cups of cooked rice, 1 cup tuna fish + mayo and 1 cup
+peas. Maybe too much sugar? This inspired the trip to TJ to pick up
+some fiber powder, hoping that the lack of fiber is in my diet had
+contributed to the lethargy. Will drink it before I go to bed and when
+I wake up for a while. Also will eat more vegetables with every meal.
+
+Made salmon, rice and mixed salad for dinner tonight. Salad dressing
+was a homemade italian-ish dressing. Too garlic-y I think, but I'll
+use less next time. Mariana had a good first day. She got put on CA
+work which is great as it's what she's been looking for. The project
+will take several years it sounds like and in that time she'll also
+juggle smaller projects possibly.
+
+We watched and episode of Halt & Catch Fire and are going to bed now
+at 10:30pm.
+
+Tomrrow, I'll wake up early exercise and have a protein shake. We'll
+head to Sabrina & Ulysess' house for his birthday in the evening.
+
+** Notes
+*** Me
+- [X] 100 pushups
+- [X] Workout
+- [X] Laundry
+- [X] water plants
+- [ ] Message more NFT artists
+- [X] Reply to customer
+*** Glow
+- [X] Watch API?
+- [X] Deploy production, share keys
+- [ ] Confirm chat messages works on dev
+- [ ] Metrics via statsd
+- [ ] Blue/Green workers
+
+
+[2022-02-07T11:09:49-08:00] (development-workers/glow-worker-createHUDVideo-development/9d7e3aff41a44ca8a823ee20ffa8482a) node:events:368
+[2022-02-07T11:09:49-08:00] (development-workers/glow-worker-createHUDVideo-development/9d7e3aff41a44ca8a823ee20ffa8482a)       throw er; // Unhandled 'error' event
+[2022-02-07T11:09:49-08:00] (development-workers/glow-worker-createHUDVideo-development/9d7e3aff41a44ca8a823ee20ffa8482a)       ^
+[2022-02-07T11:09:49-08:00] (development-workers/glow-worker-createHUDVideo-development/9d7e3aff41a44ca8a823ee20ffa8482a) Error: write EPIPE
+[2022-02-07T11:09:49-08:00] (development-workers/glow-worker-createHUDVideo-development/9d7e3aff41a44ca8a823ee20ffa8482a)     at afterWriteDispatched (node:internal/stream_base_commons:164:15)
+[2022-02-07T11:09:49-08:00] (development-workers/glow-worker-createHUDVideo-development/9d7e3aff41a44ca8a823ee20ffa8482a)     at writeGeneric (node:internal/stream_base_commons:155:3)
+[2022-02-07T11:09:49-08:00] (development-workers/glow-worker-createHUDVideo-development/9d7e3aff41a44ca8a823ee20ffa8482a)     at Socket._writeGeneric (node:net:795:11)
+[2022-02-07T11:09:49-08:00] (development-workers/glow-worker-createHUDVideo-development/9d7e3aff41a44ca8a823ee20ffa8482a)     at Socket._write (node:net:807:8)
+[2022-02-07T11:09:49-08:00] (development-workers/glow-worker-createHUDVideo-development/9d7e3aff41a44ca8a823ee20ffa8482a)     at writeOrBuffer (node:internal/streams/writable:389:12)
+[2022-02-07T11:09:49-08:00] (development-workers/glow-worker-createHUDVideo-development/9d7e3aff41a44ca8a823ee20ffa8482a)     at _write (node:internal/streams/writable:330:10)
+[2022-02-07T11:09:49-08:00] (development-workers/glow-worker-createHUDVideo-development/9d7e3aff41a44ca8a823ee20ffa8482a)     at Socket.Writable.write (node:internal/streams/writable:334:10)
+[2022-02-07T11:09:49-08:00] (development-workers/glow-worker-createHUDVideo-development/9d7e3aff41a44ca8a823ee20ffa8482a)     at pipeScreenshotToFFmpeg (/app/src/createHUDVideo.js:112:16)
+[2022-02-07T11:09:49-08:00] (development-workers/glow-worker-createHUDVideo-development/9d7e3aff41a44ca8a823ee20ffa8482a)     at Timeout._onTimeout (/app/src/createHUDVideo.js:213:7)
+[2022-02-07T11:09:49-08:00] (development-workers/glow-worker-createHUDVideo-development/9d7e3aff41a44ca8a823ee20ffa8482a)     at runMicrotasks (<anonymous>)
+[2022-02-07T11:09:49-08:00] (development-workers/glow-worker-createHUDVideo-development/9d7e3aff41a44ca8a823ee20ffa8482a) Emitted 'error' event on Socket instance at:
+[2022-02-07T11:09:49-08:00] (development-workers/glow-worker-createHUDVideo-development/9d7e3aff41a44ca8a823ee20ffa8482a)     at emitErrorNT (node:internal/streams/destroy:157:8)
+[2022-02-07T11:09:49-08:00] (development-workers/glow-worker-createHUDVideo-development/9d7e3aff41a44ca8a823ee20ffa8482a)     at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+[2022-02-07T11:09:49-08:00] (development-workers/glow-worker-createHUDVideo-development/9d7e3aff41a44ca8a823ee20ffa8482a)     at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+[2022-02-07T11:09:49-08:00] (development-workers/glow-worker-createHUDVideo-development/9d7e3aff41a44ca8a823ee20ffa8482a)   errno: -32,
+[2022-02-07T11:09:49-08:00] (development-workers/glow-worker-createHUDVideo-development/9d7e3aff41a44ca8a823ee20ffa8482a)   code: 'EPIPE',
+[2022-02-07T11:09:49-08:00] (development-workers/glow-worker-createHUDVideo-development/9d7e3aff41a44ca8a823ee20ffa8482a)   syscall: 'write'
+[2022-02-07T11:09:49-08:00] (development-workers/glow-worker-createHUDVideo-development/9d7e3aff41a44ca8a823ee20ffa8482a) }
+[2022-02-07T11:09:49-08:00] (development-workers/glow-worker-killZombies-development/9d7e3aff41a44ca8a823ee20ffa8482a) SIGTERM received. The service is about to shut down!
+[2022-02-07T11:09:49-08:00] (development-workers/glow-worker-syncScreenshot-development/9d7e3aff41a44ca8a823ee20ffa8482a) SIGTERM received. The service is about to shut down!
+
+
+
 * 02/06/2022
 ** Summary
 
@@ -157,7 +243,7 @@ for the side project. Looking forward to catching up with Tim at 10am.
 *** Glow
 - [X] Unlisted content
 - [X] Make displayName optional
-- [ ] Deploy latest api
+- [X] Deploy latest api
 - [ ] Blue/Green workers
 - [ ] Metrics
 
