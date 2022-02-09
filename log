@@ -1,3 +1,43 @@
+* 02/08/2022
+** Summary
+
+I woke up at 7am today and did Duolingo first thing. I made a protein
+shake with whey, peanut butter, banana and water. Soaked the oats
+overnight. Made oatmeal for Mariana.
+
+Did GVT OH press (10x10) and pushups. Watered the plants whilst. Quick
+cold shower after. Took Leche on our morning walk. Returned to setup
+CloudWatch metric filters and deploy patch version of API. CloudWatch
+metrics are only partially configured, have a ticket for support to
+address.
+
+Our all hands was delayed till Thursday as there are some issues with
+the build to address.
+
+Had a salad with tuna for lunch.
+
+Went to Sabrina's and Ulysse's for Ulysses's birthday. Dinner was
+delicious and Sabrina made a great cheesecake too.
+
+Left at 10:15pm and am going to bed now (11:00pm)
+
+Tomorrow, I will wake up early and do my pushups asap.
+
+I'd like to deconstruct the worker problems tomorrow after noting
+taking some small issues off the backlog.
+
+** Notes
+*** Me
+- [X] 100 pushups
+- [X] Workout
+- [ ] Double feature movies
+- [ ] Nudge wedding guests
+*** Glow
+- [ ] Setup metrics
+  - [ ] Metric values aren't stored
+- [X] Deploy patch api
+- [ ] Compare ECS restart events with CPU utilization
+- [ ]
 * 02/07/2022
 ** Summary
 
@@ -81,7 +121,6 @@ head to Sabrina & Ulysess' house for his birthday in the evening.
 [2022-02-07T11:09:49-08:00] (development-workers/glow-worker-createHUDVideo-development/9d7e3aff41a44ca8a823ee20ffa8482a) }
 [2022-02-07T11:09:49-08:00] (development-workers/glow-worker-killZombies-development/9d7e3aff41a44ca8a823ee20ffa8482a) SIGTERM received. The service is about to shut down!
 [2022-02-07T11:09:49-08:00] (development-workers/glow-worker-syncScreenshot-development/9d7e3aff41a44ca8a823ee20ffa8482a) SIGTERM received. The service is about to shut down!
-
 
 
 * 02/06/2022
