@@ -1,3 +1,48 @@
+* 02/09/2022
+** Summary
+
+I woke up at 8am today. 6:30am first but no goal in mind. I think
+doing pushups within the first 3minutes of waking up would be good.
+
+Did some Duolingo in bed before starting the day. Answered a question
+in slack before taking Leche on a short walk around the block. Came
+back to standup. Focus today was to figure out why ecs tasks were
+falling over. API was getting marked unhealthy even though no logged
+crashes. Hit the health check with 5rps to determine it wasn't falling
+over due to our health check conditions. Figured that the shared
+resources of workers were causing all tasks to
+collapse/restart. Temporarily disabled that worker until I design a
+better system to manage it.
+
+Will see how the API has faired tomorrow during all hands test.
+
+Made a shrimp + tofu curry over rice. Had a second slice of chocolate
+babka today with Mariana while we watched Halt & Catch fire. Too much
+cake in these last two days. That stuff is great but I got flush with
+all that sugar. Went for a walk with Leche to clear it.
+
+Worked on privatize and fixed the git diff issue. Need to figure out
+whats going on with checkout, add an unlock feature and do some code
+clean up before I publish.
+
+Watched a Ted talk that was on my queue about mitochondrial
+health. Basically eat more leafy greens. A goal like: "9 cups of leafy
+greens per day" would be solid.
+
+Nudged my family about the wedding date, got a few more replies.
+
+Tomorrow, I'll design the new worker cluster so we are properly
+isolated from API.
+
+** Notes
+*** Me
+- [X] 100 pushups
+- [X] Nudge wedding guests
+- [ ] Privatize diff
+*** Glow
+- [X] Investigate why api restarts
+- [X] Disable createHUD worker for the time being
+- [X] Test multiple workers
 * 02/08/2022
 ** Summary
 
@@ -121,7 +166,6 @@ head to Sabrina & Ulysess' house for his birthday in the evening.
 [2022-02-07T11:09:49-08:00] (development-workers/glow-worker-createHUDVideo-development/9d7e3aff41a44ca8a823ee20ffa8482a) }
 [2022-02-07T11:09:49-08:00] (development-workers/glow-worker-killZombies-development/9d7e3aff41a44ca8a823ee20ffa8482a) SIGTERM received. The service is about to shut down!
 [2022-02-07T11:09:49-08:00] (development-workers/glow-worker-syncScreenshot-development/9d7e3aff41a44ca8a823ee20ffa8482a) SIGTERM received. The service is about to shut down!
-
 
 * 02/06/2022
 ** Summary
