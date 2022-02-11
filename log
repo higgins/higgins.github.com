@@ -1,3 +1,56 @@
+* 02/10/2022
+** Summary
+I woke up at 8am today after some pretty deep sleep. Took Leche for
+our walk and made a smoothy for breakfast (whey protein, peanut butter
+powder, frozen blue berries, half a frozen banana, beet root
+powder...not my finest work).
+
+AWS support replied and their answer fixed the metrics problem (silent
+reserved variable name...what luck). Added the unit to the metrics and
+problem solved.
+
+Started to deploy new cluster for workers but didn't finish it before
+call with Billy and then all hands where we tested the product. Its
+getting there. Hoping by end of this month we'll have it ready.
+
+Wrote a spec for how to deploy and will pair with Wolfram tomorrow
+while he drives the deploy. He'll do the rest of the deploys until
+after our wedding for bus factor and the share that responsibility.
+
+Cousin Josh said he can't make it to the wedding which is a bummer but
+good to hear from him. Ping Danielle Baskin on twitter to point out a
+bug on one of her product pages. Pretty interesting work.
+
+Threw the ball with Leche and took a walk after work. Fixed the
+checkout problem on `git-privatize` and am nearly finished (still need
+to get `git-unlock` working). Did my GVT legs and deadlift
+exercises. GVT is great but I need to do it more often to feel the
+progressive effects. At my current pace, its over a week before I do
+the same exercises and I don't feel much stronger.
+
+Unclogged the bathroom sink filled with hair. Nasty smell in those
+pipes. Also, we've got a done of stuff hidden under the bathroom
+sink. Reminds me of stat-mech or what Kevin Favro (approximately) said
+one time: space gets filled.
+
+Took a shower and tried on my wedding suit. It fits well. Kinda tight
+in the knees but I think we'll be fine.
+
+Made a tuna salad (lettuce, cabbage, arugula, cheese, tuna, almonds,
+italian dressing) and watched Halt & Catch Fire episode. It's good,
+but I'm looking forward to being done with it. Too much TV too fast.
+
+We're going on a walk now and then to bed for early rise. Leche has a
+bath tomorrow at 8:15am.
+
+** Notes
+*** Me
+- [X] Leg day
+- [X] 100 pushups
+*** Glow
+- [X] CloudWatch metrics
+- [X] Workers on own cluster
+
 * 02/09/2022
 ** Summary
 
