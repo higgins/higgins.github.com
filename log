@@ -1,3 +1,66 @@
+* 02/14/2022
+** Summary
+Today I woke up at 7:50am and took Leche for her morning walk up the
+hill. I made a whey protein, pb powder, beat root powder and banana
+smoothie for breakfast.
+
+Standup at 9am and deployed last Friday's code with Wolfram
+driving. Fixed the issue he ran into last week on his build tools.
+
+Small potatoes work today. Productionized the web client and moved
+some static files from api to there.
+
+Had lunch with Mariana at a poke place after finding out this ceviche
+spot was closed. Went to the park to walk around after.
+
+Spent the rest of the afternoon debugging why worker metrics weren't
+reporting and emailed AWS support to investigate. Made a few config
+changes to our queuing system in order to clear out the backlog of
+running workers. I think it'll help with the "ancient workers" problem.
+
+Sent Auntie Fran and Jacob a text nudge to remind them of the wedding
+vows ceremony. Auntie Fran says she didn't get her invite which was a
+bummer! Sent it in text to which she confirmed she and Uncle Ben can't
+make it because of their 40th wedding anniversary.
+
+However, Jacob and his partner are going which will be fun. Most of
+Mariana's side can make it so it'll be nice for my family to meet more
+of hers.
+
+Took Leche on 4 walks today. Had mac & cheese for
+dinner. Mixed in ground turkey from yesterday. Didn't stick to the
+"only fish" rule on M-Th as the food was already cooked from yesterday
+and it saved time in the day. Tomorrow, I'll freeze it and make up for
+today with this weekend's meal.
+
+Thought more about the IV problem in privatize. Not sure how git-crypt
+is uses a sha1 hmac for the IV. If the encryption IV is based on the
+contents of the unencrypted file, how can we get that for use as IV
+for decryption? By that point, the file is already encrypted so you'd
+have two different sha1 hmacs. I'm sure I'm missing something here.
+
+Did my 100 push ups just now and wrote this. Will go to bed and
+probably listen to binaural music as I drift off. Terrible dreams last
+night, had me cloudy for the better half of the day.
+
+** Notes
+*** Me
+- [X] 100 push ups
+- [X] Nudge family
+- [X] Ceviche lunch
+- [X] Deposit restaurant
+*** Glow
+- [ ] Ancient workers
+
+217 for 66255f63-71e5-403c-bc51-8098f64a53f1/e391c39f-41a6-4996-84c3-4788cb04acf5/8664dd54-904a-43e5-8d89-1f358de8585a
+218 for a9615b47-2828-42b2-975e-fa31da31d819/0b753df7-b057-4a56-91a4-27dba2d57263/83db93cd-3248-4e75-901a-8cb4878604e7
+181 for a9615b47-2828-42b2-975e-fa31da31d819/9d8387ba-310d-41c5-8530-34ae7b59c2c7/e019cb60-922e-405c-96c0-10e65aadc9e9
+218 for 66255f63-71e5-403c-bc51-8098f64a53f1/e391c39f-41a6-4996-84c3-4788cb04acf5/8664dd54-904a-43e5-8d89-1f358de8585a
+
+MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 exit listeners added to [process]. Use emitter.setMaxListeners() to increase limit
+MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 SIGINT listeners added to [process]. Use emitter.setMaxListeners() to increase limit
+MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 SIGHUP listeners added to [process]. Use emitter.setMaxListeners() to increase limit
+
 * 02/13/2022
 ** Summary
 
@@ -137,79 +200,8 @@ then have a date night at The Grove (dinner and West Side Story).
   - [X] PR up
   - [ ] merged
 - [X] James PR
-- [ ] Test createHUD starts for new broadcast
+- [X] Test createHUD starts for new broadcast
 - [ ] Move api static assets to glow-app
-{
-  "data": {
-    "login": {
-      "scope": "user",
-      "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzY29wZSI6InVzZXIiLCJ1c2VyIjp7Im11dHVhbEZvbGxvdyI6ZmFsc2UsImlkIjoiZDNmMjkxNTUtNDFlNS00YmI3LWFiMjEtN2JkYmYxZjFmMGY2IiwiZGlzcGxheU5hbWUiOm51bGwsInVzZXJuYW1lIjoianVzdGluIiwiZW1haWwiOm51bGwsInBob25lIjpudWxsLCJpc1dhaXRsaXN0ZWQiOmZhbHNlLCJsb2NhdGlvbiI6bnVsbCwid2Vic2l0ZSI6bnVsbCwiYmlvZ3JhcGh5IjpudWxsLCJwcm9maWxlSW1hZ2UiOm51bGwsImJhY2tncm91bmRJbWFnZXMiOltdLCJzZXR0aW5ncyI6bnVsbCwiY3JlYXRlZEF0IjoiMjAyMi0wMi0wNFQxODoyNToyNi4zNzJaIiwidXBkYXRlZEF0IjpudWxsLCJhZ29yYVVzZXJJZCI6MTAwMDB9LCJjbGllbnRUeXBlIjoiaU9TIiwiaWF0IjoxNjQ0NjI0MjM5LCJleHAiOjE2NDk4MDgyMzl9.9HUmNW1yKxoWufgvT5rmvsu23ghFHKGcpLuSMQzJIuM",
-      "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzY29wZSI6InJlZnJlc2giLCJ1c2VyIjp7Im11dHVhbEZvbGxvdyI6ZmFsc2UsImlkIjoiZDNmMjkxNTUtNDFlNS00YmI3LWFiMjEtN2JkYmYxZjFmMGY2IiwiZGlzcGxheU5hbWUiOm51bGwsInVzZXJuYW1lIjoianVzdGluIiwiZW1haWwiOm51bGwsInBob25lIjpudWxsLCJpc1dhaXRsaXN0ZWQiOmZhbHNlLCJsb2NhdGlvbiI6bnVsbCwid2Vic2l0ZSI6bnVsbCwiYmlvZ3JhcGh5IjpudWxsLCJwcm9maWxlSW1hZ2UiOm51bGwsImJhY2tncm91bmRJbWFnZXMiOltdLCJzZXR0aW5ncyI6bnVsbCwiY3JlYXRlZEF0IjoiMjAyMi0wMi0wNFQxODoyNToyNi4zNzJaIiwidXBkYXRlZEF0IjpudWxsLCJhZ29yYVVzZXJJZCI6MTAwMDB9LCJjbGllbnRUeXBlIjoiaU9TIiwiaWF0IjoxNjQ0NjI0MjM5LCJleHAiOjE2NTI0MDAyMzl9.SJWCeOJT2c4CynW7dBTdTQBuZGKi-lVmtGvgDNljx04",
-      "accessTokenExpiration": "2022-04-13T00:03:59.435Z",
-      "refreshTokenExpiration": "2022-05-13T00:03:59.435Z"
-    }
-  }
-}
-
-{
-  "data": {
-    "initializeBroadcast": {
-      "id": "73c02cd5-2b45-4592-8dfd-713b508821b9",
-      "agoraChannelName": "55ba5e4d-b1a5-4fe8-b88d-f06c7298c2e8",
-      "agoraChannelToken": "0069d164f75cecc445bbc4008c9fdc406f2IACv06m6FNWUqUHkVLgc4k5Bh2/06rIvZ9c+OS6ZW0OkYKt0YTdFfbx3IgDZxjhLdksIYgQAAQB2SwhiAgB2SwhiAwB2SwhiBAB2Swhi",
-      "agoraChannelExpiresAt": "2022-02-13T00:06:14.000Z"
-    }
-  }
-}
-
-{
-  "data": {
-    "login": {
-      "scope": "user",
-      "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzY29wZSI6InVzZXIiLCJ1c2VyIjp7Im11dHVhbEZvbGxvdyI6ZmFsc2UsImlkIjoiZDNmMjkxNTUtNDFlNS00YmI3LWFiMjEtN2JkYmYxZjFmMGY2IiwiZGlzcGxheU5hbWUiOm51bGwsInVzZXJuYW1lIjoianVzdGluIiwiZW1haWwiOm51bGwsInBob25lIjpudWxsLCJpc1dhaXRsaXN0ZWQiOmZhbHNlLCJsb2NhdGlvbiI6bnVsbCwid2Vic2l0ZSI6bnVsbCwiYmlvZ3JhcGh5IjpudWxsLCJwcm9maWxlSW1hZ2UiOm51bGwsImJhY2tncm91bmRJbWFnZXMiOltdLCJzZXR0aW5ncyI6bnVsbCwiY3JlYXRlZEF0IjoiMjAyMi0wMi0wNFQxODoyNToyNi4zNzJaIiwidXBkYXRlZEF0IjpudWxsLCJhZ29yYVVzZXJJZCI6MTAwMDB9LCJjbGllbnRUeXBlIjoiaU9TIiwiaWF0IjoxNjQ0NjI1NDkxLCJleHAiOjE2NDk4MDk0OTF9.4SaeW_DNUIDTN_eWRCn-NioIQvYPg3YF0XUY-pd8eh4",
-      "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzY29wZSI6InJlZnJlc2giLCJ1c2VyIjp7Im11dHVhbEZvbGxvdyI6ZmFsc2UsImlkIjoiZDNmMjkxNTUtNDFlNS00YmI3LWFiMjEtN2JkYmYxZjFmMGY2IiwiZGlzcGxheU5hbWUiOm51bGwsInVzZXJuYW1lIjoianVzdGluIiwiZW1haWwiOm51bGwsInBob25lIjpudWxsLCJpc1dhaXRsaXN0ZWQiOmZhbHNlLCJsb2NhdGlvbiI6bnVsbCwid2Vic2l0ZSI6bnVsbCwiYmlvZ3JhcGh5IjpudWxsLCJwcm9maWxlSW1hZ2UiOm51bGwsImJhY2tncm91bmRJbWFnZXMiOltdLCJzZXR0aW5ncyI6bnVsbCwiY3JlYXRlZEF0IjoiMjAyMi0wMi0wNFQxODoyNToyNi4zNzJaIiwidXBkYXRlZEF0IjpudWxsLCJhZ29yYVVzZXJJZCI6MTAwMDB9LCJjbGllbnRUeXBlIjoiaU9TIiwiaWF0IjoxNjQ0NjI1NDkxLCJleHAiOjE2NTI0MDE0OTF9.BrkHZw3FF-Q8NVcdNHnyLaxvB5k5wRNnteoYLRzBPvU",
-      "accessTokenExpiration": "2022-04-13T00:24:51.991Z",
-      "refreshTokenExpiration": "2022-05-13T00:24:51.991Z"
-    }
-  }
-}
-
-{
-  "data": {
-    "initializeBroadcast": {
-      "id": "65f51446-cd3e-4810-b18f-350cd6fa80e2",
-      "agoraChannelName": "2dd77411-219e-4f8b-bdf7-8ea1412c8ebb",
-      "agoraChannelToken": "0069d164f75cecc445bbc4008c9fdc406f2IAChucTOZZvz1D0PqsxO6QDI8BaXVWnBRXI0icql7u2p1rdCizlFfbx3IgA7QNbDA1AIYgQAAQADUAhiAgADUAhiAwADUAhiBAADUAhi",
-      "agoraChannelExpiresAt": "2022-02-13T00:25:39.000Z"
-    }
-  }
-}
-
-{
-  "data": {
-    "login": {
-      "scope": "user",
-      "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzY29wZSI6InVzZXIiLCJ1c2VyIjp7Im11dHVhbEZvbGxvdyI6ZmFsc2UsImlkIjoiZDNmMjkxNTUtNDFlNS00YmI3LWFiMjEtN2JkYmYxZjFmMGY2IiwiZGlzcGxheU5hbWUiOm51bGwsInVzZXJuYW1lIjoianVzdGluIiwiZW1haWwiOm51bGwsInBob25lIjpudWxsLCJpc1dhaXRsaXN0ZWQiOmZhbHNlLCJsb2NhdGlvbiI6bnVsbCwid2Vic2l0ZSI6bnVsbCwiYmlvZ3JhcGh5IjpudWxsLCJwcm9maWxlSW1hZ2UiOm51bGwsImJhY2tncm91bmRJbWFnZXMiOltdLCJzZXR0aW5ncyI6bnVsbCwiY3JlYXRlZEF0IjoiMjAyMi0wMi0wNFQxODoyNToyNi4zNzJaIiwidXBkYXRlZEF0IjpudWxsLCJhZ29yYVVzZXJJZCI6MTAwMDB9LCJjbGllbnRUeXBlIjoiaU9TIiwiaWF0IjoxNjQ0NjI2MTA3LCJleHAiOjE2NDk4MTAxMDd9.w_3XqYWyJ6KK4JaReZqCt-poKym8XgQPoPX_oyURd4I",
-      "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzY29wZSI6InJlZnJlc2giLCJ1c2VyIjp7Im11dHVhbEZvbGxvdyI6ZmFsc2UsImlkIjoiZDNmMjkxNTUtNDFlNS00YmI3LWFiMjEtN2JkYmYxZjFmMGY2IiwiZGlzcGxheU5hbWUiOm51bGwsInVzZXJuYW1lIjoianVzdGluIiwiZW1haWwiOm51bGwsInBob25lIjpudWxsLCJpc1dhaXRsaXN0ZWQiOmZhbHNlLCJsb2NhdGlvbiI6bnVsbCwid2Vic2l0ZSI6bnVsbCwiYmlvZ3JhcGh5IjpudWxsLCJwcm9maWxlSW1hZ2UiOm51bGwsImJhY2tncm91bmRJbWFnZXMiOltdLCJzZXR0aW5ncyI6bnVsbCwiY3JlYXRlZEF0IjoiMjAyMi0wMi0wNFQxODoyNToyNi4zNzJaIiwidXBkYXRlZEF0IjpudWxsLCJhZ29yYVVzZXJJZCI6MTAwMDB9LCJjbGllbnRUeXBlIjoiaU9TIiwiaWF0IjoxNjQ0NjI2MTA3LCJleHAiOjE2NTI0MDIxMDd9.Qny8Z8e86BaaG9qlZRjnNp-a2H9fZ_eqgmlNylWxJm0",
-      "accessTokenExpiration": "2022-04-13T00:35:07.207Z",
-      "refreshTokenExpiration": "2022-05-13T00:35:07.207Z"
-    }
-  }
-}
-
-{
-  "data": {
-    "initializeBroadcast": {
-      "id": "35c3958c-900e-4ea7-9f80-206d29a53302",
-      "agoraChannelName": "e059d5aa-8e4f-477e-a84d-ac8df12822e2",
-      "agoraChannelToken": "0069d164f75cecc445bbc4008c9fdc406f2IAAcTqtxaYkqckkjxu9HPip5AP+4Jh+dM4Ag1pw+TAUIzgFnm4ZFfbx3IgDTxUC7U1IIYgQAAQBTUghiAgBTUghiAwBTUghiBABTUghi",
-      "agoraChannelExpiresAt": "2022-02-13T00:35:31.000Z"
-    }
-  }
-}
-
-- [ ]
-- [ ]
 * 02/10/2022
 ** Summary
 I woke up at 8am today after some pretty deep sleep. Took Leche for
