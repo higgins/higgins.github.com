@@ -1,3 +1,50 @@
+* 02/16/2022
+** Notes
+*** Me
+- [ ] 100 pushups
+*** Glow
+- [ ] Sync with James
+  - [ ] pubsub system
+  - [ ] Old tickets
+    - [ ] https://trello.com/c/5TjtRlmG/205-test-force-out-user-on-the-client
+    - [ ] https://trello.com/c/GI4R8ac9/146-remove-devicetype-deviceuid-from-create-login-flows
+
+* 02/15/2022
+** Summary
+
+I woke up at 8am today and took Leche for a walk up the hill. Came
+back and made scrambled eggs with goat cheese. Leche got some too and
+loved it.
+
+Deployed some patches before our all hands test at noon. Scheduled
+call with AWS support about the issue I filed yesterday.
+
+Worked on some internal admin features.
+
+Made foil fish with zuchini, peppers and onions.
+
+Overcast and pretty cold today. Rained for a bit.
+
+Did my 100 pushups while looking at an old bug ticket. Friggen tired,
+going to bed soon. Will wake up early and start the 5x5 program
+again. GVT is too straining right now
+
+** Notes
+*** Me
+- [X] 100 pushups
+- [X] Foil fish
+- [X] Schedule Tim invitation
+
+*** Glow
+- [X] Deploy patches
+- [ ] Sync with James about pubnub vs long poll
+- [-] Spec admin work
+  - [X] removeUser
+  - [-] banUser
+    - [X] block on user createLoginLink
+    - [X] block on invitation
+    - [ ]
+
 * 02/14/2022
 ** Summary
 Today I woke up at 7:50am and took Leche for her morning walk up the
