@@ -1,13 +1,53 @@
 * 02/16/2022
+** Summary
+I woke up at 7am today and did my SL 5x5 workout. No more GVT until I
+want to mix it in. Felt great all day after the 5x5. Started with low
+weight but will step up faster than the +5lb rule. Had a smoothie
+(whey, banana, pb, beat root powder) for breakfast with the
+workout. Did my pushups during the workout.
+
+Took Leche for our walk and made it back for standup at 9am. Finished
+the banUser api and synced with James on real time solution. Moving
+forward with pubnub. Also resolved some old issues while on the call
+with him. Made the `usernameIsAvailable` api available to mobile app
+too.
+
+Had a big salad for dinner and watched Halt & Catch Fire with
+Mariana. It's basically just a big character drama. Huge swings with
+some of these characters.
+
+After, I read some of crypto101.io to make sense of the SHA1-HMAC IV
+that git-crypt uses. Swapped out my implementation for it and as I
+thought, it doesn't work. I suspect it relies on getting the SHA from
+git and not computed on fly. Need to comb through the source a bit
+better.
+
+Going on a walk with Leche and might watch another episode with
+Mariana.
+
 ** Notes
 *** Me
-- [ ] 100 pushups
+- [X] 100 pushups
+- [X] 3 types of fun -- https://www.rei.com/blog/climb/fun-scale
+
 *** Glow
-- [ ] Sync with James
-  - [ ] pubsub system
-  - [ ] Old tickets
-    - [ ] https://trello.com/c/5TjtRlmG/205-test-force-out-user-on-the-client
-    - [ ] https://trello.com/c/GI4R8ac9/146-remove-devicetype-deviceuid-from-create-login-flows
+- [X] Sync with James
+  - [X] pubsub system
+    - [X] research cometchat
+      - [X] solution relies on having user listen to group events. not our solution -- https://forum.cometchat.com/t/implementation-of-system-messages/2380
+    - [X] if not, go with pubnub
+  - [X] Old tickets
+    - [X] https://trello.com/c/5TjtRlmG/205-test-force-out-user-on-the-client
+    - [X] https://trello.com/c/GI4R8ac9/146-remove-devicetype-deviceuid-from-create-login-flows
+- [X] banUser api
+- [X] usernameIsAvailable scope
+- [X] broadcast.description optional
+- [-] pubnub
+  - [X] spec
+  - [ ] api
+  - [ ] client
+  - [ ] test
+- [ ] Debug with AWS support
 
 * 02/15/2022
 ** Summary
@@ -38,13 +78,12 @@ again. GVT is too straining right now
 *** Glow
 - [X] Deploy patches
 - [ ] Sync with James about pubnub vs long poll
-- [-] Spec admin work
+- [X] Spec admin work
   - [X] removeUser
-  - [-] banUser
+  - [X] banUser
     - [X] block on user createLoginLink
     - [X] block on invitation
-    - [ ]
-
+    - [X] test
 * 02/14/2022
 ** Summary
 Today I woke up at 7:50am and took Leche for her morning walk up the
