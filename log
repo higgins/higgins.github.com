@@ -1,3 +1,71 @@
+* 02/17/2022
+** Summary
+
+I woke up at 8am today and took Leche for our morning walk up the
+hill. Returned and made a smoothie (whey, pb powder, beat root powder,
+banana, fiber, water) for breakfast.
+
+Deployed the latest API, reviewed wolfram's PR, integrated pubnub into
+the app, added android verification and began reading browserless docs
+after emailing their team on limitations of a beta feature of their
+api.
+
+Took Leche on several walks today and invited a few more people to the
+walk on Sunday.
+
+Waited until about 1/1:30pm to eat lunch. Put the rice, veggies and
+fish in chicken broth for a quick soup. Was great but I think I waited
+too long to eat, was pretty sluggish after. Maybe it was all that rice.
+
+Had a few focusmate calls and one no-show.
+
+After work I finished up the features for privatize. The sha-1 hmac as
+IV solution works great. I renamed some of the commands and made it
+work as a standalone tool for piping. Will add a terminal gif of its
+use and publish in npm. Will start using it on this file and write a
+renderer for it for viewing on
+https://encapsulate.me/log?day=dd-mm-yyyy. That site will be a single
+page that does the following:
+
+- fetches this log file
+- parses every day for the `Summary` section, excludes everything else
+- if no `day` argument is supplied on qs, renders the current day's
+  summary with any privatize'd data as blacked out censored text
+- if the current day doesn't have a value, render "Justin hasn't
+  submitted today's summary"
+- show page toggles for: first, most recent, previous, next
+  entry. Skips over any day that was not logged
+- if a day doesn't have a value, render "Justin did not log this
+  day". Only way people can see this is if they enter a date in the
+  url manually. Show options for "would you like to see the entry
+  closest to this date?"
+
+Once done, talk about it:
+- LinkedIn -- privatize
+- Twitter -- privatize
+- Twitter -- daily log
+- LinkedIn -- daily log
+- TinyLetter, encapsulate.me/writing, HN-- combo post
+
+I'm going to bed now. Will wake up early and do my 5x5 chest workout
+with added dips
+
+** Notes
+*** Me
+- [X] 100 pushups
+- [X] privatize, one hmac per BLOB
+*** Glow
+- [X] Deploy api
+- [X] Wolfram pr
+- [X] pubnub
+  - [X] spec
+  - [X] api
+  - [X] client
+  - [X] test
+- [X] Android verification
+- [ ] Debug with AWS support
+- [ ] Browserless docs
+
 * 02/16/2022
 ** Summary
 I woke up at 7am today and did my SL 5x5 workout. No more GVT until I
