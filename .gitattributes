@@ -1,1 +1,1 @@
-log filter=git-privatize diff=git-privatize
+privatized/** filter=git-privatize diff=git-privatize
