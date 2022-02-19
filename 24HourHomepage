@@ -1,0 +1,28 @@
+* Embeddable Advertising Widget
+I want people to talk about 24HourHomepage online.
+To do that I will incentivize them to share 24HourHomepage links.
+
+I want an embeddable experience of 24HourHomepage on peoples site /
+blog / newsletter. Any place that might render an animated gif.
+
+A link that, when shared, resolves to a gif corresponding to the
+images of that hour.
+
+An image URL would be best. It is embeddable without javascript.
+
+TODO:
+- [ ] Calculate how big an animated gif would be if for 100x100px x 86400 seconds
+100x100 px = 1e4
+1e4 pixel * 24 bits / pixel * 86400 / 8 = 2.592e6B = 2.42 GB
+
+2.42 GB is too big to share
+
+
+Let's work backwards...
+86400 seconds in a day
+If each second was one represented by one bit, we would need 86.4Kb to store the full day
+
+Assume 10MB file is a reasonable upper limit
+10 MB = 10,000 KB = 80,000 Kb
+
+80,000 Kb / 86400 seconds = 0.926 Kb / second
