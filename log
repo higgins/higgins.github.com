@@ -1,3 +1,78 @@
+* 02/19/2022
+** Notes
+*** Me
+<<PRIVATE
+*** Glow
+This is a test of partial file encryption/decryption with privatize
+<<PRIVATE
+
+* 02/18/2022
+** Summary
+
+I woke up at 8am today and did DuoLingo before taking Leche on our
+morning walk up the hill. Made a smoothie (whey, pb powder, beat root
+powder, banana) and gave updates at standup.
+
+Shipped the username change and a small change to push
+notifications. Pinged AWS again after they dropped the ball on our
+call. Responded to a few personal emails. Called Phoenix Hotel about
+our arrival. Replied to browserless ceo about our usecase. Started
+prototyping a modifyied puppeteer version of what we want.
+
+Talked with Nenya, a coworker of Evan Purcell's about his new venture
+and gave some advice. Took Leche on a few walks and threw the ball in
+the afternoon. Had salad and fish for lunch. Gave Leche two pieces of
+fish today.
+
+Started packaging up privatize for homebrew distribution but didn't
+finish before we headed to American Beautify for dinner with Marie and
+Moti. We played the mobile app "Wavelength", a fun way to pass the
+time. We were all pretty hungry so it was good to have something to
+focus the mind.
+
+The burger at Win-Dow is better. AB's is good but you need to be drunk
+to really enjoy it. That or it needs some crunchy freshness. Eight of
+a head of iceberg.
+
+Came home, took Leche for a walk, did more DuoLingo and watched
+another Halt & Catch Fire. Tired now, going to bed. I fell asleep
+watching the show. I watch while lying on the ground because it feels
+better on my back. Leche barked at some sound she heard outside and
+wouldn't let up. She was offended we didn't let her check and
+see. Good girl to bark though.
+
+Tomorrow, I'm going to ship privatize make the encapsulate.me/log page
+and write the posts. I'll do my chest workout if my back is feeling better.
+
+Oh yeah, I woke up with a thrown back. How the heck did that happen?
+Have I been slouching at the standing desk? Cheating while walking on
+the treadmill? It was like I herniated it again. Super tight and slow
+to make any moves.
+
+** Notes
+*** Me
+- [X] push ups
+- [X] date night
+- [X] do this -- https://dynomight.net/mbti/a
+- [X] call with Nenya
+*** Glow
+- [X] username patch
+- [X] push message string
+- [X] ping aws again
+- [X] call Phoenix hotel
+- [-] Puppeteer recorder demo
+  - [-] without browserless
+    - [X] File download
+    - [ ] File download with real content
+    - [ ] Use fetch() to get readStream of download we can pipe to s3
+  - [ ] with browserless
+    - [ ] run browserless sidecar
+    - [ ] use screencast api in intervals
+    - [ ] run watcher sidecar
+      - [ ] upload to s3
+      - [ ] delete old files
+      - [ ] update playlist
+
 * 02/17/2022
 ** Summary
 

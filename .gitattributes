@@ -1,1 +1,1 @@
-encrypted/** filter=git-crypt diff=git-crypt
+log filter=git-privatize diff=git-privatize
