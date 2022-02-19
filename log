@@ -1,0 +1,2534 @@
+* 02/19/2022
+** Notes
+*** Me
+<<PRIVATE
+10c4dd02280dd77fKFcm/UtQYy9JVq5r2AB/1GCI7uEBdubtKQ30095zoRfp1xOqX1OOr/ijkh6WYvFHUg0YRt8EfflANGfbJ6/tJGbcfNEKrg0AFJKoDpF8WDiIEZGFXxjWGj0i/mKD0ix+Q8DSJkMB/Xmc/fry
+PRIVATE
+
+* 02/18/2022
+** Summary
+
+I woke up at 8am today and did DuoLingo before taking Leche on our
+morning walk up the hill. Made a smoothie (whey, pb powder, beat root
+powder, banana) and gave updates at standup.
+
+Shipped the username change and a small change to push
+notifications. Pinged AWS again after they dropped the ball on our
+call. Responded to a few personal emails. Called Phoenix Hotel about
+our arrival. Replied to browserless ceo about our usecase. Started
+prototyping a modifyied puppeteer version of what we want.
+
+Talked with Nenya, a coworker of Evan Purcell's about his new venture
+and gave some advice. Took Leche on a few walks and threw the ball in
+the afternoon. Had salad and fish for lunch. Gave Leche two pieces of
+fish today.
+
+Started packaging up privatize for homebrew distribution but didn't
+finish before we headed to American Beautify for dinner with Marie and
+Moti. We played the mobile app "Wavelength", a fun way to pass the
+time. We were all pretty hungry so it was good to have something to
+focus the mind.
+
+The burger at Win-Dow is better. AB's is good but you need to be drunk
+to really enjoy it. That or it needs some crunchy freshness. Eight of
+a head of iceberg.
+
+Came home, took Leche for a walk, did more DuoLingo and watched
+another Halt & Catch Fire. Tired now, going to bed. I fell asleep
+watching the show. I watch while lying on the ground because it feels
+better on my back. Leche barked at some sound she heard outside and
+wouldn't let up. She was offended we didn't let her check and
+see. Good girl to bark though.
+
+Tomorrow, I'm going to ship privatize make the encapsulate.me/log page
+and write the posts. I'll do my chest workout if my back is feeling better.
+
+Oh yeah, I woke up with a thrown back. How the heck did that happen?
+Have I been slouching at the standing desk? Cheating while walking on
+the treadmill? It was like I herniated it again. Super tight and slow
+to make any moves.
+
+** Notes
+*** Me
+- [X] push ups
+- [X] date night
+- [X] do this -- https://dynomight.net/mbti/a
+- [X] call with Nenya
+*** Glow
+- [X] username patch
+- [X] push message string
+- [X] ping aws again
+- [X] call Phoenix hotel
+- [-] Puppeteer recorder demo
+  - [-] without browserless
+    - [X] File download
+    - [ ] File download with real content
+    - [ ] Use fetch() to get readStream of download we can pipe to s3
+  - [ ] with browserless
+    - [ ] run browserless sidecar
+    - [ ] use screencast api in intervals
+    - [ ] run watcher sidecar
+      - [ ] upload to s3
+      - [ ] delete old files
+      - [ ] update playlist
+
+* 02/17/2022
+** Summary
+
+I woke up at 8am today and took Leche for our morning walk up the
+hill. Returned and made a smoothie (whey, pb powder, beat root powder,
+banana, fiber, water) for breakfast.
+
+Deployed the latest API, reviewed wolfram's PR, integrated pubnub into
+the app, added android verification and began reading browserless docs
+after emailing their team on limitations of a beta feature of their
+api.
+
+Took Leche on several walks today and invited a few more people to the
+walk on Sunday.
+
+Waited until about 1/1:30pm to eat lunch. Put the rice, veggies and
+fish in chicken broth for a quick soup. Was great but I think I waited
+too long to eat, was pretty sluggish after. Maybe it was all that rice.
+
+Had a few focusmate calls and one no-show.
+
+After work I finished up the features for privatize. The sha-1 hmac as
+IV solution works great. I renamed some of the commands and made it
+work as a standalone tool for piping. Will add a terminal gif of its
+use and publish in npm. Will start using it on this file and write a
+renderer for it for viewing on
+https://encapsulate.me/log?day=dd-mm-yyyy. That site will be a single
+page that does the following:
+
+- fetches this log file
+- parses every day for the `Summary` section, excludes everything else
+- if no `day` argument is supplied on qs, renders the current day's
+  summary with any privatize'd data as blacked out censored text
+- if the current day doesn't have a value, render "Justin hasn't
+  submitted today's summary"
+- show page toggles for: first, most recent, previous, next
+  entry. Skips over any day that was not logged
+- if a day doesn't have a value, render "Justin did not log this
+  day". Only way people can see this is if they enter a date in the
+  url manually. Show options for "would you like to see the entry
+  closest to this date?"
+
+Once done, talk about it:
+- LinkedIn -- privatize
+- Twitter -- privatize
+- Twitter -- daily log
+- LinkedIn -- daily log
+- TinyLetter, encapsulate.me/writing, HN-- combo post
+
+I'm going to bed now. Will wake up early and do my 5x5 chest workout
+with added dips
+
+** Notes
+*** Me
+- [X] 100 pushups
+- [X] privatize, one hmac per BLOB
+*** Glow
+- [X] Deploy api
+- [X] Wolfram pr
+- [X] pubnub
+  - [X] spec
+  - [X] api
+  - [X] client
+  - [X] test
+- [X] Android verification
+- [ ] Debug with AWS support
+- [ ] Browserless docs
+
+* 02/16/2022
+** Summary
+I woke up at 7am today and did my SL 5x5 workout. No more GVT until I
+want to mix it in. Felt great all day after the 5x5. Started with low
+weight but will step up faster than the +5lb rule. Had a smoothie
+(whey, banana, pb, beat root powder) for breakfast with the
+workout. Did my pushups during the workout.
+
+Took Leche for our walk and made it back for standup at 9am. Finished
+the banUser api and synced with James on real time solution. Moving
+forward with pubnub. Also resolved some old issues while on the call
+with him. Made the `usernameIsAvailable` api available to mobile app
+too.
+
+Had a big salad for dinner and watched Halt & Catch Fire with
+Mariana. It's basically just a big character drama. Huge swings with
+some of these characters.
+
+After, I read some of crypto101.io to make sense of the SHA1-HMAC IV
+that git-crypt uses. Swapped out my implementation for it and as I
+thought, it doesn't work. I suspect it relies on getting the SHA from
+git and not computed on fly. Need to comb through the source a bit
+better.
+
+Going on a walk with Leche and might watch another episode with
+Mariana.
+
+** Notes
+*** Me
+- [X] 100 pushups
+- [X] 3 types of fun -- https://www.rei.com/blog/climb/fun-scale
+
+*** Glow
+- [X] Sync with James
+  - [X] pubsub system
+    - [X] research cometchat
+      - [X] solution relies on having user listen to group events. not our solution -- https://forum.cometchat.com/t/implementation-of-system-messages/2380
+    - [X] if not, go with pubnub
+  - [X] Old tickets
+    - [X] https://trello.com/c/5TjtRlmG/205-test-force-out-user-on-the-client
+    - [X] https://trello.com/c/GI4R8ac9/146-remove-devicetype-deviceuid-from-create-login-flows
+- [X] banUser api
+- [X] usernameIsAvailable scope
+- [X] broadcast.description optional
+- [-] pubnub
+  - [X] spec
+  - [ ] api
+  - [ ] client
+  - [ ] test
+- [ ] Debug with AWS support
+
+* 02/15/2022
+** Summary
+
+I woke up at 8am today and took Leche for a walk up the hill. Came
+back and made scrambled eggs with goat cheese. Leche got some too and
+loved it.
+
+Deployed some patches before our all hands test at noon. Scheduled
+call with AWS support about the issue I filed yesterday.
+
+Worked on some internal admin features.
+
+Made foil fish with zuchini, peppers and onions.
+
+Overcast and pretty cold today. Rained for a bit.
+
+Did my 100 pushups while looking at an old bug ticket. Friggen tired,
+going to bed soon. Will wake up early and start the 5x5 program
+again. GVT is too straining right now
+
+** Notes
+*** Me
+- [X] 100 pushups
+- [X] Foil fish
+- [X] Schedule Tim invitation
+
+*** Glow
+- [X] Deploy patches
+- [ ] Sync with James about pubnub vs long poll
+- [X] Spec admin work
+  - [X] removeUser
+  - [X] banUser
+    - [X] block on user createLoginLink
+    - [X] block on invitation
+    - [X] test
+* 02/14/2022
+** Summary
+Today I woke up at 7:50am and took Leche for her morning walk up the
+hill. I made a whey protein, pb powder, beat root powder and banana
+smoothie for breakfast.
+
+Standup at 9am and deployed last Friday's code with Wolfram
+driving. Fixed the issue he ran into last week on his build tools.
+
+Small potatoes work today. Productionized the web client and moved
+some static files from api to there.
+
+Had lunch with Mariana at a poke place after finding out this ceviche
+spot was closed. Went to the park to walk around after.
+
+Spent the rest of the afternoon debugging why worker metrics weren't
+reporting and emailed AWS support to investigate. Made a few config
+changes to our queuing system in order to clear out the backlog of
+running workers. I think it'll help with the "ancient workers" problem.
+
+Sent Auntie Fran and Jacob a text nudge to remind them of the wedding
+vows ceremony. Auntie Fran says she didn't get her invite which was a
+bummer! Sent it in text to which she confirmed she and Uncle Ben can't
+make it because of their 40th wedding anniversary.
+
+However, Jacob and his partner are going which will be fun. Most of
+Mariana's side can make it so it'll be nice for my family to meet more
+of hers.
+
+Took Leche on 4 walks today. Had mac & cheese for
+dinner. Mixed in ground turkey from yesterday. Didn't stick to the
+"only fish" rule on M-Th as the food was already cooked from yesterday
+and it saved time in the day. Tomorrow, I'll freeze it and make up for
+today with this weekend's meal.
+
+Thought more about the IV problem in privatize. Not sure how git-crypt
+is uses a sha1 hmac for the IV. If the encryption IV is based on the
+contents of the unencrypted file, how can we get that for use as IV
+for decryption? By that point, the file is already encrypted so you'd
+have two different sha1 hmacs. I'm sure I'm missing something here.
+
+Did my 100 push ups just now and wrote this. Will go to bed and
+probably listen to binaural music as I drift off. Terrible dreams last
+night, had me cloudy for the better half of the day.
+
+** Notes
+*** Me
+- [X] 100 push ups
+- [X] Nudge family
+- [X] Ceviche lunch
+- [X] Deposit restaurant
+*** Glow
+- [ ] Ancient workers
+
+217 for 66255f63-71e5-403c-bc51-8098f64a53f1/e391c39f-41a6-4996-84c3-4788cb04acf5/8664dd54-904a-43e5-8d89-1f358de8585a
+218 for a9615b47-2828-42b2-975e-fa31da31d819/0b753df7-b057-4a56-91a4-27dba2d57263/83db93cd-3248-4e75-901a-8cb4878604e7
+181 for a9615b47-2828-42b2-975e-fa31da31d819/9d8387ba-310d-41c5-8530-34ae7b59c2c7/e019cb60-922e-405c-96c0-10e65aadc9e9
+218 for 66255f63-71e5-403c-bc51-8098f64a53f1/e391c39f-41a6-4996-84c3-4788cb04acf5/8664dd54-904a-43e5-8d89-1f358de8585a
+
+MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 exit listeners added to [process]. Use emitter.setMaxListeners() to increase limit
+MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 SIGINT listeners added to [process]. Use emitter.setMaxListeners() to increase limit
+MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 SIGHUP listeners added to [process]. Use emitter.setMaxListeners() to increase limit
+
+* 02/13/2022
+** Summary
+
+I woke up at 9am today and made some tea before heading out on the
+Palms Puppy Pack walk. Mariana joined today. Largest crew yet:
+Jonathan, Karla, Hind, Mariana, Lexi. Went on the same path. It was
+pretty hot today. Went for an hour, got back and drank some ice water.
+
+Went to Trader Joes to pick up food for the week and for the game day.
+
+Mariana went swimming and I worked out. Did chest exercises (GVT,
+bench, dips and pushups). I took a shower and started preparing the
+food for the Super Bowl. Made turkey lettuce cups and "buddings beef"
+rolls.
+
+Game was fun, everyone had their computers out and half watched the
+game and commercials. Half time show was entertaining too. Great that
+the game was so close. LA won and a few fireworks were fired in our
+neighborhood.
+
+Marie stayed after for a while and chatted. Took Leche on her night
+walk. Came back to write these notes.
+
+Going to watch Halt & Catch Fire and go to bed. I'd like to start
+running again and am leaning towards buzzing my hair at the end of
+this year, pretty hot when its long.
+
+** Notes
+*** Me
+- [X] 100 pushups
+- [ ] Nudge family
+- [ ] Intro Islam and Riley
+
+* 02/12/2022
+
+Yesterday, I woke up at 9am and played with expo.io tools before
+having a call with Jeff Zie to catch up and talk about his app. We met
+on focusmate and when he was looking for a mobile engineer. At the
+time, I couldn't pick up another contract but told him I would point
+him toward others who could.
+
+Had enough time to get a good feel for the expo tools and like what I
+see. Need to test one more feature before deciding to go with it.
+
+Went to the dog park with Leche and Mariana to meet her friends and
+their dogs. We were there from 2pm-4pm. Leche is great at fetch and
+return until other dogs are around. At one point she bolted across the
+park to chase a squirrel up a tree. A horny dog kept following her
+trying to hump incessantly.
+
+We went to Ronan for dinner at 5:45pm. They sat us in stinker table
+and I asked for another one. The food was not great. Focused more on
+looks than taste.
+
+Drove around for a minute before heading over to the Grove for our
+movie night (West Side Story). On the way over, I changed lanes to
+avoid a car who had stopped in the middle of the right lane. Signaled
+and did so with enough notice for the car behind me. He got pissed and
+drove to the oncoming traffic stopped at the light to yell all drunk
+like through his window at me. Didn't engage, figured he was drunk or
+high but he was unnecssarily angry for something he had complete
+control over. He really wanted to fight too, drove backwards at the
+light to roll up and yell stuff.
+
+Walked around the grove and had an ice cream from an old fashioned
+creamery. Walked some more to Zara where Mariana looked at
+clothes. Made our way to AMC, got popcorn and water and Mariana got a
+coke. The movie was long. Laughed when it first started because the
+opening snapping fingers scene made me think of the angry gangster
+driver doing the same to get his frustration out.
+
+Came home, took Leche for a night walk and watched another Halt &
+Catch Fire.
+
+** Notes
+*** Me
+- [X] 100 pushups
+- [X] Play with expo tools
+- [X] Call with Jeff
+- [ ] Nudge cousin and Aunt & Uncle
+
+* 02/11/2022
+** Summary
+Yesterday I woke up at 6:30am and got ready to take Leche for her
+grooming appointment at 8:15am. We went on a short walk around the
+block. She loved the trip to PetCo, sitting in the front seat.
+
+Came back for standup and to deploy patch version of the api. Wolfram
+drove and I navigated this time as we recorded for
+posterity. Discovered his cpu architecture meant we need to change the
+build and deploy scripts to get it working for him. He'll fix and
+drive the next deploy too.
+
+Focused on some bug fixes all day. Small but impactful. Gave my weekly
+updates via whatgotdone.com
+
+Leche played with Ziggy in our driveway for about 45min before
+dinner. Good to catch up with Sam and Elle who've been very
+busy. Invited them over for snacks on Sunday and to loosely watch the
+SuperBowl.
+
+Got `privatize` in a workable state for use but as I wrote the README
+I realized I should re-write the encryption scheme. Basing this off
+`git-crypt`'s note on security. I should ping that author when
+done. Showed Tim and asked for his input.
+
+Tomorrow, I'll have a call with Jeff Zie and get familiar with the
+latest mobile react native tooling. We'll go to the park at 2pm and
+then have a date night at The Grove (dinner and West Side Story).
+
+** Notes
+*** Me
+- [X] Pushups
+- [X] Leche groomer
+- [X] Privatize
+- [ ] Nudge Aunt, Uncle & Cousin re Wedding
+- [ ] POC mobile project
+- [ ] SuperBowl food ideas
+  - [ ] Queso -- https://www.youtube.com/watch?v=9NYxvS8eSXs
+  - [ ] Lumpia
+  - [ ] Buddings beef rolls!
+  - [ ] Big ass salad to cut the pain
+  - [ ] Sparkling water
+  - [ ] Sparkling juice
+  - [ ] Fruit slices
+  - [ ] Guacamole
+  - [ ] Super nachos
+  - [ ] Jerk chicken wings
+  - [ ] Deviled eggs
+  - [ ] Sausage in a blanket
+  - [ ] Quesadillas
+  - [ ]
+
+*** Glow
+- [X] Deploy code
+- [-] Double joined message
+  - [X] PR up
+  - [ ] merged
+- [X] James PR
+- [X] Test createHUD starts for new broadcast
+- [ ] Move api static assets to glow-app
+* 02/10/2022
+** Summary
+I woke up at 8am today after some pretty deep sleep. Took Leche for
+our walk and made a smoothy for breakfast (whey protein, peanut butter
+powder, frozen blue berries, half a frozen banana, beet root
+powder...not my finest work).
+
+AWS support replied and their answer fixed the metrics problem (silent
+reserved variable name...what luck). Added the unit to the metrics and
+problem solved.
+
+Started to deploy new cluster for workers but didn't finish it before
+call with Billy and then all hands where we tested the product. Its
+getting there. Hoping by end of this month we'll have it ready.
+
+Wrote a spec for how to deploy and will pair with Wolfram tomorrow
+while he drives the deploy. He'll do the rest of the deploys until
+after our wedding for bus factor and the share that responsibility.
+
+Cousin Josh said he can't make it to the wedding which is a bummer but
+good to hear from him. Ping Danielle Baskin on twitter to point out a
+bug on one of her product pages. Pretty interesting work.
+
+Threw the ball with Leche and took a walk after work. Fixed the
+checkout problem on `git-privatize` and am nearly finished (still need
+to get `git-unlock` working). Did my GVT legs and deadlift
+exercises. GVT is great but I need to do it more often to feel the
+progressive effects. At my current pace, its over a week before I do
+the same exercises and I don't feel much stronger.
+
+Unclogged the bathroom sink filled with hair. Nasty smell in those
+pipes. Also, we've got a done of stuff hidden under the bathroom
+sink. Reminds me of stat-mech or what Kevin Favro (approximately) said
+one time: space gets filled.
+
+Took a shower and tried on my wedding suit. It fits well. Kinda tight
+in the knees but I think we'll be fine.
+
+Made a tuna salad (lettuce, cabbage, arugula, cheese, tuna, almonds,
+italian dressing) and watched Halt & Catch Fire episode. It's good,
+but I'm looking forward to being done with it. Too much TV too fast.
+
+We're going on a walk now and then to bed for early rise. Leche has a
+bath tomorrow at 8:15am.
+
+** Notes
+*** Me
+- [X] Leg day
+- [X] 100 pushups
+*** Glow
+- [X] CloudWatch metrics
+- [X] Workers on own cluster
+
+* 02/09/2022
+** Summary
+
+I woke up at 8am today. 6:30am first but no goal in mind. I think
+doing pushups within the first 3minutes of waking up would be good.
+
+Did some Duolingo in bed before starting the day. Answered a question
+in slack before taking Leche on a short walk around the block. Came
+back to standup. Focus today was to figure out why ecs tasks were
+falling over. API was getting marked unhealthy even though no logged
+crashes. Hit the health check with 5rps to determine it wasn't falling
+over due to our health check conditions. Figured that the shared
+resources of workers were causing all tasks to
+collapse/restart. Temporarily disabled that worker until I design a
+better system to manage it.
+
+Will see how the API has faired tomorrow during all hands test.
+
+Made a shrimp + tofu curry over rice. Had a second slice of chocolate
+babka today with Mariana while we watched Halt & Catch fire. Too much
+cake in these last two days. That stuff is great but I got flush with
+all that sugar. Went for a walk with Leche to clear it.
+
+Worked on privatize and fixed the git diff issue. Need to figure out
+whats going on with checkout, add an unlock feature and do some code
+clean up before I publish.
+
+Watched a Ted talk that was on my queue about mitochondrial
+health. Basically eat more leafy greens. A goal like: "9 cups of leafy
+greens per day" would be solid.
+
+Nudged my family about the wedding date, got a few more replies.
+
+Tomorrow, I'll design the new worker cluster so we are properly
+isolated from API.
+
+** Notes
+*** Me
+- [X] 100 pushups
+- [X] Nudge wedding guests
+- [ ] Privatize diff
+*** Glow
+- [X] Investigate why api restarts
+- [X] Disable createHUD worker for the time being
+- [X] Test multiple workers
+* 02/08/2022
+** Summary
+
+I woke up at 7am today and did Duolingo first thing. I made a protein
+shake with whey, peanut butter, banana and water. Soaked the oats
+overnight. Made oatmeal for Mariana.
+
+Did GVT OH press (10x10) and pushups. Watered the plants whilst. Quick
+cold shower after. Took Leche on our morning walk. Returned to setup
+CloudWatch metric filters and deploy patch version of API. CloudWatch
+metrics are only partially configured, have a ticket for support to
+address.
+
+Our all hands was delayed till Thursday as there are some issues with
+the build to address.
+
+Had a salad with tuna for lunch.
+
+Went to Sabrina's and Ulysse's for Ulysses's birthday. Dinner was
+delicious and Sabrina made a great cheesecake too.
+
+Left at 10:15pm and am going to bed now (11:00pm)
+
+Tomorrow, I will wake up early and do my pushups asap.
+
+I'd like to deconstruct the worker problems tomorrow after noting
+taking some small issues off the backlog.
+
+** Notes
+*** Me
+- [X] 100 pushups
+- [X] Workout
+- [ ] Double feature movies
+- [ ] Nudge wedding guests
+*** Glow
+- [ ] Setup metrics
+  - [ ] Metric values aren't stored
+- [X] Deploy patch api
+- [ ] Compare ECS restart events with CPU utilization
+- [ ]
+* 02/07/2022
+** Summary
+
+I woke up at 7am today and made eggs for Mariana, me and Leche. It was
+Mariana's first day of her new job and she wanted to get there by
+8:30am. Her new office is super close in Culver City.
+
+Took Leche on her morning walk before standup. A shorter walk since we
+didn't have time for the full up the hill one. After standup I
+deployed the latest APIs in production and debugged the chat issue
+with James. There were a few issues we caught but it looks like
+they're scoped to client-side changes. We'll test the new patch in
+tomorrow's deep dive.
+
+I found a new solution for the metrics problem using Cloudwatch
+filtered metrics. At least I think I have. I need to prove it out
+tomorrow morning before the all hands.
+
+I did three batches of laundry throughout the day and picked up water
+and groceries in my lunch hour. Bought the fancy water ($2/gal) this
+time. Probably not worth it all the time but maybe once in a
+while. We'll see if we can feel any difference.
+
+I was pretty tired today after lunch. I didn't eat a whole lot. About
+a 1.5 cups of cooked rice, 1 cup tuna fish + mayo and 1 cup
+peas. Maybe too much sugar? This inspired the trip to TJ to pick up
+some fiber powder, hoping that the lack of fiber is in my diet had
+contributed to the lethargy. Will drink it before I go to bed and when
+I wake up for a while. Also will eat more vegetables with every meal.
+
+Made salmon, rice and mixed salad for dinner tonight. Salad dressing
+was a homemade italian-ish dressing. Too garlic-y I think, but I'll
+use less next time. Mariana had a good first day. She got put on CA
+work which is great as it's what she's been looking for. The project
+will take several years it sounds like and in that time she'll also
+juggle smaller projects possibly.
+
+We watched and episode of Halt & Catch Fire and are going to bed now
+at 10:30pm.
+
+Tomrrow, I'll wake up early exercise and have a protein shake. We'll
+head to Sabrina & Ulysess' house for his birthday in the evening.
+
+** Notes
+*** Me
+- [X] 100 pushups
+- [X] Workout
+- [X] Laundry
+- [X] water plants
+- [ ] Message more NFT artists
+- [X] Reply to customer
+*** Glow
+- [X] Watch API?
+- [X] Deploy production, share keys
+- [ ] Confirm chat messages works on dev
+- [ ] Metrics via statsd
+- [ ] Blue/Green workers
+
+
+[2022-02-07T11:09:49-08:00] (development-workers/glow-worker-createHUDVideo-development/9d7e3aff41a44ca8a823ee20ffa8482a) node:events:368
+[2022-02-07T11:09:49-08:00] (development-workers/glow-worker-createHUDVideo-development/9d7e3aff41a44ca8a823ee20ffa8482a)       throw er; // Unhandled 'error' event
+[2022-02-07T11:09:49-08:00] (development-workers/glow-worker-createHUDVideo-development/9d7e3aff41a44ca8a823ee20ffa8482a)       ^
+[2022-02-07T11:09:49-08:00] (development-workers/glow-worker-createHUDVideo-development/9d7e3aff41a44ca8a823ee20ffa8482a) Error: write EPIPE
+[2022-02-07T11:09:49-08:00] (development-workers/glow-worker-createHUDVideo-development/9d7e3aff41a44ca8a823ee20ffa8482a)     at afterWriteDispatched (node:internal/stream_base_commons:164:15)
+[2022-02-07T11:09:49-08:00] (development-workers/glow-worker-createHUDVideo-development/9d7e3aff41a44ca8a823ee20ffa8482a)     at writeGeneric (node:internal/stream_base_commons:155:3)
+[2022-02-07T11:09:49-08:00] (development-workers/glow-worker-createHUDVideo-development/9d7e3aff41a44ca8a823ee20ffa8482a)     at Socket._writeGeneric (node:net:795:11)
+[2022-02-07T11:09:49-08:00] (development-workers/glow-worker-createHUDVideo-development/9d7e3aff41a44ca8a823ee20ffa8482a)     at Socket._write (node:net:807:8)
+[2022-02-07T11:09:49-08:00] (development-workers/glow-worker-createHUDVideo-development/9d7e3aff41a44ca8a823ee20ffa8482a)     at writeOrBuffer (node:internal/streams/writable:389:12)
+[2022-02-07T11:09:49-08:00] (development-workers/glow-worker-createHUDVideo-development/9d7e3aff41a44ca8a823ee20ffa8482a)     at _write (node:internal/streams/writable:330:10)
+[2022-02-07T11:09:49-08:00] (development-workers/glow-worker-createHUDVideo-development/9d7e3aff41a44ca8a823ee20ffa8482a)     at Socket.Writable.write (node:internal/streams/writable:334:10)
+[2022-02-07T11:09:49-08:00] (development-workers/glow-worker-createHUDVideo-development/9d7e3aff41a44ca8a823ee20ffa8482a)     at pipeScreenshotToFFmpeg (/app/src/createHUDVideo.js:112:16)
+[2022-02-07T11:09:49-08:00] (development-workers/glow-worker-createHUDVideo-development/9d7e3aff41a44ca8a823ee20ffa8482a)     at Timeout._onTimeout (/app/src/createHUDVideo.js:213:7)
+[2022-02-07T11:09:49-08:00] (development-workers/glow-worker-createHUDVideo-development/9d7e3aff41a44ca8a823ee20ffa8482a)     at runMicrotasks (<anonymous>)
+[2022-02-07T11:09:49-08:00] (development-workers/glow-worker-createHUDVideo-development/9d7e3aff41a44ca8a823ee20ffa8482a) Emitted 'error' event on Socket instance at:
+[2022-02-07T11:09:49-08:00] (development-workers/glow-worker-createHUDVideo-development/9d7e3aff41a44ca8a823ee20ffa8482a)     at emitErrorNT (node:internal/streams/destroy:157:8)
+[2022-02-07T11:09:49-08:00] (development-workers/glow-worker-createHUDVideo-development/9d7e3aff41a44ca8a823ee20ffa8482a)     at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+[2022-02-07T11:09:49-08:00] (development-workers/glow-worker-createHUDVideo-development/9d7e3aff41a44ca8a823ee20ffa8482a)     at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+[2022-02-07T11:09:49-08:00] (development-workers/glow-worker-createHUDVideo-development/9d7e3aff41a44ca8a823ee20ffa8482a)   errno: -32,
+[2022-02-07T11:09:49-08:00] (development-workers/glow-worker-createHUDVideo-development/9d7e3aff41a44ca8a823ee20ffa8482a)   code: 'EPIPE',
+[2022-02-07T11:09:49-08:00] (development-workers/glow-worker-createHUDVideo-development/9d7e3aff41a44ca8a823ee20ffa8482a)   syscall: 'write'
+[2022-02-07T11:09:49-08:00] (development-workers/glow-worker-createHUDVideo-development/9d7e3aff41a44ca8a823ee20ffa8482a) }
+[2022-02-07T11:09:49-08:00] (development-workers/glow-worker-killZombies-development/9d7e3aff41a44ca8a823ee20ffa8482a) SIGTERM received. The service is about to shut down!
+[2022-02-07T11:09:49-08:00] (development-workers/glow-worker-syncScreenshot-development/9d7e3aff41a44ca8a823ee20ffa8482a) SIGTERM received. The service is about to shut down!
+
+* 02/06/2022
+** Summary
+
+I woke up at 8:30am today and did some duolingo on the toilet. I
+wanted to wait to take Leche for her bathroom walk until we met up
+with the neighbors for the weekly walk but she really had to go. Kiss
+Mariana goodbye when she went to swim and took Leche to meet the
+"Palms Puppy Pack".
+
+We waited on the corner until 10:15 or so for everyone to show
+up. Walked to Cheviot Hills and around the neighborhood. Good exercise
+and nice to hear from the neighbors. We were back by 11:30 or so.
+
+We got ready for our hike. Packed leftover salmon for Leche, made some
+guacamole and packed them in a backpack with a jug of water. We went
+to Lokal sandwich shop to pick up some bahn mi before heading to
+Topanga Creek for the hike. The korean bbq bahn mi is pretty
+good. Wasn't sold on their sandwiches until trying that one.
+
+It took a while to get to Topanga creek. There was some volleyball
+tournament or something going on in Malibu that cause lots of traffic
+on the 1. Parked in our usual spot and made our way to the creek. It
+was pretty overrun, moreso than usual. Walking on the side of the road
+with Leche was a bit stressful. We made our way down the tunnel and at
+the bottom, Mariana held onto Leche and handed her to me after I
+climbed down. We had to pass her around like that a few times on our
+hike/scramble to the swimming pond. She had a blast though. Would
+anticipate where we were walking and find a path that made sense for
+her. She loved it. Apparently she broke a nail sometime on our
+scramble to the pond. Mariana was worried about her after seeing her
+limping. We didn't know what the issue was but I saw that Leche was
+mildly bothered by it. Figured she scratched the pad of her foot while
+swimming.
+
+We left the swimming pond after about 20 minutes because we missed the
+sun. We hopped to find another smaller sunlit pond up the creek but no
+luck. Instead, we drove up to Leo Carillo dog beach and stayed for a
+few hours. It's not as liberal as Huntington beach is, allowing dogs
+to run off leash but maybe there weren't that many people there. Leche
+played fetch with a stick in the ocean and actually caught a big wave
+once. She's not a big fan of the waves. If you throw the stick too
+far, she look at you as if to say "you get it!".
+
+We went back to shore to rest for a bit and get burried by an anxious
+Leche who had to vent her frustration of not being able to chase every
+dog or bird she saw by digging huge holes next to us. We played fetch
+in the ocean a few more times before settling down to watch the sunset.
+
+For the last 20min before the sunset she was particularly whiny. Any
+bird would set her off. Mariana pointed out two dolphins who were
+swimming next to shore. Amazing. They were less than 100 yards from us
+and were maybe 40 yards from the water.
+
+It took longer to get home than usual. Traffic on the 1. Listened to
+Animal Collective's new album and some old tracks. Good vibes. I don't
+know who said they are like the modern Beach Boys but today that fit
+the bill.
+
+I made shrimp pasta when we came back and we watched Halt and Catch
+fire. One episode in the living room and another in bed where I write
+this. I did my 100 push ups after dinner.
+
+Tomorrow, I will wake up at 6:30am and do my shoulder/back
+workouts. I'll also watch the rest of that egghead video on
+chakra-ui. My focus in Glow will be to spec out a healthy long-running
+worker system. It's Mariana's first day of work tomorrow. She's got
+some butterflies but she'll do great. I hope the office space is
+insipring and her coworkers and work environment are incredible.
+
+* 02/05/2022
+** Summary
+
+Today I woke up at 8:30am and took Leche for her walk. Ran into
+another neighbor and his dog (Nick and Sam) and invited them on the
+dog pack walk tomorrow. Invited a few more people throughout the day
+too.
+
+I made avocado toast and eggs when we got back. Leche got one egg. I
+had a good catch up call with Tim. Bounced some ideas off of him and
+caught up on our lives.
+
+After the call I walked Mariana to studio to pick up some
+items. Mariana worked on her pottery and I got a nearly complete first
+draft of `privatize` done. Need to figure out the diff attribute.
+
+We went to the dog park for Leche to run around. She was pretty
+well-behaved considering it had been over a year since we've let her
+off leash at the park (not beach). The dog attack last year had us
+pretty cautious. Anyway, was very attentive to the ball and frisbee
+but later got more interested in dogs.
+
+Spent some time brainstorming some ideas for game idea I had. I don't
+think it's worth building this year so I won't focus more sessions of
+thought on it.
+
+Ate Lonzo's (peruvian) for dinner and watched another Halt & Catch
+Fire with Mariana. She trimmed more clay pots and I wrote some more
+notes on the side project to launch later this year.
+
+Did my 100 push ups before the note writing hour and now I'm writing
+this. Time for bed.
+
+Tomorrow, we'll go on our neighborhood dog walk and the go to Topanga
+Creek to hike and swim.
+
+** Notes
+*** Me
+- [ ] 100 push ups
+* 02/04/2022
+** Summary
+Caught up on sleep today and woke up at 6:30am but got out of bed at
+7am. Did DuoLingo early (apparently you get a 2x points boost if you
+do a lesson before noon). Took Leche on her walk and returned by
+8:30am in order to drive to Trader Joes and CVS for the remainder of
+Mariana's gift (batteries for latte stirrer, snacks from Trader Joes)
+
+Had standup at 9am and noted the deploy would have some
+downtime. Scheduled it for 5pm PT. Did a few "nice to have" features
+and researched different Blue/Green solutions for workers.
+
+This morning someone bought 10 units (at $10/unit) of
+24HourHomepage. They emailed me to let me know the publish system was
+broken. When I shipped the affiliate page I broke publish by including
+picnic.css. During my lunch break I restyled the affiliate page by
+hand and confirmed the publish system worked. I ate leftover salmon
+for dinner.
+
+After lunch, I made the "unlisted content" feature and got it to main
+before the 5pm deploy. Deploy went mostly without a hitch but the
+workers had to get patched because you can't trap SIGKILL in newer
+versions of node. Was doing that to investigate Blue/Green solution.
+
+Made zuccini, shrimp pasta and timed it for when Mariana got back. She
+got her braces off and likes her teeth. Julieta cut her gums to make
+them more aesthetic though I can't tell much difference. Her little
+baby tooth is gone though. :(
+
+We went to her pottery studio to pick up pots she made. Six or seven
+this time. Great looking ones. We brought Leche to the studio. On the
+way back, I held the pots and Mariana walked Leche. I get pretty
+frustrated when Leche plays aggressive with Mariana jumping on her and
+tugging the leash. Frustrating but nothing we can't work on. Sometimes
+Leche just gets in these hyper "I need to play and I'm going to force
+you to play" modes. We threw the ball earlier and she was great about
+dropping it with treats to encourage her.
+
+We watched two episodes of halt and catch fire and are heading to bed
+where I write this. Leche is out our feet.
+
+Tomorrow, I will wake up early do my pushups and review the roadmap
+for the side project. Looking forward to catching up with Tim at 10am.
+
+** Notes
+*** Me
+- [X] 100 push ups
+
+*** Glow
+- [X] Unlisted content
+- [X] Make displayName optional
+- [X] Deploy latest api
+- [ ] Blue/Green workers
+- [ ] Metrics
+
+* 02/03/2022
+** Summary
+
+I woke up at 6:30am today half awake already. The kind of awake like I
+woke up at just the right moment of dream cycle, not actually
+rested. I stayed in bed for another 30 minutes before starting my
+workout.
+
+Chest day. I started with dips and pushups superset because I was
+fatigued on the dips last time. That meant today's bench was super
+fatigued after the 10x10 ss set. Took Leche on a walk and bought a
+dozen eggs and some tea for Mariana.
+
+Mike noted there was an issue with user search. Fixed and focused on
+the HUD today. Made a few small but significant changes to that system
+that I'll deploy off hours tomorrow or Saturday.
+
+Had a call with Islam to catch up and chat about 2022 goals. Pinged
+Riley as he might be a domain expert for one of his ideas.
+
+Had beatroot + whey protein with workout. Ate cheesy eggs and toast
+for breakfast. Salmon, rice and potatoes for lunch and dinner. Leche
+ate half a piece of salmon.
+
+We went on a few walks around the block today. Leche was pretty eager
+to play. Invited Sam & Elle over for Ziggy + Leche playtime but Ziggy
+was pooped from daycare. Threw the ball with Leche for 10min or
+so. The best way to get her to drop it is with snacks. I should get
+bigger pieces of meat to treat her because she really doesn't like
+giving it up.
+
+Spent half an hour working on privatize but I'm wiped and am going to
+bed now. Will shower first and call Mariana before passing out the
+moment my head hits the pillow
+
+** Notes
+*** Me
+- [X] 100 push ups
+- [ ] Intro Islam to Riley
+- [ ] Mail 2022 goals for ibash
+- [X] privatize poc
+
+*** Glow
+- [X] killZombie worker
+- [X] HUD logs
+- [X] HUD worker resilience
+  - [X] Worker runs for 3+ minutes without fail but CPU goes upwards of 200% (with 4 CPU locally). It doesn't fall over
+- [ ] Spec: unlisted content
+- [X] Confirm with James chat and stream keys
+
+* 02/02/2022
+** Summary
+What a day. I woke up at 6:30am and again stayed in bed until
+7:30am. I checked my notifications on my phone and saw James was
+having some issues with the migration (and patch) last night. Ended up
+spending the morning debugging that.
+
+Before starting work though, I walked with Mariana to Commissary for
+breakfast. I got a burrito and a matcha and was pretty alert from it
+all day. The burrito there is amazing.
+
+I hopped on our standup call and took notes for the team. Used
+startingcondition.com which was a fun icebreaker. Took Leche on our
+usual walk and returned in time to say goodbye to Mariana who is going
+to TJ to take off her braces.
+
+Thawed some salmon in the sink and continued debugging with James. Had
+to make one patch this morning to a worker that was casting the wrong
+type after the UUID work. Determined the issue was on client side.
+
+Broke out the workers to run individually and gave them each
+appropriate resources. Broke out the zombie system from one worker to
+run as a standalone service. Will test it tomorrow. Before that,
+investigated whether redis keyspace notifications would solve our
+problem. They don't.
+
+I baked the salmon then baked some potatoes and half a red onion in
+the fish fat. At the salmon over rice with soy sauce. Potatoes are for
+tomorrow. I gave Leche half a piece of salmon mixed into her bowl of
+kibble.
+
+I took Leche on two night walks. One at dusk and another after
+dinner. I did my 100 pushups then spent this evening writing about a
+new business I want to create on the side. I took three focusmate
+sessions to get all the ideas out (some user stories, some
+roadmapping). Pretty excited to work on it. There's a lot of work and
+research to do before and I'll do it piecemeal in the early mornings
+before I start my Glow responsibilities.
+
+Tomorrow, I'll wake up and blast my pecs: GVT bench + dips, pushups +
+farmer carry.
+
+** Notes
+*** Me
+- [X] 100 push ups
+- [ ] Amazon, research task
+*** Glow
+- [X] Screenshot debug
+- [X] independent workers
+- [X] increase dev instance size
+- [-] killZombie worker
+  - [X] implement
+  - [ ] test
+- [ ] Spec: unlisted content
+- [ ] Confirm with James chat and stream keys
+
+* 02/01/2022
+** Summary
+
+I woke up at 6:30am today but then went back to bed for 30min before
+getting up to do my workout. I made a beetroot powder and whey protein
+shake with the breakfast. Leg workout today, still doing GVT though I
+haven't had the energy to do the full 10x10 set for legs since the
+first day. Maybe I had breakfast before that workout? The last two leg
+days were on an empty stomach (minus the shake I consumed during) and
+I was gas'd by halfway through it. Did my pushups superset with the
+squats and part of deadlift.
+
+I took Leche on our morning walk. Uneventful mostly. The apartments on
+Motor Ave have taken down their scaffolding. The new face of that
+building looks nice with fresh stucco and paint.
+
+Prepared the migration on dev and communicated it with team. At our
+weekly meeting we did an all hands use of the product and founds some
+bugs. I fixed a few of them today.
+
+At lunch I went to the bank to withdraw money for the Mexico wedding
+tables & chairs. I made a shrimp fried rice for lunch. Pretty
+tasty. Leche got a 6 pieces of shrimp in total today. We threw the
+ball for a little bit on one of our afternoon breaks. She wasn't as
+interested in trading the ball for treats today.
+
+I walked with Mariana and Leche to her studio class and we took the
+long route back (by the restaurants). Some people were eating outside
+the pizza/italian shop on motor. Never seen that, thought the place
+was mostly for deliveries.
+
+I deployed the dev migration while Mariana was at her class. James
+found a bug with an external dependency we didn't catch. Patched it
+and redeployed.
+
+Some news in email from family today. Not the best news but all things
+considered, it could be worse and am thankful we've got each other.
+
+Jason's dog apparently needed stiches in her ear. I'll get the details
+tomorrow but he asked for how to get an emergency sitter
+
+Scheduled all the email wedding invitations for tomorrow morning. Will
+text Uncle John his since he doesn't use email.
+
+My feet hurt. Leg day plus walking on treadmill. Might watch something
+with Mariana in bed but I'm wiped and will fall asleep.
+
+I write this in bed with Mariana holding Leche. <3
+
+** Notes
+*** Me
+- [X] Add why Tecate (Mariana is from TJ)
+- [X] Cash
+- [ ] Send wedding invitations
+- [X] 100 pushups
+- [X] Leg day
+- [X] Leche food & treats
+- [ ] Taxes
+- [ ] Spec books
+*** Glow
+- [X] screenshot interval
+- [X] fix HUD chat credentials
+- [X] Deploy UUID change
+- [X] add int id
+- [ ] Spec: unlisted content
+- [ ] Confirm with James chat and stream keys
+- [ ] increase dev instance size
+- [X] HUD chat issue
+
+* 01/31/2022
+** Summary
+
+I woke up at 8:30am today. Deep sleep from falling asleep to brain.fm
+last night. I did wake up at 6:30am but caved and slept more. Tonight
+i'm putting my phone further away so I can wake up for exercise.
+
+Today was exhausting. Glow production is shipped and migrated. Had to
+patch a config where we had configured a write node to with a
+read-only setting. After that, started the UUID migration which has
+gone on until now (10pm).
+
+Took Leche to the pet store to pick up new food for her and some
+dental treats. She loves the store and really, any car ride around
+town. She's a great dog.
+
+At sundown, took her with Mariana to her pottery studio to check if
+any new glazed items came out. Returned where I fried up some kale and
+left over chinese food to eat over rice.
+
+I shared some ideas with Jeff Zie, who I met on focusmate a few months
+ago. He's building a book app of some kind and I had offered to point
+him in the right direction re mobile work.
+
+I scheduled a call with Tim for Saturday. Been a while, looking
+forward to that.
+
+Tomorrow we finally get to send the wedding invitations out. It'll
+take a while but I'll start in the morning after my exercise.
+
+Tonight, I'm going to wind down with my 100 push ups and then read
+more about type-graphql in bed before getting some shuteye.
+
+** Notes
+*** Me
+- [ ] Send wedding invitations
+- [ ] 100 pushups
+- [ ] Leg day
+- [X] Leche food & treats
+- [ ] Taxes
+- [ ] Spec books
+
+*** Glow
+- [-] test production apis
+  - [X] Create ES indexes
+    - [X] b
+    - [X] u
+  - [X] deploy patch for type
+  - [X] Invite myself
+  - [X] See that user exists
+  - [ ] Admin remove from waitlist
+- [X] Waitlist removal will index user
+- [ ] Spec: unlisted content
+- [ ] Confirm with James chat and stream keys
+- [ ] increase dev instance size
+- [-] uuids
+  - [X] schema
+    - [X] b
+    - [X] u
+    - [X] u_blocks
+    - [X] u_devices
+    - [X] u_follows
+    - [X] u_reports
+  - [X] writes
+    - [X] b
+    - [X] u
+    - [X] u_blocks
+    - [X] u_devices
+    - [X] u_follows
+    - [X] u_reports
+  - [-] test
+    - [X] create u
+    - [X] search for u, b
+    - [X] follow
+    - [X] block
+    - [ ] Migrate String -> UUID4String on resolver inputs
+      - [ ] auth.admin
+      - [ ] auth
+      - [ ] broadcast.admin
+      - [ ] broadcast
+      - [ ] notification
+      - [ ] search
+      - [ ] user.admin
+      - [ ] user
+      - [ ] userRelation
+    - [ ] PR for mobile app
+
+* 01/30/2022
+** Summary
+I woke up at 9:00am today and got ready for the neighborhood dog "pack
+walk" with Leche. She was so excited. Pulled at the leash for nearly
+the whole walk. Tired herself out about halfway through though
+(pulling uphill is hard). Leche loved to lead and kept turning around
+to see if her friends were following her. Zella, the dog who inspired
+the group dog walk, was opening up with all the other dogs
+around. Sweet dog.
+
+I had a beet root, protein powder, banana and egg smoothy before the
+walk. Also ate 3 hardboiled eggs before the walk.
+
+After about an hour we were back home and Leche was overjoyed to tell
+Mariana of her walk. Jumped on the bed, burried her face in the
+blankets.
+
+Mariana got ready for our day at the beach. I through the ball with
+Leche for a bit. I now bring small treats to encourage her to drop the
+ball when she returns it. It works, mostly but sometimes she is too
+obsessed with chewing the ball to drop it.
+
+We went to venice and parked on the road because I forgot to bring
+cash. No trouble finding parking. Camped out just on the other side of
+the big dune on the sloped hill. Good sun but coldish wind. Cold for
+LA, it wasn't that bad.
+
+I brought the mineral sunscreen in a small jam jar. Its pretty
+thick. Takes some time to apply properly. I did a little duolingo and
+started to read "Como Agua con chocolate" but didn't make it very
+far. Needed to look up lots of words and didn't have the patience to
+do that while battling the wind.
+
+We stayed for two hours or so then went to the "Win-Dow" for
+lunch. Mariana got two small fried chicken sandwiches (ate one) and I
+got a kale salad and fried chicken sandwhich. The sandwhich is good
+but needs hotsauce. With hotsauce, it'd be like a 9/10. Without, maybe
+its a 6 or 7.
+
+Came home to take Leche for a walk and play bacci ball on the lawn. I
+got an early lead, Mariana caught up but I won. Some neighbors we
+didn't know gave a "I hope she wins!" cry as they walked past with
+their baby.
+
+Before the game started I chatted with our neighbor Chris who works at
+the SoFi stadium in LA which is hosting the Superbowl this year. He
+said the NFL basically commandeered all operations but require a
+subset of existing staff to participate. There was some bureaucratic
+non-sense about not letting those who don't need to be there be
+there. Who wouldn't want to work the superbowl?
+
+Had leftover soup Mariana ordered from the Chinese restaurant. It
+wasn't very good, kinda cheap noodles and broth. I added leftover
+salmon for some protein. I think I'll eat more lettuce this week, not
+enough leafy greens lately.
+
+I sent about 10 or so messages to artists about joining
+24HourHomepage. It felt good. I think 5 a day, in the morning, is a
+reasonable goal while I am juggling full time work. I also sent a
+LOOONG overdue update to existing 24HourHomepage customers and
+affiliates. I asked them if they'd be interested in an embedded
+version of the site on their website/newsletter. I'll only build it if
+some say they would install it.
+
+Tomorrow, I'll take my leg day workouts in the morning. Take Leche on
+a walk and briefly test the production infra (user create). Big goal
+tomorrow is to get UUID feature written and tested. Will need to get
+Leche more food at lunch.
+
+** Notes
+*** Me
+- [ ] Taxes
+- [ ] Spec books
+- [ ] Leche food & treats
+- [X] Beach
+- [X] Laundry
+- [X] 100 pushups
+- [X] Email 24HourHomepage customers
+- [X] Rent
+- [X] Petco appointment
+- [X] Haircut appointment
+*** Glow
+* 01/29/2022
+** Summary
+I woke up at 8:30am today and took Leche for a walk. The neighbor
+(Hind) and her skidish dog (Zella) followed us on our walk up the hill
+to help socialize Zella. On the route we me another neighbor (Neil,
+owner of Charlie) and invited him to a regular dog "pack" walk. We'll
+do our first one tomorrow with Jonathan and Inez. Neil said he can't
+make it tomorrow.
+
+Had breakfast (4 eggs, toast, strawberries, tea) with Mariana. Tough
+talk about family (the recent chat with my brother). Spoke of
+different futures of living in LA and plans to save. Good
+talk. Mariana went to swim with Paulina and I worked on Glow.
+
+I fixed the EC2 autoscaling issue on dev and deployed prod. Saw that
+ec2 stabilized in both enironments but the workers were restarting
+every 90 seconds or so. Turns out, I built the image with the dev
+envs. Redeployed and everything is smooth on that env.
+
+We went to Nordstom Rack to find a black tie, black shirt for the
+wedding. Got a tie and belt but will get the shirt in TJ. Mariana got
+some shoes and a shirt for her new job.
+
+Stopped at Target for Mariana to get some more clothes for the job. I
+stayed in the car and practice Spanish en Duolingo. Came home worked
+for a bit more before watching a few episodes of Halt and Catch
+fire. Heading to bead now where I'll fall asleep and Mariana will tell
+me about the rest of the show in the morning.
+
+Tomorrow, I'll do leg exercise in the morning then go on the "Palms
+Puppy Pack" walk at 10am. We'll head to the beach for a few hours if
+its nice out.
+
+** Notes
+*** Me
+- [X] 100 push ups
+- [X] Nordstrom rack
+- [X] Petco appointment
+- [ ] Pitch 20 people on twitter
+*** Glow
+- [ ] Spec: unlisted content
+- [ ] Confirm with James chat and stream keys
+- [ ] increase dev instance size
+- [X] autoscaling group
+- [X] Deploy production environment, piecemeal
+  - [X] infra
+    - [X] containers
+      - [X] deploy
+    - [X] lambda
+* 01/28/2022
+** Summary
+
+I woke up at 6:30am today but was in a zombie mode reading. Took Leche
+on our walk at 8am, she was pretty sluggish for most of the walk.
+
+Goal today was to get the full production stack up but had some
+interrupts because the worker wasn't running. When we cut over to the
+api subdomain, we didn't update an env var referencing that URL and
+the workers didn't fail gracefully. Patched that and learned that our
+dev system is severly under resourced. That's fine for now since
+production is coming online where we won't be as constrained.
+
+Once it is up, we'll need to run audits to see how many concurrent
+users can do a particular feature. Some possible improvements there on
+resolving lack of heartbeats. Look into redis notifications when a
+document is expired.
+
+Also, discovered that our autoscaling groups were confirgured
+wrong. Going to fix that tomorrow while no one is on the sytem.
+
+Took Leche on a few walks. She got to see the neighborhood pig
+(Ramona) again. She was excited nearly the whole time, trying to run
+over for play. Ramona wasn't having it. Leche didn't bark this time
+but still room for improvement in her approach.
+
+Speaking of which, there is a lady in our neighborhood who is training
+her dog insanely well. This 60lb dog sat ONTOP of a fire hydrant
+wating for her owner. She gave her paw to shake while balancing on the
+hydrant. Alternated paws.
+
+I sold the "Bartisian" machine Mariana got as a white elephant gift
+that neither of us use. $180 to someone on craigslist.
+
+We ordered chinese for dinner and started to watch "Halt and Catch
+Fire" a show about a computer company in Texas in the 80s.
+
+Going to watch one more HCF episode before sleep. Tomorrow I'll fix
+the ECS deploy issue, start messaging on 24HourHomepage again.
+
+** Notes
+*** Me
+- [X] 100 pushups
+- [ ] Robin hood
+
+**** On Mind
+- [ ] 24HourHomepage weekly outreach target
+  - [ ] crawl twitter tools
+  - [ ]
+      """
+I run a creative art/advertising project: 24HourHomepage.com
+I think your NFTs would look great on it and would generate sales for you.
+If you're interested in hearing more, hmu.
+Justin
+
+
+
+I run a creative art/advertising project: 24HourHomepage.com
+I think your NFTs would look great on it.
+If you're interested in hearing more, hmu. ✌️
+Justin
+      """
+  - [ ]
+- [ ] Email affiliates
+- [ ] Email growth list about the project
+- [ ] 24HourHomepage twitter?
+- [ ] Grow twitter following
+- [ ] Prototype book idea
+- [ ] `privatize` tool
+- [ ] Add to gym
+
+*** Glow
+- [X] Investigate HUD link
+- [ ] Spec: unlisted content
+- [ ] Modify autoscaling group's health check type ELB -> EC2
+- [-] Deploy production environment, piecemeal
+  - [-] infra
+    - [X] ssl search
+    - [X] deploy prod website
+    - [X] search
+    - [X] cloudfront
+    - [-] containers
+      - [X] api vars
+      - [X] workers vars
+      - [X] create keys for lambda (and other services)
+      - [ ] deploy
+    - [ ] lambda
+
+* 01/27/2022
+** Summary
+I woke up at 6:30am today but was in deep sleep. I spent about 20min
+writing down my dreams while on the toilet. My workout started at
+about 7am. I had beetroot powder mixed with whey protein powder.
+
+I did two supersets: A) 10x10 pullups, 10x10 ring rows, B) 10x10
+overhead press, 10x10 pushups. Felt good to mix in body weight
+exercises, will do again.
+
+Today I started to deploy our production infrastructure. I had to
+pause that work to investigate an issue with dev. Apparently the
+cloudwatch metrics lib was causing workers to crash. Reverted the
+offending commits and will readdress after prod is up. A few more
+services to deploy tomorrow.
+
+Had some rough chat messages with Joey. Hoping that we'll talk again
+in the future. That was on my mind for most of the day, will mediate
+before sleeping.
+
+Felt noticeably more distracted today. I suspect because of the
+difficult messages earlier. Possibly also because deploying the new
+infrastructure leaves plenty of idle time.
+
+Before sleep, I'm going to change the styling on startingcondition.com
+(so it looks okay on mobile), take Leche for a walk and then take a
+shower.
+
+Oh! On my walk with Leche this morning she took a huge poop that got
+stuck to her butt. She couldn't pinch it so, with the bag, I helped
+her but jeez was that a mistake. Poop everywhere. Came home to wash
+her with soap and water.
+
+** Notes
+*** Me
+- [X] 100 pushups
+- [X] startingcondition style (mobile)
+*** Glow
+- [-] Deploy production environment, piecemeal
+  - [-] infra
+    - [X] vpc
+    - [X] s3
+    - [X] iam
+    - [X] logs
+    - [X] databases
+    - [X] alb
+    - [X] asg
+    - [X] bastion
+    - [ ] search
+    - [ ] containers
+      - [ ] api vars
+      - [ ] workers vars
+      - [ ] create keys for lambda (and other services)
+    - [ ] lambda
+    - [ ] cloudfront
+
+* 01/26/2022
+** Summary
+I woke up at 8am today. 6:30am came and went. Again, didn't set a goal
+for the morning so didn't wake up to do it. Tomorrow I will wake up at
+6:30am and do my weight exercise (superset: 10x10 pull ups + air
+squats, 10x10 oh press + ring rows)
+
+The cloudwatch problem was solved instantly with fresh eyes: the task
+needed to declare the network bridge. After some IAM roles
+back-and-forth, tested that it worked and deployed it.
+
+The remainder of the work day was spent estimating sizing for
+production. Wrote a proposal that I'd like to build tomorrow.
+
+Mariana and I had lunch at the neighborhood thai place. I ate crab
+fried rice as I'm only eating fish M-Th this year. It might be the
+best lunch dish in the neighborhood. Not too heavy and delicious.
+
+My back was strangely tight all day. Slept on it wrong I think. After
+work, I hung upside down for about a minute, maybe less. It's been a
+while since I've done it. Great mental training too. I did my 100 push
+ups before going outside.
+
+I called my Mom who was feeling sick yesterday from the second
+vaccination dose. She's feeling better today. Left a voicemail for
+Joey and will text tomorrow morning.
+
+Kinda wiped so I'm going to draft ideas for a 24HourHomepage
+embeddable ad and go to bed in order to wake up early! After the
+workout tomorrow, I'll take Leche on a walk and start drafting my new
+outreach plan.
+
+** Notes
+*** Me
+- [X] Call Mom
+- [ ] Text Jacqueline & Jered
+- [X] Deliver Claudia & Servando's 2022 challenges
+
+*** Glow
+- [X] Cloudwatch metrics
+- [X] Add metrics to workers
+- [X] Deploy metrics code
+- [X] Production sizing doc
+- [ ] Deploy production
+- [ ] VPN access to admin
+
+* 01/25/2022
+** Summary
+
+I woke up at 6:30am today. Actually, a about 5 minutes before. Leche
+was trying sneak on the bed as she does when the sun is about to
+rise. She wasn't very stealthy so I pushed her off. My phone was in
+the other room and I hoped it was still early morning in order to
+catch a few more hours of sleep. Five minutes later or so the alarm
+went off.
+
+Anyway, I was energized enough to start the day with a workout. I made
+a protein, beatroot, banana, oatmeal, eggwhite smoothy and started my
+chest workout. I moved the blender into the laundry room so as to not
+wake up Mariana.
+
+I superset bench press 10x10 at 130lbs with Ring dips 10x10. I
+couldn't do the dips to completion but it was better than the last
+time I did them. I finished the workout with 4 sets of 25 reps of pushups.
+
+I walked to 7/11 to get milk for Mariana. She threw a mini tantrum
+about not having milk last night for cereal or cookies. I got home by
+7:55am and took a shower. Leche didn't want to go on our morning walk
+but eventually she got out of bed. We went up the hill, she did two
+big poops and she went back to bed.
+
+This morning I finished some polish work for Glow and researched
+cloudwatch metrics. We had our all hands and look close to launch. I
+deployed the latest API. Cloudwatch metrics need an agent running
+with each api. Investigating that tomorrow.
+
+I felt great nearly all day. The great feeling of migrating off
+rewardful, waking up early and blasting my pecks. Good energy.
+
+Had some chats with Mariana about seating arrangements for summer. I'm
+not going to stress about it until we get RSVP. It is silly to do the
+planning when each RSVP yes/no changes the arrangement. It's fun,
+yeah, but it's wasted effort until we know who is coming.
+
+Help Mariana carry two pots to the kiln for firing. Cooked some frozen
+shrimp to eat with leftover Berkeley Bowl stirfry for dinner. Leche
+got 3 shrimp mixed into her food.
+
+We walked to the pottery studio to pick up Mariana for the night and
+returned to watch the last episode of Ozark season 4 part 1. Going to
+bed at 10:45pm though I may put on some meditative music to helpf fall
+asleep.
+
+** Notes
+*** Me
+- [ ] Spec out embeddable 24hourhomepage
+- [X] Get measurements for gym
+*** Glow
+- [X] Filter ancient records from search
+- [X] Return version to client
+- [ ] Cloudwatch metrics
+- [ ] Dashboards we care about:
+  - [ ] requests per minute
+  - [ ] http status code per minute
+  - [ ] response time
+- [X] Deploy patch version
+- [ ] Spec out production load test
+- [ ] Sync with James about broadcast context
+
+* 01/24/2022
+** Summary
+I woke up at 8:30am today after not sticking the 6:30am landing. I'm
+going to move my phone to the other room. When I keep it in the room
+within arm's reach, I pretty regularly wake up just to tap it to
+sleep. No bueno.
+
+After standup I deployed the waitlist site with Albert. Some back and
+forth to get the terraform config right. Great tool.
+
+Walked with Mariana to her clay studio to pick up the rest of the
+wedding gifts. They look great. Folks are going to love them.
+
+Worked on some other polish tasks before the work day was done. Went
+to Trader Joes to pick up a curry sauce, ended up getting the week's
+groceries too.
+
+Made a veggie curry with like 5 vegetables. I honestly don't know
+which vegetables go well with each other but know that beyond a 5 in a
+curry it runs the risk of getting muddled crazy flavor.
+
+This was great though. Added super firm tofu and ate over rice.
+
+On the way back from Trader Joes, found $10 bill in our
+driveway. Yoink.
+
+From about 7pm till 10:30pm I coded up, tested and migrated off of
+getrewardful.com. Fine to use that service for a little bit but better
+to manage myself (no cost).
+
+It's almost 11pm now, I'll take Leche for a walk and wind down for
+bed. I'd like to wake up and do my chest workout early tomorrow
+morning.
+
+** Notes
+*** Me
+- [ ] Migrate off rewardful (fuck yeah!)
+*** Glow
+- [-] Deploy waitlist site
+  - [X] Create bucket
+  - [X] Create IAM role to upload to s3 bucket
+  - [X] Initialize git-crypt in glow-website
+  - [X] Create scripts/s3_upload based on IAM key stored in glow-website/secrets
+  - [X] Run script
+  - [X] Submit PRs
+  - [X] Setup DNS redirect to cloudfront
+  - [X] Setup CORS
+  - [ ] Test SMS hits phone number
+  - [X] Cloudfront not redirecting properly (/* to index)
+- [X] Increase auth sessions to 60 days (refresh, 90 days)
+- [X] Emoji problem
+- [X] Font size problem
+- [ ] Production sizing
+* 01/23/2022
+** Summary
+
+Today I woke up at 8:30am naturally after going to bed around 2am. We
+had friends over for pizza party and stayed up late talking with them.
+
+I made a beat powder + protein powder + banana + milkshake for
+breakfast. Made scrambled eggs with bellpeppers, zuccini and cheese
+for Mariana and I.
+
+We took Leche on her long walk up the hill.
+
+We went to Venice for an afternoon at the beach. First to Ray Ban
+store to pick up some sunglasses for me for the wedding. Mariana wants
+them for outside pictures I think.
+
+We parked the car and walked to the beach where there was a new huge
+sand dune made. Kids were sliding their boogy boards down it. Others
+were running down it into the ocean. Kids loved it.
+
+I took a short nap with my shirt on my face and meditated to binaural
+tone. Marie joined us and chatted with Mariana for a few hours.
+
+We left around 5pm with plans to meet Simon at 6pm. Mariana stopped at
+Everlane first to buy some new shoes and pants for her new job.
+
+I took Leche on a quick bathroom walk before heading over to Simon's
+with her.
+
+We got to Simon's and set up Catan before ordering our takeout
+food. Cuban. Simon and I got bistec de pollo and Mariana got ropa
+vieja. We returned to eat and play our first game. Simon won in a blow
+out. We went to his apartment's jacuzzi. After 10min or so, other
+neighbors joined us. We stayed in the jacuzzi for about half an hour.
+
+We returned to see a happy Leche greeting us. We played another game
+of Catan. This board was more fairly distributed. I had a strong lead
+for most of the game and would have ended it earlier had Mariana not
+pulled a sneaky move to intercept my vision of longest road. It set me
+back but eventually I got it from her and won the game.
+
+We returned home where I took Leche for another short walk and we
+emptied and loaded the dishwasher. I did my 100 push ups, typed this
+summary and am about to take a shower before heading to bed. We'll
+watch one episode of Ozark in bed.
+
+Also, early today my Dad emailed me an email with "Alex is okay, but"
+subject. I thought it was a revival of a thread from last year where
+he got into a rear end accident. It was not. He broke his left arm
+pretty badly while snowboarding. No bueno. He's okay after surgery and
+is resting at the Mt House now. Glad he's okay.
+
+* 01/22/2022
+** Summary
+Woke up around 8:30am today after staying awake until around 1:30am to
+watch the first four episodes of Ozark season 4. We capped it at 3
+episodes but then were talking in bed and couldn't sleep for a few
+hours so we watched one more episode. Made it nearly through all of
+the last episode without falling asleep.
+
+Made a beatroot + banana + milkshake for breakfast and had 4 scrambled
+eggs. Made 3 fried eggs, 2 for Mariana and one for Leche.
+
+I hopped on a focusmate call to do the 2022 goals paperwork. It took
+maybe 2.5 hours, maybe less, to get all the cards written. Next year,
+it'd be good to get a label maker system or make it all digital with
+some nice physical touch. Something easier to automate but with a nice
+touch.
+
+Mailed all the dollars for the addresses I knew about. Leche enjoyed
+the new walk we took.
+
+Came home and cleaned the stove top, kitchen counters and bathroom
+sink before guests arrived. Got to diddy with the guitar for a bit
+before chopping veggies for the pizza party.
+
+Did my 100 push ups then took a quick cold shower. My energy levels
+were somewhat low, Mariana commented on it a few times. Mostly from
+the junk food I had last night (milkshake and popcorn), lack of sleep,
+and feeling like the yearly goals work ate up too much of the day.
+
+The party was fun and the pizza was good. It was pretty loud
+sometimes, even with music off or low, with everyone shouting their
+conversations at each other. Maybe two or three simultaneous
+conversations.
+
+We chat for a few hours before I got out some dice to play "sixes" for
+one round. After that, we played Exploding Kittens for two
+rounds. Everyone loved the game. Less so the second round since people
+were getting tired and their tempers short.
+
+I took Leche out twice during the Exploding Kittens games. Once for
+pee, once for poop. She has started going to the laundry room to
+indicate she needs to go out. Odd since we exit through the front door
+nearly all the time.
+
+Going to bed after the guests leave. Tomorrow, we'll go to the beach
+for a bit, buy some sunglasses for me (for the wedding), check out
+some clothing stores for Mariana's new job then head to Simon's in the
+evening for Settlers of Catan and jacuzzi. We'll pick up empanadas for
+Empanada Place
+
+** Notes
+*** Me
+- [X] Send 2022 Dollars
+- [X] Make pizzas for party
+
+* 01/21/2022
+** Summary
+** Notes
+*** Me
+- [X] Trim beard and shave
+- [X] 100 push ups
+- [ ] Prepare dollars
+- [X] Make pizza dough
+- [X] Leche dog food
+*** Glow
+- [X] zombie procs
+  - [X] worker aborts if heartbeat drops
+  - [X] worker calls /forceStop
+  - [X] test
+  - [X] initialize returns a hash of the broadcast for imStillHere verification
+  - [X] test
+- [X] deploy code
+- [X] new certs
+- [X] Smoke test runbook
+* 01/20/2022
+** Summary
+I didn't stick the 6:30am wake up this morning. I went through the
+dream leveled justification of "I can do my workout at lunch", "I
+already missed yesterday's early alarm what's another day?". No bueno.
+
+Still, it was pretty lame I didn't do my workout early morning. No
+guarantee I can get the workout in at lunch time (and I was pretty hungry).
+
+Built a lot of glow features today. forceLogoutUser, fixed displayName
+on search, started the zombie proc problem (2/3 done)
+
+Did my workout and laundry during lunch. Did half of GVT (10x5) on
+legs, just squat and deadlift.
+
+Had a good call with Chase, to catch up and talk 2022 goals. Nice to
+hear from old friends.
+
+Booked hotels for our weddings (in SF and Tecate) and my Mom's flight
+from PDX to SFO. Did my 100 pushups while waiting for Mariana.
+
+Walked with Mariana to 7/11 so she could pick up milk and cereal for
+dinner. I had left over salad and salmon.
+
+It's 8:30pm now, I'm going to work on the affiliate migration and
+finish up laundry before bed.
+
+** Read
+https://www.gutenberg.org/files/31516/31516-h/31516-h.htm
+** Notes
+*** Me
+- [X] Leg day
+- [ ] Trim beard and shave
+- [X] 100 push ups
+- [X] Book hotels (SF, Tecate)
+- [X] Book Mom's flight
+- [ ] Prepare dollars
+- [X] 24HourHomepage -- Stylize the affiliate page
+- [X] Laundry
+*** Glow
+- [X] forceLogoutUser
+  - [X] setAccessToken
+  - [X] forceLogoutUser
+  - [X] test
+    - [X] login twice
+    - [X] see that `user_tokens_${userID}` hash exists
+    - [X] manually expire one of the hash fields
+    - [X] login third time
+    - [X] see that expired key is pruned from the hash
+    - [X] force logout
+    - [X] see that no login key works
+    - [X] see that all hash keys
+- [X] TikTok sucks video notes
+  - TikTok has a creator fund which get distributed amongst users who get views
+  - It is a fixed amount, not percentage of revenue
+  - Creator payout gets depreciated as TikTok gets more popular
+  - Competitors who pay more (eg: Youtube Shorts, IG Reels) are not as
+    enticing due partly to lack of culture there. Feed algorithm sucks
+- [X] displayName search
+- [-] zombie procs
+  - [X] return URL early (reference template)
+  - [X] imStillHere
+  - [ ] worker aborts if heartbeat drops
+  - [ ] worker calls /forceStop
+  - [ ] initialize returns a hash of the broadcast for imStillHere verification
+  - [ ] test
+
+* 01/19/2022
+** Summary
+Today I woke up at 6:30am...then went back to bed... again! Went to
+bed around 11-11:30pm or so but no excuse. Just unfocused morning
+workout routine and not looking forward to blasting my legs. Will
+continue this 3 times per week GVT program until March wedding though.
+
+Had our standup at 9am where two new features were requested from
+team. Built both of them today and cleared a few backlog tasks.
+
+Had the shrimp + cabbage for lunch and a couple focusmete
+sessions. Mariana got her second offer from the company she
+interviewed at accepted a few hours later. Some back and forth
+conversation with her about accepting the offer. Her gut was to say
+yes but she wanted to talk out some of that decision.
+
+I threw the ball with Leche in our driveway for a few minutes before
+we had to head out to pick up our rings. Drove back and started
+preparing dinner for Marie who just moved into town (Venice). We
+discussed officiating our wedding. Mariana has a few hard rules for
+that day which I'll respect.
+
+Took Leche for a walk, came back did my 100 push ups and got Marie on
+board for the 2022 yearly goal challenge.
+
+Getting ready for bed though I may work on privatize for a bit.
+
+** Notes
+*** Me
+- [X] Pick up rings
+- [X] 100 push ups
+- [X] Email Mona about music and reminder
+- [ ] Book hotels
+- [ ] Book Mom's flight
+- [ ] Prepare dollars
+- [ ] Stylize the affiliate page
+*** Glow
+- [X] Albert -- retry waitlist
+- [X] Torin -- isFollowing
+- [X] Torin -- popularSearches
+- [X] Sync with Torin
+- [X] git-crypt
+- [ ] Suspend user
+
+* 01/18/2022
+** Summary
+
+I woke up today at 6:30am but didn't stick it. Went back to bed for
+2.5 more hours and finally got up at 9am. Not great. I need to give
+myself more time to rest after returning home from a trip, I
+underestimate the time to return to return.
+
+Worked on fixing CORS for Albert on Glow as he was blocked. Discovered
+an issue with our infrastructure which I patched during our all-hands
+then scheduled a larger fix for 7pm-8pm later. The actual fix took
+about 80minutes to fix because I had to destroy several AWS resources
+before spinning up new ones.
+
+I mailed the remainder of our wedding deposit to SF City Hall and
+talked with Mariana about her job offers and prospects.
+
+Sat down a few times today as returning to the standing desk treadmill
+after 5 days off (and no exercise) was tiring. The knees feel it first
+for some reason.
+
+Had some fake chicken nuggets for lunch and a couple cucumbers. Made a
+shrimp stir fry (green and purple cabbage, carrots, shrimp, garlic,
+ginger) for dinner.
+
+Took Leche on a walk to pick up Mariana from ceramics. On the walk we
+passed a dog owner with his dog on a date outside Madre the mexican
+restaurant. I stopped before passing with Leche and asked if it was
+safe to pass the doberman who looked set on attacking Leche. He said
+"yeah, he's friendly" but then had to pull him off as he lunged toward
+her. Not cool.
+
+Came home to wind down. Doing my push ups now before we finish the
+last episode of MindHunter and hit the hay.
+
+** Notes
+*** Me
+- [ ] 100 push ups
+- [ ] Email Mona about music and reminder
+- [ ] Book hotels
+- [ ] Book Mom's flight
+- [X] Reply to emails (Claudia)
+- [ ] Prepare dollars
+*** Glow
+- [X] Cors
+- [X] Deploy new infra (dev)
+* 01/17/2022
+** Summary
+
+I woke up later today, probably around 9:30am or so. It's MLK day so
+we had the day off and took advantage of that by sleeping in. I shared
+the Spanish version of Wordle with Mariana and Maru. They both liked it.
+
+I took Leche on her morning walk and returned to eat an omelette Maru
+had made. 3-egg with asparagus and bell peppers and a chipotle cream
+sauce. Delicious.
+
+Dropped my car off to get it washed. Maru had a coupon which
+apparently made it free.
+
+I was a bit dizzy this morning. Odd. Not from any motion or
+activity. Just a persistent feeling of dizziness for about 90minutes
+in the morning. I was kind of worried by it so had a cup of black tea
+thinking the vasodialating effects of caffeine would help. Maybe they
+did. Maybe it was psychosomatic.
+
+Afterward we went to pick up shoes for the wedding from BBB. Found
+some nice ones with a squared/round toe. Mariana noticed a suit vendor
+on our way out and said we should check it out. We went to Samborns
+first to check if they sold the Spanish version of "Watch ya Mouth"
+(the game we played during the holidays). They didn't. Went to a Torta
+shop afterward. Had a milanesa which was too rubbery for my
+tastes. Split flautas with Maru also who agreed they were too cold.
+
+We went to the suit vendor afterward and tried on three suit
+sizes. Two suit styles total. After much back and forth we bought the
+all black suit with a white shirt. It will be slightly altered to make
+the waste tighter and the legs longer. Suit, shirt and pocket square
+were all less than $200 USD. Everyone was pretty impressed with
+that. At that price I could wear a suit every day.
+
+Returned home to pick up the car. Didn't know the coupon was for a
+free service (I figured a discount). Returned home and packed car to
+head back to LA.
+
+Got back around 8:30pm and took Leche for her night-time walk. Had two
+gorditas, about a cup of blueberries and two glasses of milk for
+dinner.
+
+We watched two episodes of MindHunter and have one remaining. Will
+watch that this weekend probably.
+
+Tomorrow, I'd like to wake up to do another leg day exercise and then
+do the next task on the rewardful migration.
+
+* 01/16/2022
+** Summary
+
+Today I woke up at 9:30am for breakfast with Mariana's
+family. Breaksfast was scheduled for 11am so everyone showed up at
+noon. We had gorditas from "Las Delicias" the breakfast spot we
+love. Delicious.
+
+Everyone stayed and chatted until about 4pm. Rafaella, Mariana's
+neice, is crawling now and like to climb the stairs. We climbed with
+her to make sure she didn't fall. She like feeding Leche crackers. I
+took her to look at the other dogs (from through the screen
+door). They seemed fine with her but when I bent down with her to wave
+at them, they barked and scared her. Close call, nobody likes to make
+baby cry.
+
+Took Leche on a walk after everyone left and then stayed downstairs
+and played with node's crypto package to encrypt streams from stdin. I
+think I have all the pieces to make privatize. Some code
+organizational questions to answer first (where does the key live?
+user specified? an ignored dot file?
+
+We had comida china for dinner. Noticably as good as Americanized
+Chinese food. Took Leche on another walk to see if she would poop (did
+not). Returned and did the dishes.
+
+Going to watch more MindHunter before bed
+
+** Notes
+*** Me
+- [ ] Privatize -- tool
+  - [ ] test https://github.com/wangsijie/aes-encrypt-stream#readme
+* 01/15/2022
+** Summary
+I woke up at 8:30am today after attempting to watch a few episodes of
+"Mindhunter" in bed last night with Mariana. Didn't get very far
+before falling asleep. Pretty vivid dreams again.
+
+We drove to Tecate to book the wedding venue for June. Met the event
+manager who seemed more professional in person than over email. Drove
+back to TJ, more traffic than usual.
+
+Stayed at the house for a bit before going to Analeh's parents house
+for an asada. Delicious meat, not sure what (if anything) it was
+marinated in but muy sabrosa. We played simple game of chance called
+"contento" where in you are dealt a card and have the choice to either
+keep the card or switch with the person to your right unless you are
+the last person in the turn in which case you can keep yours or switch
+with the top card in the deck. The lowest card loses. Simple rules and
+fun for the whole family.
+
+The power went out in playas and so we talked by candle light for a
+while. Around 10:00pm we packed it up and went home but were invited
+to hang out at the airbnb for a bit before heading home. First we
+brought Leche but then were unsure how she would be with the two dogs
+at the house, so we brought her back. The airbnb was right around the
+corner, so nbd.
+
+One of the dogs at the airbnb was obsessed with playing fetch. He
+wouldn't take no for an answer, kept dropping his ball in Alan
+(Analeh's boyfriend) lap. I wanted to tire the dog out so through it
+12 consecutive times before the dog tapped out.
+
+We returned at midnight and might watch a show before bed, not much
+obligations tomorrow other than breakfast at the house. Lazy Sunday.
+
+** Notes
+*** Me
+- [X] Wedding venue visit
+- [ ] Privatize -- tool
+  - [ ] Stream-based write / encryption tool
+
+* 01/14/2022
+** Summary
+I woke up at 6:30am today but re-set it for 7:15am. I think in order
+for this rise before sunrise thing to work I need to declare what I
+need to do within the first 15minutes of my alarm going off. There are
+also services like BeeMinder which will take your money if you don't
+do your stated goal.
+
+Worked on Glow all day, had a call with half the team about the zombie
+problem. Turns out the chat based solution won't work since we can't
+add an SDK to a widget. We've got a possible solution but will need to
+prototype one thing next week to see it through. It might mean two new
+(hairy) systems on the backend.
+
+Had a delicious chipotle cream salmon with rice for dinner. Talked
+with Pablo about different sales projects.
+
+Returned upstairs to finish the deploy. While it was deploying did
+some product research and responded to emails.
+
+The rest of tonight and (parts of this weekend), I'll work on the
+rewardful migration.
+** Notes
+*** Me
+- [X] 100 pushups
+- [X] Text Joey
+*** Glow
+- [X] Deploy 0.10.0
+- [X] Spec out new zombie system
+- [X] POC video delayed update
+
+* 01/13/2022
+** Summary
+
+Woke up at 6:30am but didn't have a plan so walked around the house
+and went back to lie in bed to recall my dreams. Didn't
+work. Eventually got out of bed at 7:15am, did a DuoLingo session and
+responded to two pings at work.
+
+Took Leche on a walk, ate frittata from yesterday and cottage cheese +
+blueberries. Added some cottage cheese to Leche's food, she ate it
+right up.
+
+Had a call with Kevin Favro to discuss 2022 goals. Great to catch up
+with him. Worked on Glow features (waitlist, zombie X problem) and
+unblocked the zombie problem. Will test that on Friday.
+
+Went to the bank at lunch to withdraw cash for the wedding deposit on
+Saturday.
+
+Packed and was on the road for TJ by 6:30pm. Arrived around
+9pm. Stopped at Jack in the Box and ate chicken strips and fries for
+dinner. Good but pretty oily, would've been nice to have some clean
+food to degrease my mouth.
+
+Took Leche for a poop walk when we got to TJ. Spent about 40min on
+DuoLingo in bed and forgot to check-in this daily summary.
+
+** Notes
+*** Me
+- [X] Go to bank
+- [ ] Call Mom
+- [ ] Call Joey
+- [X] Catch up call with Kevin
+- [ ] Privatize -- tool
+- [ ] Design pulley based gym
+- [-] Prepare 2022 goals dollars
+  - [X] Acquire dollars
+  - [X] Find sticker printer
+  - [X] Make sticker
+  - [X] Print stickers
+  - [ ] Write letters
+  - [ ] Mail letters
+*** Glow
+- [ ] Add username availability endpoint
+- [ ] Zombie process
+* 01/12/2022
+** Summary
+
+I woke up at 6:30am this morning and did my DuoLingo sessions while
+waking up. I started my workout by 7:15am and finished by
+8:15am. Another GVT (10x10) chest day, this time I superset my
+exercises and tried to do a 4010 rhythm for the bench. I dropped the
+weight to 100lbs so that I could do the full volume without hitting
+failure. Not bad at all, chest wasn't nearly as on fire as last time.
+
+Had beetroot powder mixed in water again. Maybe that helped with
+indurance too.
+
+Had about 30min before work to work on a 24HourHomepage feature (react
+form to post affiliate data). Hoping to get some time on Saturday to
+finish it up before deploying next week.
+
+Finished out the waitlist Glow features.
+
+At lunch hour I refilled our water and bought some fruit from Trader
+Joes. Confirmed with venue that handing them money (and get receipt)
+is best route forward (bank account number they gave was missing one
+digit).
+
+Threw the ball with Leche after work and went on a few walks with her
+today. Going on one more right now before bed.
+
+Will read more of crypto101.com (research `privatize`) for before
+going to sleep.
+
+*** Food
+*** Drink
+*** Fitness
+superset 10x10 bench 100lbs, inclined push ups (10x10)
+superset 10x10 ring dips, decliped push ups (7x10, started late)
+
+** Notes
+*** Me
+- [X] Call Bank
+- [X] Workout chest
+- [X] Water + Fruit
+- [X] Email brothers
+- [ ] Privatize -- tool
+- [ ] Design pulley based gym
+- [-] Prepare 2022 goals dollars
+  - [X] Acquire dollars
+  - [X] Find sticker printer
+  - [X] Make sticker
+  - [X] Print stickers
+  - [ ] Write letters
+  - [ ] Mail letters
+*** Glow
+- [X] Waitlist
+  - [X] Tempoary lock username
+  - [X] Don't index waitlisted user
+  - [X] Admin API -- Remove from waitlist
+    - [X] index user
+  - [X] Test "remove from waitlist"
+* 01/11/2022
+** Summary
+
+I woke up this morning at 6:30am. A bit easier today even though legs
+are still jelly from yesterday's leg workout. Had beetroot powder in
+8oz of water on an empty stomach. Noticeable flushness in chest, not
+as strong as I antcipated though. Beet "juice" wasn't as bad as I
+thought. Did my 100 push ups early and DuoLingo early too.
+
+Before work I started to migrate off Rewardful for
+24HourHomepage.com's affiliate program. It's too expensive and hasn't
+yielded the right results for cost. I emailed their team with an
+offer: let me use the product for free in exchange for 5% percent of
+each affiliate sale made. They replied quickly and seemed kind of
+upset from the tone of their reply.
+
+Took Leche on her walk at 9:00am. Worked out Glow features (spec'd out
+waitlist and started work on APIs).
+
+Asked Jered & Jacqueline for suit recommendations; they gave some good
+ones.
+
+At lunch, went to bank to pick up cashier's check for wedding.
+
+After work sold old surfboard I bought two years ago (prefer the big
+beginner boards we have).
+
+Made pan salmon and roasted brussel sprouts for dinner. Caught up with
+Tony Askar for a while about life and 2022 goals. Nice to catch up.
+
+It's 9:30pm and I'm pretty wiped again. Gonna hit the hay.
+
+Tomorrow morning I'd like to get a functional (unstyled, posting to an
+api) affiliate form working before work.
+
+** Notes
+*** Me
+- [X] 100 push ups
+- [X] Cashier's check -- Pay City Hall
+- [X] Smart & Final
+- [ ] Prepare 2022 goals dollars
+  - [ ] Acquire dollars
+  - [ ] Print stickers
+  - [ ] Write letters
+  - [ ] Mail letters
+- [ ] Privatize -- tool
+*** Glow
+- [X] Worker signaling
+- [-] Landing page
+  - [X] Spec
+  - [X] API 1
+  - [ ] API 2
+- [ ] Admin endpoint -- suspend user
+  - [ ] user session
+* 01/10/2022
+** Summary
+
+Today I woke up at 6:30am and started my workout by 7:15am. Pretty
+zombie like for the first 45min of the day. Not really tired just
+waking up. Sort of dragging my feet to do the 10x10 lifts.
+
+I didn't do 10x10 leg day but did 5x10 (5 sets, 10 reps) of squat
+(120lbs), bulgarian split squats (bodyweight), deadlift (120lbs) and
+one leg "bow-erianas" (bodyweight). Took Leche on a walk before work.
+
+Deployed last weeks features and hit the backlog. Got three small
+tasks done and commented on a few features. One big one: we may need
+some video processing on the backend. TBD.
+
+My legs were jelly today after the workout. Threw the ball with Leche
+in the driveway for a bit.
+
+Re-watched part of Matrix 4 while eating dinner.
+
+Passively researched a new product.
+
+*** Food
+1 english muffin, 3 hard boiled eggs, half block tempeh, 2 cups red &
+green cabbage, 1 carrot, 10 prunes, tofu garlic noodles
+
+*** Drink
+8oz water, 10oz whey protein drink, 3oz sparkling water, 16oz
+sparkling water
+
+*** Fitness
+superset 1
+5 (sets) x 10 (reps) -- Squat 120lbs
+5 (sets) x 10 (reps) -- Bulgarian split squats
+
+superset 2
+5 (sets) x 10 (reps) -- Deadlift 120lbs
+5 (sets) x 10 (reps) -- One leg "bow-erianas"
+
+Legs are jelly
+
+** Notes
+*** Me
+- [ ] Pay city hall
+- [ ] Prepare 2022 goals for everyone
+- [X] Workout -- 10x5 (Squats 120, Romanian Split Squats, Deadlift 120, One Leg "bow-erianas")
+- [ ] Privatize -- tool
+  - [ ] Stream-based write / encryption tool
+
+*** Glow
+- [X] Deploy latest backend
+  - [X] Cut new images
+  - [X] Migrate db
+- [X] Ping Albert about waitlist
+- [-] Hit the backlog
+  - [X] file size -- https://trello.com/c/WlQPodPT/156-file-constraints-on-uploads
+  - [X] linter -- https://trello.com/c/irZ7jSZT/138-add-linter-block-on-merge-if-errors
+  - [-] Log X-forwarded-for -- https://trello.com/c/ozIwpJi6/154-log-x-forwarded-for-header-to-get-request
+  - [ ] Add git-crypt to infra
+  - [ ] Subscribe to end events
+
+* 01/09/2022
+** Summary
+
+After watching two episodes of Mindhunter until 1am last night, we
+slept in until 10am, well rested. Took Leche on a short walk to the
+ATM. She had already gone on her bathroom walk with Leo earlier.
+
+We went to "Las Delicias" for desayunos. I ordered chiliquiles rojos
+con dos huevos y una gordita con carne on the side. Delicious. Maybe I
+just order the gorditas next time, 3 of them.
+
+After that, we came home and had tea before packing to return to
+LA. We filled up on gas and the lady who pumped the gas managed to
+fill it up way past the original auto-stop of the pump. From 725 pesos
+to 950 pesos.
+
+The drive back to LA was pretty fast. Listened to several planet money
+podcasts while Mariana and Leche slept. When we got home, we took
+Leche for a walk and watched more Mindhunter (the rest of season 1)
+until 12:00am.
+
+It's a gripping show but I'm glad it's only two seasons.
+
+*** Food
+*** Drink
+*** Fitness
+
+** Notes
+*** Me
+- [X] Breakfast at Delicias
+- [X] Drive back to LA
+* 01/08/2022
+** Summary
+(Writing this on 01/09/2022)
+
+I woke up without an alarm clock around 10am or so. Great feeling to
+have every now and then.
+
+A nice lazy day. Took Leche for her morning bathroom walk. Returned to
+eat a spinach and cheese omelete. Had an fresh squeeze orange juice
+with the meal.
+
+Made an 10oz cup of gingko biloba tea and chat with Maru while Mariana
+got ready to go meet the wedding photographer downtown.
+
+Photographer (Valeria) was very friendly and asked lots of questions
+about us and the day of. Paid our deposit and will pay the rest on
+wedding day.
+
+Returned to Playas, took Leche for another walk and to ATM before
+heading out for dinner and the nights entertainment: an old singer
+friend of Maru's giving a performance with her band. Sang mostly 60s,
+70s, 80s songs en Ingles. We were early and walked around downtown for
+a little but returned to wait in the car where it was warmer.
+
+Before the show we ate at cevicheria "Nice". Delicious. I think I
+should only get the tuna tostada from now on. It's insanely good. The
+tacos were pale in comparison (and I tried 4 different types)
+
+After a few hours (maybe a dozen songs) we returned home to an excited
+Leche who I took for her night walk. We started to watch "Mindhunter"
+a Netflix show I'd heard good things from David Fincher fans.
+
+Watched two episodes before falling asleep. At some point in the
+second episode Maru spilled Mariana's hot chocolate she rested on the
+headboard. We paused to change the sheets and clean the chocolate
+mattress stain.
+
+Went to bed around 1:30am. Leche slept in Maru's room on top of Maru.
+
+
+*** Food
+
+Spinach, cheese, omelette with avocado and tomatoes on the side. 2.25
+tuna tostadas, 1 taco pescado (frita), 1 taco de camerone, 1 taco de
+pulpo "chicharon", 1 taco de marlin.
+
+*** Drink
+8oz orange juice, 10oz te gingko biloba, 8oz te verde, 12oz clamato
+sin cerveza, 12oz agua mineral
+
+*** Fitness
+Dog walks
+
+Need to figure out what the 100 push ups challenge is if I intend to
+do serious chest routines. I think I just do it anyway or give myself
+a few options to choose from (100 push ups OR 100 air squats OR 5 min
+mountain climbers)
+
+* 01/07/2022
+** Notes
+*** Me
+- [ ] 100 push ups, 100 air squats or 5min mountain climbers
+- [ ] Evaluate tweethunter
+- [ ] `privatize` tool
+  - [ ] privatize init -- create symmetric key
+  - [ ] privatize encrypt -- encrypt (if necessary) file
+  - [ ] privatize decrypt -- decrypt (if necessary) files
+  - [ ]
+*** Glow
+- [X] Render "no messages" empty state
+- [X] Templatize APP ID in chat.html
+- [X] Create video from puppeteer
+  - [X] Restart api & workers on main, see that video is created
+  - [X] Copy over new chat.html
+  - [X] See that chat renders video
+* 01/06/2022
+** Summary
+Today I woke up at 7am for call with Dad, had to reschedule due to
+extreme weather in Oregon (power outage). I could have stayed up then
+but slept in until 9am. Really deep sleep these last few weeks. Maybe
+the cold, maybe the post goal rest? Stopped listening to those
+binaural beats and I'm still getting great rest. Awesome.
+
+Finished most of the the "polishing" glow feature today. Need to sync
+with Charles tomorrow about some edge cases.
+
+Had the "Rosca de Reyes" party tonight. Mariana hecho dos roscas y
+eran delicioso. Yo recibi el bebe y necessito pagar para las tamales
+(o la fiesta proxima?). We ate frijoles, tamales y papas. Delicous.
+
+Took Leche on her evening walk. Lots of protective dogs in the
+neighborhood. Some are so jacked up they look like they'll bust full
+out the gate that holds them to get Leche. She was only afraid of the
+big pit bull looking ones (maybe because of her pitbull incident).
+
+Came home and am going to bed early.
+
+** Notes
+*** Me
+- [ ] Nudge everyone I sent an email to 2022 goals
+*** Glow
+- [-] HUD polish
+  - [X] Read chat docs
+  - [X] Scope to group
+  - [X] Get test chat app rendered with react
+  - [ ] React-lottie animation
+  - [ ] Create 30s movie from lottie animation
+* 01/05/2022
+** Summary
+Yesterday I...
+
+Yesterday finished the Glow feature and had mostly focused, good
+energy throughout the day. Finally did a workout in the new year (I'm
+waiting until Jan 10th before booking all the goals).
+
+Tried "German Volume Training" which is basically 10 sets of 10
+reps. Absolutely blasted my pecs. GVT ring dips, bench at 120lbs, push
+ups (20 x 5). Each exercise I got to failure before the final
+set. Dips was pretty quick, maybe only 2 or 3 sets before hit
+failure. Bench by the 6 or 7th. Push ups by the second. Would need to
+check exercise log to be sure.
+
+Drove to Tijuana at 7pm and arrived at 9:30pm. Took Leche on a walk
+immediately. Had a funny conversation about managing long hair (how it
+suuuucks)
+
+** Notes
+*** Me
+- [X] Workout (push day)
+- [X] 100 push ups
+- [X] Pack for Tijuana
+- [ ] Nudge everyone I sent an email to 2022 goals
+*** Glow
+- [-] HUD polish
+  - [X] Read chat docs
+  - [ ] Get test chat app rendered with react
+  - [ ] React-lottie animation
+* 01/04/2022
+** Summary
+
+I woke up pretty late today. Another night of deep sleep. I've been
+going to sleep listening to binaural music. I would guess I get an
+1-1.5 hours in before the headphones fall out of my ears. Eventually I
+wake up and put them on my nightstand.
+
+When I did get out of bed (around 9:15 I think) I went to CVS to get
+some shampoo to help with itchy scalp. Since growing my hair out I've
+noticed more hair loss. I've attributed this to exercising more which
+raises testosterone and DHT simultaneously, DHT being a hair loss
+chemical. For a while I thought my itchy scalp was psychosomatic
+(still could be) but after looking at pictures of ring worm last night
+I really started scratching.
+
+Bought a Head & Shoulders shampoo with menthol to provide some
+scratching relief. It worked like a charm. No scratching. Honestly, it
+could have been just build up as I wash my hair maybe once every two
+weeks. I'll condition it if I break a good sweat. Shampoo really only
+after the pool, the ocean or a really good sweat.
+
+Had a call with my old friend from college about 2022 goal
+setting. Great to catch up; had been maybe 6 years?
+
+Had the weekly Glow team sync. Partial attendance. Product nearing
+beta, excited to get it in real users hands.
+
+Posted two items on craigslist for sale (some white elephant gift
+Mariana got and an old 6' surfboard I was waaaay too ambitious
+getting. I'm happy using my 8' foam board).
+
+Finalized all the Glow work to sync screenshots. A bit more moving
+parts than I thought.
+
+Had a good chat with Tim in slack. Had a call with Riley on the
+phone. Nice to talk to so many friends today.
+
+Mariana and I had ramen at the local haunt. Something about today's
+bowl was off. Rubbery chicken. One of two eggs I ordered was hard
+boiled. Bummer. Left a bad taste in my mouth.
+
+Took Leche on a few short walks. She ate shredded chicken mixed in her
+bowl of dog food. She's getting better at fishing out just the stuff
+she wants.
+
+I had the last piece of lassagna from NYE for lunch.
+
+Played a little DuoLingo, enough to get 1 crown today.
+
+*** Food
+Lassagna, 1 bowl of ramen, 2 eggs, 4oz chicken breast, popcorn +
+butter + salt + nutri yeast
+
+*** Drink
+12oz tulsi tea (caffeinated, <50mg), 4oz sparkling water, 8oz water,
+12oz gingko biloba, 8oz water
+
+*** Fitness
+100 pushups, dog walks, walking treadmill
+
+*** Wake up
+9:15am
+
+** Notes
+*** Me
+**** Wedding
+- [ ] Book Hotel
+  - [ ] Confirm with Mariana, dates for us vs dates for moms
+- [X] Matthew music request
+
+**** General
+- [ ] Sell craigslist stuff
+- [ ] Workout (push day)
+- [ ] Follow up on git-filter privatize idea
+- [ ] Migrate off rewardful
+- [ ] How to manage so many 2022 goals
+- [ ] 2022 Goals brainstorming
+  - [ ] Every Dollar app every day
+  - [ ] iTalki once per week
+  - [ ] Grow garlic, ginger, tumeric
+  - [ ] Daily log
+    - [ ] Did you meditate
+    - [ ] Exercise
+    - [ ] Diet
+    - [ ] Post to twitter -- https://github.com/marketplace/actions/send-tweet-action
+  - [ ] Launch another side project
+  - [ ] 24HourHomepage.com -- 1 Hour of Published content
+  - [ ] Get materially better with my tools
+    - [ ] emacs
+    - [ ] kitchen
+    - [ ] exercise
+    - [ ] language
+  - [ ] Exercise more patience
+*** Glow
+- [X] Logs for everyone
+- [X] EventBridge
+  - [X] bundle script for lambda
+  - [X] create, set api key for lambda
+  - [X] associate to correct bucket
+  - [X] update screenshot interval
+* 01/03/2022
+** Summary
+
+Energy was pretty sluggish for most of today. Sleep was pretty deep I
+felt. Woke up around 8:30am, late considering my first meeting is at
+9am. Had a cup of panax ginseng tea and made a smoothy (whey protein,
+frozen blueberries, 1cup oatmeal, 1cup milk).
+
+I always overshoot the proportions in a smoothy and wind up with 3x
+more than I need.
+
+I'm pretty sure the smoothy or the large amount of it made me
+sluggish. Ironic because I have that smoothy with oatmeal because I
+think the fiber with help with constant glucose levels. Worth seeing
+if I feel this way with just oatmeal + whey + berries + milk.
+
+Had leftover beans & greens for lunch and added shredded chicken I've
+been sharing with Leche.
+
+A few focusmate calls today.
+
+At 5:30pm, Mariana and I went to buy wedding rings. We both chose a
+simple gold band. Love it.
+
+We ordered Pinches tacos for dinner as we were both hungry. Not the
+best. Ordering food in a rush while hungry leads to meh meals.
+
+Worked on the Glow EventBridge problem for an hour (1 focusmate
+session) and got data flows working end-to-end. Tomorrow, I'll update
+with proper keys and buckets.
+
+Tomorrow we'll have Ramen and finish off any leftovers as we'll drive
+to Tijuana on Wednesday night. Staying till sunday night.
+
+Interacted with a fair amount of people on Twitter today, some chatter
+around 2021 goals and 24HourHomepage.
+
+Food: smoothy, bean & greans & chicken soup, 3 enchilladas, rice & beans
+Drink: 12 oz ginseng tea, 24 oz smoothy, 16oz sparkling water
+
+** Notes
+*** Me
+- [X] Rings appointment
+- [ ] Wake up before sunrise
+- [ ] Workout: push day
+- [ ] 100 push ups
+- [ ] Follow up on git-filter privatize idea
+- [ ] Migrate off rewardful
+- [ ] How to manage so many 2022 goals
+- [ ] 2022 Goals brainstorming
+  - [ ] Every Dollar app every day
+  - [ ] iTalki once per week
+  - [ ] Grow garlic, ginger, tumeric
+  - [ ] Daily log
+    - [ ] Did you meditate
+    - [ ] Exercise
+    - [ ] Diet
+    - [ ] Post to twitter -- https://github.com/marketplace/actions/send-tweet-action
+  - [ ] Launch another side project
+  - [ ] 24HourHomepage.com -- 1 Hour of Published content
+  - [ ] Get materially better with my tools
+    - [ ] emacs
+    - [ ] kitchen
+    - [ ] exercise
+    - [ ] language
+  - [ ] Exercise more patience
+*** Glow
+- [X] Deploy code
+- [X] EventBridge connections via `infra`
+  - [X] http request is not going through, log error in rejection handler
+* 01/02/2022
+** Summary
+I woke up at 8am to a text from David Sierra-Matos that he and Paulina
+were on they way to our house to drop off their dog Karma for our dog
+sitting day. Leche was explosive the moment she heard her friend enter
+the house. I managed to sleep two more hours before getting up. Only
+possible because we put the two puppies in separate rooms. Very playful.
+
+Waiting for Mariana to wake up before brewing my first cup of coffee
+in a year. First taste of caffeine really. I noted its effects
+[here](https://twitter.com/justinprojects/status/1477748891890040834). Not
+going to re-introduce it to my diet regularly as I feel great without
+it and too anxious with it.
+
+Nudged several friends about 2022 "dollar challenge". Texted out
+details of wedding. Walked dogs twice. Took Leche to the vet for her
+required vaccines (for dog boarding).
+
+Cleaned dishes, watched part of Amazing Spider Man 2 (suuuuuuucked),
+computer time, rough draft of how to `privatize` partial content of a
+file in order to have one log file
+
+Food: 1 piece cardamom coffee cake, 4 hard boiled eggs, Salad with
+chicken breast, 1 tangerine, 2 pieces of lassagna
+
+Drink: 8oz coffee, 8oz guava tea, 8oz sparkling water
