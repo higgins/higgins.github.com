@@ -126,8 +126,11 @@
     let LOGS = {};
     const initialDate = () => {
       const urlSearchParams = new URLSearchParams(window.location.search);
-      const requestedDate = new Date(urlSearchParams.get("date").replaceAll('-', '/'));
-      logDate = requestedDate.toString() === "Invalid Date" ? new Date() : requestedDate;
+      const requestedDate = urlSearchParams.get("date") && new Date(urlSearchParams.get("date").replaceAll('-', '/'));
+      logDate = new Date();
+      if (requestedDate && requestedDate.toString() !== "Invalid Date") {
+        logDate = requestedDate;
+      }
     }
     const earlier = () => {
       // FIXME: this should be based on the entries we pull down from log src
