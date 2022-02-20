@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	  <meta charset="utf-8" />
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	  <meta content="justin higgins" property="og:title" />
+	  <meta content="http://encapsulate.me" property="og:url" />
+	  <meta content="profile" property="og:type" />
+	  <meta content="justin" property="og:profile:first_name" />
+	  <meta content="higgins" property="og:profile:last_name" />
+	  <meta content="higgins" property="og:profile:username" />
+	  <meta content="male" property="og:profile:gender" />
+	  <title>Justin Higgins</title>
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Work+Sans">
+    <style>
+      html, body {
+          cursor: auto;
+          font-family: 'Work Sans', sans-serif;
+      }
+      .logo {
+          display: flex;
+          align-items: center;
+      }
+      .logo div {
+          width: 20px;
+          height: 20px;
+          margin: 0px 5px;
+      }
+      .logo .i {
+          background: Maroon;
+          filter: brightness(90%);
+      }
+      .logo .w {
+          background: Gold;
+          filter: hue-rotate(-35deg) brightness(110%);
+          opacity: 0.97;
+      }
+      .logo .o {
+          background: DodgerBlue;
+          filter: hue-rotate(-5deg) brightness(80%);
+      }
+      body {
+          display: flex;
+          flex-direction: column;
+      }
+      header {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+      }
+      main {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          margin-bottom: 40px;
+      }
+      #controls {
+          display: flex;
+          flex-direction: column;
+          align-self: center;
+          margin-top: 20px;
+      }
+      #controls > div {
+          margin: auto;
+          font-size: 0.9rem;
+          margin-top: 3px;
+          /* If you want to implement it in very old browser-versions */
+          -webkit-user-select: none; /* Chrome/Safari */
+          -moz-user-select: none; /* Firefox */
+          -ms-user-select: none; /* IE10+ */
+
+          /* The rule below is not implemented in browsers yet */
+          -o-user-select: none;
+
+          /* The rule below is implemented in most browsers by now */
+          user-select: none;
+      }
+      #controls > div > span {
+          color: dodgerblue;
+          text-decoration: underline;
+          cursor: pointer;
+      }
+      #container {
+          white-space: pre;
+          display: flex;
+          flex-direction: column;
+          align-self: center;
+          margin-top: 20px;
+      }
+      .disabled {
+          color: lightgrey !important;
+          cursor: default !important;
+      }
+    </style>
+    <script src="/scripts/writing.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="logo" style="cursor: pointer" onClick="author()">
+        <div class="i"></div>
+        <div class="w"></div>
+        <div class="o"></div>
+      </div>
+    </header>
+    <main>
+      <div id="controls">
+        <strong id="renderDate"></strong>
+        <div>
+          <span onClick="earlier()">Earlier</span>
+          <span onClick="today()">Today</span>
+          <span id="later" onClick="later()">Later</span>
+        </div>
+      </div>
+      <div id="container">
+      </div>
+    </main>
+  </body>
+  <script>
+    // TODO: pull date from qs if present on initial load. don't
+    // render if greater than today
+    const container = document.getElementById("container");
+    const renderDateContainer = document.getElementById("renderDate");
+    const laterButton = document.getElementById("later");
+    let logDate;
+    let LOGS = {};
+    const initialDate = () => {
+      const urlSearchParams = new URLSearchParams(window.location.search);
+      const requestedDate = new Date(urlSearchParams.get("date").replaceAll('-', '/'));
+      logDate = requestedDate.toString() === "Invalid Date" ? new Date() : requestedDate;
+    }
+    const earlier = () => {
+      // FIXME: this should be based on the entries we pull down from log src
+      logDate.setDate(logDate.getDate() - 1);
+      updateQueryString();
+      renderDate();
+    };
+    const today = () => {
+      logDate = new Date();
+      updateQueryString();
+      renderDate();
+    };
+    const later = () => {
+      const nextDate = logDate.getDate() + 1;
+      if (mmddyyyy(logDate) !== mmddyyyy(new Date())) {
+        logDate.setDate(nextDate);
+        updateQueryString();
+        renderDate();
+      }
+    };
+    const disableLater = () => {
+      laterButton.classList.add("disabled");
+    }
+    const enableLater = () => {
+      laterButton.classList.remove("disabled");
+    }
+    const mmddyyyy = (date) => {
+      const month = date.getMonth() > 8 ? (date.getMonth() + 1) : ('0' + (date.getMonth() + 1));;
+      const day = date.getDate() > 9 ? date.getDate() : ('0' + date.getDate());
+      const year = date.getFullYear();
+      return `${month}-${day}-${year}`;
+    }
+    const updateQueryString = () => {
+      const url = new URL(location.href);
+      url.searchParams.set('date', mmddyyyy(logDate));
+      history.pushState(null, '', url);
+    }
+    const parseLog = (text) => {
+        const lines = text.split('\n');
+        let currentDate;
+        let currentSummary = [];
+        let recordingSummary = false;
+        for (let i = 0; i < lines.length; i++) {
+            const line = lines[i];
+            if (line.startsWith("* ")) {
+                currentDate = line.split("* ")[1].trim().replaceAll('/', '-');
+            } else if (line.toLowerCase().startsWith("** summary")) {
+                recordingSummary = true;
+            } else if (line.startsWith("** ") || line.startsWith("* ")) { // NOTE: we've finished the days summary, move on
+                recordingSummary = false;
+                LOGS[currentDate] = currentSummary.join('\n').trim();
+                currentDate = null;
+                currentSummary = [];
+            } else if (recordingSummary) {
+                if (!line.startsWith("<<PRIVATE")) {
+                    currentSummary.push(line);
+                }
+            }
+        }
+    }
+    const renderDate = () => {
+      const key = mmddyyyy(logDate);
+      const summary = LOGS[key] || 'No log recorded for this date';
+      container.innerHTML = summary;
+      renderDateContainer.innerHTML = logDate.toLocaleDateString('en-us', { weekday:"long", year:"numeric", month:"short", day:"numeric"});
+      const today = new Date();
+      if (key === mmddyyyy(today)) {
+        disableLater();
+      } else {
+        enableLater();
+      }
+    }
+    const loadLog = () => {
+      // TODO: render loading
+      fetch('/now')
+            .then((data) => data.text())
+            .then(parseLog)
+      // TODO: clear loading
+    }
+    initialDate();
+    loadLog();
+    updateQueryString();
+    renderDate()
+  </script>
+  <script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+  <noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt="" referrerpolicy="no-referrer-when-downgrade" /></noscript>
+</html>
