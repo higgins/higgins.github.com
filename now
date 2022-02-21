@@ -1,3 +1,47 @@
+* 02/20/2022
+** Summary
+
+I woke up at 9am and did some DuoLingo before Mariana, Leche and I
+went on the neighborhood dog walk. Six dogs in all today and we went
+on a pretty hilly hike through cheviot hills. Everyone was wiped
+afterward.
+
+Came home and I had a call with Evan. Good to catch up with him. Sharp
+guy. Will demo the new product to him soon and another later this
+year.
+
+Mariana and I went to the farmer's market for lunch. We ordered what
+turned out to be pretty loveless chilequilles. All ingredients sourced
+from costco but no love put into the food. Just wanted to turn a buck
+it seems. Still ate it lol.
+
+Bought a chocolate babka from a vendor too. Had a slice while we
+finished Halt & Catch Fire. Great babka. The show had some great
+moments. Best when there was real "skin in the game" some threat to
+the success of their new company. The last half of the last season was
+just fartin around and a character dies. The last two episodes were a
+stretch.
+
+I wrote a post on privatize and will share it tomorrow. Called Alex
+after he said he couldn't get focusmate setup. Some issue with his
+email client stripping links sent to him. Lame. Also, double lame that
+the gift card we got him required him enter his credit card
+number. Easier to have gifted customers convert at the end of their
+gift period, but sort of ruins the spirit of a gift.
+
+Glad his arm is doing well. Huge scar and he's to have reduced
+mobility for now. I hope he follows those rules.
+
+I made a salad for dinner and we watched "Nightmare Alley" by
+Guillermo Del Toro. Pretty good at creating creepy
+atmospheres. Reminded me of the HBO show Carnival for a bit but no
+supernatural powers, just the setting. Leche and Mariana slept on me
+for on the couch for much of the movie. Leche eventually went to the
+floor for her own space.
+
+Tomorrow I'll share the privatize post (HN, twitter, LI, tinyletter),
+have a call with AWS at 11am and a focus session with Alex at 2pm.
+
 * 02/19/2022
 ** Summary
 Woke up naturally at 8/8:30am which was surprising given we went to
@@ -103,24 +147,9 @@ to make any moves.
 - [X] date night
 - [X] do this -- https://dynomight.net/mbti/a
 - [X] call with Nenya
-*** Glow
-- [X] username patch
-- [X] push message string
-- [X] ping aws again
-- [X] call Phoenix hotel
-- [-] Puppeteer recorder demo
-  - [-] without browserless
-    - [X] File download
-    - [ ] File download with real content
-    - [ ] Use fetch() to get readStream of download we can pipe to s3
-  - [ ] with browserless
-    - [ ] run browserless sidecar
-    - [ ] use screencast api in intervals
-    - [ ] run watcher sidecar
-      - [ ] upload to s3
-      - [ ] delete old files
-      - [ ] update playlist
-
+<<PRIVATE
+dd130797c447b8dag2YGHTOlPjk+BcGRsAusRSp9vvRrJjyT3J3z62Ypa5mUjfxd4iafXDiT9FViScpFOnRUyM45BPxJFc4eosDS1vVhxqZhZprzTc2FSUR2jtdkVdFdrU8GrNsjiwuwwFHFMRx0mq20KaVVSFT8o98fBTdmBheiadsONGXcKxkUuv0+88Smom/FLVEe7wEY4OL0WzYCPKhG2O1my580mnXe3/ARIT3R7PMNeVLpsjY0kXojMrzhAbMoz3DL006tf7ChuyspkcB3ab9s9k15xKWrzOQHGL/3FRjmXSoYsOp6ZY9UrMNlE8gF33psDLhQxWmspuLkwTZ/hW2LupczngOtALJoiTyEALWaJ60QvfsFZUZbHokdaxgGhoGvLLgXP7KIlSIxXenLVjlQlHarEwuPnbERI8NJpTxAG3K5YbRTD86+RpWFgubt6BBeTQZN+Z9KxsZiEaMGW7BypSQHmi9ELSZp6ZxeWp+QrM9DGv2Bzaj4zrNNgekFqIn3YITRA/jPGs6OOgbVCc5sTRqK4jLFOEBPMl2YSv24jESQc1KRL4ppzWrvCyLDR5assCX50uIrfkkQbxCym/99GXG9U8od7KH4Jl15reM+BHZqb0z18YtX6LnqqAmxHNS9Y0ljwQQi8JqHY1pTCXBq8yfsnIP8C26hUPgEOhCXDarDOg==
+PRIVATE
 * 02/17/2022
 ** Summary
 
