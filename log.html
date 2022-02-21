@@ -209,17 +209,17 @@
         enableLater();
       }
     }
-    const loadLog = () => {
+    const init = () => {
+      initialDate();
       // TODO: render loading
       fetch('/now')
             .then((data) => data.text())
             .then(parseLog)
+            .then(updateQueryString)
+            .then(renderDate)
       // TODO: clear loading
     }
-    initialDate();
-    loadLog();
-    updateQueryString();
-    renderDate()
+    init();
   </script>
   <script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
   <noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt="" referrerpolicy="no-referrer-when-downgrade" /></noscript>
