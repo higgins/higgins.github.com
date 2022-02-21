@@ -177,6 +177,11 @@
         for (let i = 0; i < lines.length; i++) {
             const line = lines[i];
             if (line.startsWith("* ")) {
+                if (recordingSummary) {
+                  recordingSummary = false;
+                  LOGS[currentDate] = currentSummary.join('\n').trim();
+                  currentSummary = [];
+                }
                 currentDate = line.split("* ")[1].trim().replaceAll('/', '-');
             } else if (line.toLowerCase().startsWith("** summary")) {
                 recordingSummary = true;
