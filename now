@@ -1,3 +1,39 @@
+* 02/21/2022
+** Summary
+
+I woke up at 9:30am today and played DuoLingo for a half hour before
+taking Leche on her morning walk up the hill. It's a holiday today so
+I had a slow start. Came back did my SL workout, had a smoothie (whey,
+pb powder, banana, beat root powder) then took a shower.
+
+Had a call with AWS at 11am to sort out a metrics issue. It's fixed
+now. Played around with expo for a minute and thought to make a
+"template mobile app" that I could stamp out whenever I wanted to test
+a mobile app idea. Not worth it. The tools change so often, by the
+time I'd finished generalizing it, better solutions would be around.
+
+Announced my "privatize" post
+(https://encapsulate.me/writing/Privatize.html) in a few channels. Got
+one unsubscribe in my tinyletter list.
+
+Setup a twilio account. For failover on an existing project and to see
+how user friendly it is for a possible new one. Very simple.
+
+Call with Alex was delayed until after he met with his professor. He
+worked on reading and I built a skeleton backend service for this
+prototype idea.
+
+Spoke with Nana Marlaine about the wedding. She RSVP'd yes for her and
+Taita. Looking forward to seeing them soon.
+
+Made a simple sandwich with leftover turkey and a fried egg on
+sourdough bread. Made tunafish bagel sandwiches and soup for dinner.
+
+Continued working on skeleton idea and documented the work to be done.
+
+Tomorrow, I'll continue prototyping a variation of our use of
+puppeteer. If we can get it working, big engineering savings.
+
 * 02/20/2022
 ** Summary
 
