@@ -1,3 +1,33 @@
+* 02/22/2022
+** Summary
+I woke up at 8am today and took Leche on our walk up the
+hill. Approved a patch for Wolfram and focused my work on downloading
+the right content via puppeteer. Made some changes from my code last
+Friday and it works just fine.
+
+Spent the rest of the day trying various ways to get MediaRecorder
+data recorded as MP4 via puppeteer+chrome. Mp4 or ts containers are
+required for HLS on apple devices, neither of which default Chrome
+supports. There are plenty of options which bake ffmpeg into the
+browser as an extension but I figure that defeats the purpose. FFMPEG
+is a CPU hog and we'd like to avoid it if we can.
+
+The solution I'm testing now requires a cloud transcoder of the webm
+videos Chrome can generate. It might still be more performant than
+ffmpeg...we'll see.
+
+Scheduled a call on Monday with Browserless CEO.
+
+Made a coconut + shrimp + potato + carrot + onions + peas curry for
+dinner. My best one yet. Worked on a feature for my personal project.
+
+** Notes
+*** Me
+- [X] 100 pushups
+
+<<PRIVATE
+21c47b47283c6bb0v6s7sErUUtU8/vn3Vheba/YHzHbtoLsL2LBRpnadHQJdFv3cH5FOYqG3XNkpysQCYXvxeyGmTyxJrHaowpa+wFbnQvN66eaCnAI0qCjagtCo1//giRJCl6ZHgzt3U7DcLxRSy0SR7lU4Cod6CYNn03IHf6r1cAyLblcV4LnfHUbGvqY/yJVbTxbu9mZJXmXB0ZxD6fWO+0bJG2smABSmolWpwmdIailm8ILybpwK920WYmYUDjUJvoWB9Y045OQjzpzOcJYmjPsuOusYB/DLMt+JcS7Rj9apd2/eUSptdKd7hxjEsUBxyZZr34PW4zhzJYERFmxlGXn2FilvBO/uZ9PKnPvnkEZqKTlQ
+PRIVATE
 * 02/21/2022
 ** Summary
 
