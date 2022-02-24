@@ -1,3 +1,40 @@
+* 02/23/2022
+** Summary
+Almost went to bed without writing this.
+
+I woke up at 8:30am and made a whey + pb powder + beat root powder
+smoothie before hopping on standup call. Took Leche on our walk up the
+hill. Super windy today and last night. The palms trees are shedding
+their branches. We look up as we walk under them.
+
+Focused on the HUD problem and researched solution using Wowza +
+webrtc. Sent a few emails to their support team about vague
+documentation use terms.
+
+Had a call with Albert about an integration issue. Seemed to be an
+issue with the client. Wolfram is looking into an issue with one of
+the interfaces.
+
+Did my pushups around 3pm. After work did a little bit of exploratory
+side project.
+
+Took Leche on four walks today. She saw her first dead squirrel
+today. Rigor mortis. I saw it two days ago under a trucks bed. Must
+have eaten something poisonous. Someone or something moved it from
+underneath the truck bed to the grass where it lay belly up. Leche
+couldn't take her eyes off it. For half the block she was turned
+around staring at it. Someone moved it (through it away?) later, by
+sundown.
+
+Tomorrow, I'll focus on the s3 upload problem.
+
+** Notes
+*** Me
+- [X] Pushups
+- [ ] headshot
+<<PRIVATE
+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
+PRIVATE
 * 02/22/2022
 ** Summary
 I woke up at 8am today and took Leche on our walk up the
