@@ -1,13 +1,65 @@
 * 03/08/2022
+** Summary
+
+I woke up late around 9am and took Leche on her morning walk up the
+hill. Made a green smoothie at home (half frozen pear, one frozen
+banana, 1-2cups of kale, 1 orange, ~4oz of water).
+
+Tried to repro the waitlist feature but couldn't locally or on
+development. Met with the team at 12:15pm to test the latest build. I
+think we're ready to share with folks.
+
+Made some changes to the HUD messages. The rest of the day was focused
+on testing the maintenance mode work. As I was putting up the PR, I
+thought of another edge case and started work on it.
+
+At 2pm I had a short call with an accountant. At 4:30pm I drove to
+Brilliant Earth to drop off my ring for resizing. We sized it down 1
+whole size from 9 to 8. 8.25 was an option but I did the soap and
+water test and that was still too slick. Took about 45min to get there
+from home. Faster on the way back but a different route.
+
+On the way home, Mariana texted that she came home early because of
+stomach pain. She ate some bad tacos at lunch. Coworkers who also ate
+tacos didn't feel as bad as her but maybe the didn't order the
+same. Picked up some pepto bismol for her. Gave her a hot damp towel
+for pressing on the stomach. It helped, so I drew her a hot bath. That
+really helped. She threw up twice and a third time earlier.
+
+I heated up some chicken noodle soup for her and did a 5x5 workout +
+pushups.
+
+I gave her two tylenol (500mg each) then went to the pharmacy to see
+what else could help. Picked up some tylenol PM in case she needs help
+sleeping, some "extra sleepy time" tea, a rubber bag to hold hot water
+(called my mom, her idea) and some pork rinds for me.
+
+The big rubber hot water bag worked wonders. Mariana went to sleep
+after a while. I watched an episode of Mythic Quest and sorta
+unplugged.
+
+Before heading to CVS, I had a big salad for dinner. Bed time now.
+
 ** Notes
 *** Me
 - [ ] Laundry
-- [ ] drop off ring for resizing
-- [ ] 100 pushups
-- [ ] exercise (run + weights)
+- [X] drop off ring for resizing
+- [X] 100 pushups
+- [X] exercise (run + weights)
 - [ ] call with accountant at 2pm
+  - [ ] it gets reported as self employement income
+  - [ ] income & expenseses
+  - [ ] in california there is additional form to file
+  - [ ] and 2021 federal and state returns
+  - [ ] 200/hr rate
+  - [ ] quote: $600 (including llc reporting)
+  - [ ] if llc makes considerable amount of money, make quarterly estimated payments
+  - [ ] there are penalties associated with missing the
+  - [ ] next: if it looks good, send him an email
+  - [ ] Damon: damon@pikulatax.com
+
 <<PRIVATE
-22a5d79d93dd8713ppTceIA9LsZg60vJt+sKrtnUmzOtNnTHwGBQNO/DWjDaBZJZLD5iqYRv+3B/7kkS/rwVjXPYuU4+cw6h4GO+yUGCGp1cRk8FYaqMKI3h
+3d1ddad153570095Kx/cdrd37JK1XF0wDg8CYUtGnA+Xo4LiKWG1WuXNuw+ic4BtPraF/sP6AGSWClJx7mCHKCuB+8gmzwiIa+9sGaAGi95GMlq9DC1j2du5ZR9EgT8Ia/7jy1ImUssHz8QLXlHYjQp+zcozSIMUPYKc8qmEUQR5ITOyPq6nm4D7nWWcfha0jwc3N7lFt+PfeHsbQSZ0z5wAQLD6/9BmEvajKdMcepKyqcH1PQ/N5OMCCEneCUyiztnqBxKzCtyegRv/9JE6/yAkbfMr+QtgBUqUAPR31IPkScRVeG/N1OvouhcC0OpjyfcvrFWvFIu4OZ5TDPP0Xafwo4FAPdW47XLEqSHXMTLMiF4vyfKIdslG/TwVH/UufSJALu5j54WyGNT/RfNMDbCrVNV2/7UstyHd7J/qMuFrlVLQul3f2k7KlXfaJ/njX1wUa7A753rxD2oy8SbhkVk2Qnauz11dE32i
 PRIVATE
 * 03/07/2022
 ** Summary
