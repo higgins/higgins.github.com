@@ -1,3 +1,52 @@
+* 03/10/2022
+** Summary
+
+Pretty sure I caught some bug. I woke at 9am and took Leche on our
+morning walk. She was pretty slow and tried to eat a bunch of
+grass. Didn't pee or poop until about a block from the house.
+
+I deployed the latest workers and started investigating the start/stop
+player problem. There may be a client-only solution. I pinged Torin
+about it and they're looking into it. Had a call with Billy. We chat
+about the tuning the HUD.
+
+I spent the afternoon looking into HUD performance. Read some apple
+documentation and put up an experimental PR. Also, debugged with
+Charles Proxy to see network requests as it relates to the
+problem. Nothing conclusive, hence the experimental PR.
+
+Replied to the accountant and did my pushups. Threw the ball with
+Leche and took her for a few walks. Semi low energy all day but better
+than yesterday just with more of a chunky cough.
+
+I made a soup with the Master stock. Used all the stock and am
+stopping that experiment. House would smell like onion soup for too
+long. Maybe its a fine experiment to run outside on the porch?
+
+Soup was: broth, potatoes, carrots, half a bell pepper, noodles,
+shrimp, 2 cups kale. Wanted to add chopped cabbage but the noodles
+expanded too much to add more mass to the pot. Just served the cabbage
+in the bowl with the soup on top of.
+
+<<PRIVATE
+327a00696ac61658N+aBC1ldOcbGUTDqccz4wkWA+PHyX3ujyYPJ+i+3h3W1ZkodtEf8MASY4FaYkJ3JMKks6XJhycuS28pBKlzDRhx0Y81ejgBUDGi1zkJJyv9mLdsKUyorrgj7Q4XXAFcyjbtJ3BVsOgY6Z5Q+Bpx0n+RoOxWkNYTv2PjGDD56U30V0sAqSvsDbdmJ91OgcEAN8wJyyIB38itIMR/kw6zm/ssdDY6fDj6/knM8fCEmXF/kwmp2rugMLyQw7g5W3i7m6q4wYm6rzAoQqPgqqqWpizYwHo/ozeUx+/4DZ3jtIXdESFJkPd7DO6LuBHpVLTEzwmxXXvJhErDYytnX/qyZuxa0pykmE/rjt6oikDCqkMjqyMew6JO5iWZ//nzB1k5HKvfjVDYdEB1Mh87oYI2VrV5zaVMv7tHqAyQ7tp27v2OHdJONrzL1SOXZFRqkeACJoQcdx8WWs9EYq2wSDQIBk2jH0vmirSHx+4Ey5h6r0dEuTv3yjlz1HSvJ9KJPJF3doDNOkOwXOkNemRZtehufcKX+FNR6UAi49YZDZqavk6N/dQwrUYUfoQSwTzLVSsGU7k7NMEySjffVxV9hFBtcwpjxGr/WFEafYHYH9Qe48rW7s7FODcWrgav+xDw4AYzgoiPqcE14aoUMxjsTDmCdMSNQ+a1yqWpInYwWgZYGrewHnSJm1lWVCKns59/k7BklMMIwyHMwwf93s8eNfWYqi/dUm2wmUtmG9pbZz81C5q0V2ZkiHFtpehTQCfBopR69dyLHwQanll/PG3S6YsAr+HAjo1jkFTXgRPlfhYvG4EF+38UuHPh7n/gUAO06+dyN1TMS+gHx1JlFjNC7Jz6Uqd7t/3qqCeT1P0FaDJa2JWLmVKVKE3gNN7oQn9phFaqoGRHYDufp2LuwLbc1xkc7Vj0t0dICyfV27sSytdf22wSBT/QFhCR3F8sJDTeJ6vNPk9dcp4M2bt326UcvyOGvZeZlD2tMRxkc39JyTY/V0P43xXhbcBQ67baRWwUkAAy53wlkulQeUYbIJRjUwbqVY+Xenv9jHdAs0ji6Dc+dmm2WsNWhCcW0yYVZdOYuvXKSijigxzojbkC1RkMsr0XkL9QXqqrH497MbMYXAfoVgcJTil8DyFuoWPXmCrniupTfhP3s9QKGC81ixGVaAQuOH9d+tmfTfhysjM5r6A/+F/eP
+PRIVATE
+
+Hoping a full night's sleep will clear this cough. Will take a COVID
+test in a few days.
+
+** Notes
+*** Me
+- [X] 100 pushups
+- [X] accountant email response
+- [X] invite kevin
+- [ ]
+- [ ]
+- [ ]
+
+<<PRIVATE
+abfa9bea086087cdyUQzXKSVMQSQ5MuSkRB1AakLKxft5zIjQkDBD6d2Qr07zJLub1RAv1NngQswhLMYfCIOcTW90ReXnY8NGcCxe9lIEOPU5bA49ol3xIulesOb7F0YYYlsQ6iFSLobeCZfQtNNckUl5LRuOHGQcSp/Eh8kKMMO7xmOeRwf8XPFNAIMIC+dicYu3AxuSozPKRvANVniBqUwIpLsbBQ2Ws+zk439VUC/qVv5iNoSeLH5JlprV7l63SiH065xlP9U2WNkimZRuJhb15WYSVkYSDljuFW8h7yPf3Vx/xaN5V8iynVzIiQCF3detH3rQr3z7dFdkxLiYesfLrO1NxgoYjlyaoA6JwMYYmaTELssJN9mIYeHNkaGQjzdyBVUeCQcglw1iUrrbHjhQ8rf2+H7wbJetSUIWzWTi+Ik1C5jyqsqgvT45mNV48/zSUYLWiZlRea0Y25Obxt3tYqpQBAKZJ7ZBs+aM5D04IJE/lQwEPe7/rsCAC7H1iUe1hL7MC0tYZ7NIqAUG4+ct+SfGkb/KYQAtztP1gNPqTXD7O6dVQHFpiOW03p5w3q8rtntr21N
+PRIVATE
 * 03/09/2022
 ** Summary
 
@@ -28,7 +77,6 @@ it cook for a week as I add more stuff to the broth. It wasn't very
 tasty tonight. Just tasted like watered down onion water.
 
 Going to bed early in hopes of nipping whatever bug I have in the bud.
-
 
 ** Notes
 *** Me
