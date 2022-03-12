@@ -173,6 +173,7 @@
         const lines = text.split('\n');
         let currentDate;
         let currentSummary = [];
+        let currentLinesArePrivate = false;
         let recordingSummary = false;
         for (let i = 0; i < lines.length; i++) {
             const line = lines[i];
@@ -191,7 +192,11 @@
                 currentDate = null;
                 currentSummary = [];
             } else if (recordingSummary) {
-                if (!line.startsWith("<<PRIVATE")) {
+                if (line.startsWith("<<PRIVATE")) {
+                    currentLinesArePrivate = true;
+                } else if (line.endsWith("PRIVATE")) {
+                    currentLinesArePrivate = false;
+                } else if (!currentLinesArePrivate) {
                     currentSummary.push(line);
                 }
             }
