@@ -1,3 +1,79 @@
+* 03/15/2022
+** Summary
+
+I woke up pretty late today at 9:10am and took Leche on our walk up
+the hill. We went took the stairs short cut at the top of the hill. We
+stopped taking that path some time ago after rain water got trapped at
+the foot of the stairs. It's kind of a grimey path too but I enjoy
+running up the short steps with Leche.
+
+Spent the first 90min or so of the work day debugging a pubsub issue
+with Torin. Ended up being a mobile configuration error. Several bugs
+surfaced in our smoke testing today. Most related to the deploy I made
+yesterday which had some silent edge cases. Fixed a large portion of
+them today and also fielded some research questions from Billy and
+Torin about how the HUD experience could be improved.
+
+Mariana took Leche for a walk while I was on the smoke test
+call. After work we all threw the ball for a bit in the driveway.
+
+Went to drop off some post-cards. On the way saw a digital license
+plate for the first time. The Islamic center was near the postal box
+was hosting some event that served food. No signs but it reminded me
+of my elementary school fairs that were held on the playground every
+year. Never crossed my mind that they were school fundraisers because
+I loved them so much.
+
+Ran into neighbor Neil who talked about how taking excessive amounds
+of vitamin D could have noticeable COVID recovery effects. Lots of
+research on the benefits of large dose--as in 1e6 IU--vitamin d
+supplementation. We've been taking a vitamin d supplement (5000 IU
+cholecalciferol from lanolin) daily for the past few days. Hadn't
+supplemented with it as I figured getting a little sunlight daily is
+enough. Apparently we produce 10-25K IU daily with "adequate
+sunlight". Lots of noisy research out there. Blah blah blah, what is
+the dose that makes us feel better in the long run?
+
+Conga had a bit of a scare today. She threw up a lot of blood and Maru
+took her to the vet. Vet thinks it is an ulcer and not a tumor and so
+is staying there overnight.
+
+Intended to make a "picadillo saltado" for dinner since I thought we
+had most of the peruvian ingredients. We didn't have beef loin but
+ground beef instead. Hence "picadillo" and not "lomo". I forgot I
+threw out the aji amarillo paste weeks ago because it went bad. Made a
+picadillo of half a read onion, 8 or so small peeled red potatoes, 6
+small carrots chopped, 28oz fire roasted tomatoes, 2lbs ground beef
+simmered with an ancho and a pasillo chile. It was okay. Need to eat
+some vegetables for the next few days.
+
+Did my pushups after Mariana, Leche and me did our night walk and
+while I boiled water for tea.
+
+Winding down the night with a focusmate session while I write this on
+the walking tredmill. Mariana is reading on her ipad, getting ready to
+study for her exam in a few months.
+
+I'm thinking about different forms my new side project could grow
+into. Also pulled into growing 24HourHomepage more diligently. I
+reached out to Kevin the founder of stumbled.to about buying
+advertising on his project. He replied and offered free ad space
+because he loves the site. That's great! I should do a big sprint to
+reach out to loads more entrepreurial projects that offer
+advertising. Break it down into several sessions: build list of
+potential advertisers one week, reach out to all of them the next
+week.
+
+** Notes
+*** Me
+- [ ] send email to all guests to confirm hotel when they know
+- [ ] ping mona about driving, arrival times
+- [X] ad for stumbled
+- [ ] call SF registrar office
+
+<<PRIVATE
+2adf129bf144ec85XBGXCTc8+2FfjbMuIIu1jTb52d68+AeUkx8M2pqQbEOA2LaUHFFmy4l+DBTBSyr31pBqA0syL5ZfyjhYtOJno5IXr1d0G8pIRmRDhcBoK5tex9G9nLrOkQFUhADVg7x6zsA/nc+sWOCVrvRmb+VbgPvSuEdU/GZHh6MFHZP6T04mmaS//ye3PYmy7gpx4XzVR9p4os3HfYpg2p47O1L8TJVAGu+QVhn37ovD+Mj2qKmiNy2ns44p8mkRXDlFDe+QLT5smeCW327DW7QTQwjw6j0JPsRu+ozawqFtCFWdhSOSoqt+219xRV1gwAWWDZRvyXFiofxWcdYEhB6HrYjO0SoYD1CqGm1hioSgOvWZQe66KI7vrJuf8zGS/wktyNd2EQjNA/C39tcZXhA2mPJIYnRu+cuKXBPMsBZYkSQo/gBlaEGewtwN51Qu7Ju2vACGxoBzYsitBKFjNRkUmYxWsiwaI0RkVtHPDhcfWxiMrV5d1OYuNRvADLU0d22K6CJPOcxth8FP+BNVaeYdtsrsdrh9zHvc+8CvsoRXJwI1Pb8/qXnBSrFx3MA=
+PRIVATE
 * 03/14/2022
 ** Summary
 
@@ -993,7 +1069,7 @@ working on some non-HUD improvements.
 - [ ] headshot
 - [ ] pancakes tomorrow morning
 <<PRIVATE
-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
+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
 PRIVATE
 * 02/23/2022
 ** Summary
