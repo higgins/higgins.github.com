@@ -1,3 +1,81 @@
+* 03/16/2022
+** Summary
+
+I woke up pretty late today too. Wrestled with sleep last night as it
+was kinda hot in our room. My goal to wake up before sunrise every
+weekday is severely slipping. Without being able to workout in early
+morning, I need a different motivator to wake up that early. I keep
+thinking about making some sort of "sunrise club". Some social
+accountability system for waking up early in the morning. Something
+like https://proofofself.care but for waking up early.
+
+Made standup at 9am and noted the problems I worked on yesterday. That
+I was tackling the HUD problems today. Took Leche on our walk up the
+hill after standup. Added a PR I think will address the majority of
+the issues. Will deploy that tomorrow. The rest of the day I focused
+on the admin UI.
+
+Ordered from Win-Dow to have lunch on the deck with Mariana. She got
+fried chicken sandwich and fries and lemonade, I got a kale salad with
+a soft boiled egg and piece of fried chicken on it. Leche shared some
+of the fries and sat in the sun on the steps.
+
+Posted privatize on HN today and made it to the front page. As high as
+#18 for a minute before dropping down a few hours later. About half a
+dozen comments from people. All pretty thoughtful. Added several TODOs
+to the repo.
+
+Had a several--maybe 6--focusmate calls. One at 1:30 was with Johnny,
+a guy I met on focusmate last summer who was a big fan of
+24HourHomepage. He's working on a new app I'm excited to try out. Put
+him on our beta list too.
+
+Had to end the call early as I forgot about weekly call with
+Chase. Hopped on that call and we both chat about our work. He's
+focused on hiring and talked about how he thinks about hiring. Spikes
+in skillset can offset other areas. Made me think of the github
+contributation graph. It clicked today that I've been embracing the
+COVID lockdown hard as my bushy beard stood out in the call. I think
+if I give it a few more days Mariana will start tugging on it to tell
+me to cut it.
+
+My focus that session was to set up a basic paginator in redux. Chase
+called out I should just use new-react style via hooks. Sent an
+article which was fit perfectly. After the session though, I realized
+a paginated interface is probably overkill for launch and we just need
+the big red buttons so I started to add those. We agreed to make the
+call a regular one which is awesome. Should do this with more of my
+friends.
+
+Ended up working kinda late because the dang sun stays up so
+long. Haven't adjusted fully to DST. Took Leche on a few walks with
+Mariana today.
+
+Had leftover picadillo and rice for dinner. Mariana is right, eating
+it with toritillas from Tijuana would be so much better. Beans would
+be good too.
+
+Took Leche on her night walk with Mariana. Leche was super riled
+up. We threw the ball in the drive way for a bit and played inside
+after work but she was really riled up anyway. Will be nice to take
+her to the park where she can run around.
+
+Did my pushups and made some tea then headed to bed where I typed this.
+
+Pretty good day. Tonight I'm cracking a window and turning on the fan
+in hopes of better sleep.
+
+** Notes
+*** Me
+- [X] 100 pushups
+- [ ] add "published stories" view to 24HourHomepage
+- [ ] send email to all guests to confirm hotel when they know
+- [ ] ping mona about driving, arrival times
+- [ ] call SF registrar office
+
+<<PRIVATE
+d28bd462d04d4063o+NEdBJpXlrKIAUm3VJvo4ipaTRCqJfQTBOxJ7FYlLJqfsUhQGpNAueD9hOyTJTlBTTMPWd8F+Gv6Qyt1cReoA6DjT7S7HgbROJA7MzCTTOyBxy8jbPgGtc99KZfA5bCHEFmfBNj3kpJkNMNiEUIVLjcXob3FVksKbWvwHiItX3EUIJ57y0uN9syZseF7q8FqgDNY/ZLczGsfzSVQRxl97iEzSQL8vomVgyC7+iV0VteCT91+OdfZqK0KSPD4v9FcFeFcRz44EnXla+OIAao228QrJ8ksRZZEBprUKOiWjnAAyv+42pP99CGaTYYlWfSbRy/bavR2u+rNKRiDtYM4AecdYMtdzxMy2RS+kY6P/wmm39jUV/LoWmKl5uMncKAQvBpvhABSGKgO1U9jbDENouKrWu1oc/uqjgNyXxFI0ag8JWlMjJbhdK9feRGp0pT1W+4CjIo/pcGac9XJ615tmP9lwtdxdMcdJM=
+PRIVATE
 * 03/15/2022
 ** Summary
 
