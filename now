@@ -1,3 +1,47 @@
+* 03/17/2022
+** Summary
+
+I woke up at 8:30am today and took Leche on our walk up the hill. We
+ran into Kathy but didn't stop and chat because we still have a few
+days of quarantine. Sleep wasn't much better last night. I'm pretty
+sure it's the caffiene that has slipped back into my diet during this
+COVID + no exercise quarantine. No caffeine tomorrow.
+
+Finished the maintenance mode feature, chatted with James about an
+endpoint he needs, built it and shipped the lastest backend. An issue
+with resource sizing on development I'll need to address. The HUD
+feels good enough for launch, looking to get more feedback from users.
+
+Had leftover picadillo for lunch and made Ahi Tuna + sauteed peppers
+and onions for dinner (with white rice). Did my 100 push ups and
+investigated how long it would take to write an extension to let me
+inject a button in the twitter tweet composer which when pressed will
+take a photo using the webcam and prepare the tweet. I was thinking it
+would be a great interface for a "sunrise tweet club" but definitely
+not worth the time to build.
+
+Threw the ball with Leche after work and took her on a couple walks
+today. Going to take her on one now before heading to bed.
+
+
+** Notes
+*** Me
+- [X] 100 pushups
+- [ ] add "published stories" view to 24HourHomepage
+- [ ] send email to all guests to confirm hotel when they know
+  - [ ] jason
+  - [ ] jered & jacqueline
+  - [ ] marlaine
+  - [ ] jacob
+  - [ ] claudia & servando
+  - [ ] jon & eve
+  - [ ] kevin
+- [X] ping mona about driving, arrival times
+- [ ] call SF registrar office
+
+<<PRIVATE
+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
+PRIVATE
 * 03/16/2022
 ** Summary
 
