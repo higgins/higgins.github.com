@@ -1,3 +1,63 @@
+* 03/18/2022
+** Summary
+Another night of little sleep. I drank some "extra sleepy time" tea
+(valerian root) before bed and actually nodded off until Leche barked
+and woke me up. I took her outside so she could inspect the
+sound. Sprinklers.
+
+Woke up at 8:45am and hopped on standup call at 9am. Took Leche for a
+walk up the hill and came back to make a protein smoothie (whey
+powder, pb powder, beet root powder, banana) for breakfast. Did 4
+focusmate calls today, two of them with a new LI connection Linda H. A
+community builder with over 6100 sessions. She also used a standing
+desk treadmill. We connected on LI and she recommeded I reach out to a
+few other folks.
+
+I finished a first pass at the MMP solution, patched the waitlist api
+to require email and deployed the latest patch. Ate ramen with mixed
+in picadillo and a can of tuna cooked in beef bone broth for
+lunch. Good but not great. Got pretty tired after lunch. Threw the
+ball with Leche a bit before heading back to the MMP problem.
+
+Got kinda fried by EOD and short tempered. Ordered Pasta Sisters for
+dinner. Chicken milanesa and some of Mariana's pesto pasta. We also
+ordered a gorganzola gnocci. Not for me.
+
+Did my pushups before heading to bed.
+
+Stayed in bed for the last 90 minutes on my computer mindlessly
+surfing. Including watching an episode of Mythic Quest. Not my kind of
+humor, kinda predictable. Going to watch "Frequently Asked Questions
+About Time Travel" before sleep.
+
+** Notes
+*** Me
+- [ ] accountant
+- [X] 100 pushups
+- [ ] add "published stories" view to 24HourHomepage
+- [ ] send email to all guests to confirm hotel when they know
+  - [ ] jason
+  - [ ] jered & jacqueline
+  - [ ] marlaine
+  - [ ] jacob
+  - [ ] claudia & servando
+  - [ ] jon & eve
+  - [ ] kevin
+- [ ] ping mona about driving, arrival times
+- [X] call SF registrar office
+  - [ ] call back in two weeks
+- [ ] https://paranoidvalueinvestor.substack.com/p/im-too-risk-adverse-for-index-investing?s=r
+
+*** Glow
+- [X] add email
+- [X] deploy 0.19.1
+- [-] mobile integration to maintenance mode
+  - [X] first pass
+  - [ ] move PubNubProvider up top
+  - [ ] register message handler in MM provider which sits under pubnub
+
+- [ ] statemachine of start flow
+
 * 03/17/2022
 ** Summary
 
@@ -22,7 +82,6 @@ not worth the time to build.
 
 Threw the ball with Leche after work and took her on a couple walks
 today. Going to take her on one now before heading to bed.
-
 
 ** Notes
 *** Me
