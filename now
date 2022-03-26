@@ -1,3 +1,153 @@
+* 03/25/2022
+** Summary
+Tired today. We slept in the office after setting up our new bed in
+our room. The mattress needs to air out for 48 hours before we can
+sleep on it. Some mix of the coffee and excitement for the launch
+today kept me awake for hours. Eventually gave up and brought the
+computer to the kitchen and read about different ways to implement
+twitter login. Went to bed around 3:30. Fell asleep around 4.
+
+Woke up around 8:30am and had standup at 9am sitting down at the kitchen
+table. Billy was away. I took notes but asked if anyone else wanted to
+"drive" the standup. Mike did.
+
+Mattress was scheduled to be picked up at 10:30am but the person
+arrived around 11am. Until then, worked with Danielle to get her first
+cohort of testers in the app. Needed to deploy a patch to get the
+correct SMS message sent to them. Most of my focus today was fielding
+questions from her / the test cohort.
+
+Leftover chinese food for lunch. Probably didn't help the
+lethargy. After abour 2pm, I started to crash. Managed to get a
+feature written to help Danielle onboard new testers.
+
+Did a 5x5 workout at 5pm. Squat, bench, pushups. Gave a boost of
+energy. Needed it for the drive down to TJ. Had about 18oz of coffee
+today in total. Cutting myself off now. Catching up on sleep and going
+back to herbal tea. May have coffee again after wedding vows ceremony.
+
+<<PRIVATE
+dd44adc695ceed942MPFI0dh8iXxpZLOxLu0Lj3R8tp0fGuba75epOzUr7IQJaLZ179KkHMhXGNX3aNc1h04BGZyhZExljJ79l1c1vJHFZuM39K+mDDn/LvFD/TIaFAoeS1Bkh24gy27dkghmD/cA1KH2juyQlVjeyjjbIRjP09N2PzB/2/HBNe+vWVaZYwbe65Vy1s+cxUaLPgBYAP2bYrwVuVmQ4cwWn2e56xPQNwy0/VslyHk96IgRbH4iEqri5h7PThA2DEOeS7AsLyIGKIZztOnhQbid0Z02c1j1szvgE64Xk/mFzkMQYkdEqa30uY5KqpNMKsTzfBGGxxem/xudZLKv1AQD8PghAp+nq1BjkaePEDPsNiCtpS99i0n1DeinBX0TfH1SuJ+1AkaVgFO3cQ=
+PRIVATE
+
+Packed the bags and was on the road by 7:20ish. Went to Chase to pick
+up cash for Mexico wedding deposits (florists, djs, etc). Lots of
+traffic today. Projected 3 hours to get to TJ. Was excited to put on
+Steely Dan's first album once on the road. The one that starts with Do
+It Again ("back..jack...do it again") and Dirty Work. Pretty solid
+album but starts stronger. A few great tracks on the drive down. Need
+to check screenshots to remember.
+
+Stopped at In N Out about an hour outside of Mexico. Order protein
+style burgers and an extra patty for Leche who waited patiently in the
+car. She loved it. Inhaled it.
+
+Lots of traffic into Mexico too. Got to Maru's house and did a "quien
+es?" for Leche to see if she'd look for her. She did. She'll see her
+tomorrow when we pick her up from the airport. Going to sleep now
+after a short brain dump of tasks I've been meaning to do.
+
+** Notes
+*** Me
+- [X] tweet
+- [X] 100 pushups
+- [X] workout
+- [ ] ping wedding guests about their arrivals
+- [ ] emacs, track backspace
+- [ ] ios shortcut screenshot song -> tweet
+- [ ] encapsulate.me/log.html (the contents of this page are secured with privatize)
+- [ ] 24Hourhomepage og images
+- [ ] twitter goals
+
+- [X] bed sell
+- [ ] mattress sell
+- [ ] linkedin announcement when ready for public beta
+- [ ] matthew focus session
+- [ ] schedule brendan, tim, bruce, thais, tyler, islam focus session?
+- [ ] reach out to https://www.bram.us/
+<<PRIVATE
+c55869aab2973727IDSKkqZOKG0nXdMQR0viHsupHWfrPnLMfu9yZnGZNe3RYmiLLdtDjSfvKfa5IMZv8wghaVOXUXEAxby2DhVVQI23RzDKcwULAly2erfzsfnmg0yzR7FVuQytqzz0moJNri0lDsiIYc8dkay7Jpu6NGj9ozoTXgs9YsQ94de5YfyEYAln64tp4eSYtrX8Xe+ACHy0uo0cq+TjW50wG53oWANbi6bZbH1+jJ1uZCrh9W0eTL3aJgswWutphUes7OBsMEo2+/hWNT1oy2P2B/6F6GW135mxXNZP3/gQ0yjhgDqp5cE9p0vj1IsIg957e+dslAM328Cl3M3rX/iV/7EIaIuSObC/u+Wfiin0GpMJjkymQU7lQ1ZhsnN3U+1LXfoyi4kDfIfZtX4yElIKcs4oVPQ9kWMrkpOtxMiHN32M52yp1Fjy7zDbWnfxvCJ5g7uga+jNjfADxRaKnjE28Mazy7IRig+iurGrS17+7w==
+PRIVATE
+* 03/24/2022
+** Summary
+
+I woke up at 8:30am today and took Leche for a short walk around the
+block. We ran into several dogs (Charlie, Tilly, Daisy & Daisy's
+sister) and talked to the dog owners.
+
+Focused most of the day on the HUD problem. Synced with Billy about
+the state of the problem and we agreed it was important to focus on
+but not "break my back" if we can't figure it out tomorrow. Made lots
+of exploratory changes before determining a breaking dependency was
+introduced since our last successful build last Thursday. I froze the
+releases to that build and we'll use that as base for that system
+going forward for the time being.
+
+Bed frame was dropped off today around noonish. Finished the HUD
+problem around 430 and put up the PRs before calling it a day. Pinged
+Danielle about the invite flow for tomorrow. Will work on getting her
+some more tools tomorrow too.
+
+Disassembled our bed and cleaned the room in prep for the new
+bed. Took photos for craigslist sale of bed and mattress. One offer
+for the bed to pick up tomorrow morning.
+
+I reached out to a coder on twitter who is working on a lucid dream
+interface. Offered to help code if there is something to do. She
+suggested a few projects that sound cool. She'll send me details in a
+week or so. I might not be able to help for some time, depending on
+the work involved. Can't divide my attention too much but there are
+some creative overlappings with her project and ones I've thought
+about (Chrome extension to inject content). Maybe its better to offer
+help as a tester so I can devote creative hours outside work to side
+project.
+
+Speaking of which, I think I can get a beta done faster than I
+anticipated. Might be able to do a fair amount this Saturday. A basic
+join, create, interact flow. We'll see.
+
+Made two bricks of ramen with some green curry paste and a can of tuna
+mixed in for lunch. Ate some leftover salmon but gave the rest to
+Leche. Drank like 5 12oz cans of sparkling water. Spring Thrift? Spin
+Juic? Whatever they sell at Trader Joes. The carbonated water + 10%
+juice. It's great. Will drink glasses of water tomorrow. Better habit.
+
+Ordered chinese food for dinner in advance of Mariana and I setting up
+the bed. Didn't want either of us to be hangry. Built the bed together
+but are sleeping on the mattress in the other room as we've got to
+give it 48 hours to fill up. Bed looks huge in our room. Looks pretty
+comfortable though. I'm waiting to hop on it until after we can sleep
+in it.
+
+Approved the tax return the accountant sent me and did my 100 pushups
+in the living room. Got pretty sweaty after the mattress
+assembly--it's gets really hot in our house, especially in the
+summer--so took Leche to walk with me to 7/11 for more sparkling
+water. Ran into Sam & Elle on the way and ran back around the house to
+pick up the screen protector I offered Sam and their old
+tupperware. Leche played with Ziggy for a bit. Ran into them again on
+the walk back from 7/11.
+
+** Notes
+*** Me
+- [ ] tweet
+- [X] 100 pushups
+- [X] accountant
+- [X] rsvp bruce
+- [X] bed setup
+- [X] mariana: oregon family yes to shuttle
+- [ ] ping wedding guests about their arrivals
+- [ ] workout
+- [ ] bed sell
+- [ ] mattress sell
+- [ ] linkedin announcement when ready for public beta
+- [ ] matthew focus session
+- [ ] schedule brendan, tim, bruce, thais, tyler, islam focus session?
+- [ ] reach out to https://www.bram.us/
+
+<<PRIVATE
+214070d3dff93814tQwMbHHAJZR1tD4wE/09J7fimYybPpEtgbYMjrx6Tamu9uP8pDPa/Baz+4eyScX5MnBQYnPPOFQPY4zXHco6MLUsa1DjaVTURiLVib5dUFM+VzWOmOytCA/5uWk/96ZwtkiV14HHh228Ksm5sbOyBKlcp2lHvNnL3hs0z4duD9L2RuGTYcT7Wy7EXS0lc+bNeSwroyoh82bcwHiVBq40ZN8+cw4c3g47v2f9EA89gpHvOmw0aUfDVeLw
+PRIVATE
 * 03/23/2022
 ** Summary
 Long day. Woke up at 8:30am and had leftover coffee before
@@ -23,7 +173,6 @@ understanding of the problem a bit. Have a hypothesis for tomorrow.
 
 Brain is fried. Went for a double lap walk with Mariana and
 Leche. Came home, did 100 pushups and went to bed where I write this.
-
 
 ** Notes
 *** Me
