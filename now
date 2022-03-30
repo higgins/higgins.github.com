@@ -1,3 +1,53 @@
+* 03/29/2022
+** Summary
+
+I woke up at 7:30 today and did my SL 5x5 workout at 8am. Mariana left
+for work around 8:30am and I finished shortly after. Did my pushups
+during. Mixed beatroot powder in water and intended to drink it with
+the workout but I couldn't stomach the smell so saved it for smoothy
+after workout. Took Leche on a walk after then made smoothy of beet
+mixture, protein powder, pb powder, 1.5 frozen banana, 1cup
+strawberries. Made some scrambled eggs too and shared them with
+Leche. 4 for me, 2 for her.
+
+Had a call with pubnub at 10am. Pretty basic "checking in"
+sales/support engineering call to make sure I didn't have any
+questions about the product. None yet.
+
+Deployed a patch for Albert and fixed the issue on production HUD that
+was stumping us all. Turns out the HLS playlist would play in desktop
+safari but not mobile safari which suggested malformed playlist. Ding
+ding ding. Fixed it and everything came online.
+
+Smoke test today was pretty solid. A few UX improvements we
+discussed. One--an re-ordering of params on an API sequence--I'll pick
+up after I look at HUD PR and spec out how we would implement. Outside
+in might make most sense.
+
+Ate leftover dumpling soup for lunch and threw the ball with Leche for
+a bit before taking her on a walk around the block. She played with
+Flika on our walk. Nice and sunny day.
+
+Shared my "Jada Off The Keys" chrome extension and got some good
+laughs from friends.
+
+Looked into react-webcam for morning project. Looks like it'll work
+but need to figure out why demo isn't prompting for camera access when
+i load locally. Deployed to test site, check in the morning.
+
+Scheduled Thursday workout with Simon over at his gym. I may still do
+my workout here since we have the equipment I use. Maybe better to use
+the morning for other tasks.
+
+Gotta do laundry tomorrow and get more food from grocery. Will throw
+the ball more with Leche too before work. She's was itching to play
+today.
+
+** Notes
+<<PRIVATE
+5a4755fa782f7c88jLh9BKrlUyRB2tYj+DhknPyb0+ec4vcBmq5MmHWVwWS7AVxfALt9aW+Kw0L4LLUH6I7M63DrW4ayV2iZPDi06vxOW2AQGgtzudj7mf0s+g7zR5w+p6OcVHslaBowCElE/TlhoZ7EpJldGTbxpz/Ro8XXURw9hx4W04V+P9o2Tm4B7fh7kn/1CR6J9HcEZDblTBQPUbPi/L46SyTbsVXwv7XFKU0SrFWmhUweTEMQjbldfzwtFBTSnuZ2RkOrkmQdkJE2ulT6RORystAVSvAwYLROhkPlqsZOijeAfEHYSllA8f/A+u66ouGXnLaTdFCzpXq2huhoE4T0b9RO+/xyhvZ4K1XerMgiaBBQ0PuWUZSYbBZjrccaRWzd8fUisqY9W2y9EjJY2DKU2nBFZ1cpUbW3qnu2eT8/ELmReTxWotmkeSI8UqHcDmlP/jnaMBLvhyxWPojhMDwa5SBpIQd4onTk/gUsZsOg65bV0r4KQaNjg7G6VkhHQ5NbdCDPbliA67n4+kzEk/h4B+BaBnmfjJ5eEeSn3q+McCWZxSrC6553ymzl8qazDWLqYP0Ddpx1DBq69aIvKYovVcrTSP2iJnWl4yU9YnRBoMFcyE65SC77JFJZhEoQ6QSPyt6tFYq6XXIfWRAdxE71CSOZwZE4iJyCQEReuafy3oQXjBzs+DIsofegCirW3q+Fpx4AASZCRdjDPxzMqfqvCtIqfFgvcNWuYiGPKqXqP9CjXQK0qUAVvR4FwjqeWB0yP/JJItad6Qe5jattmDBDbG0kqpXLH2C5RYPYpQ5jHq7HY+OcbPvK0ClqFJvjZFETeN3AES7E3M96y6M27Dm5G7l6hLNoFvaSvXlxeIFfch1km3lw0v+2n1FV43/A2tgSuS+PzmLWuBFGVNkXvRCAu+QKeyhKUt9dl0XsppsMK2ltYjW40QMJN0vm9tFIqfzDDgaJLMaNQ/OqJL8P2KgmoMyTbdB5RX7uUslLzSPh//5AJX6zcvjDsYlWvKoXVfheulWKWRK84zj187tE07YiH+36+fiD3s5oJa4VXJwIh7RP6RDoIPYktabhKsJdASI+8vCkbUv21reRO2xgbFFS1bX2EFsp0meeuP0j7UlnyMXcv+AEfyDX6sqCrwupw2/uiAjw5GoEv3yzxxRm5eE6JBHKCM3/ZHi0tjUje+90WZytNomws/6nYqTieg/ZN3eTtfWLLvV9QSvIxj2JYgjfNUvux+OLraVxeUGsY8RuCdscezLg
+PRIVATE
+
 * 03/28/2022
 ** Summary
 I woke up at 8:30am today and made some tea before hopping on standup
