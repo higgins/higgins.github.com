@@ -1,3 +1,44 @@
+* 03/31/2022
+** Summary
+
+Woke up at 7:30am and went for a run with Leche. Was going to go by
+myself but she got out of bed when I went for the door. She wasn't
+expecting a run though. The most I got from her was a fast walk. A
+gallop at one point but it really felt like for most of the run I was
+dragging 50 lbs of dog. We ran a mile, maybe. Over near the usual spot
+on Exposition. Walked back.
+
+Focused today on testing the rest of the HUD rewrite proposal. Spec'd
+out the changes it'll require and started working on it. A few minor
+interrupts for the second set of test users we let in today. Ate
+leftover shrimp and zuccini spaghetti for lunch. Threw the ball with
+Leche and took her for a walk. Watered the boxed plants with her. One
+of the greatest feelings to watch a dog attack a stream of water from
+a hose. I remember laughing hard when Jackson used to do it. Now when
+Lech does it. It's great. Whole face wet after and she barely drinks
+anything. Always huffs a bunch after she's had it.
+
+Got the re-write to a good place and headed over to Simon's for
+workout at his gym. Some decent equipment there. No racks but a big
+cable machine. Ran 1 mile, did leg press, "juicy juice" lower to upper
+cable flys and then 100 pushups
+
+Went to Smart & Final after. Bought too much stuff because I was
+hungry. Lots of essentials, they'll get eaten but should we eat a lot
+of it? No. Case in point: made frozen battered fish for dinner. What a
+ripoff. Fish was mixed and thinned with batter matterial gross. Like I
+just ate a bunch of flour. Anyway, don't feel too great after eating 4
+of those. It could be that I was eating like an idiot: dried edamame,
+some beef jerky, whey protein powder + pb powder shake, la croix. What
+was I thinking. Anyway, not too bad. Sleep it it off.
+
+Took a shower and will head to bed after seeing about twitter upload
+media API.
+
+** Notes
+<<PRIVATE
+683d8fecb0d19e08IBFOVfxHTUN3YhO1DAx7OlaucaDRG+Iku44JZFmJIJ96tFC6ehiPQpfR6As2g8Kqq5meBZTSU1KDL56TXuDnLdZ2o+99oNi5sf/UQT08ohjkqUDDIQyd7/EsNNXuHqZn0tzFhJWlPGvOPhVpMRetKGoOOAXyRS85MlMqgxiHcNHSDoj6MnuQF14HLR4AkDfOWOcdj53/RiyYu506x5RqKKsxXC80bYLkZn6Gz3c6wEAimuVjfnV0w3RmO5NOOXHNr6dfIRDOGxq9F4mqof0bocLaLa/a0VSpnYANvBp6fcUE8PYlx2mgxtrIbPp7nvtQxGMNf1sPDJtD1TAEIGf0PxmgHHYkxSJEcqMpGx9IQ7iq7VrhKe1rP4MwLXdus+xuitLoz4XEFcnUQ4gorHBw8tmWXBXWSzMKOLLqsQ6DLkPqVQwxDCmVi7XfjE/UhtXWWwYwQAVhjCsr8c4HOtDNEb2u7I6cJW1C2ewi8QeRV+hP3lDeKvddzX9R0wKA2fSHWydoEDi9JrGG1qMdb0Y3pRVGo8miGgONes516qWaP3KdGO/JSc2kb8u3Ll+2G5jK7UI9lrfjmxXdQqirOlbnE3NCK9SqpThtBZ1CsbUEmujI38ZoRCRew6okrNoTI1B1PLGZVv9UOJMoT3U27LpUwl6Z26sF5BKfkXR8JoFsZ5VWit5o4wPVTJ4p74nEhroJ0nD7y8aryT3hZ1sRl4VcvzCFFHjXkJLj04GS3HgicmBepM0gyv3gih8b9GsBrGH7k3YDiPC6NDLeDuApTR4u5i9TQpe7YfVnmhbPmEqhTYX3rih9qAiOzJGWqRijOPXx1wrt7Ly15UB/J5MnWygeodIAFC/Co9mo6LC3Xq7O1RdUD0hCcLubsLUhWfj5lZ7EuSMdlCm5QhaVY7Q4kcnODbydK3XePSXfzZiYHX/ck1x8o00X8JezZsxo4aBSV+2yVIZmn0TRvQRtDjG+PTuojfNh5vLm0Zf9uCeFXGqBTQJXbqBwiUxkPhjHuuIffGvABgAiNLooy2Fiqo0uuw9UP5NbPXDTYSwSCsS0M2mJGNtzjVXM4NBzs5ebziOC3JgHQQQD/To9AXwJv7c7lBtZRmG6+t48iuu3bFls9+f/1R/SOLohOryWSjR0n0kueQjJTrWzRZXOskKt5j/qdXCvs5VlHiSYk0baAIJkzQ2mXC7ZPJKfdz85gfeHIjbHI2NlyE1FbZ/3kFSZTiYmr4VtkjFVVdr3OZRkf8SUp4ArznMtXws6bdp7Fu6qPQfKuZGoyuGoUZMUZcYT1MNkacV2lyKwRsQbpAgWLnwZ/tkfjShbeP/TgLpRRJuC1g3Afh/ELUZDmW/wep1wbRhownNM9gz6hLSVZUy6PsrwazpAj+oAqUY1kjwJmLCRqzAa5P7Z+ttnahed2/w4yfRLS/3ujY/N0521Aa6UuBWLToYBr/MFkEA4YdPheC1USfVWIScc+yYMn+HfVMPTKOk5YWm7jC/X8MdADp39srawFp52GlCd/8m1j/nRmBvOn0+aQYyCJeQmK6FGtpxqcsksPLX1eGAlbk2Fk5bpFWT7ovn42ljVI36vjNdXsU4tMATyoWin8rvMqRgY/PTc4AQz1r0Nye26NFzT3rvwMogRY8bVlB6Dgn2uqkI1JUUvb6DmoMqtFiO27I1NE+gP1R+lhb74N4mDFuUaOIeLd7ByIbRmsd8QP/LROWtLXqpMNQOohz4x6q/DOVYTa5uddgoPAtWGf40rkAx4eUWYNFTkSyhRmhZBY0d7v7ihymhodDcSTXHBY6reIxcgztyrxkqZJPHpL3AiFTD3djvQdFn5ek3Jww8TKfj1vYSsvu73aAKCvyxbNW4dGjZfQzJoUc/+nCYc5KheXbksLn+JDD9FQMo42XaXPOo6yCUVrMrG0R25BYvqIN4Yh8LGkDGhWV5y+1R4Rb1jLh2WWucK7S2Admb+3jhFdPsSTUWmRhhQ9fL4vngwPn93NL8hWYNbIJY2hu6PaFxQDXrNR832juqktXboX7P8xD+h+sAS/hKJoWrQZraLG93gfkzx9vgT96qhJEX2hRJ2j+ATDzHnjQRZVYpdXpwyyCUPcRFGofxaLUY8lpaG6Po7Fh/Jjyn1KGOrJv5KLGXzOm4B5R3EUqOml2DmAr/InN88r774q+sLyRd5hEiB1UjNmR2XL5PisOcydDtbx0oYHvpjPmwDM5oUsFL1gkL2oOrCg6XkRHQUX9KMbWeFUt0bnS30aX1WIyDCkfTmAFXQl1eKKvkMtYyaGAgoCZkisJxDLBpUnaSrE7NRuog96w7P4d/XBOxe8Zib4E/2K+L3uJqK5kGxVAtbf7x/sXu49qD71qtYBg00mT4Ie2dt0JOP07ewqMYPgzzKzhCGmKGThY0JksVWd8I2Rt+d+FBcp6ctYK6dBnlzckp9oEBgQOQo7QqehzQJQVJAItv+BQcQDVnNeI61y3uIxf5cggTqbbsKIIgJHZu4jvLKW0pw+EDR754qZHKLVRrtZOW0JEOQq2SrqxAJJYhG5hqgFk1ncHg89W7LhLT7feLwpNrFtlTySQHrHjR4lckU2xwl29kn1Ub2dchq4jD9UBXyiHxHD+QnIZPNqZ/Qa6bGg0HS/Jq2TjKxZlNgtDvXCSV5B9nw/ooqWRnJQZwW3n0OU0IXzjJIRPoYmes4hJ1uNRUNlHik3gN2+dimwwxbX/2YIijz/5KUVleZe7Cm1vBvSgco9Oe08Utr4AFnolkiSbAaOQXUnkS48l6Q9k77qODIz51dR+8TyuZK2KHSkrVyBmbREnzX9PQsceA2D4ORavo+FfV2wNn0KDafiKEJasZHKUk57VZR9UlVjAga4hP/7ODaFlChJ1g0NWI8c8coev327uQdpjpU6xORh3beB9E54sx4u6V1Iop4qGK+JlNMPtUBJdmwb7GSMHWIy9LySKgUzPPOu3bqFWkm97NOWiXJ3a4UWmz/zZcdy11owUi9P5P8u1A76Zo4NjkeF6ZirsTHoCzzPDqsiGetPi2nDRJHLD5KSaubCHq5vVOVZtQkqo0qqB8xrCBenzV/SkbzB4sQNVFY8Ga+6Hiw4wtvEy7ypfVwkZNGq4P/n4DL2EWGo9OrXX7U3lWtLrFrmptnVupt2jfqbZMsYAxml/e+WZPe4FB+CuYMXcacduwSPAFUDGaeo8l/o9R9lwhoWMPstRvY1X6/bQ3E3/nYSZ+Tv+f/p0FOAD36JWgHoGqsRM2ejKrMA81QPyGT7V8I6ajzg5/o6eTqIf6PLKmkL0uqcG2JN/XISCfl06CWWSoOYs6uyWZFJyogEsFuqBtw1kfOxlfjXyel2TTcg2M3OxlkHC+3BB3gltgjmtzdiv6MbOdI1ZfqjMJWDSLCqZoMdFAdq8Z1L8FTwH0rIKCXUvylF6cX0KCGSOasyAL0q0i1o+hni1loXPEX1+epn44+ATx3Xk5/CjDOjuEOCoQMvfUkyIneJpdUKGP/WpoUbO7u5WXfRXHZ03T+h3I2u9lFtGDH5ORBrR4gdctUIdbRbjbbSyTirNhm8T8ykFSqbjQT5YbFs+IUvmVBTEdm2gQsnztqKmDvzmvXKqCDcnsXP7Tt8PrUPEGQ+gOe76NipfIeO1OMvYmRJTRmpP1aGZbZGPNvfv8qMrPyc93xOHaiWrGwSPopC/lb6cYvGDdbiSBlB4NlzxFyfVbuAOkPo5xIfUpPdp86+x49lUWtp85Ni9+x4l5uxFSEluD70fIT8yF1C28nEB+xfwLUTxPWqBHixLLCRqsv6nxp0L/SQVpycb+KIEqC5kQiZHpHlIkrekmHeEfbPp4wrzZUKM4w53ZjZi/U5BAO5FN1IqZq247yB7E0uif247spcCacD4w5oIFj7mN1ANVpSJlVhderjuthbOjrESBBrxHoHfOBfozPqvOYNQlcTspKyj6hdjjPwjNix6liWqtltd/9hl8w3wyVocQjAuift8FZTPv2Mi1MiZWISkN3hSch004fDdf7Gm6f7+LqFdn8Rl5zH+qcal27xMFMGrIqTZhbk36FR7SUrW7/7nYk6w7zSlTRrn7mslUlE76LHad7lvnv3v8yFcGgMSQoVu3/Dt5P0g0WuF/hqm1w7hA54zfJNwR7ujEcvSOLZHQu5eg3ozhiAw/h5O5xlZlUp8MQRGkMzdlsjw6G4xjzSYFKqr7Ad86cjZZG4BMeRCl2PJfEACrC4Sq++0w0jBFIKMxvd/ft9kyyc6SBq6kLQVDcK1KdDvKWqnlEE1D/
+PRIVATE
 * 03/30/2022
 ** Summary
 
