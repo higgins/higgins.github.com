@@ -1,3 +1,52 @@
+* 04/04/2022
+** Notes
+*** Me
+- [ ] Jered bday
+- [ ]
+*** Glow
+* 04/03/2022
+** Summary
+
+I woke up at 9:45am just before our weekly "Palms Puppy Pack"
+walk. Mariana stayed in bed. Six dogs today and 5 owners. A new lady
+named Ellen and her two dogs Phobos and Hitch joined us. We walked
+around Cheviot hills and over to the library before heading
+back. About an hour I'd say. On the way back I saw there was a pizza
+vendor at the farmer's market. Told Mariana about it and we went there
+a few hours after I got back from the walk. I ate oatmeal and had some
+carmel apple sencha tea for breakfast.
+
+About an hour later we went to the farmer's market. Bought
+strawberries, kale, eggs, mexican squash, onions, loaf of sourdough
+bread and two small pizzas. I had a potato and chimchuri while Mariana
+had the seasonal pear, arugula and gorganzola pizza. Leche stayed at
+home and gave us the "how could you" face from the window as we walked
+over.
+
+Threw the ball with Leche for a bit and emptied dresser drawers to
+give to Mariana. We agreed on her having the drawers so she would use
+the staging place for her clothes less. Good excuse for me to go
+through my old clothes to get rid of. Have a bag ready but need to go
+through closet to get rid of old clothes there too.
+
+Spent the day off and on solving the webm -> mp4 problem for personal
+project. Tried several, in-browser solutions (via ffmpeg.js, ffmpeg
+wasm) but each path added more constraints. I got it working on the
+backend and posting end-to-end. It looks like not all browsers support
+video/webm recording (eg: iOS safari supports video/mp4 directly) so
+will need to add some more conditions. It also may make sense to
+handle the video processing asynchronously. Will look into how
+performant that is.
+
+Took Leche to the pet store at 7:30pm only to find out they close at
+7pm now on Sundays and not 8pm. Bummer. She was stoked to be at the
+store only to have to hop right back in the car.
+
+Hope these arms feel better tomorrow. Will do an OH press SL set
+though which shouldn't be too aggitating.
+
+** Notes
+*** Me
 * 04/02/2022
 ** Summary
 
