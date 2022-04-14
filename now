@@ -1,3 +1,46 @@
+* 04/13/2022
+** Summary
+
+I woke up at 8am today and had a slice of pumpkin pie for
+breakfast. It was awesome. We got it as a bonus gift from the Marie
+Calendar's lady who agreed that Mariana should at least try the
+pie. Almost a week went by and no bite, so I ate it. Delicious. Made
+some Golden Mao Feng tea with it but only drank half (about 5oz)
+because too strong. Made gingko tea after that.
+
+Had standup and synced with James about testing production
+build. Confirmed it and pushed.
+
+Took Leche on a walk up the hill. Not as windy today. Nice to not have
+to worry about tree branches falling on you.
+
+Pinged external vendor about issues with their SDK, they got back to
+me and confirmed no work around. Using their APIs instead which
+requires a slight redesign on our part. NBD.
+
+Got the new SVG-based system working end-to-end locally. Nice. Put up
+the PRs and did my workout at 6pm. Simon cancelled our surf day so
+we'll do workout tomorrow.
+
+Had salmon, rice and zucchini today for late lunch while on call with
+Chase. Stomach was feeling better after last night's hot water
+bottle. Gave Leche some cottage cheese on her food.
+
+Made ground beef + cream of mushroom + peas + shell pasta for
+dinner. Broke the "fish during the week" trend due to poor planning on
+my part. Will also break it tomorrow.
+
+Worked on side project for an hour over one focusmate session. Main
+API is up and working. Next task is to fetch credentials from session
+(not params), add text input form, add a replay view, show who the
+logged in user is, log out button, think about streaks.
+
+Going to bed now, been standing too long
+
+** Notes
+<<PRIVATE
+bd9d249c4a05f59fxS4Ilu7eo0/WauS1JctcNrkZc/olStJLR7EN0BPy20y6BAgrSaiCLcN+RCBxKpgL1njK8qrm8e0sekhpVklXJNaCBh3bhTjAHe+vUw1/CE4b3Mmw1879Dct/gd33yt/cWyCCe/8OPWjwMHPOeLMAdCZexkUY+hOZdpaLkeMPphsnn8C3OtqkeewQZsQ68lY5KehE5P5v/ayXM/N5UumcrT9fVkm++awvfiuHtTuH9XLWMDwpiWekOeT6xLzSQ9WoHzSslYn7RDdtZFWUxGFSsbCezDtkHX5J+SxZu9ol94K8i+cqDBlqqqabL1LD1kuZDG0Jr/GV9VH02ovdufybKGf4YItUmWTB6CNQbCCif22P5ajIDHX/Eqeo/Gtdy1SEopdrbmfbp8ynF08rOPP2fAr34Qp3terDP8e9fbW0I6QGsmHakxZ1YaxR5vj1r+lVHopBb0sYmwuQM0Mrk3SU7gpS4pvzrI7Z
+PRIVATE
 * 04/12/2022
 ** Summary
 
