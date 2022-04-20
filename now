@@ -1,3 +1,45 @@
+* 04/20/2022
+
+** Notes
+<<PRIVATE
+8941482b56225253tUcqgHcoPTS/GbY0jCax4Tc8Pgh7aANLUPPjLGVI/aecNcu0mX2IBmgmVsUxdutkZgG6/VSDt31PH2ABoyVwgGZ4ute61//smT/gDSad3ZdRy+vsRPEXBo1nCuNqbxepg9DDzZc+TIu8+tWqJux4nHwB5RHFsar/AJrKQKA6uHgfWB+Zfz75KDFKxGfZsbBcLcTztWfGbjmk8UstN2o4RqUXR8FCZOJTmeIS5nEewZJqFGpk1j6ontgEgWFpjpluz8pRlV/3STlcwjOSzafRAxzFNWCcJpL2Nu8RFmcct6ApX21uvoTncES1XShGDPcSUKd7vSsrZVBgNkFwLEzTPH+lsWjQZ8ENiCyRj1VCRoO0n1VeEzPYBXocEbPmVYQOeYwX7o52j6YxbYFuDoGFATyVw0/OZXxp1A6ZxAdyq7QVTMomMG9vfD/Z1GHO9Xk1EYSUAO1By7RT2BXYmlPCdmowfj6JGFfcCZT2Aj/f81QXtmPLkAgey6WgNlhRAIh5lgrYtn0WCpi+6/go2dr5wu4stLJp6QWq9HLBefGFnasgZWeq+ToVIZsgsKaxmVBJZ6k=
+PRIVATE
+
+* 04/19/2022
+** Summary
+
+I woke up early today and did a SL 5x5 workout before call with Dad at
+8am. Been a while since we've had morning call and it was good to see
+him. Finished my workout after the call. Took Leche on a walk
+afterward. Made Mariana a pb powder + oatmeal + banana smoothie for
+breakfast. I had a blueberry, whey, pb and banana smoothie with
+workout and 4-5 scrambled eggs after walk. Gave Leche 1-2 scrambled
+eggs.
+
+Fixed a data migration issue on prod. Prepared for meeting with
+pentester at 1pm. Tested the app with the team at noon. Major issue
+with one of our systems that went into read-only mode silently. Fixed
+it and set up alerts.
+
+Had call with pentester about drafting their SOW. Prototyped a
+redirect solution to the HUD edge case I'm waiting for vendor to
+acknowledge. Redirecting won't solve our problems. Drafted a spec for
+how to do it without and shared with frontend team who will implement.
+
+Ate a salad with tuna for lunch and made shrimp + zucchini chickpea
+pasta for dinner. Took Leche on a few walks and threw the ball with
+her at lunch. Walked Mariana to her studio with Leche and picked her
+up afterward.
+
+Played more with side project DCC but I think I've exhausted all
+firebase-only solutions. Going to setup API running on EC2 and be done
+with serverless ffmpeg problems. Should be able to process everything
+blocking request.
+
+** Notes
+<<PRIVATE
+6f6f26508b978371nVIcvTKEIejK4lCLWVTiA3VdH4xlrR/+AiZCzkpLdtSuheKW7LaY//HYvlNWwPNrh9vU0nKytGMKbjJeyr86f/t33iD45xqaZTA12E6x7Mgc9XuXnx7ccwARyk0KeWKM//usMvqRjiQnIJppQrYlV/afr8bvZVIJ
+PRIVATE
 * 04/18/2022
 ** Summary
 I woke up at 8:30am today and made a panax ginseng and chaga mushroom
