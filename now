@@ -1,8 +1,49 @@
 * 04/20/2022
+** Summary
+Woke up early to do a treadmill workout before work. Started at 7:30am
+and went to 8:30am. From 3-4mph. Felt pretty good. Strangely, I think
+I tweaked my back in the process though. Maybe from the yesterday but
+I started noticing it a few hours into the day. Had cayenne pepper
+with horny goat weed mixed in water to wake me up. The chili
+definitely does but I think the brisk walking was the biggest benefit.
+
+While walking I setup some billing alarms on my personal stack. Will
+continue that work tomorrow morning after workout.
+
+Had standup with team at 9am and looked into an issue Albert
+flagged. User error but did bring up a type refinement we can do. Low
+priority. Took Leche on her walk up the hill. On the way down we ran
+into Kathy. We're trying to not make Leche expect treats from
+her. Next sunday we'll also tip Kathy at the farmer's market if we're
+there. She gives Leche treats all the time.
+
+Got the new system tested end-to-end and had a few clarifying emails
+with the vendor. No blockers just good to know how their system works.
+
+Waited until 11:30am for breakfast of 4 eggs and blueberries. About
+1-2 hours later I ate the rest of the shrimp + chickpea pasta. Probably
+too much too soon because was pretty tired after that.
+
+Put up the PRs and finished work early around 5pm. Threw the ball with
+Leche. Played chase with her too since she really loves to keep the
+sqeeky ball. Had a co-working session with Chase at 2pm. Pretty heads
+down in it to focus on integrating vendor webhooks.
+
+Cooked salmon rice and broccoli for dinner. Waited for Mariana to get
+home to got to Nordstrom Rack to size up suit. We compulsively bought
+other some clothes and now I don't want to buy anything for like two
+weeks. I think that's doable to balance out the big spend.
+
+Some of that stuff was smart to buy. My daily shoes have had a hole in
+them for about a year and looked pretty weathered. Got a pair of white
+vans and black nikes.
+
+Did my pushups early morning after the treadmill. It's 10:41 now,
+feels like the day flew by.
 
 ** Notes
 <<PRIVATE
-8941482b56225253tUcqgHcoPTS/GbY0jCax4Tc8Pgh7aANLUPPjLGVI/aecNcu0mX2IBmgmVsUxdutkZgG6/VSDt31PH2ABoyVwgGZ4ute61//smT/gDSad3ZdRy+vsRPEXBo1nCuNqbxepg9DDzZc+TIu8+tWqJux4nHwB5RHFsar/AJrKQKA6uHgfWB+Zfz75KDFKxGfZsbBcLcTztWfGbjmk8UstN2o4RqUXR8FCZOJTmeIS5nEewZJqFGpk1j6ontgEgWFpjpluz8pRlV/3STlcwjOSzafRAxzFNWCcJpL2Nu8RFmcct6ApX21uvoTncES1XShGDPcSUKd7vSsrZVBgNkFwLEzTPH+lsWjQZ8ENiCyRj1VCRoO0n1VeEzPYBXocEbPmVYQOeYwX7o52j6YxbYFuDoGFATyVw0/OZXxp1A6ZxAdyq7QVTMomMG9vfD/Z1GHO9Xk1EYSUAO1By7RT2BXYmlPCdmowfj6JGFfcCZT2Aj/f81QXtmPLkAgey6WgNlhRAIh5lgrYtn0WCpi+6/go2dr5wu4stLJp6QWq9HLBefGFnasgZWeq+ToVIZsgsKaxmVBJZ6k=
+b673dc21250a9e9a/CZmGNTZnVfNdJ5FkHCZg1NYSE7FV7Ld75eTQsr0RydenjyB9Qj3602H5dbYtW4h2HdUdFlhR8aTPDx5VaI8gViAAhTphGk7QgRLowDLc3VIA9xGvvgG4DLBhjzl9pX7IAXhbTXGHDop3RaF8LlPzT0Q9aXq3E9AqiV0MUlgERxyHc/eSRbxCc33SqF3FwEy2rVhYKOx1D0x+49FjoRNRiq7EBaoeT2ii6UKaXTrDIH+XmKCob5IsDHPd10alRaIea9J7kYjmvvIaASQaF+1tj20qugAjdKr5y/gUDcY9yenns0a+8BtdCkgl9XApnP6fJ3Ainrbx123ZnJE/Gq3/NlR+3IlHVy1qxQQPmH+koPR8ADNMbxtfhkRQG8VbgIiWBPfjsREN6SPTyH5ECj8hBJFrvfmfx+f2AyolrdWImoEAw6p02aXhzRojrZLnceZ6/sLu4/UZBc85Jk/UbCiP8h3/gZ9fWpDGkFj7bQ+vDmpH4ZPnIoH+WeUNR2VPF8ipiXCzEpdIsMOvEfFOaZl09F8CsqjPdg5Ew4MOUiPz8R1/Q0itgG95jGADAWtKjaOGaxqnOBy8QrlwKvOF3Pzi2kSL5PzsC8bn6IW2sWm/T8ql2Rsr16AplCq/viYTCm2adrKzGQVyDIn1i4t6Ykrg1/BGGXCE7GobFjRbJc/xmwRsFrwLItG+Saekjcup7HewxQtJQ/6LkdpVr65s6KYade2fkSgT+i7rYB6cN/MXVksTmPmAmc7pF3mvVbeed1z+MYUxOdtRfAez7DZCNi3fIsaJvIyxkxd+UG3FrPo3UkRcFt5u1MNYYlKA1tElPAOuxD1YoLvCR1awLQ2ZPSFJDKJuhkXxJNj2sZ1RCLuKubCXEeVDsid5bTl4DC/1nG2StwgIirFtAXHej/rgw48chGvrhhmbFBsk69Q+S3HZBRx5/hMoxBT9eb0Opt2YykLnGyXTPogqGf/XkcQmq1rJHtmuH5sTUH8Fw==
 PRIVATE
 
 * 04/19/2022
