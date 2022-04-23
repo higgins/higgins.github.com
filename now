@@ -1,8 +1,35 @@
 * 04/22/2022
 ** Summary
+
+I woke up at 8am with Mariana and made standup by 9am. Took Leche on
+our walk and focused most of the day on upgrading some infra. In-place
+updates but I wanted to be careful. Did some work on the invite
+feature but not much.
+
+Had some back and forth with vendor about their SDK. It looks like a
+param may be expiring or renamed in a new version and support engineer
+thought we were using wrong field. If so, their current sdk is broken.
+
+Made a glass noodle stir fry for dinner that was pretty good. Chicken,
+mushrooms, onions, glass noodles, green onions, garlic, oyster sauce,
+soy sauce, bit of mollasses, bit of worcestershire. Delicious.
+
+Had a big green smoothie for lunch. Kale, banana, pear, orange juice,
+pinch of cayenne. Delicious.
+
+Walked at 4mph on treadmill while making infra upgrades. Walked for
+90min mostly uninterrupted. Felt great. Did my pushups after.
+
+Spent some time on personal infra but realize for the 'everyone'
+project it still is probably best to use firebase's lambda. Firefox
+isn't cropping video properly so I won't support it for my video
+projects.
+
+Bed time.
+
 ** Notes
 <<PRIVATE
-e4429162d53fc2e5RrwpS3bJy/hn7dwdGCA3ji5fqVGPUrYm6RQ86hag+qkPlhgE/+kRYx8+rdZxaXh7X4NDAtB2U3YweT4AGPjgQP0WHWsNPSLOI7JQmxJ7gZ/lh/YkJOLxAaBpu0u6Tdj42Gzrv13bn5RLd/EKHjyblEbGgqtvddaZNcISRvs=
+8a532dede8109a1aK9/SQaPpTdsEAWIeeW4Uik//Bz9TBirxgqIEUHcS8uycRoh8UkftCg6F2Qs1DMsah/iMAlPlDKRE+GoyKEisxvTGI5hu4hKoXt/JjQIg6Pih9fV8KvO4gaOdAM4imsSOla1BTnOLK0sBSDN+sNSvzdv9bjcS0FSQrLLwot5s13h3JIhJv1mJ+mAPaSK38J7Cu6O02QhWpf2B2F35lfSfjfPDmSCi/bROMUdYWglkI9nBW1gZzyNoaawjWc6nD43gynRYC1W/II5AEuFyR/JMHytLLlutFsqN5pwTbf0df01jIyWTlxERZfY5hzW0NNPPCCq7tL4g2rznEhXWrPVWMQpwqKnSVtMTPjcAlPSgSL591Uo5N/9mUuTAoZ0hZn2tUkcuxYc1nXfYmEu+U8ZN0ob+iW1kK3oGeD1ayAYEvyMc7RChDDZvZ+H+beMRtqtf6XRcclGmKWVLkmGLfL9JUV5y2jLmC9u7t1nRvCyCeo1YJct2kx6RuFbxbvMrprBQhqa52nqrZvkV3VMWghkpC8z1NRIrd1sbBOrFPkm1WAfJmDwQLUycAa136cHLTtgIYuETW1WaptSXNtrhim6cQ2VfCWcomxgbwO/jBVHqUvEBxbKnWmyyRI050iHhLW6rNDuVFyuFmI7PUywOM/bULJ+LuBOrbbNkK24BUFWO9er3BAiaYfDZH/z0eSciUWZsdAtTwFQqrQY1Aj+05t5NV8pDM7O5cy8z4gjE8NZp5AK7tDieoVBZ8VBBzo3UDsLLM4Pf0ZNFFYBAhANu+ymnmo/hnWsNQQIxA06g5ZD8XSdgz7VBYeuHI44RLoXUexbBGCeBDdhN77OI+NJkh5vElpaBL/A=
 PRIVATE
 * 04/21/2022
 ** Summary
