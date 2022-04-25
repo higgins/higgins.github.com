@@ -1,3 +1,84 @@
+* 04/24/2022
+** Summary
+
+I woke up at 9am and took Leche on her walk at 10am. Only John and
+Inez joined us today. It was Inez' birthday and Ellie made "pupcakes"
+for the dogs to eat. Leche savoured hers. Never seen her take so long
+to eat something before.
+
+Got back and made breakfast with Mariana. We went swimming at
+1pm. Great day for it. Put on loads of mineral sunscreen. Mariana was
+worried they wouldn't let me in because I would get the pool dirty
+with sunscreen. LOL.
+
+Had the rest of the protein cookies I made after the swim. Tooks a
+shower after Mariana and she left with Leche to go see Aeree. Worked
+on my "everyone" project and got it into a functioning place. Mobile
+uploads aren't working, need to investigate. Add better error handling
+on the client too. Also, return the uploaded asset so we can shim it
+into the player via localstorage.
+
+Made a shrimp rice gumbo of sorts for dinner. Went on a walk with
+Mariana at 10am and returned to do my pushups and write this. Will
+watch an episode of Barry before bed.
+
+** Notes
+*** Me
+- [ ] everyone
+
+Desktop safari looks like this and works:
+
+curl 'https://us-central1-everyoneeverywhere.cloudfunctions.net/uploadVideo' \
+-X 'POST' \
+-H 'Accept: */*' \
+-H 'Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryTzSnZ3KyHAXKSvWu' \
+-H 'Origin: https://everyoneeverywhereallatonce.com' \
+-H 'Content-Length: 334935' \
+-H 'Accept-Language: en-us' \
+-H 'Host: us-central1-everyoneeverywhere.cloudfunctions.net' \
+-H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Safari/605.1.15' \
+-H 'Referer: https://everyoneeverywhereallatonce.com/' \
+-H 'Accept-Encoding: gzip, deflate, br' \
+-H 'Connection: keep-alive' \
+--data-binary $'------WebKitFormBoundaryTzSnZ3KyHAXKSvWu\r\nContent-Disposition: form-data; name="video"; filename="blob"\r\nContent-Type: video/mp4\r\n\r\n\r\n------WebKitFormBoundaryTzSnZ3KyHAXKSvWu--\r\n'
+
+
+Mobile safari says it worked too....
+curl 'https://us-central1-everyoneeverywhere.cloudfunctions.net/uploadVideo' \
+-X 'POST' \
+-H 'Accept: */*' \
+-H 'Content-Type: multipart/form-data; boundary=----WebKitFormBoundary2qKKnf8ajdQgoE0g' \
+-H 'Origin: https://everyoneeverywhereallatonce.com' \
+-H 'Content-Length: 370919' \
+-H 'Accept-Language: en-US,en;q=0.9' \
+-H 'Host: us-central1-everyoneeverywhere.cloudfunctions.net' \
+-H 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 15_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Mobile/15E148 Safari/604.1' \
+-H 'Referer: https://everyoneeverywhereallatonce.com/' \
+-H 'Accept-Encoding: gzip, deflate, br' \
+-H 'Connection: keep-alive' \
+--data-binary $'------WebKitFormBoundary2qKKnf8ajdQgoE0g\r\nContent-Disposition: form-data; name="video"; filename="blob"\r\nContent-Type: video/mp4\r\n\r\n\r\n------WebKitFormBoundary2qKKnf8ajdQgoE0g--\r\n'
+
+* 04/23/2022
+** Summary
+Relaxing day today. Worked on my "everyone" API. Nearly ready. Hung
+upside down and used the car buffer on my back. Felt good.
+
+Moti came over and she and Mariana went to have lunch at Lokal before
+meeting Marie and heading to the park. Leche and I went on a walk and
+played ball for a bit.
+
+We watched "The Batman" before bed. Way too long and pretty
+disappointed in it. The Nolan trilogy was all about character context
+but this just drops you in and expects you to care. Also, some really
+cheesy / pandering lines in it.
+
+Went to sleep thinking it was a Universal balance between how good
+"Everything Everywhere All at Once" was and how crappy this was.
+
+** Notes
+<<PRIVATE
+336973aea829fc28mt8Luuof1ZaPAeZCFdRWmdlaHhngZtl40VN5m/Er7Rf8Q34rfNYlEM/AGDhVnwg1kCUwvFgWto/LAhEJ2IOTl+btJ4gLhJJDkwPU4L/IuhA5zgCXWypimblbd+NqqbR/mgY0jnvvdIJAfapdIjYoFjy724b5ZPFS+FU2aQh6CFZwYpQwwiBFVUVubBDlEFa6qYTFz49FU4m3kVPQbiPuD01ZBUaUYVFMybcjQQZp5nUjyHRwe19SkFfo64izrMs2GxP1aChMExtYtUngPnUX5MbU8IoZA3uxwGvIdRqmbT8g6+0nxMeDZNzWMWSO/P9eTL/CtrBdGb0QRWqWE496oKPkRnMIKdlfH2KaSpfHeoyHcj4PPL//vD394V9YiWhpZeregSCWWnrqIKU3uS+DtAIaUn39JIUwLnIYlvaMRbO0YTTRbxl1OZKjwqVZ3/uF0kotJlE0vD0cJyKu
+PRIVATE
 * 04/22/2022
 ** Summary
 
