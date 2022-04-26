@@ -1,3 +1,39 @@
+* 04/25/2022
+** Summary
+
+I woke up when Mariana left for work at 8:20am. Standup at 9am which I
+took at the kitchen table while I made hot cacao. Had a few calls with
+coworkers after standup before taking Leche on our walk at
+10:30am. She was pretty reluctant today, very slow.
+
+Deployed latest production and tested. Fixed bug for Albert. Tested
+code from last Friday and groomed the backlog. Proposed a design for
+the viewer count feature.
+
+Did a SL workout at 5pm. Was pretty drained though. On my 5th rep or
+third set I leaned too far forward on squat and psyched myself
+out. Finished out the rest of sets on lower weight. Same with
+deadlift. Tomorrow I'll do treadmill in the morning and a weights
+session with Simon after work.
+
+I made ground turkey and cabbage for dinner. Breaking the "only fish
+during the M-Th" goal. Poor planning on my part this week. Frankly,
+this goal has been slipping.
+
+Went to the middle eastern grocery to get the ground lamb for pelmeni
+I owe Mariana for our Oscars bet. Went to Trader Joe's to pick up the
+rest of the ingredients.
+
+Tomorrow, I will wake up early for a stretch and treadmill
+session. Will work on the mobile upload problem for my "everyone"
+project and if fixed, setup auto-emails for me. Work day will focus on
+i18n
+
+** Notes
+*** Me
+<<PRIVATE
+de910c22a2f36966CCzNvCJ0FB0tyHbM4q/nnV94lv0hpfWZfll/e8xEFPcTpyCBQbo1pymilH5bYyy7LFiylW/c2sApI4VE50yoy8IAkUvt79EUzU4WziE5fxJVwDtEfTeTtetcxuei2vjtv82FIJqnZ9hcKgWk8SQYfNcWxgjS1GnbzUaGd9SSFGhvBgEdwCrKZPO44jV4mMqKA/V3DTbYcK1psA88rVbIGhZrrb47G+IeuEBgmzA08ztNyUctFI4Z8ENxdERFabgpnVIEDVMr+QeKxIyTW1HbulPKu9bDEAaI+u08GLKsb7Mz9idqH8oRdGhDLE+inxxtJiLC+YVOqLWhjm0MUvnXFAN95OqSf3pXmMIqHyGbQc29X86J5o12rvkQUCeNEWrtU+mDzUZYua+c0c9U2FkuvLHcEzD1SBjgf6Gj7OHNNk31d2WMEG++BYqmtJirCUrXDHLAUT2j0skSKr3jx/P2lCyzxoqyXllWT+hTUJ01s6ih11mLiHhF7qfaUzDCiWwwR+fI3zSkxfW5srBQt+2kNqLgXEWD3rZ8Z8qIZwuPjiNK4t9mssrbLipT1kNbuoya3OX9Av6cw5ASN9hdRWUWdvt2J87gHpiUKPsa2dGXpZxEG8d2OC6bnU1uYLFcX1+N0A/N/lpFlBI6lYE/krGq1qDibyliyi53jCZEWxNFOrboCugOZZB5Dd+IgkYZ+B0dmDJqyGNfbKO934XCsnDndtU3Sc6/9uX2mkP2D7EQ2AC73fHYG/zur4Ljpg4FyzfrrhMv5XJQW40M7G89SlonFbDBtswQ7tN13y7RTzubRmiCIoUYg9nUF6DaMEm0lhdfQXwIYKDkiNptC5bIC/bPCByRjybFXjq1jT7pYfQvm4uAGUNAzFBPTViO9ojNdIKFeI6nlnDoJAzSHCvEpH7HF2z89/yWE3fpjwwweGGTVJ9/rPdQl9qLC31SyRE5XxX3IZVjtZWfqS8nYzRIBVnWZ7wg3IoOzK2J+iMJVHbCAETUEC+h3bVZ/6vH2IbOzACoGppCAA/Q0vNV6kcX3kemxdTHYc73VBZ5yAKzGnCrZcqBvP8uLfVcM84Wq0Ik0kqqJG7rvWJ0kWc58SG0OSdYowasi9RLYUFnMjEneWN717ekG6QrCwf4QK01IOtRaYLb0w44ylqOUAHjB74dFzwK0QIw1Wh6d/h9i5AlQjgTz7Cnl3oJvHmUtUx1Vw+bkpq0ZmjjdBIY3QwytaHdQsDcXshy7BnqyrQVCKtlmh7R7oa8fNiJmGcFnhO/KWWogTm0WNOw0OJY2Ve1fAymhuHtbvmPV3r6zIQl3Bg6G0YJySb5ICbBfnPl1c/GDYPnxqb1YfrvubAWskyKnYxQFb5MSE282AYE1B4LDAkRZdH++9BQdrTMf/gSYgXCw07zCPqwdnLm8eD0TRHVgwCq6UFJbHBllhbAepR2UhBZm0jFsiWd1h/WKFMHPraYbdpGy/p+qzlrVTwog2UU4eVVJFd0e4KUIrmC9efMtl1D1jhz3cRkRoMaU9TOFR8s5NfqpCw6WaRTZrtCC6C9IAJFGpT8TLgzDyX0mEKvoLKEL4/JjmDFM+M+z8e9hv53htr3Imni3E3zLbbJpS81jIO/lSFs4sqIzxVmvT1cskGBUh3QVyKABseI7cqp7wvalfasXsGjAns5W0yhHjIMGiZWUPrbRhrKMO6TeRQhpviUjqKjJ2uVBeO/Vph9TvT5TQPD+Urzv1FBuiiHuSg5rmPQrpNdum4gkb6ejup2+v04pqoBHVHbzy+6db+joM0Psmavs83wtcLXNHKOhZAS3IrF0c7LiM9HOXKQ31wdryb66LYVIQ2ZYP3BecdhMCtd6gERrja1wFS9k6L7nrCYROD76r58FmM0Qd0ZLYEeE4p/ih8Iry2BbA9jSkjtokqIc6mkmNR71uNol87wFLx/R2Bo5iY3neefd4/GHL7TAnH7XNkhYv12f12BXdaQWFBU0My+e1T4+OTosDZ/RXUCYEZ9RHlxTaibIfZXi+w7KvKfmyF/F8BSdcNoWC+NCj6+xl0E43af49dYsdPdZ3CcDgbDbc/0q0YC1u52pLStKpr6DG3i3X55I7dUhUtWS5vALr5G0xAna9J1jTv4pim4L6K+gkvajVBcrGs3XMPznKi+b7oS4zBor0bubp0vTE/6/QUglDnozPdqhA5zRZ3TiYBgjRDSvcPli1hbiupRMz7iybG/ZXnnrYzvSsaDaYZJOej2i6Bknm87257yw97t+H9T7iEGxATyhiUy/wVkFZ1pBspRCCv3wixfpIzMoOUjLM2iuwQkZzah8oR43szmDDtv1Uqjm/jKGJuaNKSj8+2XFq9VTOzKjX4/TNTqW+q3sI8qR53cH4+OmMMAAyVKYqa6xxnm2ZBRFIQKIKU8cm4Ys417BptiNeE/Bu4ujghFrkqI61KagkGEwPURLjgOWJh3MioaTkOqBCaBoZPIq5aiDxWZbieHr6l8aNXggJPHTIqPQ3FQ6bnJtjHKLtdl0Gi7jkNJf1MNUpPMcJvTZ1E9Zw7e6s2USqGE8zglCQ5Vh/wwGyNk3Gy4VZrVkU/Fmo9mmm58tiWbpEhAeLZG438Rh3kZ9sfNbqmuYJaDeR1N2b0LUVWQU6NgmKHYUQXZ3fOyub6iMpRMn49k6D5Jf/Nv0Iy+8xH4i8D13cOEwTPCmf1iAO3IIweTtvbwWxsa+45MhvjL2pcqehdyEld8BOrlWlxuWPnF/cToo5o26Zuzx0XuqNjCwsT5BhfO9+w1lQafH5rTwx/JzLwAFcbS9x3gtk4a2KuWbN0ecxqBgQ4TGiwMoWUR0QfGbYqNAugNX3mcqT0qjzR042ri+wZkpqDolmyb63iYS4jqzLdPNrQwlG+XMcByonANWXqwnBCQgOp8VVjXSjpDhFe+KvZGcK+HvSdoI9up2iz8a20olnOGCqT+6393e0He4eF96AQxFSfj/bDLX7illATsRmXpGQ+B65nm9FKTqtaFPMitQX3+npuOlmkz2A==
+PRIVATE
 * 04/24/2022
 ** Summary
 
@@ -23,41 +59,9 @@ Mariana at 10am and returned to do my pushups and write this. Will
 watch an episode of Barry before bed.
 
 ** Notes
-*** Me
-- [ ] everyone
-
-Desktop safari looks like this and works:
-
-curl 'https://us-central1-everyoneeverywhere.cloudfunctions.net/uploadVideo' \
--X 'POST' \
--H 'Accept: */*' \
--H 'Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryTzSnZ3KyHAXKSvWu' \
--H 'Origin: https://everyoneeverywhereallatonce.com' \
--H 'Content-Length: 334935' \
--H 'Accept-Language: en-us' \
--H 'Host: us-central1-everyoneeverywhere.cloudfunctions.net' \
--H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Safari/605.1.15' \
--H 'Referer: https://everyoneeverywhereallatonce.com/' \
--H 'Accept-Encoding: gzip, deflate, br' \
--H 'Connection: keep-alive' \
---data-binary $'------WebKitFormBoundaryTzSnZ3KyHAXKSvWu\r\nContent-Disposition: form-data; name="video"; filename="blob"\r\nContent-Type: video/mp4\r\n\r\n\r\n------WebKitFormBoundaryTzSnZ3KyHAXKSvWu--\r\n'
-
-
-Mobile safari says it worked too....
-curl 'https://us-central1-everyoneeverywhere.cloudfunctions.net/uploadVideo' \
--X 'POST' \
--H 'Accept: */*' \
--H 'Content-Type: multipart/form-data; boundary=----WebKitFormBoundary2qKKnf8ajdQgoE0g' \
--H 'Origin: https://everyoneeverywhereallatonce.com' \
--H 'Content-Length: 370919' \
--H 'Accept-Language: en-US,en;q=0.9' \
--H 'Host: us-central1-everyoneeverywhere.cloudfunctions.net' \
--H 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 15_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Mobile/15E148 Safari/604.1' \
--H 'Referer: https://everyoneeverywhereallatonce.com/' \
--H 'Accept-Encoding: gzip, deflate, br' \
--H 'Connection: keep-alive' \
---data-binary $'------WebKitFormBoundary2qKKnf8ajdQgoE0g\r\nContent-Disposition: form-data; name="video"; filename="blob"\r\nContent-Type: video/mp4\r\n\r\n\r\n------WebKitFormBoundary2qKKnf8ajdQgoE0g--\r\n'
-
+<<PRIVATE
+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
+PRIVATE
 * 04/23/2022
 ** Summary
 Relaxing day today. Worked on my "everyone" API. Nearly ready. Hung
