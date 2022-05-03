@@ -1,3 +1,43 @@
+* 05/02/2022
+** Summary
+
+Today was a good day. Woke up and took Leche for her walk before
+standup. Just went around the block this time. Returned to make a
+kales smoothie for breakfast. It wasn't that good. Needed a banana but
+we're out.
+
+Tweeted out my project (EveryoneEverywhereAllAtOnce) and got a lot of
+positive feedback from it. In total 1.5K visitors and 62 uploads.
+
+We also had a big streamer demo our app today. Some visible issue with
+the HUD but unclear what happened. Will bring it up with the FE team
+tomorrow.
+
+Patched Friday's API with two changes. Have a solution for search
+fuziness tomorrow.
+
+Deployed production after the demo at 8pm then ate a salad for
+dinner. Threw the ball with Leche at lunch.
+
+My shoulders were absolutely wrecked from yesterday's workout. Ate
+more protein today in hopes of recovering faster for tomorrow's
+exercise. Will workout with Simon tomorrow then get empanadas.
+
+Did my pushups while winding down. Figure I might convert the videos
+to gifs for EveryoneEverywhereAllAtOnce but really I think the problem
+is the short interval switching between videos. What might be a better
+solution is to compile chunks of 1s videos composed of 10 100ms clips
+and play those.
+
+Waking up early to go to Jiffy Lube to get oil changed and tires
+rotated.
+
+Going to meditate while falling asleep.
+
+** Notes
+<<PRIVATE
+a0e84adf0ce832dbSqv7wiNVQOtd2shqctLbANu6ge+jheMrEo6+I+VkdkCgrVKOBq6gyKzEdTD2+CW1ZfLMn8PfB47dAC27oBAQfQj4/BwI1R34DmYvWmtXIjVLHQsWUNjuSbGFW1Nf+pVJA86/HTTzQBv6kY7hI4fQ/CHPlBWD85476ac+eJglTpAG5wskZKtamjEvJbXs1KSq1RgX3vx4dE5Buh4r9K8oPpNmlD/DFeK+dtcVAL+HNSZlB5IWhHx8jMuJ40q09VUebfThzhZdDkh/e1NgBIQ7Gq03srOFmYvkKooMfhlajzVJSSkWgABT8K1oHsl44sUDf71i2lLymS6qXtUqZJ9i2aR9IvrPsugTMgMx0X9U5k8amZ5HRa9Gze5KtdRtdRWSZsk32JrJrAi4ebrxqD1kB7k7T63YbqnWsscmlX+bn5UabrJsR6IWAcw/GWe9ni9ykdxqw5LoOjwTyl62mV6i30yc+PhCthqeHPq95/dOlgvbHez9qsNKqGmLanNgq5XhGf5cISmgbciOKHQ22a/ug/vlGnX3+cph+BjfLKgN7VCTanxhwTQQ1oN7fTkf+2CKp3GRKsG6OECC8Zmlo1r6nfZVRxYgS6PZSyKIpqJ1X56q8wism7m08hk5DJw5C5fku7dAqpSMhDoWZrbXqeDyj6whQ9nz/UEP2UFZZgZApYYttVYczdy6cb4KKKFe2bgdB2OT1uNxxSOWXBX++s6qOhWN5D4EjwanWJcCrzvtCO7GI3uWLA8MIOl6HkX6V/mNodoEyHwJQdsy99iYtOqDQASjNdRMYls8gCaNS4boOWG38sOApXOyaDXL8hybAsA4UmioVqRHSyvLkVt3HYsijcaTWXaNFl0v/qKtIPcMIQkTzg/7lfZCguDUjZqNvIpCgXtpfvLQjV0UIriGew4fiMblt67NWNg+BMsMFWmj9Ggh8ZaesJL9tbdM9CCcL5LGIaiJxKnfflmfEGFU+coNtzL9/X+CzRfRqi9CSl9+0T8r7nF0J/pVaesEDPnO7Q6/OMSkfdE1cwCFDy32zoIsxklw6iAC/iueCuJxyra7rYAOJOqMS6cyQJxG3FGOI8baFC/TEZlpeKHx9kqdiuL/3x/Z0tv8MBzsx/r7tD4EdAM60AK2B9AXOze8DvhsZ0BBYGN9iB5e/L6Wub10R08pBJYeqfRgkeQDZW+G72v23K5YN0QcEYl/CGOmoHfhMIOPe8ZcIMq7Hre9wKg3zD5PsIT7F2l5Fz28yuKpJHkUNMPKndX4gdGGcWYUrEkn8ciO9miazlrBi4ygRRDrR1VThXj9cEvJpjqDH3Z3PPkhgnxiqEI1r9WLR5Abw5SYQyBgunvpp6izPj+PT/AWuyjiHLF0oksVvkvo9sRtc/eR9s/MD0pidHOekaZ7wUg9vldpTGY/+/jJPJld2gK4BCXk2NA3uFfEE9TMkIwAPd/4VQIwFhKJ47RHu6Hq4RV6sOaeUNLroKUQLnCF1rVGNk6Kuw6Zbz8qEDMrNNcvfiE3fWGzdda7t31cI751swKRrXPpTt/UFUxAF5cwmDCHANgMi1B4dYS5K7LdNeUscAnbvchYjMNgfmnH5kjSDzz7A3PUBw3/Mokx88rSvKsawPyfPnR1aiVS9aK+iBz8f7MGV3QsQ3OtYgPJ+2+s5alxrMGU5cjkxEFYSqCZiu0Mn2fBZeYbvzQIgGvA/6vqgEoobLxdvq2MY3loY04YA5kib0Id1K1P8CchXscyIv0YMisGJHE5RPkEG0FHLRhylQmbQrTsJMKYrDFZuXYVC1Y+jRfNHPQagBqTDrLqQjy8cbeyWaCeL2xAzW/3K0hKCyCbq7sAyWfwgB8iDzs26TbgN6t0BSJ1m937coBtc9PoWfQqFgcCWRcnF6MHWt1f7A/hoxDzpW73Ub05un1Po9cATKsg6DzBaJxsHLcu120RYcwmXjmBCEExO5QiTr2Rfz3h0cQkAlyfHxOz7XSLYt38WlF8NS7SsPzlXdL+ygWcL3PRGt3zlKoluqXYNpinXYE3HCEFXW9OoO1ET2AtMzSJvTGnk0cni9WikAzAd+FDEEGY7eJypWEMwY/Ovkb0NSa4fFUBmEZ3qgaRUG4fjBgf5eV/Dj2qXxNlP9gGzSF9qojvn3o+jbHXbw7E3ZGKB/1UkG96Zg42JBCPvtv3xg0zxMmnGxDMTRCb0AhNJRpXDfpOLSC1a+H7adRFepeVkxZDW66WQ1k2QNSczPBBMR6iev78WDVvJhCNvSdJriIm0dcO/b7USG8oPIcxnCCho7a5EaUx1GJVl45sAT9zI/vdsrO0GWqbEDRhE6axlj2kw2+kRScCIPwybUb3uV7edAyRZ4eOPymqZLydgXL7HnmlX782UJ/PeeFu2R+b0gInZROYocWuzd7Y5s3NzbhIvE1aZVz/sep8UfKG72pQOex4g21eVnhvizTiG+e+pYn1czKVFQoqRGZBK9N1NabcL/S+v6nSHg63n/YpljsuHIZxjyAhtqRaAgm8HjWOn51/81XSKuZQeohxrq9fLHcAQuD1oCOOrAtKyTMcW8ImBwOzgTKKpG3rfYXdBU9TMzBAbQGe22aC6ZNFFWCmdaojbFehhVb9i8sMitUHrH1XDInHg4DtI+h/4LIn/DzsMh6wlg+zFDIFOCWnqM0gFZh3Q0NyuDCM0tUDoVEHDqVFs8MulTqMEZp3jNh7vgXT7tdAFOknWjlqUSrIHk4Jc3cELYDey+SWMD63ibujTiZWtibvJ8Eu7RAstYWMbh/2yTNNBseAaGS3gq6CwmL4jTOjlvy0cIzWq8Z6pBb6O5BZxYE1n6LzgHFOXnWPUdkor2E7ncMb4jE=
+PRIVATE
 * 05/01/2022
 ** Summary
 
