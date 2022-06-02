@@ -1,21 +1,43 @@
 * 06/01/2022
+** Summary
+I woke up at 8am and made oatmeal with ground flaxseed, hemp seed and
+a banana. Not as good if not soaked overnight. Took Leche on a walk
+and got a coffee. Again, didn't need it but sort of felt down for not
+waking up early to do the long treadmill walk. Feels great to start
+the day with exercise.
+
+Worked on the min version views today. Had coworking call with
+Chase. He had some good feedback about the app. Did two loads of
+laundry, started beans in slow cooker, got haircut, walked 8miles
+(4mph, 2hours) and worked outside with Leche for a bit.
+
+Going to take her on another walk before bed.
+
 ** Me
+- [X] Walk Leche in the morning
 - [ ] Walk for 2.5 hours
+  - [ ] walked for 2
 - [ ] 100 pushups
-- [ ] Wash hair (add coconut oil)
-- [ ] Walk Leche in the morning
-- [ ] Work on patio with Leche in afternoon
-- [ ] Laundry
-- [ ] Walk Leche in evening
-- [ ] Haircut at 6pm
-- [ ]
+- [X] Wash hair (add coconut oil)
+- [X] Work on patio with Leche in afternoon
+- [X] Laundry
+- [X] Walk Leche in evening
+- [X] Restaurant reservation (Norah)
+- [X] Haircut at 6pm
+- [-] chase walkthrough
+  - [X] 2fa flow issues (didn't autofill)
+  - [X] user profile default state not working
 ** Glow
-- [ ] Working implementation of min version
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
+- [-] Working implementation of min version
+  - [X] ngrok to local
+  - [X] alert what ios version is
+  - [X] store ios version in api PR
+  - [X] alert what android version is
+  - [X] store android version in api PR
+  - [X] app -- wording when app is too old
+  - [ ] disable for local and dev
+  - [ ] add PR
+
 * 05/31/2022
 ** Summary
 
