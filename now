@@ -1,3 +1,44 @@
+* 06/02/2022
+** Summary
+
+I woke up at 8am today and took Leche for her walk. No coffee or
+caffeine today. Sluggish for a while but snapped out of it later in
+the day. Totally snapped out of it. All mental. Before then though I
+had gingko tea and a hot chocolate. Peppermint tea works like a
+charm. That cool mint taste stimulates something like caffeine.
+
+Synced with Billy and shared a couple creative ideas for
+Glow. Responded to PR feedback. Uploaded a new
+everyoneeverywhereallatonce video. Cleaned the house in preparation
+for Maru.
+
+Took Leche on a couple walks. Went to sprouts to pick up cocoa powder,
+ashwaganda powder and premade noodles for Mariana. Went back again
+after dinner to pick up some snacks for Maru for her stay.
+
+Going to do more controlled pushups tomorrow and write the e25n post.
+
+** Me
+- [X] 100 pushups
+- [X] no coffee
+- [X] spray keyboard with air
+- [X] clean house
+  - [X] trash
+  - [X] sweep
+  - [X] kitchen
+    - [X] counters
+    - [X] stove
+  - [X] table
+  - [X] dust
+  - [X] couch
+- [X] everyone everywhere script
+  - [X] deploy
+  - [X] confirm
+  - [X] ping adrian
+** Glow
+- [ ] turkey sender id
+- [X] old version stuff
+
 * 06/01/2022
 ** Summary
 I woke up at 8am and made oatmeal with ground flaxseed, hemp seed and
@@ -17,16 +58,17 @@ Going to take her on another walk before bed.
 - [X] Walk Leche in the morning
 - [ ] Walk for 2.5 hours
   - [ ] walked for 2
-- [ ] 100 pushups
+- [X] 100 pushups
 - [X] Wash hair (add coconut oil)
 - [X] Work on patio with Leche in afternoon
 - [X] Laundry
 - [X] Walk Leche in evening
 - [X] Restaurant reservation (Norah)
 - [X] Haircut at 6pm
-- [-] chase walkthrough
+- [X] chase walkthrough
   - [X] 2fa flow issues (didn't autofill)
   - [X] user profile default state not working
+
 ** Glow
 - [-] Working implementation of min version
   - [X] ngrok to local
