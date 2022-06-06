@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>e25n: English Numerical Contraction</title>
+  <meta name="description" content="e25n: English Numerical Contraction">
+  <meta property="og:title" content="e25n: English Numerical Contraction" />
+  <meta property="og:description" content="e25n: English Numerical Contraction" />
+  <meta property="og:image" content="https://encapsulate.me/images/face.png" />
+  <link href="/styles/markdown.css" rel="stylesheet"></link>
+  <link href="/styles/blog-styles.css" rel="stylesheet" type="text/css"/>
+  <script src="/scripts/writing.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>let exports = {};</script>
+  <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous">
+  </script>
+  <script src="https://www.unpkg.com/e25n@1.1.0/dist/bundle.js"></script>
+  <meta name="shouldPostToHN" content="true" />
+  <style>
+    body {
+        max-width: 800px;
+        margin: auto;
+        font-size: 1.2em !important;
+        line-height: 1.2 !important;
+    }
+    article {
+        padding: 20px;
+    }
+    code {
+        background-color: #eee !important;
+    }
+    .codeBlock {
+        background-color: #eee !important;
+    }
+
+    #inputForm {
+        border: 1px solid lightgray;
+        width: 300px;
+        margin: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        text-align: center;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+    #e25n {
+        font-size: 48px;
+        font-weight: 900;
+    }
+    #userInput {
+        width: 200px;
+    }
+    #annoyingScale {
+        margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo" style="cursor: pointer" onClick="author()">
+      <div class="i"></div>
+      <div class="w"></div>
+      <div class="o"></div>
+    </div>
+  </header>
+  <article class="markdown-body entry-content" itemprop="text" id="grip-content">
+  <div id="inputForm">
+    <div id="e25n">e25n</div>
+    <input id="userInput" type="text" placeholder="English Numerical Contraction" />
+    <div id="annoyingScale"></div>
+    <div id="conflicts"></div>
+  </div>
+
+  <p>An <em>English Numerical Contraction</em> is a type of <em><a href="https://en.wikipedia.org/wiki/Numeronym" target="_blank">Numeronym</a></em>.</p>
+  <p>You've seen them if someone referred to <em><strong>internationalization</strong></em> as <em><strong>i18n</strong></em>, <em><strong>localization</strong></em> as <em><strong>l10n</strong></em>, <em><strong>kubernetes</strong></em> as <em><strong>k8s</strong></em>, etc.</p>
+  <p>If you haven't seen the pattern, it's simple: replace the letters between the first and last of a word/phrase with the number of letters that were removed.</p>
+  <p>For a lot of words, it makes total sense. It's exhausting to type "A-n-d-r-e-e-s-s-e-n H-o-r-o-w-i-t-z" and speaking it ("an-drees-sen hor-o-witz") isn't much better. Contracting it to <em><strong>a16z</strong></em> is more efficient when spoken and typed.</p>
+  <p>Some words are a little more suspect. Consider <em><strong>accessibility</strong></em> commonly abbreviated as <em><strong>a11y</strong></em>. Uncontracted, it is six syllables to say and 13 characters to type. The contraction <em><strong>a11y</em></strong> is more efficient for both speaking and typing...so what's the problem?</p>
+  <p>There are at least <em><strong>119 other English words</strong></em> that can be contracted to <em><strong>a11y</strong></em>. Why does <strong><em>kubernetes</em></strong> get to be <strong><em>k8s</em></strong> and not <strong><em>kickboxers</em></strong> or <strong><em>knobbiness</em></strong>?</p>
+  <p>Answer: because its a nick name of little consequence. A playful internet-ism. That's it.</p>
+  <p>...but I had spare time so I audited <a target="_blank" href="https://github.com/words/an-array-of-english-words">all* English words</a> and graded them on how annoying they were to contract in this form.</p>
+  <p>Enter your word or phrase in the input above to see its grade.</p>
+  <p>Here is the rubric:</p>
+  <ul>
+    <li>🏆 -- Not annoying. No other English words match this abbreviation (collision) and its shorter to say.</li>
+    <li>😒 -- Possibly annoying. No collisions and its the same number of syllables to say.</li>
+    <li>🙄 -- Mildly annoying. No collisions and its longer to say OR Some collisions but its easier to say.</li>
+    <li>😫 -- Annoying. Some collisions and its the same number (or less) of syallables to say.</li>
+    <li>😤 -- Super annoying. Don't do it. Some collisions and its longer to say.</li>
+  </ul>
+  <p>Finally, of the ~275K English words examined, there are only 441 that are not annoying by this standard. Here are some of my favorite:</p>
+  <ul>
+    <li>anthropomorphized -- <strong><em> a15d</em></strong></li>
+    <li>antiauthoritarianism -- <strong><em> a18m</em></strong></li>
+    <li>anticommercialism -- <strong><em> a15m</em></strong></li>
+    <li>antiestablishment -- <strong><em> a15t</em></strong></li>
+    <li>antitechnological -- <strong><em> a15l</em></strong></li>
+    <li>astrophotographer -- <strong><em> a15r</em></strong></li>
+    <li>bipartisanship -- <strong><em> b12p</em></strong></li>
+    <li>bourgeoisification -- <strong><em> b16n</em></strong></li>
+    <li>buckminsterfullerene -- <strong><em> b18e</em></strong></li>
+    <li>deconstructionist -- <strong><em> d15t</em></strong></li>
+    <li>dominatrix -- <strong><em> d8x</em></strong></li>
+    <li>electroshock -- <strong><em> e10k</em></strong></li>
+    <li>electroweak -- <strong><em> e9k</em></strong></li>
+    <li>entrepreneurship -- <strong><em> e14p</em></strong></li>
+    <li>fabliau -- <strong><em> f5u</em></strong></li>
+    <li>geochronologically -- <strong><em> g16y</em></strong></li>
+    <li>journalism -- <strong><em> j8m</em></strong></li>
+    <li>kindergarten -- <strong><em> k10n</em></strong></li>
+    <li>lexicographical -- <strong><em> l13l</em></strong></li>
+    <li>overintellectualize -- <strong><em> o17e</em></strong></li>
+    <li>overcomplex -- <strong><em> o9x</em></strong></li>
+    <li>razzamatazz -- <strong><em> r9z</em></strong></li>
+    <li>unorthodox -- <strong><em> u8x</em></strong></li>
+  </ul>
+  <p><a target="_blank" href="https://raw.githubusercontent.com/higgins/e25n/main/src/words.json">Here is a map</a> of all contractions and their associated words.</p>
+  <p>If you find other interesting observations, <a target="_blank" href="https://twitter.com/justinprojects">let me know! ✌️</a></p>
+  <script>
+    const e25nElem = document.getElementById('e25n');
+    const annoying = document.getElementById('annoyingScale');
+    const conflicts = document.getElementById('conflicts');
+    const annoyingMap = {
+        1: '🏆 -- Not annoying',
+        2: '😒 -- Possibly annoying',
+        3: '🙄 -- Mildly annoying',
+        4: '😫 -- Annoying',
+        5: '😤 -- Super annoying',
+    };
+    $('#userInput').each(function() {
+        var elem = $(this);
+
+        // Save current value of element
+        elem.data('oldVal', elem.val());
+
+        // Look for changes in the value
+        elem.bind("propertychange change click keyup input paste", function(event){
+            console.log('deleted?: ', elem.val());
+            // If value has changed...
+            if (elem.data('oldVal') != elem.val()) {
+                const converted = e25n(elem.val());
+                window.converted = converted;
+                e25nElem.innerHTML = converted.newWord;
+                annoying.innerHTML = annoyingMap[converted.annoyingScale];
+                conflicts.innerHTML = !converted.collisions.length ? "No other word maps to this contraction" : `Conflicts with: ${converted.collisions.join(', ')}`;
+            }
+        });
+    });
+  </script>
+  <script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+  <noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt="" referrerpolicy="no-referrer-when-downgrade" /></noscript>
+</body>
+</html>
