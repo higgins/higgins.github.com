@@ -1,3 +1,54 @@
+* 06/07/2022
+<<PRIVATE
+10b1eb9718f9268fTDKl0WFgXpGBuyzbtnHLS2P6WrC8tR3myog/OuKP7YcrMn23UVyoh4t12/vw/dpscBL/dRkk/QziQyHL3mS5XSg7CFP50f4vO1poP2Ouy9Kpd8pzjNCvU9z9w4nkC1TLH2HAgFHQRzOz1Tzvy0hUE4mZZorxA/2un9yubXaCEveWVYUC/F2G5HUxRfe3rrgeiyQw+dCqPCvgzjICpmPiXzFP1R+EvYUys8s8ZeLgQV+45mctuh6g0u2G2XAqiaIkwCLEaZrd4UGJ9T0IpIKcV/1qCCh5RZa3vqMrU77CYG87Y9jtYE8NhgcEP/2UxkoJDlZCUXOITxLpJR70AxoaTLFOYJSOWsDHuu+t5vok7zM1gajTK/bcMksXvB2hvdaiLIVdNteO+BR0BXjdtC7FcuoLK94YN8V2jl2Zu2NFp3l+NvQNLm+gvZsfYbFla70i86jCTEFtGoj/deXFU1e/rJECWsuIyN/2xOe4muo2xtxYRCJpreNieUva4MzZdv+3rUCr97bFgpFbkwRkQXAhVyZcW92k+k+vpxPU7KYaQom8JuZroMP1JBKtjpE6ijwT1EfoZjwBMOQRiCBJnH0wGSddP5fc4hlC9Uqp/AQ/I/cmACc8w40z47Rb+aivHiFsVO9cdFifYkHBLRDvD0sGunr394UcIpMP1vDz9mai1Jz3abnuIFxDsUz2j6sEWaQPVvu1HAXp9ZOHB25jjLhYshM5JvN4w/QCqj8+ma5I+yRpW9Qyl/76fhdRangsz7kIhRhWjlAbnNOtwgd4zzCTlrDfQpWSIMcyzAOsYsp06DMG0HhlcuRGVr/g34rh8pasXGnofPKWid/NWec+ePC3LBh8HN0/C451UKE/cTN+WD/NtGefiOtJcuSWlgz39VI2l8vIt0wtkNC6b4DLk/zPKyrlqdC+BwX43P+FdHqaojWMI7hSknfAiE6cWYJrAlw=
+PRIVATE
+* 06/06/2022
+** Summary
+
+Got great sleep last night. Surfing is a total body cleanse. It's
+great. Woke up at 8:30am and made hot chocolate before 9am
+standup. Took Leche on her walk and watched the apple keynote.
+
+Wrote a script for sending SMS and filed a ticket with Twilio about
+some transparency there. Debugged SMS issue with Torin. Reviewed
+James' feedback on minversion issue.
+
+Headspace was anxious to publish the e25n post. Funny, because it was
+a total miss. Didn't vibe with anyone. Not surprising I guess, it was
+an obscure observation.
+
+
+
+<<PRIVATE
+52adb980ecc2dca7ughubWZUmdAbhz4C7mQep1GuF9uO8H4e4MGoZS4/IITdVmjwsFcDEw1BlTKKEkSdNU24Bnjvo3/Lmat8fRRAjlecvMl2jlqmDC8GMDLiFupMQhdbkxlfatViJNQUwn/HO8iH+wWvcQsnRKYg73b+q47QFE11t9+OqnQ3PUDXPbPw5TgEaV/1VdURv/ZOa6WyHfVMI6S9+0DXI4Bud7lR41crrg8gz7nneEYWFECAUI3EGE3LNwPOIsSIyIwjG7R4f4A/v/1l7TSWP2sgeS0HXNNXWr/KYNfyDV+FOsuyP+259/BowmNyyHx/KTB2lndq/3W/av5TlDNa1eQR66Zrw23rlJ56PMecixaDFvoeoyAwBjZethIhUEf3d28XPNlkGu4Ie+cGVIxupVKX27/dlTEk+3ufRSMaG2YLJBIOUsDPBiyzhJAMElqbo7zjmgSbRQnL4t9Qlg/iyIXtp8okWZ0i6ussnKdOnnDqYsyPlTNqJcozs2y9D5pHB1kEZxik1zvOP4/NGEqX9cfQna7EnkVG1BjVcWHa+42c071+iNnRb4yO9xe3TvYAVC/gIS3WA3kQvpgBqI2qmA84ROpnDjiEI452bVkG6bvKfL7wJDAj+7hR1cgtUD68I6xrLXS58iEDo7RuW+2co/dG8igV9QM/Kx3drJsmtTK6BvDvZiA7EDWMq+arqAhNpOhhlQtv3QSe3oRUce10GWLYIr7sah8ZS+glDB6LaXkL74bIJjGYCGknENaUGEZ34CUntrVuJBUBk6nW7bOPMnIQyew1TYsCYZraVRtbcBvsfHT/3d7guvNxGGNc3IV1fdSuHxUj/oHRn2VaZF+KNZvH7UoDXWZdbSnj4sy1hEti8DFBWjBAYaTSGX2YcIkX9m9OGsS84ksQ0L4ZDXHVhJKfnp5q75L4f6o7f6e3JncF7rQLfEXp1+HHw+COIQp7oLkC/xZiEzESr2zQ3kkUhBFlo2qgksAhectZnFRKM9lVTi1eR+8J2VGWSup00X+ve2X6a8J5ml3wRVIo60RNzWlGAusbMwWfcZ87Md32boxmsHT8E8JBE4FzAqddzfBnG+s8RFMppw7Ekhg+ZXzdmi4Lw8RI/7CYF2hCUceEcNFIuLBZKYS8nN6RpStgdEXkIjNZ89n6kX9O4QKiZ87VL9qJd+ZppLZi4Ds/5s+uo1plAEYaO85L8E/G/jggYM7QcdLl8hGpX0zFxXKo7K6QCnrmgqnEhxVtctcO0QT/AqTXmbX8cZ6xkusXQmnPwBMPCef+vf4ddZLyLld9wgM9XGl7JEoMRyG2m33Ms1/v8m43fTPwsnCATpho/Bs1Z8gnEgkNEMEsSlDXY3tUfHiSbn98A8XTG1Eu0vDWbYihMTBoM8YaeYS+yITxpFmTLZS6Gw+IwYQlAbMJCagfcjsirEh19f/buLys
+PRIVATE
+* 06/05/2022
+** Summary
+I woke up at 9:00am and had a hot cocoa before taking Leche on her
+neighborhood walk. Karla and Hind joined us and we walked up Cheviot
+Hills. Came back and got ready for surf day with Travis. I think he
+was haning out in the front while I was hanging out in the back
+looking for him. He went to pick up gas and I drove to this spot he
+told me about in Venice. Parked and went to the beach to stretch and
+wait for him.
+
+Great day of surfing. First 30min or so the waves were breaking pretty
+hard so lots of washing machine time. Fun though. Stayed out there for
+about 2.5 hours. Had some good chat too. Caught some good solid and
+white water waves and rode a nice one in before heading back to the
+truck to text Mariana and Maru where they were. Turns out there were
+just up the beach. Met them and ate a sandwhich they got for me.
+
+A little 1yo boy came over to us and wanted to see the surf board. He
+started putting sand on it and I showed him how to jump on it. He
+didn't but tapped the board a few times with his hand. We headed out
+after maybe 20 min.
+
+Headed back to the house. I took Leche for a walk. We watched "Only
+Lovers Left Alive". I made popcorn for Maru and I.
+
+Went to bed feeling really good post surf and sun day.
+
 * 06/04/2022
 ** Summary
 
@@ -68,7 +119,6 @@ gave it to her before the walk.
 
 Going to bed now. Will surf with neighbor Travis tomorrow at noon
 while Mariana and her mom swim.
-
 
 * 06/03/2022
 ** Summary
