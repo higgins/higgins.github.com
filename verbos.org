@@ -1,0 +1,20 @@
+| Verb  | Meaning | Tense      | Flashcards | Notes                          |
+|-------+---------+------------+------------+--------------------------------|
+| tener | to have | presente   | yes        |                                |
+| tener | to have | imperfecto | yes        |                                |
+| tener | to have | preterito  | yes        |                                |
+| tener | to have | futuro     | yes        |                                |
+| ser   | to be   | presente   | yes        |                                |
+| ser   | to be   | imperfecto | yes        |                                |
+| ser   | to be   | preterito  | yes        | The same as 'ir' in this tense |
+| ser   | to be   | futuro     | yes        |                                |
+| decir | to tell | presente   | yes        |                                |
+| decir | to tell | imperecto  | yes        |                                |
+| decir | to tell | preterito  | yes        |                                |
+| decir | to tell | futuro     | yes        |                                |
+|       |         |            |            |                                |
+|       |         |            |            |                                |
+|       |         |            |            |                                |
+|       |         |            |            |                                |
+|       |         |            |            |                                |
+|       |         |            |            |                                |
