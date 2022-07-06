@@ -1,31 +1,32 @@
-| Movie                       | Why Watch                                               | Genres                          | Recommended by | Trailer                                     |
-|-----------------------------+---------------------------------------------------------+---------------------------------+----------------+---------------------------------------------|
-| The Hateful Eight           | Tarantino                                               | Western, Mystery, Dialogue      |                |                                             |
-| The Gift                    | good reviews                                            | Mystery                         |                |                                             |
-| A Simple Favor              | good reviews                                            | Mystery                         |                |                                             |
-| Vivarium                    | ok reviews, Liminal spaces                              | Mystery                         |                |                                             |
-| Where'd you go Bernadette?  | Linklater                                               | Mystery? Comedy?                |                |                                             |
-| Motherless Brooklyn         | ok reviews                                              | Mystery                         |                |                                             |
-| Palm Springs                | Nate loved it                                           | Comedy mystery                  | Nate Larris    |                                             |
-| Main Stream                 | Andrew Garfield, ok reviews                             | Drama / Comedy                  |                |                                             |
-| The Girl On The Train       | Emily Blunt                                             | Mystery                         |                |                                             |
-| Searching                   | filmed entirely on webpages                             | Mystery                         |                |                                             |
-| True Story                  | Jonah Hill and James Franco in                          | Mystery                         |                |                                             |
-| Collateral                  | Tom Cruise, Michael Mann                                | Drama, Action, Suspense         |                |                                             |
-| Bad Times at El Royale      | like Knives Out                                         | Mystery                         |                |                                             |
-| Game Night                  | lots of actors                                          | Comedy, Mystery                 |                |                                             |
-| Fear Street Trilogy         | RL Stine                                                | Mystery                         |                |                                             |
-| Last Night in SOHO          | Baby Driver director                                    | Mystery                         |                |                                             |
-| The Lighthouse              | Alex Garland                                            | Suspense, Drama                 |                |                                             |
-| We need to talk about kevin | Tilda Swinton                                           | Suspense, Drama                 |                |                                             |
-| Knowing                     | Nicholas Cage                                           | Mystery, Suspense, Supernatural |                |                                             |
-| Edge of Tomorrow            | Tom Cruise, Emily Blunt                                 | Action, Sci Fi                  |                |                                             |
-| Hesher                      | Natalie Portman, Joseph Gordon Levit                    | Drama                           |                |                                             |
-| 12 Angry Men                | classic, jury                                           | Drama                           |                |                                             |
-| Dog Day Afternoon           | Pacino                                                  | Drama                           |                |                                             |
-| Serpico                     | Pacino                                                  | Drama                           |                |                                             |
-| Lingua Franca               | Trans Phillipines, dir Isabel Sandoval                  | Drama                           | Criterion      | https://www.youtube.com/watch?v=pJaUosVWr9o |
-| Under the Banner of Heaven  | Andrew Garfield, dir Isabel Sandoval, LDS church, Crime | Drama, Crime                    |                | https://www.youtube.com/watch?v=IDRqWtwbiSM |
-|                             |                                                         |                                 |                |                                             |
-|                             |                                                         |                                 |                |                                             |
-|                             |                                                         |                                 |                |                                             |
+| Movie                       | Why Watch                                               | Genres                          | Recommended by | URLs                                               |
+|-----------------------------+---------------------------------------------------------+---------------------------------+----------------+----------------------------------------------------|
+| The Hateful Eight           | Tarantino                                               | Western, Mystery, Dialogue      |                |                                                    |
+| The Gift                    | good reviews                                            | Mystery                         |                |                                                    |
+| A Simple Favor              | good reviews                                            | Mystery                         |                |                                                    |
+| Vivarium                    | ok reviews, Liminal spaces                              | Mystery                         |                |                                                    |
+| Where'd you go Bernadette?  | Linklater                                               | Mystery? Comedy?                |                |                                                    |
+| Motherless Brooklyn         | ok reviews                                              | Mystery                         |                |                                                    |
+| Palm Springs                | Nate loved it                                           | Comedy mystery                  | Nate Larris    |                                                    |
+| Main Stream                 | Andrew Garfield, ok reviews                             | Drama / Comedy                  |                |                                                    |
+| The Girl On The Train       | Emily Blunt                                             | Mystery                         |                |                                                    |
+| Searching                   | filmed entirely on webpages                             | Mystery                         |                |                                                    |
+| True Story                  | Jonah Hill and James Franco in                          | Mystery                         |                |                                                    |
+| Collateral                  | Tom Cruise, Michael Mann                                | Drama, Action, Suspense         |                |                                                    |
+| Bad Times at El Royale      | like Knives Out                                         | Mystery                         |                |                                                    |
+| Game Night                  | lots of actors                                          | Comedy, Mystery                 |                |                                                    |
+| Fear Street Trilogy         | RL Stine                                                | Mystery                         |                |                                                    |
+| Last Night in SOHO          | Baby Driver director                                    | Mystery                         |                |                                                    |
+| The Lighthouse              | Alex Garland                                            | Suspense, Drama                 |                |                                                    |
+| We need to talk about kevin | Tilda Swinton                                           | Suspense, Drama                 |                |                                                    |
+| Knowing                     | Nicholas Cage                                           | Mystery, Suspense, Supernatural |                |                                                    |
+| Edge of Tomorrow            | Tom Cruise, Emily Blunt                                 | Action, Sci Fi                  |                |                                                    |
+| Hesher                      | Natalie Portman, Joseph Gordon Levit                    | Drama                           |                |                                                    |
+| 12 Angry Men                | classic, jury                                           | Drama                           |                |                                                    |
+| Dog Day Afternoon           | Pacino                                                  | Drama                           |                |                                                    |
+| Serpico                     | Pacino                                                  | Drama                           |                |                                                    |
+| Lingua Franca               | Trans Phillipines, dir Isabel Sandoval                  | Drama                           | Criterion      | https://www.youtube.com/watch?v=pJaUosVWr9o        |
+| Under the Banner of Heaven  | Andrew Garfield, dir Isabel Sandoval, LDS church, Crime | Drama, Crime                    |                | https://www.youtube.com/watch?v=IDRqWtwbiSM        |
+| Primal                      |                                                         |                                 | Kevin Cuevas   | https://en.wikipedia.org/wiki/Primal_(TV_series)   |
+| The Bear                    |                                                         | Drama, Comedy                   | Kevin Cuevas   | https://en.wikipedia.org/wiki/The_Bear_(TV_series) |
+| Dead Again                  | Robin Williams                                          |                                 |                |                                                    |
+|                             |                                                         |                                 |                |                                                    |
