@@ -1,0 +1,4 @@
+| Book                                                 | Why Read | Genres | Recommended by              | URLs                                                               |
+|------------------------------------------------------+----------+--------+-----------------------------+--------------------------------------------------------------------|
+| Feeling Good -- the new mood therapy (David D Burns) |          |        | Focusmate user, Nico Guerra | https://www.amazon.com/Feeling-Good-New-Mood-Therapy/dp/0380810336 |
+|                                                      |          |        |                             |                                                                    |
