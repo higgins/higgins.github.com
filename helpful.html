@@ -72,12 +72,33 @@
       </section>
     </main>
     <script>
+      const daysInMonth = {
+          0: 31,
+          1: 28,
+          2: 31,
+          3: 30,
+          4: 31,
+          5: 30,
+          6: 31,
+          7: 31,
+          8: 30,
+          9: 31,
+          10: 30,
+          11: 31
+      }
       const now = new Date();
-      const month = now.getMonth() + 1;
-      const year = now.getFullYear();
-      const since = `${year}-${month}-${now.getDate()}`;
-      const untilMonth = month === 12 ? 1 : (month + 1)
-      const untilYear = untilMonth === 1 ? year + 1 : year;
+      let monthFMT = now.getMonth() + 1;
+      let dayFMT = now.getDate() - 1;
+      let yearFMT = now.getFullYear();
+      if (dayFMT === 0) {
+          prevMonth = (now.getMonth() - 1) % 12;
+          dayFMT = daysInMonth[prevMonth];
+          yearFMT = yearFMT - 1;
+      }
+
+      const since = `${yearFMT}-${monthFMT}-${dayFMT}`;
+      const untilMonth = monthFMT === 12 ? 1 : (monthFMT + 1)
+      const untilYear = untilMonth === 1 ? yearFMT + 1 : yearFMT;
       const until = `${untilYear}-${untilMonth}-${1}`;
       const url = `https://twitter.com/search?pf=on&q=%3F%20until%3A${until}%20since%3A${since}%20-filter%3Alinks%20-filter%3Areplies&src=typed_query`
       function getQueryVariable(variable) {
