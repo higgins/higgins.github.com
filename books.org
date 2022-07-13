@@ -1,4 +1,5 @@
-| Book                                                 | Why Read | Genres | Recommended by              | URLs                                                               |
-|------------------------------------------------------+----------+--------+-----------------------------+--------------------------------------------------------------------|
-| Feeling Good -- the new mood therapy (David D Burns) |          |        | Focusmate user, Nico Guerra | https://www.amazon.com/Feeling-Good-New-Mood-Therapy/dp/0380810336 |
-|                                                      |          |        |                             |                                                                    |
+| Book                                                 | Read? | Why Read | Genres | Recommended by              | URLs                                                                           |
+|------------------------------------------------------+-------+----------+--------+-----------------------------+--------------------------------------------------------------------------------|
+| Feeling Good -- the new mood therapy (David D Burns) |       |          |        | Focusmate user, Nico Guerra | https://www.amazon.com/Feeling-Good-New-Mood-Therapy/dp/0380810336             |
+| The Simple Path To Wealth                            |       |          |        |                             | https://www.amazon.com/Simple-Path-Wealth-financial-independence/dp/1533667926 |
+|                                                      |       |          |        |                             |                                                                                |
