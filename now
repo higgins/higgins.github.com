@@ -1,3 +1,83 @@
+* 07/14/2022
+** Summary
+Woke up at 5:30am
+Migrated 24HourHomepage to SES after AWS upgraded.
+
+Worked on a hack idea for Turntable. WebRTC and blackhole virtual
+audio device. Some road blocks using simple-peer's default stun/turn
+servers. Maybe stale docs?
+
+After work, I washed truck and took photos. Dude at car wash said he
+like the truck and was in the market. Told him I would send him
+details. Listing it to see what offers are out there.
+
+Wrote short blog post about the SAAS email migration. Will post
+tomorrow. Should update tiny letter list too.
+
+Tested newly "fixed" washing machine. Still broken. Scheduled another
+fix for tomorrow. Scheduled call on Monday with treadmill folks for
+Digital Treadmill Race.
+
+Going to sleep now.
+
+<<PRIVATE
+5a36ab27c014e1f73cA3WqNkjRnuy2WuMZd6Cx0e/ODhidIvhPn8C0CsqH6SXdjQ9wN4wSon5PQ2btPjhSWQCzrwZ7Z0EHpqyK8w9Ch8lDRjTCY07eJJVhwZq6UHVzFxK7x8SdqieTi8Wnly9MayPPlbDE+IlWYG5RLZxMJeSkWG8aT2itcBfL//aDLA0n7t5JPhImpAyFwmg27rb+RnBoV51mbA7z1WUQXb8J51/akUo+j8K2HJaD5BCmpteqR7V7eX5lumugj+40/Amb8bR2zyarpSq2ikTzA7kH0tnT2thBFf6ggNK70fopjcR/gTwPrkdekmS5Rte7ZFaDt8zclep1DzqagndIpeXSM0hW+Q8RY0oF9+5JKX6Uk0pi1XLoV9eI7IV+mGtCmwKSfKSbPKJ0M4pVIj13eBkOjl/NgYRwKAHS9maLR0+IQOiKg1bVii6P675OWWazCfY+btoUYtwGwYwd9bgb9oV7Oovw+ER0v2xGdHiUo3zxa17mukgM7DKwzQX20eoYFF9yh8eOKqN7PmDhzoeiiribTWOnTa08idEwtJDAoCCl6/S1OPGejlMaxVxSLAeyX0/0Wi77DDtW/qpRoQ12IQ1hsIRxEMofPVkhCHoMiM4msnxZrvE6fonS0gZbTkzKILyGQTQnLT4uugvddZQ1X+XGb9uraWHvu9A5qHIzeJNgLSFG3Y+q4LLaX0nuy/c+Gz6V+TOZxGjtXv9ew9tCPxAR4YI67iYX/nWN4fnuZpCtKeqr5tfFlRFddVF96XHnDEFxqKynASICSTnDEgxfxUpzpNh9H0VwYSfq8n6OouTEdLSFvf0CtDMe424p0IbJ8G7zeCLeRqsmlC3tlsbxQTcR7qvII/xdUfcFgLg1/u+FM5ihd7Q7HZ7j1NOTSpI8iEuvgStLJT7/5ZrKuaG2an0f0GPUvuT1sVHHUuWtuPiyiTxRF1pPteMs1MP+r8+Y0N6jZgxJRFTqLlCoqriiHUsAWwYIA5cVMa6Of2stjwg1DbwOc9KLe3fiw7Apjvkj8Fi8WukeJKFeaCOP4eUhZFqEh+upIl3Xobh0TN+iDX0LUx53m+4LIsUbbO5+0ZPWnzvGFALsWTLf0xLfQmHYHVV5Cg9dwddcBhUoFK/haFVGZImvx+YyLSQRbekLFYfFoVXJEg9eGlSRXpPOXDmqH+b5hMI5uqOJ7UDq8sS/LeggSIP/V6kzp4yt38C7rbe4Lmfg8qGl5HjPTCbRr6BDwHLZxoLbBS+2s11G3F0e6wKeX8K5gncVCS0nJo7X6SpcGAg9eHZCUdWmlJHpx2zF3pQw==
+PRIVATE
+* 07/13/2022
+** Summary
+
+I woke up at 5:30am and momentarily went back to bed but had the good
+sense to get up. Got outside and started workout by 6:10 or
+so. Finished SL workout by 6:45ish.
+
+Came inside, made some tea and waited for Mariana to wake up before
+making oatmeal. Leche was good and slept on her floor bed all night
+but snuck on the bed near Mariana while I did my workout. I caught her
+in the act and got her down off the bed. Later during the workout, I
+saw she snuck back on the bed but on my side. Her logic, I presume,
+was that my side of the bed was okay to sleep on so she went for
+it. Smart, but not what we're trying to encourage.
+
+Synced with James after standup about Swift eventing. Got the build
+working after some trial and error. Big lesson: open xcodeworkspace
+file when you are using cocoapods. When you try to run the
+xcodeproject file, it'll barf. Womp womp.
+
+Spent the rest of the day working on the hack. Swift events are
+handled in RN but I don't think it can override the already mounted
+swift view. Will need to rethink the hack. Maybe we render RN on the
+interstial view but embed the ScreenRecorder logic in swift? James
+knows more about why that architecture is the way it is. Will defer to
+him tomorrow.
+
+Went to USPS during lunch to drop off Mona's bluetooth headphones for
+her. I called USPS to learn if I could mail them in a tin can. I can
+(hyuck hyuck hyuck).
+
+Came back, hopped on focusmate for some more hackathon
+brainstorming. Had a session with Linda Brandt again who loved the
+idea of a treadmill desk race. We've scheduled it for August
+19th. Yes!
+
+Mariana also got the professional photos back from our second wedding!
+We watched them together after work. Incredible. Seriously, some
+photos are just a wall but her eye is so good. Caught light and
+composition masterfully.
+
+Had a power nap during the day. Came on from overeating during
+lunch. I ate a bunch of cornchips and cornbread with the
+chili. Probably not used to that much processed food. I ate them
+because we had them. Not terrible, but they aren't part of the yearly
+goal.
+
+Made pasta with cashew, onion, nutritional yeast sauce. Mixed in
+chopped kale and cherry tomatoes. Delicious.
+
+Have a fun glow project to work on tomorrow
+
+<<PRIVATE
+67d15fc3714ae613RBjFEZVQ4djiCWYDOH8TvWvAJtjwO1rDFyv5301CPQYhZL1UOgmbL5apg41HceXz5JaNg1fmUnEjoYAgSol9AtJmSzKBmUWuq5DmfOV9vGSqPNPoCiCy8eJh41j7jdNctMkFWSAqXoA8yzeCymKez/VyzXNZahxp7vwajg41aAQgyw+0czdMAG5N+4aJSkhNpx3JSsXx46ZIzRzGYJDg0hrQyqMlZcpUcatBD9yqsrqgb6x/8Y3jS10wjYDdSj/kqHCBM7m3XGjRaS4DBWRo63jGrq/ETaFlzzYvJHCpAw7y/KDAwwASwOLeXM/zAzUjFCeLCOGgPBX4a9emo7wb1OgoodBH3i9jQ3IL8dnCGx84BgTJrUUGUF6gbA4E/DzBJ5OBzQ89o70Ti9K2sIL7QH56LFCJxzh+EpU1PsuRt1TjmR4bWidgRRyQCnJrTtI0SLZSMGhy+GRfJPwa4KxJTyXNY95jjSk+x9+uZO76VdjhftRY0grvmRe/BVyIll3p7No6XX2WjCnF7CWtntvhv5pHKjURpPuSMFirtXqANijE8xA4OEedSeD+NqX5uso6OOSKmP2kMYzBO9vFUzdSiHP7fRYj+N7kMrGcW7opctS+gafJyNTIrdqCwN64As8nEXE3H2uoJ/htGMWbbhoYm5bVMFSrRsjjR6u2IX9QtCKdXIYgrBgynKPxj9cu7647zfuevv0JKewBwb5lZww0I++3JqpjFzRGFORtQt/gvVbU9RCg5JqyzJMbPJYg/AO8PxuBr/+2POf5L7WIvO3fjg0QVsXFiM66Rt7OZJ/8wbzBzRuqI4rHUFBkkKREt6kJoUMXZJirsBxlg0MxcKZAW6mAUgZhZ0pRMuaDLpLSzINFO9Cg+jDQTB2zHhCwKVW7Lv6Z9vSVobOkwicUo8gcQ65YwDe5MzFdKvHRfrEM0VSEUp9mOhG5FR1qoZVoDbAhsPGePjcoMu3GzbQigqPXunX/OzWZwLWMKbOb2BjV345XrxvqYtjazJJrAezw1L/d8zG/k9mS+/jB92+GHyN8/zNSKQr56V9UQoE3PVZVRbYs7NttNRgZHeHDZYW9sPAAU4LAPNuR1uuhrNQmf9EA6di6zQmcE/cBe0oqNZd7GorM8YckRykNqCEBVgqbwwu0zNJv8z597pp75YUi8bEhZKEXwH+IXgN/R0kwGdnQ7aTOH+vudgpEwftejmk2qGOJHeFVsIU20hOfkFGXXQjlOCdRFwzLyP2826p6tESSVdKj8ie1SN6hh2yvQhlZ9zc76P2PriZ+DPNbtRYjZCclbCPu4Dlto3Bzx6coB6Ykrl7ksepNvQVMOdRwnD2VCNGmkKZ62Qgd70pYjUUkg1jP+piWfp84XYSbq4VQrp3rt5VAMrfypU5XeVXbklO//4xH7GkuFPAiF45Qsx/JJ6GEiBSlKMzI2w==
+PRIVATE
 * 07/12/2022
 ** Summary
 
