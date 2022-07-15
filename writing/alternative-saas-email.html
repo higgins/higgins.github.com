@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Save money: Cancel your email SAAS 💸</title>
+  <meta name="description" content="Save money: Cancel your email SAAS 💸">
+  <meta property="og:title" content="Save money: Cancel your email SAAS 💸" />
+  <meta property="og:description" content="Save money: Cancel your email SAAS 💸" />
+  <meta property="og:image" content="https://encapsulate.me/images/face.png" />
+  <link href="/styles/markdown.css" rel="stylesheet"></link>
+  <link href="/styles/blog-styles.css" rel="stylesheet" type="text/css"/>
+  <script src="/scripts/writing.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>let exports = {};</script>
+  <meta name="shouldPostToHN" content="true" />
+  <style>
+    body {
+        max-width: 800px;
+        margin: auto;
+        font-size: 1.2em !important;
+        line-height: 1.2 !important;
+    }
+    h1 {
+        text-align: center;
+    }
+    hr {
+        height: 1px !important;
+    }
+    article {
+        padding: 20px;
+    }
+    .smallImage {
+        max-width: 400px !important;
+    }
+    .subtitle {
+        text-align: center;
+        font-size: 14px;
+        font-style: italic;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo" style="cursor: pointer" onClick="author()">
+      <div class="i"></div>
+      <div class="w"></div>
+      <div class="o"></div>
+    </div>
+  </header>
+  <article class="markdown-body entry-content" itemprop="text" id="grip-content">
+  <h1>Save money: Cancel your email SAAS 💸</h1>
+  <p><strong><em>tl;dr:</em></strong> With <a target="_blank" href="https://forwardemail.net">Forward Email</a>, gmail's "send mail as" feature and a SAAS SMTP service you can send and receive emails on your custom domain for free.</p>
+  <hr/>
+  <p>I don't like paying for things I don't use. Particularly SAAS products.</p>
+  <p>I've paid for Google's workspace tools for several projects but think I found a better alternative.</p>
+  <p><strong>The problem:</strong> I need a free way to <strong>send</strong> and <strong>receive</strong> emails under a domain I own without hosting an email server. I don't care about the other cloud features.</p>
+  <p>Here is how I did it:</p>
+  <ul>
+    <li>To receive emails on a custom domain, sign up for <a target="_blank" href="https://forwardemail.net/en">Foward Email</a>.</li>
+    <li>To send emails on a custom domain...</li>
+    <ul>
+      <li>Find a hosted SMTP service that is free and within your sending throughput. <a target="_blank" href="https://sendgrid.com/pricing/">SendGrid</a> is free but limits daily use. <a target="_blank" href="https://aws.amazon.com/ses/pricing/">AWS SES</a> offers a free tier then usage based pricing.</li>
+      <li>Configure your personal (free) gmail account to "send as" this domain.</li>
+    </ul>
+  </ul>
+  <img class="smallImage" src="/assets/writing/gmail_from_dropdown.png"/>
+  <p>That's it! Now, when I want to send an email on one of my project domains, I select from the "From" dropdown in gmail's composer. Replies are handled by Forward Email. Below are some screenshots you might find useful if you set this up.</p>
+  <p>If you do set this up yourself or have a better solution, <a target="_blank" href="https://twitter.com/justinprojects">I'd love to hear it! ✌️-- Justin</a></p>
+  <hr/>
+  <img src="/assets/writing/forward_email.png"/>
+  <p class="subtitle">Forward Email total setup time was less than 5min. Mostly waiting for my registrar to update DNS records.</p>
+  <img class="smallImage" src="/assets/writing/gmail_settings.png"/>
+  <p class="subtitle">I find Gmail's settings view hard to find. Click the gear, the "see all settings".</p>
+  <img src="/assets/writing/gmail_accounts.png"/>
+  <p class="subtitle">Navigate to "Accounts and Import" tab. Select "Add another email address" in "Send mail as" section.</p>
+  <script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+  <noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt="" referrerpolicy="no-referrer-when-downgrade" /></noscript>
+</body>
+</html>
