@@ -1,7 +1,7 @@
 | Movie                               | Watched?   | Why Watch                                               | Genres                          | Recommended by | URLs                                               |
 |-------------------------------------+------------+---------------------------------------------------------+---------------------------------+----------------+----------------------------------------------------|
 | The Hateful Eight                   | 07/09/2022 | Tarantino                                               | Western, Mystery, Dialogue      |                |                                                    |
-| The Gift                            |            | good reviews                                            | Mystery                         |                |                                                    |
+| The Gift                            | 07/16/2022 | good reviews                                            | Mystery                         |                |                                                    |
 | A Simple Favor                      |            | good reviews                                            | Mystery                         |                |                                                    |
 | Vivarium                            |            | ok reviews, Liminal spaces                              | Mystery                         |                |                                                    |
 | Where'd you go Bernadette?          |            | Linklater                                               | Mystery? Comedy?                |                |                                                    |
@@ -15,7 +15,7 @@
 | Bad Times at El Royale              |            | like Knives Out                                         | Mystery                         |                |                                                    |
 | Game Night                          |            | lots of actors                                          | Comedy, Mystery                 |                |                                                    |
 | Fear Street Trilogy                 |            | RL Stine                                                | Mystery                         |                |                                                    |
-| Last Night in SOHO                  |            | Baby Driver director                                    | Mystery                         |                |                                                    |
+| Last Night in SOHO                  | 07/17/2022 | Baby Driver director                                    | Mystery                         |                |                                                    |
 | The Lighthouse                      |            | Alex Garland                                            | Suspense, Drama                 |                |                                                    |
 | We need to talk about kevin         |            | Tilda Swinton                                           | Suspense, Drama                 |                |                                                    |
 | Knowing                             |            | Nicholas Cage                                           | Mystery, Suspense, Supernatural |                |                                                    |
