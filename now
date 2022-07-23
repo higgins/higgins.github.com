@@ -1,3 +1,34 @@
+* 07/22/2022
+** Summary
+
+I woke up at 5:30am but went back to sleep until 7am. Made a blended
+cashew green tea and did pushups. Standup at 9am.
+
+Focused on testing itty today. Itty router is excellent. Itty-durable
+didn't work. Even the example given on the repo. Maybe with fresh eyes
+on Monday it will but it might not be a necessary tool. Just use
+itty + a custom class for DO (to construct the requests).
+
+Lentils and rice for lunch. TLT for dinner. Talked with Mariana during
+lunch break. After work (from 9pm to 2am) I started cleaning up
+24HourHomepage. Documenting it publicly as a marketing means and
+accountability means.
+
+Using tailwind is great but it means I'm re-writing a lot of code. To
+add the upload feature I want (for paying customers and anonymous
+users), I think it makes sense to make the entire transaction happen
+on the first page. An upload modal that will accept CC information and
+update balance if need be.
+
+I can probably scrap the existing reservation system. Think about the
+goals: get people coming to the site often, get seconds on the page
+sold.
+
+Going to bed now. Will wake up early, have coffee and work on it more.
+
+<<PRIVATE
+73e1996f827607e1tcIOSkpIO4L9jtr270FcvqSTT3YXltkmg7PmDJw1hfnwzJbpGQDCKd80OPLu9bG5kzQO0zU6X2kDJDOHgpWg5xwwT1WK2WYxuXUVYxjZ/eYSzBIEtF3Z1Wlu4y7mZWoPofycBVvAfy4zdX/2p14X/2kveygsAU39SrogEZJe1TGvqpUSkU2y7u7+T8aJJiQ53neYXHznPoNyh7a4lUbhs5sG+Ilamv0+Wo7Nt+yPR3bRUYZQpdeilHc/Kl46mU3noyhwhGv3pQohCSW6PrI5ppDA6lbEKSs0HUxI59DJg/1hLWEIq3vcBalnQm4djCC/8xCvT5LME9WnStIVh6VM2LgGgCYJllm7u3/E2WNP8vukvxMx+ElEqxA5qOKBrVK1lPyoBWOsBZSFfUN6HUNtaNRuWIWs7nVWZ/Yjxs6O1OOimBjdPtvSOwo3b6R9FjLtWP+Kmc8v8SsJVXWyseT3bEM+y6I7LCpmZqmzYvsOREkfM2CdIoUrVl9baWL5hctgXmIMf7WmeO6vuT6s2w0MiK6EHV0JNUFvagtn4MWdvYeoVJ3ohCIXxVYVhyMr/V5+/6COJgnMDnS/4iTCz8jzU1M+HbpcIb8RrKcWSRkU5ItQcREsewJUVy+t++jJtTd1wDs4qAYHZZJUynW9fPOLDMrfCT47eLv/B9VdSoW91yuiBjvl1PAo0dXjwhLLF3sW9qSXhavBNXjeB4XpBOLCQNTPUCGYY4TAa8+OxzubOigq+pN219P+6+njNNltObyimgn9E6JHGxmMyGk+cBVsRVFGijM5vL6CtTe1UiT/R7kCd2gHMlFnyo/dpRSL8e3CwdNcbnHg7pPAt1iJZlKFsoB/g5cftpXOL+88TcsdBW71u0QLwEXGvzcp3d2PemS7i3QGsOfaHusr2GuVprlpIcj0fK1M6IYOTtQS/1mZPDlaRgxPB8L59e6yU9Z7YBxw46d+gdLksI1FZmYZ7YeCChWHDnlF2Z49XSc4phipB7iIX46opAQFZ778MyMZhLZ1QEG3xfOaF82byidLe2q39MAkO+IblW+hMrpeE6Zl/4wNRySmO9hqhM36J599ZP7LOHRkyPg1gs0KHNs4GnR0s42p/wiC3zsIxi177OHEdc9Uwm8ecLlfehKa+PSzdKpu+2jHUN0Xh0+Jn5QHGu8Tl7MbO3yndypF14/qfyHxHgDPe4xCJaYheqg+4TBG0PHeLPq2hSfW4arrQnsvaVMHYAf0TV1X5j7k2U2NnSQHA1vFN6DuYbmjtvYNOKwr+2QlcJ+hTlaV6AU7G+4ZDe1tP6AsZ52ghwjWlsMWfq03UmE=
+PRIVATE
 * 07/21/2022
 ** Summary
 
@@ -147,7 +178,6 @@ them. Funny. Totally legal. Played bocci with Simon later.
 Mariana's coworker Eric, his girlfriend and their dog showed up. We
 all played 'exploding kittens' before the sun set. Came home and
 watched "The Gift" before going to bed.
-
 
 * 07/15/2022
 ** Summary
