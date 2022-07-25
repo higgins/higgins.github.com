@@ -1,6 +1,7 @@
 | Movie                               | Watched?   | Why Watch                                               | Genres                          | Recommended by | URLs                                               |
 |-------------------------------------+------------+---------------------------------------------------------+---------------------------------+----------------+----------------------------------------------------|
 | The Hateful Eight                   | 07/09/2022 | Tarantino                                               | Western, Mystery, Dialogue      |                |                                                    |
+| Jackie Brown                        | 07/23/2022 | Tarantino                                               | Writing                         |                |                                                    |
 | The Gift                            | 07/16/2022 | good reviews                                            | Mystery                         |                |                                                    |
 | A Simple Favor                      |            | good reviews                                            | Mystery                         |                |                                                    |
 | Vivarium                            |            | ok reviews, Liminal spaces                              | Mystery                         |                |                                                    |
@@ -30,3 +31,4 @@
 | The Bear                            |            |                                                         | Drama, Comedy                   | Kevin Cuevas   | https://en.wikipedia.org/wiki/The_Bear_(TV_series) |
 | Dead Again                          |            | Robin Williams                                          |                                 |                |                                                    |
 | We're all going to the world's fair |            | Sundance, low budget                                    | Horror                          |                | https://www.youtube.com/watch?v=y0AnGfzgh_w        |
+| Along came Polly                    |            | Phillip Seyemor Hoffman                                 | Comedy                          |                |                                                    |
