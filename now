@@ -1,9 +1,49 @@
 * 08/08/2022
+** Summary
+
+I woke up at 8am today and made coffee. Downloaded Tandem, the new
+coworking software and hopped on standup call.
+
+Focused work day. We all said the work left and what's to be done
+(instead of giving our statuses). I worked on some requested Disco and
+Sup a features and tried to get app built on my phone so I could
+register a real push device token. Want to write the push notification
+code in Cloudflare's worker environment.
+
+Spent a good chunk of time debugging that. Had to upgrade macOS and
+xcode. Xcode is still downloading.
+
+Worked out after work. Felt great. Will do another set tomorrow
+morning. Chest and full body focused.
+
+Played chess with Mariana after work. Nice and relaxing. Really fun. I
+think we played for an hour or so. I won after some good defense on
+her part. It's been like four years since we've played. Was really
+fun.
+
+Made three vegan veggie burritos and watched a bit of Whiplash with
+Mariana. Going to bed now, though will leave computer on in other room
+so xcode can continue
+
 <<PRIVATE
-e5c169f18419e487zZiCpV5DGgqEO8h/r+28spvKLiCxqZZsO8xZTuL/8+cXRTsQICmKGZpA3E1QRvutamkYBc3oOeh4dx+i69bPMAVWQc5mAWOJ/IRIEbdGjdxjAlFEXJgo0VdokkMacHmeazmB9KP9ViNo1jaLOJ4bcGLbk0Q=
+55f416419461fb70IsFuBnVxksy0r/ASW7ijYqQYEmIUlXuAbidnfDtQU5makiQY8f8YUy9U6mOVdwRu8hxDknJZ1xZJLce2KGxTJTEelnTkUhmIOwFM8BWiGy1ApEu6+n/m+F0M0+UlOMnusay/zCbk2DklXMhajzpkqsuZY//l4EmYf5ymbd7gmT38NDrBXlPGSAOSVu4WiXl9nanY4Ydyd2MBt2Tk6eNXJcK6sD8aN3mlIBLbk5jq8rnw46rsTKV9vIBZcZ2U3GRIdmlnAh25Bt97Rx/VQN6fvABUpWOyorokne5P5618/rs7iEiz/rJT0vsxvoHbZltx9ezgqTsgY8KoCyGEjDul1Il/STbO/IEgRru/ceU9rqDlQZ85rj09vHrngj3Mlor/UnJ7boNmkIHDiIIOc5mXzfHpvj2uf9tSPIMhjm56MlPlxt9L43AQ9sjjj74MXG92IBn59nZIY07PEZ2T2wmEZuDQgQtOsZT51msf/e/lLMiT7eOYXJX3hjkKRSHUpRnjNSZAAv8eB1o=
 PRIVATE
 
 * 08/07/2022
+** Summary
+
+I woke up, made coffee and took Leche on a walk around the
+neighborhood. Went swimming with Mariana from 1pm to 3pm. Took her to
+this fancy new donut place in our neighborhood. I got a matcha, she
+got an iced chai with two donuts.
+
+Went back and took Leche for a walk. Picked up flea medicine for
+Leche. Figured out how to upload files to R2 via cloudflare
+worker. Watched Get Out and Room. Went to bed around midnight or 1am
+
+<<PRIVATE
+815e4af66f9a9b9axRMgUvQo1m+Ot7x5vT5wK1HVzskxahw7HzOpTe5TfcNvrXgF45752AfLZYbWvYNSMH1PB78gp/AH3sVoXUujDoyGqPvMDS8NCfeSsXGgbc0kIiBpQfb5amgOwKe4X+7Z7Gz7LLpSj57JNCZuzkPF9Url9DQffr8Bibl9tuhc6IdVa1E62V6bVjJNeBSdvyWRP5cnC4EBteRmS3olfJ6U8abrl5kX6pz72wUIsJeLCFJMAu/MGoQ=
+PRIVATE
 * 08/06/2022
 ** Summary
 Flying back to LA today. Went to bed late after working with team
