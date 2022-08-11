@@ -1,3 +1,55 @@
+* 08/10/2022
+** Summary
+I woke up at 6am and made coffee. Drank it all before doing a SL
+workout at 7:30am. Almost went back to bed but had short vision of
+doing that over and over again for years to come and had enough sense
+to stay awake. Still, made coffee and listened to pop-news (TBOY
+podcast) about recent events in the market.
+
+Workout was focused on high volume with better form (so less
+weight). 10x5 for squat and bench. 120lbs for both. Mixed push ups
+in. Did it in 35minutes. Made oatmeal with banana, apple, flax,
+raisins after.
+
+Standup at 9am where I said my day's goal to get Cloudflare
+pushnotifications working. I thought I would have to go a WASM route
+to get the necessary signatures created for apple push notifications
+but nope, the WebCrypto APIs are sufficient. Still, I tried nearly
+route I could think of (openssl wasm, crypto.js, etc). At one point it
+occurred to me that we could just pre-generate the tokens (for every
+30min of the day) but that'd be grounds for saying CF probably isn't
+worth it.
+
+Made a weird wrap for lunch, inspired by the "napa chickpea wrap" I
+got at ORD, the Chicago airport. Made a tofu chipotle "mayo". The
+airport wrap was sweeter, crunchier and creamier. Mine didn't have any
+of that. Chipotle tofu mayo, chickpeas, purple sourkraut, lettuce,
+tortilla, diced turnips for crunch. It was good but not super tasty
+like the ORD one. ORD one had small raisins for sweet and celery for
+crunch. Lettuce might have been layered between the tortilla? Will try
+again.
+
+Leche threw up a bit this morning at the end of our walk. I think due
+to the heat. She didn't eat or drink anything before. She was fine the
+rest of the day. Ate all her food once I added a bit of cheese to it.
+
+Made a big pot of vegetable soup. Canned white and red beans,
+potatoes, carrots, zuccini, canned corn, canned tomatoes, fresh
+tomatoes from garden, one white onion, two cloves garlic, half nob of
+vegetable boullon (unnecessary), water, curly noodles. Added some
+fresh mint and basil to mine. Bomb. I'm super tired now though. It
+might be from the white Sapote fruit I ate for dessert. Boy was it
+delicious but boy am I tired! Mariana thinks it is because I woke up
+early but I know the difference between natural tired and drug
+tired. This hit about 20min into our walk right after the fruit
+too. Could also be that I was cleaned the seeds of the fruit which
+apparently have some sleep inducing compounds. Geez.
+
+Okay bed time.
+
+<<PRIVATE
+fe1c55ea16f76afeRyZ+SObOT1yLdGkJz5CcRCCaJeju0gEN5ZNvVd0n6jGsSDLaYOgayN4zgrsz6QS5kG0MEISJ+hJYt3cio9UqUW/xAbyaKG12zIllWjIgIdAu1h5u66gFpJySELh2J0Lg1jJeYr9blqJ7fFYPDQmk9dehlULDr/1dDo2ZnBgSpvsXQa1pXt21QE9zrME2yM0mVNOIvD+W9ZeFjqeLqEnzhUp1iTAklu3ceZ/NfOCGRnU4EgdSs3QRKS97hC1+Gi19DIYNXubXxW+QQjZExOikYVd3tjGn6mlWku2Bvtj3o3Ov+eSoHy6elBp4UOiF1SeN4hB9Lwvv9+q64w4aku0JZtJBjB6X3VlCh5O1zhEU93zkf0IiRbFjhXeGHwDhZiF9CMhm+M6qa2LbVgBZ4sYOielFhdfUGbGa7Eyehhu+sxDF9DeMT4leYn51276S4NFxVDNEPOA6Uw80es6psSESuo30jCTf46RvZGVwnyLpuwKOdK2QhkKwORqYTrWZuQpEYIVtIoI3aCa28jdsuCLNZkvabpSs0z5AOO0qv36hgyUWeBkCU0XERFTRLshCNbXYFAu6620DOdRZzneYsUyfIfVyn64caddpJf2/rvRseSYcnugvQZ3rHdjAUu1Bvsq8uVF5CIwCXIRexu0N3z8P/w/a30K7KAmrwudojFsvMwPKbWqG/wckGQpkhhbQNQb+fFpYC+WUn20SvhF/TCE0dNgc0tU9LaGlNQ1JHOb5Wg81VH/MhDmo30Tx+gwwuXTKL+8OD4cNXBgbmXE=
+PRIVATE
 * 08/09/2022
 ** Summary
 
