@@ -1,3 +1,45 @@
+* 10/03/2022
+** Summary
+I didn't get good rest last night. When my alarm went off, I went
+straight back to bed. I'm interested to read how often I've said
+something like this this year. No doubt, I've had this habit since
+college. Coupled with blind caffeine use.
+
+Morning was a bit flustered. Oatmeal spilled over, pancake batter went
+bad (too much yeast). Just felt a bit more chaotic than usual. Chaos
+shouldn't be anywhere on my mind for the morning. The start of the day
+is most peaceful and calm.
+
+I need to do some deep meditation after yesterday's discussion.
+Healthy but I don't like unnecessary energy bouncing around inside. As
+I notice it in myself, I see it in others too. Find or create a space
+for calm.
+
+Today's work was focused on expo ota. No luck getting the preview
+build to work with native modules even though it appears to work for a
+freshly built expo app. Maybe something I'm doing in build settings,
+but doubtful. Maybe I need to install expo-asset AFTER the
+expo-modules package is installed and configured?
+
+Going to try that then test out codepush tomorrow. I enjoyed using it
+in the past, hopefully its quality is still top notch after MSFT
+acquisition.
+
+Went bouldering after work with Mariana. 7pm to 9pm ish. The leftover
+routes from the weekend's competition were still up. Great. Very fun
+to go through. I think it's worth our attention to keep going. It's
+time expensive, but the whole body feels good.
+
+Came home and realized the fargate problem is not a problem. Going to
+provision productions and prepare for the swap tomorrow night. Need to
+see how fargate handles auto scaling.
+
+Going to shower then bed.
+
+<<PRIVATE
+4e6f784b6a739b7fvqbSa4ItuB/f9PxrxQDAxcgdfLq/t06hYeIm/0ByeKr5p7JPuaWb4bCa/BL0EEVein0k0S2ZDTNxcjsxqdWrvt7anTcUZJuULEiRxqrbYMKgM/OSNN+4VpBvhaASbTJh5KAWEywt0/x2VdjG3EI/IlWh7T6PCQMwLkDdJodxHAQyEtYwMCIJVYo6FzQPoGLw0GHetpWdJf7wIrOOvEuOapL6kTHnCrr5OfPNZBSP5XH72zJ9COt+inJarnnSmurLr0pBORjYdy+7vPEu6ZwCigcYqEAfDVhrfdJ1uKCs7ia/Ync+mloAsyPbgokrHPH8x+krdFQYE9JW/6UQIvXVFAgyv07dTHUlEVcfkxnFdxdcblwYP3VIBZnY9NEe9XFq8xv1JbQCwzSNNBh/AUUOe6C6udeXMjAYHPtNQG3MYdQpeE4/sY8MR5y8mnIAyXkAXC5fO6EPKwgoawccoyfRiZR+G0xGkFA0MQJpzUAwiMX7vJKHsnEjXoqnf0XDExtZDXpFZODnJ2ioY7yrB1rWNGWPCBy2U6IrA6yfErwpdg6JxmLcdkw+qyVXAK/sv5iQMZKtWi8kQhRwBkW7+rbt4XpaOP+5VQ7WpXTMNRjBSbuS+nYHSandDCsG5BVpjE+lVtWt3zJM8nH7zkAEFr6fwK8+e67shenyAbnlEkX9CpIJXjEwfDAW+sew7agnCg==
+PRIVATE
+
 * 10/02/2022
 ** Summary
 
