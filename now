@@ -1,3 +1,44 @@
+* 10/31/2022
+** Summary
+
+Woke up at 6am from a coughing fit. Stayed dazed awake until making
+coffee at 7:30 after hot then cold shower. Woke up Mariana at
+8am. Standup at 9am, caught Billy up with our progress and took Leche
+for a walk. Chat with Billy later in the day.
+
+Fixed Cloudflare worker issue (SSL mode), removed some noisy logs and
+worked on the wtf.sup.audio prototype. Autoplay won't work for safari
+and chrome so will need a workaround.
+
+The big hair cut tomorrow! Been talking about this for almost as long
+as I've had long hair. There are times having long hair is
+great. Namely, I enjoy having my hair pulled back in a man bun and
+it's low-maintenance. All other times it is pretty high
+maintenance. It falls out often, I don't shampoo or condition it as
+often as I should to keep it from falling out or getting knotty. So
+sometime before the March wedding, I wanted to cut it but decided to
+delay it until after both weddings. Decided over a year ago that it
+would be November 1st. Funny though, the last month or so leading up
+to tomorrow have had more second guesses. "Grow it out for another few
+years and then cut it after some big event." or "You won't grow it out
+again, so just keep going." Those doubts didn't really stick
+though. The benefits of a buzzed head outweight the benefits of over
+shoulder length hair. Donating it to locks of love, though next time
+will donate it to the oakland group that makes hair mats to clean up
+oil spills.
+
+Ate Indian food with Mariana for dinner. She was iritable because she
+was hungry. Delicious food though.
+
+Did a stronglifts workout after work. Felt great. Volume and high
+intensity should be my next focus. Just go until failure on multiple
+compound lifts.
+
+Going to bed now.
+
+<<PRIVATE
+ac921cedf42ce8404yyySKFOxu0+GsFvQrF3bCJJMq3kB0oViz6r47pm21s+USUApThYoJmbceuX+QKbqowSyBm8DKZPYRUeSRhX8jL9IxCRIoZqsBN6yON8vtDOxS93q6+xbLXk8W2iyomH4Lqgu3APKcZieX8MbK4ChtptfmKDdPSV8ILS85PoI/1PpvwsZMoXOupKGis0OxtWfPMfFTq+pHfkWXTBAhAKeirH8v+C/X3SSC0AZ0oFzbh2F/33fhAslbJk0gqeGq1/M1s3BXcJxfV0aN+14j3RX9IcGNQZ12XYFCX32gUbvK0F8U6IO1pz5EvSqAI8SQy731i4f9sKNb0d347tADra1MQIh75Ojm9qrAGW7HpWWcvAHbMeKroB+b5bpMRHw9kuCcwD4zrOnAAIGrGAJyXT1+M4QmM0cMCzumDeqOG2LknffsV6aLT6Zx1C24VCqIA3c+sqVgTNvqojRUNte0QCIyih2VxAHR/gyh90B37S6t4ZC8Zoc/sfcCEH/d0OKKUB6M+00LPUXEYwTE33IHizgHwnV49tUbxB9Y+uOtvP0xx2HuHAw/+xZ9LsGx7f6qb5Ice9IzyG1E7VTNwiSxEwi8edAZd7h72jsFI1mMiXKCBXutP9Au0Lqp7UwMkDD5aVselUlXXsV0zL3zPEDSv+1RUBcW0byWrmZU0ZzPe8SmWwn1TZUO/h5nYfUcJE0bFDpXMmW3ZxVqt3kblje3pYxvw/EM5LvU3hIlam6RDocjLlAi5+v2IVNlYbT5AStZED50DVsNg+FjLqxUDj8hEvKovWD5D73bgzzyNA+7iuh5irFQj4X4uGKDha+SuwZZO6MOSxP9wsp+XL3eS0HPKXCRopsQ1zqr3xL2V7EKTwUQBerknwUvnCiQN9kO/UXSzwjqtzge7bPWVECPPy3H5iYr+ihilUAgb4JSAGq4z3sVh+wYz3Pno+kat9sM6qsQgXmMn3PCwem/4a6lfjyUiWvrgtR5InTozG+WHltMxyQSXUkeJsJBG+MmV1sO20nrJUr6iXs+dVNaU+uFpgJvJBIUXHodI1h1q8Occ9o9F/1fk30QZu+3wW/1bQ5jIW8e3L0FKE5ZvM2um6QaanilTF0QoMHrrHZN5xDST7JpUaKAqqKowVNzRWRbMnQ+BIOYmjtR1RumL+UniT4I0fSyYXJPzhaFp1+xzSy2L5NPY8xWAhC9yQmQOFeiF0DCJKAEGO2D7XvxpylrDKtUq3vmRPPb+rsRYCsLZvNK60Lr5sQPtadR6hEKTuGuwoBkthdVQcuYU34yp5KfABoqqWU3L7jap9VeLFhENMU0/2y6/qdGyLcjty44IHfGYBVB39gDJu5Bhh6U0zQWdDSfo2vS4EzrzRGXtJnR16Q2it0b1P76VKY4p0sP5DKnLcGBvsaNKBZk7X5umAg5FnsN4h2xPqR/sZJqEYcjwfK3Mjg8VlDBJGaep5ykbFH+MqIrlijdSIDbmKJHxpFs2hvj7ym8RClHnPQ/LYYyaQShsX2OeRF5jtndTWz004e4xRe/Po0PC5aHXXtb6plMmoatkvm7VY0J0TjCNuSvNEGkHtFaVCTKTwcC/HGuNOoAWqcAOhBTCzCgWDPYHFaaMDGg==
+PRIVATE
 * 10/30/2022
 ** Summary
 
@@ -36,7 +77,6 @@ why he would have joined.
 We played Codenames for an hour after dinner then went to the jacuzzi
 down stares and talked. Back by midnight and took Leche on a walk
 around the block. Bed time now.
-
 
 * 10/28/2022
 ** Summary
