@@ -1,3 +1,24 @@
+* 12/21/2022
+** Summary
+
+Woke up at 8am and walked with Leche for coffee. Home by
+standup. Published kcrw Sup then paired with James for about 2 hours
+on primer push notifications. The issue was that testflight must be in
+Release configuration and so the device ids it generates are in the
+production APNs env. Two FE changes are necessary to fix local development.
+
+Fixed two cosmetic issues and added an analytics endpoint for us.
+
+Almost at the end of the year. Need to take an hour or so on my
+birthday and email friends family about next year's goals and the year
+in review.
+
+Tomorrow climbing in the morning. Even if this Elderberry + Poppy
+syrup is strong. No excuses.
+
+<<PRIVATE
+ce4184ef24a01de5byrsMwE0Jye+81nR5N/M3NldhN/DUWpIuwfAPSKAp0wkcW1edy0N+WzNr9I+9G8t+PbL6C7Mb1F04DqGtkAa8gsC8MKEFrPOPBmrALkUFylNFSf+yJH2fbvsIDYQ+ftzoprHOJ/Zg8biFEVJJVmfGPL+zncjOFkjoBSFZ7sTiA5AXbj40X6IiABmvcu0AK11pSw44W7Bsw/Aaq0GnkJ7dDO5Ayy6+XhsGjLWxVf/Mj1zfVwhxNn+/sGe2eT7rWyeUiN4515+HrJN1QUTwXJo26woDLAMclHXVz31qjYWgdSsqFUOskN7Lwr6XkEiOpxEf1WU9l1L8mwyWoFZ+2b+C2RjGVGNYV6r6vTIRP/32fa3cTXcPu9aHQA+KFuHzp+zqnlZaxyayrUWfw==
+PRIVATE
 * 12/20/2022
 ** Summary
 
