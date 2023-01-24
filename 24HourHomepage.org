@@ -1,10 +1,17 @@
-| Date       | Start |  End | Notes                                                                                       |
-|------------+-------+------+---------------------------------------------------------------------------------------------|
-| 01/12/2023 |  0700 | 0800 | unit tests for getUserByEmail                                                               |
-| 01/12/2023 |  1845 | 1935 |                                                                                             |
-| 01/13/2023 |  0700 | 0800 | routing, echo endpoint, balance endpoint, sending email works                               |
-| 01/14/2023 |  1200 | 1600 | stripe init session and basic webhook setup, single button on page                          |
-| 01/15/2023 |  0945 | 1100 | stripe callback event handling                                                              |
-| 01/16/2023 |  1300 | 1600 | read about transactions, functions, /upload is almost done                                  |
-| 01/17/2023 |  0630 | 0745 | attempted a UDF function, not complete. will try verbatim tutorial solution then modify     |
-| 01/18/2023 |  0615 | 0730 | UDF components working, not stitched together right. maybe something with the IF statement? |
+| Date       | Start |  End | Notes                                                                                                                                    |
+|------------+-------+------+------------------------------------------------------------------------------------------------------------------------------------------|
+| 01/12/2023 |  0700 | 0800 | unit tests for getUserByEmail                                                                                                            |
+| 01/12/2023 |  1845 | 1935 |                                                                                                                                          |
+| 01/13/2023 |  0700 | 0800 | routing, echo endpoint, balance endpoint, sending email works                                                                            |
+| 01/14/2023 |  1200 | 1600 | stripe init session and basic webhook setup, single button on page                                                                       |
+| 01/15/2023 |  0945 | 1100 | stripe callback event handling                                                                                                           |
+| 01/16/2023 |  1300 | 1600 | read about transactions, functions, /upload is almost done                                                                               |
+| 01/17/2023 |  0630 | 0745 | attempted a UDF function, not complete. will try verbatim tutorial solution then modify                                                  |
+| 01/18/2023 |  0615 | 0730 | UDF components working, not stitched together right. maybe something with the IF statement?                                              |
+| 01/19/2023 |  0600 | 0800 | finish fauna transaction for publishing with token                                                                                       |
+| 01/20/2023 |  0600 | 0700 | update seconds map on publish, store in kv                                                                                               |
+| 01/21/2023 |  0800 | 1300 | store website in with base64 encoded data since customMetadata cannot be returned on public bucket                                       |
+| 01/22/2023 |  1400 | 1530 | CSP investigation. added a few other domains, real issue was that custom domains on cloudflare pages only route to the production branch |
+| 01/22/2023 |  1600 | 1745 | file size limit, transaction error parsing, clock prefetches smarter (still waits before paint though)                                   |
+| 01/23/2023 |  0600 | 0800 | first pass at the description page component. trade off: all on one page encourages geekery, less words encourages action                |
+|            |       |      |                                                                                                                                          |
