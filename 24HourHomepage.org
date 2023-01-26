@@ -14,4 +14,6 @@
 | 01/22/2023 |  1400 | 1530 | CSP investigation. added a few other domains, real issue was that custom domains on cloudflare pages only route to the production branch |
 | 01/22/2023 |  1600 | 1745 | file size limit, transaction error parsing, clock prefetches smarter (still waits before paint though)                                   |
 | 01/23/2023 |  0600 | 0800 | first pass at the description page component. trade off: all on one page encourages geekery, less words encourages action                |
+| 01/24/2023 |  0600 | 0700 | toggle show/hide editor                                                                                                                  |
+| 01/25/2023 |  0600 | 0800 | basic uploader with cropped image working, TODO: rotate image, error handling, with token, purchase token, styling                       |
 |            |       |      |                                                                                                                                          |
