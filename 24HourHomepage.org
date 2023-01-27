@@ -16,4 +16,7 @@
 | 01/23/2023 |  0600 | 0800 | first pass at the description page component. trade off: all on one page encourages geekery, less words encourages action                |
 | 01/24/2023 |  0600 | 0700 | toggle show/hide editor                                                                                                                  |
 | 01/25/2023 |  0600 | 0800 | basic uploader with cropped image working, TODO: rotate image, error handling, with token, purchase token, styling                       |
+| 01/26/2023 |  0600 | 0730 | image rotation dive, not worth it. seed second documents                                                                            |
+|            |       |      |                                                                                                                                          |
+|            |       |      |                                                                                                                                          |
 |            |       |      |                                                                                                                                          |
