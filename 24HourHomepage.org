@@ -16,7 +16,10 @@
 | 01/23/2023 |  0600 | 0800 | first pass at the description page component. trade off: all on one page encourages geekery, less words encourages action                |
 | 01/24/2023 |  0600 | 0700 | toggle show/hide editor                                                                                                                  |
 | 01/25/2023 |  0600 | 0800 | basic uploader with cropped image working, TODO: rotate image, error handling, with token, purchase token, styling                       |
-| 01/26/2023 |  0600 | 0730 | image rotation dive, not worth it. seed second documents                                                                            |
-|            |       |      |                                                                                                                                          |
-|            |       |      |                                                                                                                                          |
+| 01/26/2023 |  0600 | 0700 | forgot to log...probably a combination of wednesday/friday                                                                               |
+| 01/27/2023 |  0600 | 0730 | image rotation dive, not worth it. seed second documents                                                                                 |
+| 01/28/2023 |  0645 | 0800 | basic wording changes                                                                                                                    |
+| 01/28/2023 |  1500 | 1400 | move description to clock to get shared current time updating with image                                                                 |
+| 01/28/2023 |  1620 | 1700 | POC SSR the first batch of images, too slow do do 30, maybe 5?                                                                           |
+| 01/29/2023 |  8000 | 9000 | wording and spacing changes, started the data migration                                                                                  |
 |            |       |      |                                                                                                                                          |
