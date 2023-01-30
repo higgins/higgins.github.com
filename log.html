@@ -222,6 +222,11 @@
             .then(parseLog)
             .then(updateQueryString)
             .then(renderDate)
+      fetch('/past/2022')
+            .then((data) => data.text())
+            .then(parseLog)
+            .then(updateQueryString)
+            .then(renderDate)
       // TODO: clear loading
     }
     init();
