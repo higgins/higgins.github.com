@@ -22,4 +22,9 @@
 | 01/28/2023 |  1500 | 1400 | move description to clock to get shared current time updating with image                                                                 |
 | 01/28/2023 |  1620 | 1700 | POC SSR the first batch of images, too slow do do 30, maybe 5?                                                                           |
 | 01/29/2023 |  8000 | 9000 | wording and spacing changes, started the data migration                                                                                  |
+| 01/30/2023 |  0600 | 0730 | continue data migration                                                                                                                  |
+| 01/31/2023 |  0530 | 0800 | continue data migration, finalize manual dump                                                                                            |
+| 01/31/2023 |  1415 | 1800 | write migration plan, including how it will be tested, migrate all unused tokens and published content                                   |
+| 02/01/2023 |  0530 | 0730 | render num tokens purchased and show error before submit if second published                                                             |
+| 02/02/2023 |  0530 | 0800 | api: tokens balance api for staging, fix KV bind issue in wrangler, client: setup basic cypress, debugging clickhandler attach           |
 |            |       |      |                                                                                                                                          |
