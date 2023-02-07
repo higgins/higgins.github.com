@@ -27,4 +27,8 @@
 | 01/31/2023 |  1415 | 1800 | write migration plan, including how it will be tested, migrate all unused tokens and published content                                   |
 | 02/01/2023 |  0530 | 0730 | render num tokens purchased and show error before submit if second published                                                             |
 | 02/02/2023 |  0530 | 0800 | api: tokens balance api for staging, fix KV bind issue in wrangler, client: setup basic cypress, debugging clickhandler attach           |
+| 02/03/2023 |  0500 | 0700 | client work, e2e test                                                                                                                    |
+| 02/04/2023 |  1200 | 1400 | change cropper bc it sucks on mobile                                                                                                     |
+| 02/05/2023 |  0900 | 1000 | change date selector because broken on ios safari (step attribute not honored)                                                           |
+| 02/06/2023 |  0700 | 8000 | date selector validation, bugs in it though. re-write tomorrow                                                                           |
 |            |       |      |                                                                                                                                          |
