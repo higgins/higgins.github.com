@@ -31,4 +31,5 @@
 | 02/04/2023 |  1200 | 1400 | change cropper bc it sucks on mobile                                                                                                     |
 | 02/05/2023 |  0900 | 1000 | change date selector because broken on ios safari (step attribute not honored)                                                           |
 | 02/06/2023 |  0700 | 8000 | date selector validation, bugs in it though. re-write tomorrow                                                                           |
-|            |       |      |                                                                                                                                          |
+| 02/07/2023 |  0600 | 0700 | tweet cards                                                                                                                              |
+| 02/08/2023 |  1700 | 1800 | success/cancel banner, clickable images                                                                                              |
