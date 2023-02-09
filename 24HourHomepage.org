@@ -32,4 +32,7 @@
 | 02/05/2023 |  0900 | 1000 | change date selector because broken on ios safari (step attribute not honored)                                                           |
 | 02/06/2023 |  0700 | 8000 | date selector validation, bugs in it though. re-write tomorrow                                                                           |
 | 02/07/2023 |  0600 | 0700 | tweet cards                                                                                                                              |
-| 02/08/2023 |  1700 | 1800 | success/cancel banner, clickable images                                                                                              |
+| 02/07/2023 |  1700 | 1800 | success/cancel banner, clickable images                                                                                                  |
+| 02/08/2023 |  0600 | 0800 | accept optional email on second upload, because wording, email templates, notify previous publishers of overwrite                        |
+| 02/08/2023 |  1730 | 2030 | WIP -- free publishing log, need to figure out the index for daily count, works when we index the value and no terms                     |
+|            |       |      |                                                                                                                                          |
