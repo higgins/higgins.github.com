@@ -35,4 +35,7 @@
 | 02/07/2023 |  1700 | 1800 | success/cancel banner, clickable images                                                                                                  |
 | 02/08/2023 |  0600 | 0800 | accept optional email on second upload, because wording, email templates, notify previous publishers of overwrite                        |
 | 02/08/2023 |  1730 | 2030 | WIP -- free publishing log, need to figure out the index for daily count, works when we index the value and no terms                     |
+| 02/09/2023 |  0600 | 0700 | daily stats of yesterdays publish                                                                                                        |
+| 02/09/2023 |  1700 | 1800 | increase file size limit on backend, tokens purchased in daily stats query, page view stats                                              |
+| 02/09/2023 |  2000 | 2230 | fix vertical overflow, autofill random free time, add something opens selector immediately, fix clock, buy button position               |
 |            |       |      |                                                                                                                                          |
