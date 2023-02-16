@@ -44,4 +44,6 @@
 | 02/13/2023 |  0615 | 0730 | heatmap update fix, setup basic google analytics                                                                                         |
 | 02/13/2023 |  1900 | 2100 | start documenting the migration plan, set production secrets                                                                             |
 | 02/14/2023 |  0600 | 0800 | begin migration. seed, published seconds, token balances, s3 copy                                                                        |
+| 02/15/2023 |  0600 | 0730 | finished migration and cutover to new production. confirmed token purchase works, publish works, publish is blocked by old times         |
+| 02/15/2023 |  1900 | 2000 | waffled about ios widgets. important but when? now if i can get it out soon. keep it a read-only client                                  |
 |            |       |      |                                                                                                                                          |
