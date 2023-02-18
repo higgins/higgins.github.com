@@ -48,4 +48,6 @@
 | 02/15/2023 |  1900 | 2000 | waffled about ios widgets. important but when? now if i can get it out soon. keep it a read-only client                                           |
 | 02/16/2023 |  0600 | 0800 | not much due to Leche restlessness interruptions. drafted a better form validator but still kludgey                                               |
 | 02/16/2023 |  1700 | 1900 | firefox and safari extension POCs. firefox can be shipped now, safari will require developer plan. might make sense to couple with affiliate plan |
+| 02/17/2023 |  0530 | 0700 | form validation, firefox logo, scheduled tweet                                                                                                    |
+| 02/17/2023 |  1800 | 1900 | leverage, ios border issue                                                                                                                        |
 |            |       |      |                                                                                                                                                   |
