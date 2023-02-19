@@ -50,4 +50,11 @@
 | 02/16/2023 |  1700 | 1900 | firefox and safari extension POCs. firefox can be shipped now, safari will require developer plan. might make sense to couple with affiliate plan |
 | 02/17/2023 |  0530 | 0700 | form validation, firefox logo, scheduled tweet                                                                                                    |
 | 02/17/2023 |  1800 | 1900 | leverage, ios border issue                                                                                                                        |
+| 02/18/2023 |  0600 | 0800 | fixed analytics not reporting (CSP and nonce)                                                                                                     |
+| 02/18/2023 |  1030 | 1200 | prioritized work i've document, db backups, indexes                                                                                               |
+| 02/18/2023 |  1215 | 1330 | heatmap data lever                                                                                                                                |
+| 02/18/2023 |  1430 | 1715 | google vision integration, music                                                                                                                  |
+|            |       |      |                                                                                                                                                   |
+|            |       |      |                                                                                                                                                   |
+|            |       |      |                                                                                                                                                   |
 |            |       |      |                                                                                                                                                   |
