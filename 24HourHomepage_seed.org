@@ -1,24 +1,24 @@
-| Album                       | URL                                         | Shared by Artist? | Posted? |
-|-----------------------------+---------------------------------------------+-------------------+---------|
-| The Social Network          | https://www.youtube.com/watch?v=yydZbVoCbn0 | yes               | yes     |
-| Massive Attack -- Mezzanine |                                             |                   |         |
-| The Fountain OST            |                                             |                   |         |
-| MAAD City                   |                                             |                   |         |
-| Have One On Me              |                                             |                   |         |
-| Naked As We Came            |                                             |                   |         |
-| Toe                         |                                             |                   |         |
-| Fleet Foxes                 |                                             |                   |         |
-| Daft Punk                   |                                             |                   |         |
-| Holopaw                     |                                             |                   |         |
-| DJ Shadow                   |                                             |                   |         |
-| Brian Eno                   |                                             |                   |         |
-| Point, Cornelius            |                                             |                   |         |
-| Cornelius 1                 |                                             |                   |         |
-| Cornelius 2                 |                                             |                   |         |
-| Shawn Wasabi track          |                                             |                   |         |
-|                             |                                             |                   |         |
-|                             |                                             |                   |         |
-|                             |                                             |                   |         |
-|                             |                                             |                   |         |
-|                             |                                             |                   |         |
-|                             |                                             |                   |         |
+| Album                       | URL                                                                                                | Shared by Artist? | Posted? |
+|-----------------------------+----------------------------------------------------------------------------------------------------+-------------------+---------|
+| The Social Network          | https://www.youtube.com/watch?v=yydZbVoCbn0                                                        | yes               | yes     |
+| Massive Attack -- Mezzanine |                                                                                                    |                   |         |
+| The Fountain OST            |                                                                                                    |                   |         |
+| MAAD City                   |                                                                                                    |                   |         |
+| Have One On Me              |                                                                                                    |                   |         |
+| Naked As We Came            |                                                                                                    |                   |         |
+| Toe                         |                                                                                                    |                   |         |
+| Fleet Foxes                 |                                                                                                    |                   |         |
+| Daft Punk                   |                                                                                                    |                   |         |
+| Holopaw                     |                                                                                                    |                   |         |
+| DJ Shadow                   |                                                                                                    |                   |         |
+| Brian Eno                   |                                                                                                    |                   |         |
+| Point, Cornelius            |                                                                                                    |                   |         |
+| Cornelius 1                 |                                                                                                    |                   |         |
+| Cornelius 2                 |                                                                                                    |                   |         |
+| Shawn Wasabi track          |                                                                                                    |                   |         |
+| Love Supreme                |                                                                                                    |                   |         |
+| Swardy                      |                                                                                                    |                   |         |
+| Acid Raindrops              |                                                                                                    |                   |         |
+| Massive Attack              | https://www.youtube.com/watch?v=u7K72X4eo_s&list=OLAK5uy_lPHEPJubeJ6r29goLe92GrHCmxNiTm6y0&index=3 |                   |         |
+|                             |                                                                                                    |                   |         |
+|                             |                                                                                                    |                   |         |
