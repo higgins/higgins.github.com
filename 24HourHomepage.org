@@ -55,6 +55,6 @@
 | 02/18/2023 |  1215 | 1330 | heatmap data lever                                                                                                                                                    |
 | 02/18/2023 |  1430 | 1715 | google vision integration, music                                                                                                                                      |
 | 02/19/2023 |  0700 | 2300 | investigate PUT error (CORS red herring), backups, re-index, spritesheet creation, GA custom events, clean finger design but reverted because it needs work on mobile |
-|            |       |      |                                                                                                                                                                       |
+| 02/20/2023 |  0600 | 1900 | fix daily stats, render 24min movie of all assets, re-compile those 100 ads i made and in 2021, document growth rhythm ideas: square daily video?                     |
 |            |       |      |                                                                                                                                                                       |
 |            |       |      |                                                                                                                                                                       |
