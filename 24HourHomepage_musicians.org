@@ -1,0 +1,9 @@
+| Name               | Done? |
+|--------------------+-------|
+| Andrew Bird        | yes   |
+| Arcade Fire        |       |
+| Animal Collective  |       |
+| Bad Bunny          |       |
+| Natalia LaFourcade |       |
+| Joanna Newsom      |       |
+|                    |       |
