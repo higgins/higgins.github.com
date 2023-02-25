@@ -1,116 +1,116 @@
-| Name                   | Done? |
-|------------------------+-------|
-| Andrew Bird            | yes   |
-| Arcade Fire            | yes   |
-| Animal Collective      |       |
-| beck                   |       |
-| Bad Bunny              |       |
-| Natalia LaFourcade     |       |
-| Joanna Newsom          |       |
-| Massive Attack         |       |
-| Flaming Lips           |       |
-| Panda Bear             |       |
-| RTJ                    |       |
-| Beatles                |       |
-| Rolling Stones         |       |
-| Bob Seger              |       |
-| Jim Croce              |       |
-| Iron and Wine          |       |
-| Radiohead              |       |
-| Cornelius              |       |
-| Daft Punk              |       |
-| Ratatat                |       |
-| Happiness project      |       |
-| Supertramp             |       |
-| Deathcab               |       |
-| inherent vice ost      |       |
-| nofx decline           |       |
-| kendrick lamar         |       |
-| thom yorke             |       |
-| dad jokes              |       |
-| fleet foxes            |       |
-| elliott smith          |       |
-| penguin cafe orchestra |       |
-| queen                  |       |
-| tame impala            |       |
-| dj shadow              |       |
-| prodigy                |       |
-| mos def                |       |
-| Gorillaz               |       |
-| No Doubt               |       |
-| Black Eyed Peas        |       |
-| Lady Gaga              |       |
-| Avenge Seven Fold      |       |
-| Biebs                  |       |
-| 50 cent                |       |
-| Eminem                 |       |
-| Jay Z                  |       |
-| Justin Timberlake      |       |
-| Bowie                  |       |
-| Nirvana                |       |
-| Coldplay               |       |
-| My Chemical Romance    |       |
-| Childish Gambino       |       |
-| Nelly                  |       |
-| Cranberries            |       |
-| Red Hot Chili          |       |
-| Green Day              |       |
-| Miley Cyrus            |       |
-| Where is the love      |       |
-| Aerosmith              |       |
-| Britney Spears         |       |
-| Nsync                  |       |
-| pussycat dolls         |       |
-| missy elliott          |       |
-| destinys child         |       |
-| Shakira                |       |
-| Outkast                |       |
-| Rhianna                |       |
-| Dre                    |       |
-| Biggie                 |       |
-| Tupac                  |       |
-| TLC                    |       |
-| Jack Harlow            |       |
-| Lil Nas X              |       |
-| Lil Wayne              |       |
-| Nelly Furtado          |       |
-| Timbaland              |       |
-| white stripes          |       |
-| offspring              |       |
-| killers                |       |
-| santana                |       |
-| busta rhymes           |       |
-| madonna -- hung up     |       |
-| goo goo dolls -- iris  |       |
-| fugees                 |       |
-| tatu                   |       |
-| ramstein               |       |
-| shania twain           |       |
-| vaness carlton         |       |
-| kid rock               |       |
-| blackstreet            |       |
-| chet faker             |       |
-| kanye                  |       |
-| mariah carey           |       |
-| alicia keys            |       |
-| the game               |       |
-| erik b & rakim         |       |
-| kc & jojo              |       |
-| maroon 5               |       |
-| koRn                   |       |
-| m.i.a.                 |       |
-| wallflowers            |       |
-| katy perry             |       |
-| smashing pumpkins      |       |
-| jamiroqui              |       |
-| beastie boys           |       |
-| lit                    |       |
-| blur                   |       |
-| chumba wumba           |       |
-| Smash Mouth            |       |
-| Led Zepplin            |       |
-| The Kinks              |       |
-| The Animals            |       |
-| The Zombies            |       |
-|                        |       |
-|                        |       |
+| Name                                                                                             | Done? |
+|--------------------------------------------------------------------------------------------------+-------|
+| Andrew Bird                                                                                      | yes   |
+| Arcade Fire                                                                                      | yes   |
+| Animal Collective                                                                                |       |
+| beck                                                                                             |       |
+| Bad Bunny                                                                                        |       |
+| Natalia LaFourcade                                                                               |       |
+| Joanna Newsom                                                                                    |       |
+| Massive Attack                                                                                   |       |
+| Flaming Lips                                                                                     |       |
+| Panda Bear                                                                                       |       |
+| RTJ                                                                                              |       |
+| Beatles                                                                                          |       |
+| Rolling Stones                                                                                   |       |
+| Bob Seger                                                                                        |       |
+| Jim Croce                                                                                        |       |
+| Iron and Wine                                                                                    |       |
+| Radiohead                                                                                        |       |
+| Cornelius                                                                                        |       |
+| Daft Punk                                                                                        |       |
+| Ratatat                                                                                          |       |
+| Happiness project                                                                                |       |
+| Supertramp                                                                                       |       |
+| Deathcab                                                                                         |       |
+| inherent vice ost                                                                                |       |
+| nofx decline                                                                                     |       |
+| kendrick lamar                                                                                   |       |
+| thom yorke                                                                                       |       |
+| dad jokes                                                                                        |       |
+| fleet foxes                                                                                      |       |
+| elliott smith                                                                                    |       |
+| penguin cafe orchestra                                                                           |       |
+| queen                                                                                            |       |
+| tame impala                                                                                      |       |
+| dj shadow                                                                                        |       |
+| prodigy                                                                                          |       |
+| mos def                                                                                          |       |
+| Gorillaz                                                                                         |       |
+| No Doubt                                                                                         |       |
+| Black Eyed Peas                                                                                  |       |
+| Lady Gaga                                                                                        |       |
+| Avenge Seven Fold                                                                                |       |
+| Biebs                                                                                            |       |
+| 50 cent                                                                                          |       |
+| Eminem                                                                                           |       |
+| Jay Z                                                                                            |       |
+| Justin Timberlake                                                                                |       |
+| Bowie                                                                                            |       |
+| Nirvana                                                                                          |       |
+| Coldplay                                                                                         |       |
+| My Chemical Romance                                                                              |       |
+| Childish Gambino                                                                                 |       |
+| Nelly                                                                                            |       |
+| Cranberries                                                                                      |       |
+| Red Hot Chili                                                                                    |       |
+| Green Day                                                                                        |       |
+| Miley Cyrus                                                                                      |       |
+| Where is the love                                                                                |       |
+| Aerosmith                                                                                        |       |
+| Britney Spears                                                                                   |       |
+| Nsync                                                                                            |       |
+| pussycat dolls                                                                                   |       |
+| missy elliott                                                                                    |       |
+| destinys child                                                                                   |       |
+| Shakira                                                                                          |       |
+| Outkast                                                                                          |       |
+| Rhianna                                                                                          |       |
+| Dre                                                                                              |       |
+| Biggie                                                                                           |       |
+| Tupac                                                                                            |       |
+| TLC                                                                                              |       |
+| Jack Harlow                                                                                      |       |
+| Lil Nas X                                                                                        |       |
+| Lil Wayne                                                                                        |       |
+| Nelly Furtado                                                                                    |       |
+| Timbaland                                                                                        |       |
+| white stripes                                                                                    |       |
+| offspring                                                                                        |       |
+| killers                                                                                          |       |
+| santana                                                                                          |       |
+| busta rhymes                                                                                     |       |
+| madonna -- hung up                                                                               |       |
+| goo goo dolls -- iris                                                                            |       |
+| fugees                                                                                           |       |
+| tatu                                                                                             |       |
+| ramstein                                                                                         |       |
+| shania twain                                                                                     |       |
+| vaness carlton                                                                                   |       |
+| kid rock                                                                                         |       |
+| blackstreet                                                                                      |       |
+| chet faker                                                                                       |       |
+| kanye                                                                                            |       |
+| mariah carey                                                                                     |       |
+| alicia keys                                                                                      |       |
+| the game                                                                                         |       |
+| erik b & rakim                                                                                   |       |
+| kc & jojo                                                                                        |       |
+| maroon 5                                                                                         |       |
+| koRn                                                                                             |       |
+| m.i.a.                                                                                           |       |
+| wallflowers                                                                                      |       |
+| katy perry                                                                                       |       |
+| smashing pumpkins                                                                                |       |
+| jamiroqui                                                                                        |       |
+| beastie boys                                                                                     |       |
+| lit                                                                                              |       |
+| blur                                                                                             |       |
+| chumba wumba                                                                                     |       |
+| Smash Mouth                                                                                      |       |
+| Led Zepplin                                                                                      |       |
+| The Kinks                                                                                        |       |
+| The Animals                                                                                      |       |
+| The Zombies                                                                                      |       |
+| Brian Eno -- https://www.youtube.com/watch?v=b6fOioWZlV0&list=PLvsYXqtYjMYdfumHe1O3FUpqr8__EjWha |       |
+|                                                                                                  |       |
