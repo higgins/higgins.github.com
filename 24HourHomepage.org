@@ -60,5 +60,7 @@
 | 02/22/2023 |  0600 | 0800 | continue, setup seed data from original ads. seed earth day                                                                                                           |
 | 02/22/2023 |  1900 | 2130 | run seed on old ads. 6006 created in all. The site still feels pretty barren. if you want a few minutes you see something but we want those numbers to be better. 10s |
 | 02/23/2023 |  0600 | 0730 | find 900 songs                                                                                                                                                        |
-| 02/23/2023 |  0600 | 0800 | prototype several tweet -> image solutions and screenshot -> post solution. did make progress on the manual data entry                                                |
-|            |       |      |                                                                                                                                                                       |
+| 02/24/2023 |  0600 | 0800 | prototype several tweet -> image solutions and screenshot -> post solution. did make progress on the manual data entry                                                |
+| 02/25/2023 |       |      | rest day                                                                                                                                                              |
+| 02/26/2023 |  0700 | 0830 | add email, website, ip, country to log                                                                                                                                |
+| 02/25/2023 |  1500 | 1700 | seed some more content                                                                                                                                                |
