@@ -65,4 +65,5 @@
 | 02/26/2023 |  0700 | 0830 | add email, website, ip, country to log                                                                                                                                |
 | 02/26/2023 |  1500 | 1700 | seed some more content                                                                                                                                                |
 | 02/27/2023 |  0615 | 0730 | second half of pixilart seeding                                                                                                                                       |
+| 02/28/2023 |  0615 | 0800 | bandcamp seed                                                                                                                                                         |
 |            |       |      |                                                                                                                                                                       |
