@@ -67,4 +67,7 @@
 | 02/27/2023 |  0615 | 0730 | second half of pixilart seeding                                                                                                                                       |
 | 02/28/2023 |  0615 | 0800 | bandcamp seed                                                                                                                                                         |
 | 03/01/2023 |  0545 | 0730 | wiki movies seed                                                                                                                                                      |
-| 03/02/2023 |  0545 | 0800 | wiki movies publish (only 2Kish)                                                                                                                               |
+| 03/02/2023 |  0545 | 0800 | wiki movies publish (only 2Kish)                                                                                                                                      |
+| 03/07/2023 |  0545 | 0800 | unsplash publish (12K), investigate peopletonotion. just build a csv to twitter scraper                                                                       |
+|            |       |      |                                                                                                                                                                       |
+|            |       |      |                                                                                                                                                                       |
