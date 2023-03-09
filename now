@@ -1,3 +1,19 @@
+* 03/08/2023
+** Summary
+
+Woke up at 5am, started the xkcd seed by 615. Looked for other comic
+sites with CC license but too few quality. Tomorrow I'll do
+twitter. Curious though...the og:image tag might be async or
+user-agent specific? Doesn't show up in curl but does in browser.
+
+Got the progress bar looking better on mobile. Debugged some more with
+Mike. He added a crop which should fix the android bug.
+
+Reading and going to bed now.
+
+<<PRIVATE
+ad5efa661b3ce0d9LPfq+0fYiwrmtn10L9umqUbyVISoUba1Ec+2sgUCW4C9vKcbSq7gO85hjjJV2Gl0gWCYSninrTDTOp1R4GIpu+YXnPTh4oHJtcR3Sk5t9OMXstolW0/7XweKlNtQaP25CXQwHTokjIqcIjFxnp6+bz+5vJKpTQBjydPhoDhdohYsRLDA4mmVcnDQfr0EgeKHlVPmKGoJui7AViOl7suKuUp9vKbrhoAaOl56wGyLxKWiIvTDIsUHlm7RK7Bu+ydJpzyGcUNXdl0SnRNyzSlGBOpPtaYKuKiZmLF3V72QHzFOuqjEzPjEF2YPthCrp/M4hhe0YOGTOMZFlCaq+jHZZfOkGqiyQFdmg3/lBkeu/jtkYN4GUIlmom1yQkL6wSGRYh4evL1Y4fO+w/hM4e5JrFfKMK5UNXHLYMOI3QQzYs1c3c3AvI17PQ==
+PRIVATE
 * 03/07/2023
 ** Summary
 
@@ -15,7 +31,7 @@ Dinner with Simon. Mariana went to her friend Lexi's birthday.
 Going to bed now.
 
 <<PRIVATE
-01dd9189ed1f1d7ef5bCqV/vUxXBAHuk4R9hzmVPocxdpP5A1QHaZc7jXuNhEpN4Q3/rUwe2TDhiYSIYFPzT1sGOCEqFxennoyLWbBL01a1I8A0zhZocLOqa1zKgttQjKc0nuSo1gA5F8yOerpHuMLFzD3A54B3zsrGjIj+Ru5gi41vo/PpT3yhhHFB1iEaPYCbB5R9Ev1EsfE4IBhDo9AqM6ZkiHBP80TSri77fo7jIM5GQxYEz9rsSinHgph03Ml/mHg/NQyiWk/l9ARUo+OGqyvrYFF7r/oe9X2zUOO9zOeqJwtT4tEvQk6U+U6vsq3u67B1LHaJORv8iW8BaxpK2EsPGBx1QCoo8Z9eOYIhAVmSjf6dvTssDpplk4BZA+X2umi0/VOAtHuU4/epVLLlTXEfS3SUhRm1FYIU8ZKpHly9uskwnLRbfTDBS0oglMgUUShUsADTppJb1/JE0aGHRY3HPwLy67wge6w==
+45e86fe3fb51093bDF/VGINPZMztsWeFbj7hXXVEsDNfNkNwBxD0ja8u3FJuF8Rl9M0iDgDIU0QZMtG2l4KveC1pg+F/viaqEsU21W9xGZB/8615uZ95elcMJU4lcUrMo0RvGxbKFyX5siM3X3u3ySe5zpZmJLnSkK/im4NS1nrEzzLDWi4Q7CojfoeWZg0f8PYuAextjcie3/Go2aAhGucXViWzQqw+ocJ3EiNCsAcYOGEl8+O2ARV6DL5sD+g1J/sk7XJV0EPVSmloNALnvQOrtB8K24/qe6BxsN8atZd4i5AG6hYTqfaC2yEAHmCrL32RIeR9bXqGy/TEJKnYPKm8g+JSbQ4cqOW+eYQPuXydGbesrKmFa1EyDUWUnVMNpfHW9Bef2GgBwgZLD69F2RcWKqKZ+r4/9dEuwUaWfELpkgqAVsp6W/8zcwvSnqCAo7EzldhcZGKSiUldFhV3LP8KGkDxJjEJK6LsSOF0HQepkmghyq0FJSU6RQxARr943T1kVZdM
 PRIVATE
 * 03/06/2023
 ** Summary
