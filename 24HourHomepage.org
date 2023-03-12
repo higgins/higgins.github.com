@@ -71,4 +71,7 @@
 | 03/07/2023 |  0545 | 0800 | unsplash publish (12K), investigate peopletonotion. just build a csv to twitter scraper                                                                               |
 | 03/08/2023 |  0615 | 0800 | xkcd seed, look for other sources (pbf and other webcomics)                                                                                                           |
 | 03/09/2023 |  0615 | 0800 | twitter publisher                                                                                                                                                     |
-| 03/09/2023 |  2000 | 2100 | twitter images, need to center images                                                                                                                         |
+| 03/09/2023 |  2000 | 2100 | twitter images, need to center images                                                                                                                                 |
+| 03/10/2023 |  0615 | 0730 | scrape more public domain works                                                                                                                                       |
+| 03/11/2023 |  0700 | 0900 | convert public domain works                                                                                                                                           |
+| 03/11/2023 |  1400 | 2100 | publish publis domain works. seed nearly complete.                                                                                                                  |
