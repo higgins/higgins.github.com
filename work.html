@@ -17,7 +17,7 @@
       html, body {
           cursor: auto;
           font-family: 'Work Sans', sans-serif;
-          width: 800px;
+          max-width: 800px;
       }
       body {
           margin: 20px;
@@ -69,15 +69,35 @@
           margin-right: 10px;
       }
       .projectLead::before {
-          content: '🏠 ';
+          content: '🏠';
           margin-right: 10px;
       }
       .contributor::before {
-          content: '👷‍♂️ ';
+          content: '👷‍♂️';
           margin-right: 10px;
       }
       .university::before {
           content: '🎓';
+          margin-right: 10px;
+      }
+      .personal::before {
+          content: '💙';
+          margin-right: 10px;
+      }
+      .languages::before {
+          content: '🤟';
+          margin-right: 10px;
+      }
+      .libs::before {
+          content: '📚';
+          margin-right: 10px;
+      }
+      .dbs::before {
+          content: '💾';
+          margin-right: 10px;
+      }
+      .envs::before {
+          content: '🌄';
           margin-right: 10px;
       }
       .hhp::before {
@@ -120,6 +140,23 @@
           content: '🎵';
           margin-right: 10px;
       }
+      .workxp {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-bottom: 10px;
+        margin-top: 30px;
+      }
+      .xp {
+        font-size: 1.5rem;
+        font-weight: 900;
+      }
+      .legend {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+      }
       .job {
         display: flex;
         justify-content: space-between;
@@ -147,7 +184,14 @@
       <h1>Justin Higgins, Software Engineer</h1>
       <h4><em class="quote">The positive energy he shares is infectious and makes you believe that anything is possible if we can just muster the courage to pour excitement, craft and pure will onto a canvas. <br/><span style="float: right">— <a href="https://www.linkedin.com/in/higginsjustin/#recommendations">Stephen Garcia, Apple</a></span></em></h4>
       <section>
-        <h2>Work Experience</h2>
+        <div class="workxp">
+          <div class="xp">Work Experience</div>
+          <div class="legend">
+            <div class="projectLead">Project Leader</div>
+            <div class="techLead">Technical Leader</div>
+            <div class="contributor">Contributor</div>
+          </div>
+        </div>
         <ul>
           <li>
             <div class="job">
@@ -161,7 +205,7 @@
             </div>
             <ul class="u-pisn">
               <li class="job-details"><div class="projectLead"></div><div>Lead engineering team with best practices, system design guidance.</div></li>
-              <li class="job-details"><div class="techLead"></div><div>Architect and build APIs for real-time video streaming app, audio messaging app and video messaging app.</div></li>
+              <li class="job-details"><div class="techLead"></div><div>Design/build APIs for real-time video streaming app, audio messaging app and video messaging app.</div></li>
               <li class="job-details"><div class="contributor"></div><div>Rapid prototyping of consumer entertainment products.</div></li>
               <li class="job-details"><div class="contributor"></div><div>Products launched: Glow.dev (shutdown), <a href="https://www.youtube.com/watch?v=AkDV6uHroXk" target="_blank">Sup.audio</a> (shutdown), Seen.lol (TBA)</div></li>
             </ul>
@@ -177,9 +221,9 @@
               </div>
             </div>
             <ul class="u-pisn">
-              <li class="job-details"><div class="techLead"></div><div>Designed/built new lead targeting system allowing clients to create sophisticated outreach campaigns based previous interactions with the Hustle platform.</div></li>
+              <li class="job-details"><div class="techLead"></div><div>Designed/built new lead targeting system allowing clients to create better outreach campaigns based previous interactions with the Hustle platform.</div></li>
               <li class="job-details"><div class="techLead"></div><div>Migrated entire codebase off Parse SDK and onto a custom GraphQL gateway the team designed.</div></li>
-              <li class="job-details"><div class="projectLead"></div><div>Improved client message sending speed, doubling performance. (aka "Speedy Messages" initiative).</div></li>
+              <li class="job-details"><div class="projectLead"></div><div>Improved client message sending speed, doubling performance.</div></li>
               <li class="job-details"><div class="projectLead"></div><div>Led component-library initiative to reuse common components across 3 client facing apps.</div></li>
               <li class="job-details"><div class="contributor"></div><div>Mobile, frontend, backend, feature development.</div></li>
             </ul>
@@ -242,9 +286,13 @@
         </ul>
       </section>
       <section>
-        <h2>Technology Proficiencies</h2>
+        <h2>Proficiencies</h2>
         <ul>
-          TODO:
+          <li class="job-details"><div class="personal"></div><div>Delivering measurable solutions, joyful programming, enjoying every day</div></li>
+          <li class="job-details"><div class="languages"></div><div>Javascript/Typescript, Python, Java, Swift, Bash, Elisp</div></li>
+          <li class="job-details"><div class="libs"></div><div>React, React-Native, Terraform, GraphQL, Svelte, Angular, anything fun in NPM</div></li>
+          <li class="job-details"><div class="dbs"></div><div>Mongo, Postgres, MySQL, Elasticsearch, Redis, Cassandra, Kafka</div></li>
+          <li class="job-details"><div class="envs"></div><div>Docker, AWS, Cloudflare Workers, Firebase</div></li>
         </ul>
       </section>
       <section>
