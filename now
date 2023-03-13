@@ -1,3 +1,20 @@
+* 03/12/2023
+** Summary
+Woke up at 9am after going to bed around midnight. 30k images didn't
+sync so I started the sync process again on just those assets. Did my
+workout then had sweetpotato, spinach and vegan sausage
+breakfast. Perfectly filling. Hit the spot.
+
+Need to find a better local sync mechanism. Git LFS is too slow for
+this many files, just keep it local and don't track in git. Still use
+s3.
+
+Will finish my work updates tomorrow.
+
+<<PRIVATE
+edd52045faa4d746VvpuFRaexipq3e4vG2SRTkrJ77vNYhCvb6kG/0/KBVsgs2PoQYtOQFqEi2c79qwkTwIQ4BOOk2syVNXjkwMLu6LsOYsuvA2ykDHC7ftyAlK/dAJaEsnXSKFttKtfINuL5tTHGMTBeBgUQM4CyP9LMkaJH8xwuOi0Cxpak/N+oLhU542OkwpqmUQlCVYmxvu/iQTyEl6UAken3UQAXv7vD61AKfXO9H7H6GzuJmPLcph8XrSzXSeOIC3gqz2OWRmHm/ftWy/L9365BHOjPNY1/IuAcrAYGGnoXFXRZO7Jly9gcX+mmS8zRiWYl5QGlubRl1ZhQbxWL8prQYAReI2QYIytAqan9VWTlmjzIxQpFIItgDwpUheeiozBsg3xMR0AjQ+AdLCbLbuVZOLxBMmIyRZOWl4i0KBLefKeBlb7NUphb3L3B1nQBmiz6OJdat3FFYpJ6FtzRJWLc9SBxR5Ql3NmMNrxmVAWXYbcGwQSkua3RRK3hOlDnYKN7m8/BjNrMSBnAInhURJdgFrdopdppqMyz1hnpqWmK1wWCi0JgeUmB3IliV84YJNOp9oWKDBeVna0TZbxA/F32JAHUnQBF2aY5tTHrbBUT246pdTRYXcq4EnR0LK8lhGZQOJ+x2vt325h2zBu7OaJPSDAwzNM69hfyj1gWeKEvPLDfSKstwbmaH8+tA==
+PRIVATE
+
 * 03/11/2023
 ** Summary
 Woke up at 6am and continued the seed work. Large focus of the
