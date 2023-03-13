@@ -58,18 +58,80 @@
       ul {
           list-style-type: none;
           padding-inline-start: 0px;
+          margin-bottom: 20px;
       }
-      .u-pisn {
-          padding-inline-start: 20px;
+      .job-details {
+        display: flex;
+        flex-direction: row;
       }
       .techLead::before {
-          content: '🥽 ';
+          content: '🥽';
+          margin-right: 10px;
       }
       .projectLead::before {
           content: '🏠 ';
+          margin-right: 10px;
       }
       .contributor::before {
           content: '👷‍♂️ ';
+          margin-right: 10px;
+      }
+      .university::before {
+          content: '🎓';
+          margin-right: 10px;
+      }
+      .hhp::before {
+          content: '⏰';
+          margin-right: 10px;
+      }
+      .startingC::before {
+          content: '🏁';
+          margin-right: 10px;
+      }
+      .eeaao::before {
+          content: '🌭';
+          margin-right: 10px;
+      }
+      .privatize::before {
+          content: '👀';
+          margin-right: 10px;
+      }
+      .selfless::before {
+          content: '🤝';
+          margin-right: 10px;
+      }
+      .secondplace::before {
+          content: '🥈';
+          margin-right: 10px;
+      }
+      .speaker::before {
+          content: '🎤';
+          margin-right: 10px;
+      }
+      .podcast::before {
+          content: '🎙️';
+          margin-right: 10px;
+      }
+      .garden::before {
+          content: '👨‍🌾';
+          margin-right: 10px;
+      }
+      .music::before {
+          content: '🎵';
+          margin-right: 10px;
+      }
+      .job {
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        margin-bottom: 10px;
+      }
+      .company {
+        font-size: 1.3rem;
+        font-weight: 900;
+      }
+      .title {
+        text-align: right;
       }
     </style>
   </head>
@@ -86,90 +148,123 @@
       <h4><em class="quote">The positive energy he shares is infectious and makes you believe that anything is possible if we can just muster the courage to pour excitement, craft and pure will onto a canvas. <br/><span style="float: right">— <a href="https://www.linkedin.com/in/higginsjustin/#recommendations">Stephen Garcia, Apple</a></span></em></h4>
       <section>
         <h2>Work Experience</h2>
-        <p>🥽 = Technical Lead, 🏠= Project Lead, 👷‍♂️= Contributor, 🛠️= Tools Used</p>
         <ul>
           <li>
-            <h3><a href="https://hustle.com">Turntable.fm, Inc</a> (Head of Engineering) — 09/2021 - Present</h3>
+            <div class="job">
+              <div class="company">
+                <a href="https://turntable.fm">Turntable.fm, Inc</a>
+              </div>
+              <div class="title">
+                <div><strong>Head of Engineering</strong></div>
+                <div>09/2021 - Present</div>
+              </div>
+            </div>
             <ul class="u-pisn">
-              <li class="techLead">Lead engineering team with best practices, system design guidance.</li>
-              <li class="techLead">Architect and build APIs for real-time video streaming app, audio messaging app and video messaging app.</li>
-              <li class="techLead">Rapid prototyping of consumer entertainment products.</li>
-              <li class="contributor">Products launched: Glow.dev (shutdown), <a href="https://www.youtube.com/watch?v=AkDV6uHroXk" target="_blank">Sup.audio (shutdown)</a>, Seen.lol (TBA)</li>
+              <li class="job-details"><div class="projectLead"></div><div>Lead engineering team with best practices, system design guidance.</div></li>
+              <li class="job-details"><div class="techLead"></div><div>Architect and build APIs for real-time video streaming app, audio messaging app and video messaging app.</div></li>
+              <li class="job-details"><div class="contributor"></div><div>Rapid prototyping of consumer entertainment products.</div></li>
+              <li class="job-details"><div class="contributor"></div><div>Products launched: Glow.dev (shutdown), <a href="https://www.youtube.com/watch?v=AkDV6uHroXk" target="_blank">Sup.audio</a> (shutdown), Seen.lol (TBA)</div></li>
             </ul>
-            <h4 class="u-pisn">🛠️: <strong><a href="https://en.wikipedia.org/wiki/Amazon_Web_Services" target="_blank">AWS stack</a>, <a href="https://en.wikipedia.org/wiki/Firebase" target="_blank">Firebase stack</a>, <a href="https://workers.cloudflare.com" target="_blank">Cloudflare stack</a>, <a href="https://en.wikipedia.org/wiki/Terraform_(software)" target="_blank">Terraform</a>, <a href="https://en.wikipedia.org/wiki/Docker_(software)" target="_blank">Docker</a>, <a href="https://nodejs.org/en/">Node.js</a>, <a href="https://en.wikipedia.org/wiki/TypeScript" target="_blank">Typescript</a>, <a href="https://en.wikipedia.org/wiki/PostgreSQL" target="_blank">Postgres</a>, <a href="https://en.wikipedia.org/wiki/Elasticsearch">Elasticsearch</a>, <a href="https://developer.apple.com/streaming/" target="_blank">HLS live stream</a>, <a href="https://ffmpeg.org/" target="_blank">FFMPEG</a>, <a href="https://reactjs.org/">React</a>, <a href="https://reactnative.dev/">React Native</a>, <a href="https://en.wikipedia.org/wiki/GraphQL">GraphQL</a>, <a href="https://www.agora.io" target="_blank">Agora</a>, <a href="https://www.cometchat.com/" target="_blank">CometChat</a>, <a href="https://www.mux.com/" target="_blank">Mux</a>, <a href="https://www.twilio.com/" target="_blank">Twilio</a></strong></h4>
           </li>
           <li>
-            <h3><a href="https://hustle.com">Hustle, Inc</a> (Staff Software Engineer) — 09/2017 - 12/2020</h3>
+            <div class="job">
+              <div class="company">
+                <a href="https://hustle.com">Hustle, Inc</a>
+              </div>
+              <div class="title">
+                <div><strong>Staff Software Engineer</strong></div>
+                <div>09/2017 - 12/2020</div>
+              </div>
+            </div>
             <ul class="u-pisn">
-              <li class="techLead">Designed/built new lead targeting system allowing clients to create sophisticated outreach campaigns based previous interactions with the Hustle platform. <strong>Impact: </strong> Increased product adoption and clients LOVED it.</li>
-              <li class="techLead">Migrated entire codebase off Parse SDK and onto a custom GraphQL gateway the team designed. <strong>Impact: </strong>Removed security risk from Parse-SDK, standardized engineering practices.</li>
-              <li class="projectLead">Improved client message sending speed, doubling performance. (aka "Speedy Messages" initiative). <strong>Impact: </strong>Increased adoption during election season. Resolved long standing customer feedback.</li>
-              <li class="projectLead">Led component-library initiative to reuse common components across 3 client facing apps. <strong>Impact: </strong>Increase developer productivity and brand consistency.</li>
-              <li class="contributor">Mobile, frontend, backend, feature development.</li>
+              <li class="job-details"><div class="techLead"></div><div>Designed/built new lead targeting system allowing clients to create sophisticated outreach campaigns based previous interactions with the Hustle platform.</div></li>
+              <li class="job-details"><div class="techLead"></div><div>Migrated entire codebase off Parse SDK and onto a custom GraphQL gateway the team designed.</div></li>
+              <li class="job-details"><div class="projectLead"></div><div>Improved client message sending speed, doubling performance. (aka "Speedy Messages" initiative).</div></li>
+              <li class="job-details"><div class="projectLead"></div><div>Led component-library initiative to reuse common components across 3 client facing apps.</div></li>
+              <li class="job-details"><div class="contributor"></div><div>Mobile, frontend, backend, feature development.</div></li>
             </ul>
-            <h4 class="u-pisn">🛠️: <strong><a href="https://en.wikipedia.org/wiki/Amazon_Web_Services">AWS</a>, <a href="https://nodejs.org/en/">Node.js</a>, <a href="https://reactjs.org/">React</a>, <a href="https://reactnative.dev/">React Native</a>, <a href="https://en.wikipedia.org/wiki/GraphQL">GraphQL</a>, <a href="https://www.mongodb.com/">MongoDB</a>, <a href="https://kafka.apache.org/">Kafka</a>, <a href="https://en.wikipedia.org/wiki/Elasticsearch">Elasticsearch</a>, <a href="https://en.wikipedia.org/wiki/Parse_(platform)">Parse SDK</a> <a href="https://kotlinlang.org/">Kotlin</a></strong>, <a href="https://storybook.js.org/">Storybook</a></strong></h4>
           </li>
           <li>
-            <h3><a href="https://selfless.io">Selfless, Inc</a> (Founder) — 08/2016 - 06/2020</h3>
+            <div class="job">
+              <div class="company">
+                <a href="https://github.com/higgins" target="_blank">Freelance / Consultant</a>
+              </div>
+              <div class="title">
+                <div><strong>Multiple Roles</strong></div>
+                <div>09/2014 - Present</div>
+              </div>
+            </div>
             <ul class="u-pisn">
-              <li class="projectLead">Designed/built web and mobile services for regional resource sharing. <strong>Impact: </strong>Neighborhood could discover items for borrowing.</li>
-              <li class="techLead">Architected/built backend services. <strong>Impact: </strong> Managed Cassandra cluster saving cost and future proofing.</li>
-              <li class="projectLead">Laboriously grew user base in neighborhood and Bay Area.</li>
+              <li class="job-details"><div class="contributor"></div><div>Built scraper and difference engine for <a href="https://evlife.co" target="_blank">evlife</a> to find policy changes in state and federal rebates.</div></li>
+              <li class="job-details"><div class="contributor"></div><div>Designed/built the features API for the launch of <a href="https://www.theverge.com/circuitbreaker/2016/7/13/12170504/polaroid-swing-app-biz-stone">Polaroid SW/NG</a> (acquired by Microsoft)</div></li>
+              <li class="job-details"><div class="contributor"></div><div>Mobile, web and backend contract work for seed stage products.</div></li>
             </ul>
-            <h4 class="u-pisn">🛠️: <strong><a href="https://en.wikipedia.org/wiki/Apache_Cassandra">Cassandra</a>, <a href="https://en.wikipedia.org/wiki/Amazon_Elastic_Compute_Cloud">EC2</a>, <a href="https://nodejs.org/en/">Node.js</a>, <a href="https://reactjs.org/">React</a>, <a href="https://reactnative.dev/">React Native</a>, <a href="https://en.wikipedia.org/wiki/Elasticsearch">Elasticsearch</a></strong></h4>
           </li>
           <li>
-            <h3>Freelance Engineer — 09/2014 - 09/2017, 12/2020 - 09/2021</h3>
+            <div class="job">
+              <div class="company">
+                <a href="https://en.wikipedia.org/wiki/Beats_Music">Beats Music</a>
+              </div>
+              <div class="title">
+                <div><strong>Senior Software Engineer</strong></div>
+                <div>05/2012 - 09/2014</div>
+              </div>
+            </div>
             <ul class="u-pisn">
-              <li class="techLead">Designed/built the features API for the launch of <a href="https://www.theverge.com/circuitbreaker/2016/7/13/12170504/polaroid-swing-app-biz-stone">Polaroid SW/NG</a> (acquired by Microsoft)</li>
-              <li class="contributor">Mobile, web and backend contract work for seed stage products.</li>
+              <li class="job-details"><div class="techLead"></div><div>Built billing system responsible for subscription revenue.</div></li>
+              <li class="job-details"><div class="techLead"></div><div>Built internal content scheduler for Editorial team to publish curated playlists.</div></li>
+              <li class="job-details"><div class="contributor"></div><div>Core application API features</div></li>
+              <li class="job-details"><div class="contributor"></div><div>Maintained Australian editorial catalogue.</div></li>
             </ul>
-            <h4 class="u-pisn">🛠️: <strong><a href="https://en.wikipedia.org/wiki/Apache_Cassandra">Cassandra</a>, <a href="https://en.wikipedia.org/wiki/Amazon_Elastic_Compute_Cloud">EC2</a>, <a href="https://nodejs.org/en/">Node.js</a>, <a href="https://reactjs.org/">React</a>, <a href="https://en.wikipedia.org/wiki/Elasticsearch">Elasticsearch</a> <a href="https://hapi.dev/">hapi.js</a></strong></h4>
           </li>
           <li>
-            <h3><a href="https://en.wikipedia.org/wiki/Beats_Music">Beats Music</a> (Senior Software Engineer) — 05/2012 - 09/2014</h3>
+            <div class="job">
+              <div class="company">
+                <a href="https://en.wikipedia.org/wiki/Servio">Servio</a>
+              </div>
+              <div class="title">
+                <div><strong>Software Engineer</strong></div>
+                <div>06/2011 - 05/2012</div>
+              </div>
+            </div>
             <ul class="u-pisn">
-              <li class="techLead">Built billing system responsible for subscription revenue. <strong>Impact: </strong>we could collect payments--in and out of the app--from customers on launch day.</li>
-              <li class="techLead">Built internal content scheduler for Editorial team to publish curated playlists.</li>
-              <li class="contributor">Maintained Australian editorial catalogue.</li>
-              <li class="contributor">Core feature API contributor.</li>
+              <li class="job-details"><div class="contributor"></div><div>Tuned the internal reputation system which rated workers work.</div></li>
+              <li class="job-details"><div class="contributor"></div><div>Built service to remind workers of available tasks.</div></li>
+              <li class="job-details"><div class="contributor"></div><div>Web and backend feature development.</div></li>
             </ul>
-            <h4 class="u-pisn">🛠️: <strong><a href="https://nodejs.org/en/">Node.js</a>, <a href="https://www.npmjs.com/package/restify">Restify</a>, <a href="https://www.couchbase.com/">Couchbase</a></strong></h4>
-          </li>
-          <li>
-            <h3><a href="https://en.wikipedia.org/wiki/Servio">Servio</a> (Software Engineer) — 06/2011 - 05/2012</h3>
-            <ul class="u-pisn">
-              <li class="contributor">Tuned the internal reputation system which rated workers work.</li>
-              <li class="contributor">Integrated Twitter to remind workers of available tasks.  <strong>Impact: </strong> More product adoption.</li>
-              <li class="contributor">Web and backend feature development.</li>
-            </ul>
-            <h4 class="u-pisn">🛠️: <strong><a href="https://www.ruby-lang.org/en/">Ruby</a>, <a href="https://rubyonrails.org/">Rails</a></strong></h4>
           </li>
         </ul>
       </section>
       <section>
         <h2>Education</h2>
         <ul>
-          <li><a href="https://www.berkeley.edu/">UC Berkeley</a> — Bachelor of Arts, Astrophysics & Physics — 2007-2011</li>
+          <li class="job-details"><div class="university"></div><div><a href="https://www.berkeley.edu/">UC Berkeley</a> — Bachelor of Arts, Astrophysics & Physics — 2007-2011</div></li>
         </ul>
       </section>
       <section>
-        <h2>Side Projects / OSS</h2>
+        <h2>Technology Proficiencies</h2>
         <ul>
-          <li><a href="https://24hourhomepage.com" target="_blank">24HourHomepage.com</a></li>
-          <li><a href="https://startingcondition.com" target="_blank">Starting Condition</a></li>
-          <li><a href="https://everyoneeverywhereallatonce.com" target="_blank">Everyone Everywhere All At Once</a></li>
-          <li><a href="https://github.com/higgins/privatize" target="_blank">Privatize</a></li>
+          TODO:
+        </ul>
+      </section>
+      <section>
+        <h2>Side Projects & Open Source</h2>
+        <ul>
+          <li class="job-details"><div class="hhp"></div><div><a href="https://24hourhomepage.com" target="_blank">24HourHomepage.com</a></div></li>
+          <li class="job-details"><div class="startingC"></div><div><a href="https://startingcondition.com" target="_blank">Starting Condition</a></div></li>
+          <li class="job-details"><div class="eeaao"></div><div><a href="https://everyoneeverywhereallatonce.com" target="_blank">Everyone Everywhere All At Once</a></div></li>
+          <li class="job-details"><div class="privatize"></div><div><a href="https://github.com/higgins/privatize" target="_blank">Privatize</a></div></li>
+          <li class="job-details"><div class="selfless"></div><div><a href="https://selfless.io" target="_blank">selfless.io (Closed)</a></div></li>
         </ul>
       </section>
       <section>
         <h2>Miscellaneous</h2>
         <ul>
-          <li>Producthunt -- <a href="https://www.producthunt.com/products/24hourhomepage#24hourhomepage-2" target="_blank">#2 Product of the day</a>, Aug 2021</li>
-          <li>Speaker JS.LA, May 2021 — <a href="https://www.youtube.com/watch?v=v8WFZ4b7s4Y"><em>"10k hours? 86,400 seconds to get good at sales and marketing"</em></a></li>
-          <li>Podcast Guest, Junior to Senior, June 2021 — <a href="https://juniortosenior.io/50">Discussed growing as an SWE</a></li>
-          <li>Neighborhood Community Garden manager, Brooks Park, June 2017 - June 2018</li>
-          <li>SF Music Hackday Award, 2014 — Turnt-able</li>
+          <li class="job-details"><div class="secondplace"></div><div>Producthunt — <a href="https://www.producthunt.com/products/24hourhomepage#24hourhomepage-2" target="_blank">#2 Product of the day</a>, Aug 2021</div></li>
+          <li class="job-details"><div class="speaker"></div><div>Speaker JS.LA, May 2021 — <a href="https://www.youtube.com/watch?v=v8WFZ4b7s4Y"><em>"10k hours? 86,400 seconds to get good at sales and marketing"</em></a></div></li>
+          <li class="job-details"><div class="podcast"></div><div>Podcast Guest, Junior to Senior, June 2021 — <a href="https://juniortosenior.io/50">Discussed growing as an SWE</a></div></li>
+          <li class="job-details"><div class="garden"></div><div>Neighborhood Community Garden manager, Brooks Park, June 2017 - June 2018</div></li>
+          <li class="job-details"><div class="music"></div><div>SF Music Hackday Award, 2014 — Turnt-able</div></li>
         </ul>
       </section>
     </main>
