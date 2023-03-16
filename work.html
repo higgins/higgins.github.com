@@ -68,8 +68,6 @@
           filter: hue-rotate(-5deg) brightness(80%);
           margin-right: 0px;
       }
-      .contact {
-      }
       .contact > p {
         margin: 5px 0px;
         text-align: right;
@@ -219,6 +217,28 @@
       .title {
         text-align: right;
       }
+      .split-section {
+        display: flex;
+        flex-direction: row;
+      }
+      .section-side-projects {
+        flex: 1;
+      }
+      .section-side-misc {
+        flex: 2;
+      }
+      @media only screen and (max-width: 500px) {
+        .split-section {
+          display: flex;
+          flex-direction: column;
+        }
+        .section-side-projects {
+          flex: 1;
+        }
+        .section-side-misc {
+          flex: 1;
+        }
+      }
     </style>
   </head>
   <body>
@@ -351,25 +371,27 @@
           <li class="job-details"><div class="envs"></div><div>Docker, AWS, Cloudflare Workers, Firebase.</div></li>
         </ul>
       </section>
-      <section>
-        <h2>Side Projects & Open Source</h2>
-        <ul>
-          <li class="job-details"><div class="hhp"></div><div><a href="https://24hourhomepage.com" target="_blank">24HourHomepage.com</a></div></li>
-          <li class="job-details"><div class="startingC"></div><div><a href="https://startingcondition.com" target="_blank">Starting Condition</a></div></li>
-          <li class="job-details"><div class="eeaao"></div><div><a href="https://everyoneeverywhereallatonce.com" target="_blank">Everyone Everywhere All At Once</a></div></li>
-          <li class="job-details"><div class="privatize"></div><div><a href="https://github.com/higgins/privatize" target="_blank">Privatize</a></div></li>
-          <li class="job-details"><div class="selfless"></div><div><a href="https://selfless.io" target="_blank">selfless.io (Closed)</a></div></li>
-        </ul>
-      </section>
-      <section>
-        <h2>Miscellaneous</h2>
-        <ul>
-          <li class="job-details"><div class="secondplace"></div><div>Producthunt — <a href="https://www.producthunt.com/products/24hourhomepage#24hourhomepage-2" target="_blank">#2 Product of the day</a>, Aug 2021</div></li>
-          <li class="job-details"><div class="speaker"></div><div>Speaker JS.LA — <a href="https://www.youtube.com/watch?v=v8WFZ4b7s4Y"><em>"10k hours? 86,400 seconds to get good at sales and marketing"</em></a>, May 2021</div></li>
-          <li class="job-details"><div class="podcast"></div><div>Podcast Guest, Junior to Senior — <a href="https://juniortosenior.io/50">Discussed growing as an SWE</a>, June 2021</div></li>
-          <li class="job-details"><div class="garden"></div><div>Neighborhood Community Garden manager, Brooks Park, June 2017 - June 2018</div></li>
-          <li class="job-details"><div class="music"></div><div>SF Music Hackday Award, 2014</div></li>
-        </ul>
+      <section class="split-section">
+        <div class="section-side-projects">
+          <h2>Side Projects</h2>
+          <ul>
+            <li class="job-details"><div class="hhp"></div><div><a href="https://24hourhomepage.com" target="_blank">24HourHomepage.com</a></div></li>
+            <li class="job-details"><div class="startingC"></div><div><a href="https://startingcondition.com" target="_blank">Starting Condition</a></div></li>
+            <li class="job-details"><div class="eeaao"></div><div><a href="https://everyoneeverywhereallatonce.com" target="_blank">Everyone Everywhere All At Once</a></div></li>
+            <li class="job-details"><div class="privatize"></div><div><a href="https://github.com/higgins/privatize" target="_blank">Privatize</a></div></li>
+            <li class="job-details"><div class="selfless"></div><div><a href="https://selfless.io" target="_blank">selfless.io (Closed)</a></div></li>
+          </ul>
+        </div>
+        <div class="section-side-misc">
+          <h2>Miscellaneous</h2>
+          <ul>
+            <li class="job-details"><div class="secondplace"></div><div>Producthunt — <a href="https://www.producthunt.com/products/24hourhomepage#24hourhomepage-2" target="_blank">#2 Product of the day</a>, Aug 2021</div></li>
+            <li class="job-details"><div class="speaker"></div><div>Speaker JS.LA — <a href="https://www.youtube.com/watch?v=v8WFZ4b7s4Y"><em>"10k hours? 86,400 seconds to..."</em></a>, May 2021</div></li>
+            <li class="job-details"><div class="podcast"></div><div>Podcast Guest, <a href="https://juniortosenior.io/50">Junior to Senior</a>, June 2021</div></li>
+            <li class="job-details"><div class="garden"></div><div>Neighborhood Community Garden manager, Brooks Park, June 2017 - June 2018</div></li>
+            <li class="job-details"><div class="music"></div><div>SF Music Hackday Award, 2014</div></li>
+          </ul>
+        </div>
       </section>
     </main>
   </body>
