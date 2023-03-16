@@ -30,11 +30,20 @@
       .header {
         display: flex;
         justify-content: space-between;
-        align-items: center;
+        align-items: baseline;
       }
       .who {
         font-size: 2rem;
         font-weight: 900;
+      }
+      .who-title {
+        font-size: 1.8rem;
+        font-weight: 900;
+      }
+      .header-right {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
       }
       .logo {
           display: flex;
@@ -57,6 +66,13 @@
       .logo .o {
           background: DodgerBlue;
           filter: hue-rotate(-5deg) brightness(80%);
+          margin-right: 0px;
+      }
+      .contact {
+      }
+      .contact > p {
+        margin: 5px 0px;
+        text-align: right;
       }
       a {
           color: DodgerBlue;
@@ -72,7 +88,7 @@
       ul {
           list-style-type: none;
           padding-inline-start: 0px;
-          margin-bottom: 20px;
+          margin-bottom: 10px;
       }
       .job-details {
         display: flex;
@@ -209,24 +225,28 @@
     <main>
       <section>
         <div class="header">
-          <div class="who">Justin Higgins, Software Engineer</div>
-          <a href="https://twitter.com/justinprojects" target="_blank">
-            <div class="logo">
-              <div class="i"></div>
-              <div class="w"></div>
-              <div class="o"></div>
+          <div>
+            <div class="who">Justin Higgins</div>
+            <div class="who-title">Software Engineer</div>
+          </div>
+          <div class="header-right">
+            <a href="https://twitter.com/justinprojects" target="_blank">
+              <div class="logo">
+                <div class="i"></div>
+                <div class="w"></div>
+                <div class="o"></div>
+              </div>
+            </a>
+            <div class="contact">
+              <p><strong>email:</strong> justinhiggy[at]gmail.com</p>
+              <p><strong>phone:</strong> 510-393-6888</p>
             </div>
-          </a>
+          </div>
         </div>
       </section>
       <section>
         <div class="workxp">
-          <div class="xp">Work Experience</div>
-          <div class="legend">
-            <div class="projectLead">Project Leader</div>
-            <div class="techLead">Technical Leader</div>
-            <div class="contributor">Contributor</div>
-          </div>
+          <div class="xp">Experience</div>
         </div>
         <ul>
           <li>
@@ -243,7 +263,7 @@
               <li class="job-details"><div class="contributor"></div><div>Rapid full-stack prototyping of consumer entertainment products.</div></li>
               <li class="job-details"><div class="projectLead"></div><div>Lead engineering team with best practices, system design guidance.</div></li>
               <li class="job-details"><div class="techLead"></div><div>Design/build APIs for real-time video streaming app, audio messaging app and video messaging app.</div></li>
-              <li class="job-details"><div class="contributor"></div><div>Products launched: Glow.dev (shutdown), <a href="https://www.youtube.com/watch?v=AkDV6uHroXk" target="_blank">Sup.audio</a> (shutdown), Seen.lol (TBA).</div></li>
+              <li class="job-details"><div class="contributor"></div><div>Products launched: Glow.dev, <a href="https://www.youtube.com/watch?v=AkDV6uHroXk" target="_blank">Sup.audio</a>, Seen.lol (TBA).</div></li>
             </ul>
           </li>
           <li>
@@ -257,9 +277,9 @@
               </div>
             </div>
             <ul class="u-pisn">
-              <li class="job-details"><div class="techLead"></div><div>Designed/built new lead targeting system allowing clients to create precise campaigns based previous interactions with the Hustle platform.</div></li>
+              <li class="job-details"><div class="techLead"></div><div>Designed/built new lead targeting system allowing clients to create precise campaigns based on previous interactions with the Hustle platform.</div></li>
               <li class="job-details"><div class="techLead"></div><div>Migrated entire codebase off Parse SDK and onto a GraphQL gateway built in tandem.</div></li>
-              <li class="job-details"><div class="projectLead"></div><div>Improved client message sending speed, nearly doubling performance.</div></li>
+              <li class="job-details"><div class="projectLead"></div><div>Improved client message sending speed, doubling performance.</div></li>
               <li class="job-details"><div class="projectLead"></div><div>Led component-library initiative to reuse common components across 3 client facing apps.</div></li>
               <li class="job-details"><div class="contributor"></div><div>Mobile, frontend, backend, feature development.</div></li>
             </ul>
@@ -270,7 +290,7 @@
                 <a href="https://github.com/higgins" target="_blank">Freelance / Consultant</a>
               </div>
               <div class="title">
-                <div><strong>Multiple Roles</strong></div>
+                <div><strong>Staff Software Engineer</strong></div>
                 <div>09/2014 - Present</div>
               </div>
             </div>
@@ -283,7 +303,7 @@
           <li>
             <div class="job">
               <div class="company">
-                <a href="https://en.wikipedia.org/wiki/Beats_Music">Beats Music</a>
+                <a href="https://en.wikipedia.org/wiki/Beats_Music">Beats Music (acquired by Apple)</a>
               </div>
               <div class="title">
                 <div><strong>Senior Software Engineer</strong></div>
@@ -318,7 +338,7 @@
       <section>
         <h2>Education</h2>
         <ul>
-          <li class="job-details"><div class="university"></div><div><a href="https://www.berkeley.edu/">UC Berkeley</a> — Bachelor of Arts, Astrophysics & Physics — 2007-2011</div></li>
+          <li class="job-details"><div class="university"></div><div>UC Berkeley — Bachelor of Arts, Astrophysics & Physics — 2007-2011</div></li>
         </ul>
       </section>
       <section>
@@ -345,10 +365,10 @@
         <h2>Miscellaneous</h2>
         <ul>
           <li class="job-details"><div class="secondplace"></div><div>Producthunt — <a href="https://www.producthunt.com/products/24hourhomepage#24hourhomepage-2" target="_blank">#2 Product of the day</a>, Aug 2021</div></li>
-          <li class="job-details"><div class="speaker"></div><div>Speaker JS.LA, May 2021 — <a href="https://www.youtube.com/watch?v=v8WFZ4b7s4Y"><em>"10k hours? 86,400 seconds to get good at sales and marketing"</em></a></div></li>
-          <li class="job-details"><div class="podcast"></div><div>Podcast Guest, Junior to Senior, June 2021 — <a href="https://juniortosenior.io/50">Discussed growing as an SWE</a></div></li>
+          <li class="job-details"><div class="speaker"></div><div>Speaker JS.LA — <a href="https://www.youtube.com/watch?v=v8WFZ4b7s4Y"><em>"10k hours? 86,400 seconds to get good at sales and marketing"</em></a>, May 2021</div></li>
+          <li class="job-details"><div class="podcast"></div><div>Podcast Guest, Junior to Senior — <a href="https://juniortosenior.io/50">Discussed growing as an SWE</a>, June 2021</div></li>
           <li class="job-details"><div class="garden"></div><div>Neighborhood Community Garden manager, Brooks Park, June 2017 - June 2018</div></li>
-          <li class="job-details"><div class="music"></div><div>SF Music Hackday Award, 2014 — Turnt-able</div></li>
+          <li class="job-details"><div class="music"></div><div>SF Music Hackday Award, 2014</div></li>
         </ul>
       </section>
     </main>
