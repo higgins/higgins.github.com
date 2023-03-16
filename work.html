@@ -28,6 +28,15 @@
           align-items: center;
           width: 100vw;
       }
+      .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .who {
+        font-size: 2rem;
+        font-weight: 900;
+      }
       .logo {
           display: flex;
           align-items: center;
@@ -150,8 +159,7 @@
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
-        margin-bottom: 10px;
-        margin-top: 30px;
+        margin: 10px 0px;
       }
       .xp {
         font-size: 1.5rem;
@@ -161,7 +169,7 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        align-items: flex-start;
+        align-items: flex-end;
       }
       .job {
         display: flex;
@@ -179,18 +187,19 @@
     </style>
   </head>
   <body>
-    <header>
-      <a href="https://twitter.com/justinprojects" target="_blank">
-        <div class="logo">
-          <div class="i"></div>
-          <div class="w"></div>
-          <div class="o"></div>
-        </div>
-      </a>
-    </header>
     <main>
-      <h1>Justin Higgins, Software Engineer</h1>
-      <h4><em class="quote">The positive energy he shares is infectious and makes you believe that anything is possible if we can just muster the courage to pour excitement, craft and pure will onto a canvas. <br/><span style="float: right">— <a href="https://www.linkedin.com/in/higginsjustin/#recommendations">Stephen Garcia, Apple</a></span></em></h4>
+      <section>
+        <div class="header">
+          <div class="who">Justin Higgins, Software Engineer</div>
+          <a href="https://twitter.com/justinprojects" target="_blank">
+            <div class="logo">
+              <div class="i"></div>
+              <div class="w"></div>
+              <div class="o"></div>
+            </div>
+          </a>
+        </div>
+      </section>
       <section>
         <div class="workxp">
           <div class="xp">Work Experience</div>
@@ -212,9 +221,9 @@
               </div>
             </div>
             <ul class="u-pisn">
+              <li class="job-details"><div class="contributor"></div><div>Rapid full-stack prototyping of consumer entertainment products.</div></li>
               <li class="job-details"><div class="projectLead"></div><div>Lead engineering team with best practices, system design guidance.</div></li>
               <li class="job-details"><div class="techLead"></div><div>Design/build APIs for real-time video streaming app, audio messaging app and video messaging app.</div></li>
-              <li class="job-details"><div class="contributor"></div><div>Rapid prototyping of consumer entertainment products.</div></li>
               <li class="job-details"><div class="contributor"></div><div>Products launched: Glow.dev (shutdown), <a href="https://www.youtube.com/watch?v=AkDV6uHroXk" target="_blank">Sup.audio</a> (shutdown), Seen.lol (TBA).</div></li>
             </ul>
           </li>
@@ -229,9 +238,9 @@
               </div>
             </div>
             <ul class="u-pisn">
-              <li class="job-details"><div class="techLead"></div><div>Designed/built new lead targeting system allowing clients to create better outreach campaigns based previous interactions with the Hustle platform.</div></li>
-              <li class="job-details"><div class="techLead"></div><div>Migrated entire codebase off Parse SDK and onto a custom GraphQL gateway the team designed.</div></li>
-              <li class="job-details"><div class="projectLead"></div><div>Improved client message sending speed, doubling performance.</div></li>
+              <li class="job-details"><div class="techLead"></div><div>Designed/built new lead targeting system allowing clients to create precise campaigns based previous interactions with the Hustle platform.</div></li>
+              <li class="job-details"><div class="techLead"></div><div>Migrated entire codebase off Parse SDK and onto a GraphQL gateway built in tandem.</div></li>
+              <li class="job-details"><div class="projectLead"></div><div>Improved client message sending speed, nearly doubling performance.</div></li>
               <li class="job-details"><div class="projectLead"></div><div>Led component-library initiative to reuse common components across 3 client facing apps.</div></li>
               <li class="job-details"><div class="contributor"></div><div>Mobile, frontend, backend, feature development.</div></li>
             </ul>
@@ -266,7 +275,7 @@
               <li class="job-details"><div class="techLead"></div><div>Built billing system responsible for subscription revenue.</div></li>
               <li class="job-details"><div class="techLead"></div><div>Built internal content scheduler for Editorial team to publish curated playlists.</div></li>
               <li class="job-details"><div class="contributor"></div><div>Core application API features.</div></li>
-              <li class="job-details"><div class="contributor"></div><div>Maintained Australian editorial catalogue.</div></li>
+              <li class="job-details"><div class="contributor"></div><div>Developer liaison for <a href="https://en.wikipedia.org/wiki/MOG_(online_music)" target="_blank">MOG</a> service deployed in Australia.</div></li>
             </ul>
           </li>
           <li>
@@ -294,13 +303,13 @@
         </ul>
       </section>
       <section>
-        <h2>Proficiencies</h2>
+        <h2>Skills & Tools</h2>
         <ul>
-          <li class="job-details"><div class="personal"></div><div>Delivering measurable solutions, joyful programming, enjoying every day</div></li>
-          <li class="job-details"><div class="languages"></div><div>Javascript/Typescript, Python, Java, Swift, Bash, Elisp</div></li>
-          <li class="job-details"><div class="libs"></div><div>React, React-Native, Terraform, GraphQL, Svelte, Angular, anything fun in NPM</div></li>
-          <li class="job-details"><div class="dbs"></div><div>Mongo, Postgres, MySQL, Elasticsearch, Redis, Cassandra, Kafka</div></li>
-          <li class="job-details"><div class="envs"></div><div>Docker, AWS, Cloudflare Workers, Firebase</div></li>
+          <li class="job-details"><div class="personal"></div><div>Delivering measurable solutions, joyful programming, team player and leader.</div></li>
+          <li class="job-details"><div class="languages"></div><div>Javascript/Typescript, Bash, Ruby, Python, Java, Swift, Elisp.</div></li>
+          <li class="job-details"><div class="libs"></div><div>React, React-Native, Terraform, GraphQL, Svelte, Angular, anything fun in NPM.</div></li>
+          <li class="job-details"><div class="dbs"></div><div>Mongo, Postgres, MySQL, Elasticsearch, Redis, Cassandra, Kafka.</div></li>
+          <li class="job-details"><div class="envs"></div><div>Docker, AWS, Cloudflare Workers, Firebase.</div></li>
         </ul>
       </section>
       <section>
