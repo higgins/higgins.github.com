@@ -10,4 +10,6 @@
 | 03/08/2023 | 12pm | M     | 21min    |                                        |
 | 03/08/2023 | 1pm  | KG    | 3min     |                                        |
 | 03/08/2023 | 5pm  | P     | 25min    | off and on                             |
-| 03/09/2023 | 4pm  | M+P   | 30min    | C, spent about 5min before             |
+| 03/09/2023 | 4pm  | MP    | 30min    | C, spent about 5min before             |
+| 03/15/2023 | 12pm | MP    | 22min    |                                        |
+| 03/16/2023 | 12pm | MP    | 25min    |                                        |
