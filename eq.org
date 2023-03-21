@@ -13,3 +13,5 @@
 | 03/09/2023 | 4pm  | MP    | 30min    | C, spent about 5min before             |
 | 03/15/2023 | 12pm | MP    | 22min    |                                        |
 | 03/16/2023 | 12pm | MP    | 25min    |                                        |
+| 03/20/2032 | 10am | MP    | 18min    | RC                                     |
+|            |      |       |          |                                        |
