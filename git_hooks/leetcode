@@ -1,0 +1,50 @@
+#! /Users/justin/.nvm/versions/node/v16.18.0/bin/node
+
+// PURPOSE:
+// Keep a daily streak on leetcode so you stay sharp
+
+// NOTE: globally installed
+const fetch = require("isomorphic-fetch");
+
+(async () => {
+  try {
+    console.log("\033[95mChecking Leetcode streak info...\033[0m")
+    const resp = await fetch("https://leetcode.com/graphql/", {
+      "headers": {
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/111.0",
+          "Accept": "*/*",
+          "Accept-Language": "en-US,en;q=0.5",
+          "content-type": "application/json",
+          "x-csrftoken": "jMm55YGQIfACR2gm81pqKm2TrgIBpv5Tkp250h0VWPvRN0BcBIuCoYtgUGYSspgz",
+          "authorization": "",
+          "random-uuid": "3efa6630-27fa-b0d0-ee47-3fd047b93cb3",
+          "sentry-trace": "7522d1fe8d934eaea1d677bd64239bbf-b0662acb6bc13415-0",
+          "baggage": "sentry-environment=production,sentry-release=3922de62,sentry-transaction=%2Fu%2F%5Busername%5D,sentry-public_key=2a051f9838e2450fbdd5a77eb62cc83c,sentry-trace_id=7522d1fe8d934eaea1d677bd64239bbf,sentry-sample_rate=0.004",
+          "Sec-Fetch-Dest": "empty",
+          "Sec-Fetch-Mode": "cors",
+          "Sec-Fetch-Site": "same-origin",
+          "Pragma": "no-cache",
+          "Cache-Control": "no-cache"
+      },
+      "referrer": "https://leetcode.com/",
+      "body": "{\"query\":\"\\n    query userProfileCalendar($username: String!, $year: Int) {\\n  matchedUser(username: $username) {\\n    userCalendar(year: $year) {\\n      activeYears\\n      streak\\n      totalActiveDays\\n      dccBadges {\\n        timestamp\\n        badge {\\n          name\\n          icon\\n        }\\n      }\\n      submissionCalendar\\n    }\\n  }\\n}\\n    \",\"variables\":{\"username\":\"justinhiggins\"}}",
+      "method": "POST",
+      "mode": "cors"
+    });
+    const { data } = await resp.json();
+    const now = new Date();
+    now.setUTCHours(0,0,0,0);
+    const today = now.getTime() / 1000;
+    const submissions = JSON.parse(data.matchedUser.userCalendar.submissionCalendar);
+    if (submissions.hasOwnProperty(today)) {
+      console.log("\033[92mLeetcode streak extended today!\033[0m")
+    } else {
+      console.log("\033[91mLeetcode streak NOT extended today! Rejecting push\033[0m");
+      process.exit(1)
+    }
+  } catch(e) {
+    console.error("Error: ", e);
+    console.log("\033[91mError checking leetcode! Rejecting push\033[0m");
+    process.exit(1);
+  }
+})();
