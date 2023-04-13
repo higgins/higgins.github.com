@@ -1,18 +1,20 @@
-| Date       | Time | Event | Duration | Notes                                  |
-|------------+------+-------+----------+----------------------------------------|
-| 03/06/2023 | 07am | KG    | 3min     | 3 sesions                              |
-| 03/06/2023 | 12pm | KG    | 5min     | 3 sesions                              |
-| 03/06/2023 | 12pm | M     | 20min    | NC                                     |
-| 03/06/2023 | 05pm | M     | 20min    | C on alarm                             |
-| 03/06/2023 | --   | F     | --       | HGWx2, BRPx2, 4Sigmatic Chill mushroom |
-| 03/07/2023 | 12pm | M     | 20min    |                                        |
-| 03/07/2023 | 5pm  | KG    | 3min     |                                        |
-| 03/08/2023 | 12pm | M     | 21min    |                                        |
-| 03/08/2023 | 1pm  | KG    | 3min     |                                        |
-| 03/08/2023 | 5pm  | P     | 25min    | off and on                             |
-| 03/09/2023 | 4pm  | MP    | 30min    | C, spent about 5min before             |
-| 03/15/2023 | 12pm | MP    | 22min    |                                        |
-| 03/16/2023 | 12pm | MP    | 25min    |                                        |
-| 03/20/2023 | 10am | MP    | 18min    | RC                                     |
-| 03/22/2023 | 10am | MP    | 20min    |                                        |
-| 03/22/2023 | 5pm  | MP    | 30min    |                                        |
+| Date       | Time   | Event | Duration | Notes                                  |
+|------------+--------+-------+----------+----------------------------------------|
+| 03/06/2023 | 07am   | KG    | 3min     | 3 sesions                              |
+| 03/06/2023 | 12pm   | KG    | 5min     | 3 sesions                              |
+| 03/06/2023 | 12pm   | M     | 20min    | NC                                     |
+| 03/06/2023 | 05pm   | M     | 20min    | C on alarm                             |
+| 03/06/2023 | --     | F     | --       | HGWx2, BRPx2, 4Sigmatic Chill mushroom |
+| 03/07/2023 | 12pm   | M     | 20min    |                                        |
+| 03/07/2023 | 5pm    | KG    | 3min     |                                        |
+| 03/08/2023 | 12pm   | M     | 21min    |                                        |
+| 03/08/2023 | 1pm    | KG    | 3min     |                                        |
+| 03/08/2023 | 5pm    | P     | 25min    | off and on                             |
+| 03/09/2023 | 4pm    | MP    | 30min    | C, spent about 5min before             |
+| 03/15/2023 | 12pm   | MP    | 22min    |                                        |
+| 03/16/2023 | 12pm   | MP    | 25min    |                                        |
+| 03/20/2023 | 10am   | MP    | 18min    | RC                                     |
+| 03/22/2023 | 10am   | MP    | 20min    |                                        |
+| 03/22/2023 | 5pm    | MP    | 30min    |                                        |
+| 04/12/2023 | 1030am | MP    | 10min    | C, known                               |
+|            |        |       |          |                                        |
