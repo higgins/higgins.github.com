@@ -1,3 +1,64 @@
+* 04/18/2023
+** Summary
+
+Fun day. Woke up in a slump and replied to Dad's email. It important
+to have a clear project / focus. I think inspired by this, I posted
+24HHP to r/InternetIsBeautiful and it blew up! Been great to read
+everyone's feedback.
+
+Also fasted since last night. Nice clean focus.
+
+Focused on getting High Tide's infra up. Simpler than Sup but not as
+simple as Seen.
+
+Waking up early to lift (skipped today).
+
+** me
+- [X] Bike post on craigslist and next door
+{
+  second_id: 70260,
+  status: "published",
+  token_id: "1a40d60a-f36b-4f6e-8ac9-f0bb4f55d091",
+  published_at: 1681865993513,
+  tokenRef: Ref(Collection("tokens"), "362394673776427589"),
+  website: "https://cphaynes.com"
+}
+
+{
+  token_id: "1a40d60a-f36b-4f6e-8ac9-f0bb4f55d091",
+  email: "ch.24hourhomepage@eeia.com",
+  used: true,
+  created_at: 1681865342760,
+  purchaseInfo:
+    '"{\\"id\\":\\"pi_3MyPCHI42tzHadPh1Et4mpLL\\",\\"object\\":\\"payment_intent\\",\\"amount\\":916,\\"amount_capturable\\":916,\\"amount_details\\":{\\"tip\\":{}},\\"amount_received\\":0,\\"application\\":null,\\"application_fee_amount\\":null,\\"automatic_payment_methods\\":null,\\"canceled_at\\":null,\\"cancellation_reason\\":null,\\"capture_method\\":\\"manual\\",\\"charges\\":{\\"object\\":\\"list\\",\\"data\\":[{\\"id\\":\\"ch_3MyPCHI42tzHadPh1JZ2FHpm\\",\\"object\\":\\"charge\\",\\"amount\\":916,\\"amount_captured\\":0,\\"amount_refunded\\":0,\\"application\\":null,\\"application_fee\\":null,\\"application_fee_amount\\":null,\\"balance_transaction\\":null,\\"billing_details\\":{\\"address\\":{\\"city\\":null,\\"country\\":\\"US\\",\\"line1\\":null,\\"line2\\":null,\\"postal_code\\":\\"37922\\",\\"state\\":null},\\"email\\":\\"ch.24hourhomepage@eeia.com\\",\\"name\\":\\"Christopher P Haynes\\",\\"phone\\":null},\\"calculated_statement_descriptor\\":\\"24HOURHOMEPAGE\\",\\"captured\\":false,\\"created\\":1681865340,\\"currency\\":\\"usd\\",\\"customer\\":\\"cus_NjsyHsxESrnsZ6\\",\\"description\\":null,\\"destination\\":null,\\"dispute\\":null,\\"disputed\\":false,\\"failure_balance_transaction\\":null,\\"failure_code\\":null,\\"failure_message\\":null,\\"fraud_details\\":{},\\"invoice\\":null,\\"livemode\\":true,\\"metadata\\":{\\"quantity\\":\\"1\\",\\"firstSecondPriceCents\\":\\"916\\",\\"longitude\\":\\"-83.91720\\",\\"country\\":\\"US\\",\\"ip\\":\\"96.60.59.147\\",\\"latitude\\":\\"35.95800\\",\\"totalPriceCents\\":\\"916\\"},\\"on_behalf_of\\":null,\\"order\\":null,\\"outcome\\":{\\"network_status\\":\\"approved_by_network\\",\\"reason\\":null,\\"risk_level\\":\\"normal\\",\\"seller_message\\":\\"Payment complete.\\",\\"type\\":\\"authorized\\"},\\"paid\\":true,\\"payment_intent\\":\\"pi_3MyPCHI42tzHadPh1Et4mpLL\\",\\"payment_method\\":\\"pm_1MyPChI42tzHadPh84xnxXoi\\",\\"payment_method_details\\":{\\"card\\":{\\"brand\\":\\"visa\\",\\"checks\\":{\\"address_line1_check\\":null,\\"address_postal_code_check\\":\\"pass\\",\\"cvc_check\\":\\"pass\\"},\\"country\\":\\"US\\",\\"exp_month\\":5,\\"exp_year\\":2024,\\"fingerprint\\":\\"xEi4rOVknohpdcPm\\",\\"funding\\":\\"debit\\",\\"installments\\":null,\\"last4\\":\\"2221\\",\\"mandate\\":null,\\"network\\":\\"visa\\",\\"network_token\\":{\\"used\\":false},\\"three_d_secure\\":null,\\"wallet\\":null},\\"type\\":\\"card\\"},\\"receipt_email\\":\\"ch.24hourhomepage@eeia.com\\",\\"receipt_number\\":null,\\"receipt_url\\":\\"https://pay.stripe.com/receipts/payment/CAcQARoXChVhY2N0XzFHNTJqWkk0MnR6SGFkUGgo_fT8oQYyBp7iS4Zf2TosFiNDaVsIZUObb-ajirbHfaNNH9ismAES9MQebuD9MF5FI_IeNkDiGveK1RU\\",\\"refunded\\":false,\\"refunds\\":{\\"object\\":\\"list\\",\\"data\\":[],\\"has_more\\":false,\\"total_count\\":0,\\"url\\":\\"/v1/charges/ch_3MyPCHI42tzHadPh1JZ2FHpm/refunds\\"},\\"review\\":null,\\"shipping\\":null,\\"source\\":null,\\"source_transfer\\":null,\\"statement_descriptor\\":null,\\"statement_descriptor_suffix\\":null,\\"status\\":\\"succeeded\\",\\"transfer_data\\":null,\\"transfer_group\\":null}],\\"has_more\\":false,\\"total_count\\":1,\\"url\\":\\"/v1/charges?payment_intent=pi_3MyPCHI42tzHadPh1Et4mpLL\\"},\\"client_secret\\":\\"pi_3MyPCHI42tzHadPh1Et4mpLL_secret_aWlhkU7I7fBAV8q4PugNnDYoX\\",\\"confirmation_method\\":\\"automatic\\",\\"created\\":1681865313,\\"currency\\":\\"usd\\",\\"customer\\":\\"cus_NjsyHsxESrnsZ6\\",\\"description\\":null,\\"invoice\\":null,\\"last_payment_error\\":null,\\"latest_charge\\":\\"ch_3MyPCHI42tzHadPh1JZ2FHpm\\",\\"livemode\\":true,\\"metadata\\":{\\"quantity\\":\\"1\\",\\"firstSecondPriceCents\\":\\"916\\",\\"longitude\\":\\"-83.91720\\",\\"country\\":\\"US\\",\\"ip\\":\\"96.60.59.147\\",\\"latitude\\":\\"35.95800\\",\\"totalPriceCents\\":\\"916\\"},\\"next_action\\":null,\\"on_behalf_of\\":null,\\"payment_method\\":\\"pm_1MyPChI42tzHadPh84xnxXoi\\",\\"payment_method_options\\":{\\"card\\":{\\"installments\\":null,\\"mandate_options\\":null,\\"network\\":null,\\"request_three_d_secure\\":\\"automatic\\"}},\\"payment_method_types\\":[\\"card\\"],\\"processing\\":null,\\"receipt_email\\":\\"ch.24hourhomepage@eeia.com\\",\\"review\\":null,\\"setup_future_usage\\":null,\\"shipping\\":null,\\"source\\":null,\\"statement_descriptor\\":null,\\"statement_descriptor_suffix\\":null,\\"status\\":\\"requires_capture\\",\\"transfer_data\\":null,\\"transfer_group\\":null}"',
+  second_id: 70260,
+  published_at: 1681865993513,
+  secondRef: Ref(Collection("seconds"), "70260"),
+  website: "https://cphaynes.com"
+}
+
+- [-] 24HHP
+  - [X] upload cropped override
+  - [ ] player controls
+  - [ ] heatmap
+  - [ ] reserved seconds
+  - [ ] heatmap
+  - [ ] email all customers (before today)
+  - [ ] what happened with guy's upload?
+  - [ ]
+- [ ]
+** tt
+- [ ] web client
+- [ ] build images
+  - [ ] new topology or re-use Sup primer?
+  - [ ]
+  - [ ] run container on AWS
+- [ ] Spin down Sup
+  - [ ] dump tables
+  - [ ] keep all old sup files
+- [ ] environments for FE
+- [ ] environments for BE
+- [ ]
 * 04/17/2023
 ** Summary
 
