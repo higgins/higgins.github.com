@@ -1,3 +1,31 @@
+* 04/20/2023
+** Summary
+
+Woke up at 7:30am. Took cold shower then woke up Mariana. Had huge
+chorro. Had 1-1 with Billy, spun down Sup, spent lots of time thinking
+about next phase of the company and will do more before
+bed. Investigated the crash bug the team found but didn't trap it,
+made a suggestion still.
+
+Had a giant coffee and two yerba mattes. Better to just maintain my
+energy internally with good food, exercise and sleep.
+
+Had a good email to Dad too.
+
+Bed time.
+
+* 04/19/2023
+** Summary
+
+Spun up the High Tide infra. Lifted after work. Picked up empanadas
+for Mariana for dinner. We watched Ted Lasso
+
+From Zig Ziglar:
+"How can you hit a target you can't see?"
+
+<<PRIVATE
+1abd7d7f2b472914R7jJ8EqYmeKoiABIN+w1LmUrJ+F+99I7DWXh18J5MezBaCNW6cOV8sxfFinYr3bZMCShQsNehN3gQDpI9vOwxkPIDr616DVxGgO2BB6VSYPRJKlIbdQTYIOdJMeRoijOgTM=
+PRIVATE
 * 04/18/2023
 ** Summary
 
@@ -51,7 +79,6 @@ Waking up early to lift (skipped today).
 - [ ] web client
 - [ ] build images
   - [ ] new topology or re-use Sup primer?
-  - [ ]
   - [ ] run container on AWS
 - [ ] Spin down Sup
   - [ ] dump tables
