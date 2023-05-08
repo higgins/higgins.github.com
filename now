@@ -1,4 +1,81 @@
+* 05/07/2023
+** Summary
+
+Woke up at 8am and went for coffee at Commissary where I took notes
+for yesterday and for today. Filled water up when they opened at 10am
+and got TJ groceries for the week. Had a bowl of grain cereal and
+almond milk at home.
+
+Made pancakes for breakfast once Mariana woke up at noon.
+
+Jacqueline texted that Jon and Eve's son Zev was born! Congrats to
+them, excited to meet him.
+
+Was pretty caffeinated after breakfast so walked on treadmill for
+90min at 4mph to break a sweat. Took shower afterward and started one
+of four loads of laundry today.
+
+Didn't play with Leche as much as we could have so will do a ball
+throw tomorrow during lunch.
+
+Got the spritesheet widget rendering! I will prototype it for all
+24hours of content tomorrow morning. Need to do some data cleanup on
+the spritesheets though. Where will the spritesheet updater run?
+
+The mobile app will be much more gamified (and I can move that
+thinking over to the main site too).
+
+I think capturing faces will be a fun part of this. Get people to
+record a 5s gif of themselves that they can share on their IG story
+with the 24HHP logo on it
+
+Once the app is ready for the app store, schedule PH launches. Part 2
+is the website, Part 3 is the mobile app.
+
+Maybe I can do Part 2 way before Part 2?
+
+I have a pretty novel way to market this IRL too. It could turn into a
+good small business as well.
+
+Going to fold laundry and go to bed.
+
+<<PRIVATE
+f84ebe3a992bb04d4a9wS4pwBI/1lMYyv+7IIrN+N00LRMRCYvUbyjsfKVSzILrlnfKVnOjLjIbl4ACULsGVmZ5oPpBJyYZdHYPmF3vzfuoKL4wGPABUhtRyzo09EDVHdWMPkBAveUKHXar/H/lq2Y8FkETp3IeJ7FcDBvcp8CyjRTLlGxyfkHgA5ae8Vg1SNx3UNaO95g878nU44oS7WIH7ZJMjLJluYDs2+st8nP1LyDdg+7t+/BC7dYZoqbNHeB1ZekQ5a2H6BECIBUhw4RnvXY12x7TanNtBq98f81AH+HW/IMA8kVZpA/+fueiiprjheK9CuiacBdaHam0wVTkIzh6l7zZF+Uu0jQdazF3V7kcF/Qo2AR8yA5vbqfzI9Hp8hOXAdXrmctvrixaoG+IjU5ZzUREYWKib8JmAG4vUOR/U9lb3doS7x7rZCX8zwpdA4AkEIyUOD3ryucWoMSpQy2kvvLMPyJ4laDNQWoPntBrAbSIjV3FgA0jzUzwVBgh/tl5wlUithuP62znezH60AFgfXAw/Bx3jQ+ptqdEZhBDVWJEpkgMDdlF8NawuYjdtzvdgMIvG79u8Q1anRTPmqJdbfSPHLF/u2n7M4D8Z0I7LmGQEwuFlIMS/0Z5RLOJ9ZslWUcRzbmuYa1nAmq8837/amawsYEcGWlyudd2dANeOGrz9MBqXjoVRediVPxSSI3CnZkxTzgs74raUyG/ilfQyTF7uSODskwM19rUJBRaFj1pWqKEzlJuEbetroQBx4rUqspBr8UeumC6uWkK59nrv2XTOzNViygzz+lMHn6CzdNa966chSnoy7Q4sCSjxcSYMle+0mzaMh5T8LRNZ6dXy3p3N570Y6Dh0JpIXmc7NksONGdiFvCSkbePkzS5aRUwd50HbLJrYZuwKW5GGpje0uQX5WaYOy+umd3v1kPJVqo0mgV6pyIzuhcRWSwpTw2nrpvAFX+E390q8yuELKzJ9NYgd+8ZCwAjvtRCM3JRA0gROctE6RSkhcofGlxgGGoY/X8IsrY8=
+PRIVATE
 * 05/06/2023
+** Summary
+
+Woke up, made coffee then did lift when I was awake and
+caffeinated. First tried prototyping an animation for "live
+publishing" events viz on 24HHP.
+
+
+Went swimming with Mariana at the Culver pool. Amazing
+swim. Water and Sun felt great. Mariana is a great swimming. I
+practiced breast stroke the whole time. Felt good after the bench this
+morning. Also I didn't have ear plugs so freestyle sunk water deep
+into my ear which I've always hated. Breast stroke only.
+
+We went to Anawalt for spray paint after. I went to 99c store to look
+for a ribbon for a gift for Elle's birthday later. I figured it wasn't
+necessary and line was super long. Just browsed the 99c store before
+meeting Mariana at cemita place outside Anawalt. We ordered una cemita
+y una quesadilla. Ate it on the porch at home. I showered and went to
+Sprouts to pick up a jar of chocolate for Elle's bday then went to the
+barcade where they were celebrating. Fun to hang out with them all.
+
+Came home and worked on another viz idea for live publishing. Not
+great and I don't think its sufficiently FOMO.
+
+Changed gears and worked the 24HHP widget which I have let become a
+ghost of a problem. Renewed my Apple developer license in order to
+prototype it (wtf).
+
+First widget tutorial went well. Updates every 5min from user
+input. Trying to see if i can get animated image rendered.
+
+Will decide if its possible/worth pursuing by EOD.
+
 <<PRIVATE
 640b9d13682f162eGTa+V6cmhdnbA/ytI41wsuda/GnXAKqz1puRAjKZWJY8SmgJ/AIbS119JOawOj/UcohtaoGG7pZzut8m/dp9D2G+a4xQFMMTTBwP4p9qj1WEIlfAmax9QyQTbxTIO4SZjCSmSNfVK7/0NRMXtR3JTpLJF+w07fprtI/jWAp/3c//yaBlsrsM6LnOdLCyIVpjIv/CXqK38lZGzzVdQpye76m7ASfcSc6IUkUYZ8Ug7OuRpL5VNK+92QHlMSGyMIUMjvBA9wYBRVFq+BRrWhjofudp3rXkwmHfgMem396c3P1vCpX/xRQZl4F9fnyu3fB6zcYgQEUAA2GpUwa6s23wr+8Ow6MW0GNJ1fzERSF2MbAhVY9LiTWM0J0B/SxymTY+CUvLjVYu+mBkVvZTPgNQ9qwploWVSo+m3eIr6l5mMYwfibI6ixwgmcUurU7htokdDzdjJWOALC5EFmNJ8/bP8xEwWhg0Q/n14ClzrVbjdFPVFf2BDPqfccj7YLadiKflVW7+iiHCUokSZPxIwxNPY9cCTGelkqaVZSrOF2NDv7leDaqKB2pmNWzH+KU+S3g10PiL2DBJGomh/myns73cMJ1d6wYHouM3mRHSsxIFa6mxMWUt2FngEmKPXu/qB8eGkpRmR4O5lsByTfliUJBUS5uaR7aJHzdu17NTUkQqegF5xgkGfuNz+ra/1ukk3bfSqjzxvbLmmPaQKeC25anx8BSdnqzFs1vo1nCnOW6AQQw5clJdVkotaQBFzCaNvRz/Kgwy8rbE2qCU6HO7iTxzRi/dn0v5Xc9Yr0la+F5JygZI9a/8wrYiHD8hAFG04b7tKCa+f/fa7ie2iotBfwqDq3lcZWGqFJqBA1ggc3hZtWMPwEzM39JFNKlfpWtJ4Jf1pUxxWeeGRdr8LvSxOx9C6BW7qb+cYCO0vmYlBR23Mbzz45z5lZq3iRG322xrWyiVuLlczr6T8C7nnU5ZO1U=
 PRIVATE
