@@ -1,3 +1,34 @@
+* 05/09/2023
+** Summary
+
+Woke up at 7am after some tense dreams. Worked on 24HHP widget with
+coffee. Woke up Mariana at 8:15am then took Leche for a walk up the
+hill. Stand up at 9 and added more hot water to french press. It
+doesn't yield as much as chemex.
+
+Checked in with Albert. He likes the mongo stack. Showing the Truck to
+an interested buyer tomorrow. They are paying to have it inspected
+before purchase. I'll work from cafe while it's inspected.
+
+Fixed emails, added emails for signup, ported more to TS. This project
+has gotten off to a rocky start. Business models are poorly documented
+and understood. Distributed leadership. I need to wrangle on Friday.
+
+Leche's 4th birthday tomorrow. Will get her a hamburger as it is
+tradition. She'll have a pupcup in the morning on our walk too.
+
+After work investigated the spritesheet rendering. I can reference one
+of the 1440 spritesheets now but it isn't updating repeatedly. Only
+when I hardcode the offsets in CGRect. Would be nice if debugger or
+logs worked on extensions. I'm sure it can and might go down that hole
+if I can't figure out the loop rendering issue. Might need to refer to
+previous implemenation that kept two pointers.
+
+Bed time.
+
+<<PRIVATE
+e84229b106a562045RW1M0KDCIAuGqzcAqCAsSVwkrk/V05cDvU/LdW5hjtJ+9dUtDLKwgeOx4S4ScMiSxrMm+giSEqNZWy7N0UmpmSCj50MA/lZBlvqzTCm2Yh3teWiUERPYeW9GUryS2dt1Tlp69+l8renXm4K5ii4LKV/3hFB5NLoG0dPn7vQ5+RbmAcXOKJjcS1+FbqLgBqvbb6WrEh2mwpXYIz3+OPAld0nyc84R15ec9Sd4RnqoXdnwhdEWLkDnSl2JJq/g6amAckBzTFakPCm2WMVijrWQjZ6VhUcsvaHanQq1WBEctw2E+/FPSezMP6VDzui8s9pVssR0Oz3jQ0Dp0Ct+ZT91O9xKm/r6k7fI4R6yamc1tGuDeGlbCi9dQtTHKDgyeSOR/SK8W7sqpjAZhwnzv0R/GdUh/8s1WLR9C//QG6+EaynA7DgfrEOjyC9lnSsNvPMHT0seDLeK0INkEVp11lMigYtmzToS6B/HamChHqc9xuJxhCSCcx95EumqlAAlXq4lR5CsOnIqRaAmMoUfhxKvEqORUYNphGLIrSEjGCHydU88DFTaa/91Qf7za5wVbCQLRN3goCdD9dzf+SPL+kXVgmx69VEZRGB6FI2szz3X8bcAmqU6ovLyy8PxHKqjlam/INkJRZ7SMkAF0XXiYqe6y/Ou7A9Un6+lQ==
+PRIVATE
 * 05/08/2023
 ** Summary
 
@@ -7,7 +38,7 @@ lunch. Thursday we do brainstorm. Wednesday showing truck to
 interested buyer who is paying to have mechanic inspect it.
 
 <<PRIVATE
-7522dcb8f983587bVpMp9SVcJccLHg1eW6VfbU1GTXsGx2jWd8EmvltHrJGAdwsjWeSO+u4mqfgqmcpD3jsvs4tcJh46FN4ochjuZf5OQcMS3Wu13zGzieRhwg3l0D1BZbJxueCsOYRTOnTPTzhK7NfcbCZFKYAyo9Mhez/8hk2Iezaz58aC0qb13tFw/PgnH8gdZ0vMR7AcRdMbsvLAHjTMj1RlWfPJKtLAcMKYNVlVZA5vcsCroPRj+q2uTCshoLG1eNYUUHdmXfYAUifygXO74Oy50fkM7YOkCUZt148GXF+jqpavyxrxBGrvFbue2rEoMBWf6wWxLqekQHPPxgfxu9BxYO/h7PgRcR3oeuBGtviZBQkEsjUele4a7+8KTH8y3FmiDlfOGbFQv3cAIR6QewCFpvcVzSKHZPiu/h4zc8qT8wYuWM/nrvsfF9HzC8lbgkVjANxRzwYcmjEjnxlnkYf3tsRsOiX39mvYKqjE2711ahIqJ1X0JpQQq4mErtMovTZu/YN/i1AG5yF8e4Cr7L8Beq52//zYNAWRfx1g1K3WrfUkEHr+mUDA62g6aHKYefqaxjq2/feGwSBvEajs+Kn9i8fLc1zmts0UG4CnPSeJrGkWyQFfyv4gBNcE5E9JdNvYEDcwc/qBIV7KcqP+sQXX9eGrJQsWz/i7mXtlUFMLDogaQABvrbNEwrAXokiXOdoD2IXg+CJ1QE0JbGr6mO3jh5ipq01ltkuCnmhSRI1Ir+4ubm9RFUKxXsJDngkI/EEACUazZ3q6uXPJg3E6/YR29RRkPXaAfGfmIBnD9/L51/l7B74LSfwm1WVDCKU=
+b3a9c7dcabff81577kd191zEMPHw4aYNSdE6adt10h0YeSEiOHm3HzFexa4kR0G+sAFcuJ1Zrrirls9vuGqpTO4t0kfSDzCdTMqvEZlF4c853vQqMYiLOCC6pxUCYMg/juwaUMqjplzBU1qLgZTo2EimAiB1uKdySZ25rtkA1vYEd2rZK4xkL6h8t1701OOSYe8awg/gUar8IYxyt7dtXwLpyR/Fw31Z7LujLRJysifScofbOrW1FDQpT2Q9VcUxg8sRvJ70cxLksaoMZYNX1y5iIA0mpVPHSpaEHuD9vAlbMXU9dYxULa7oP2IZnTeHzlzptXrRbcCX0w04lrjNkII3F7GcVbxLGMBSZKL5xVWpJ8u+3g1Cf85d78RpVQlfq84UfYUzI5ZmDCnqr+B4OtCoYyo0741YrcvbLN1UJioNpNR+vZJh6UMCGzdtu2QOwoidJtnBepwWwGWjj0HqoMBc+KxJJdl1lw7cY9C0JQHrr0dif2sTRlYfK8fCaxd07itLB9MIe+yKMbmXH1cb2DAJv4koAUQ269AFMepl6qFv+qg9sExlw8QFK0dVuvOLjlEwsc5mEqOpp7ydEOceQ+TGwqZ0FOT+qvYJWv5MU6KcS24AiTrPzr5WF1BgkekiYpBkoJ7SfDe+wF0b3Y1O9P/4E61tZA3/j2Kk7BeLxlPm3ADk2zp7A8yrWPWzOzs3/Eo7bhHiTWY+5tLrDL4vZ45drW2CWsDAAle70lDORV8P5JypVtinsQ52wHcRVegdwyk8qQUPaKBvlsg4OOSCpidcDYjn1P48z6zxuJ7jDsenNqTUspSUQOg9k1kcdHIZaJ5/68G0ZRhHl2sT6EakBCg4MtMvYcHl6Ut8KoCy72KfNVqFv3i9oXufFTyJM1ubUZ19iLSR5A2HDi1L3OGefdH/7Cc7wNkPRkasn/vz/2s=
 PRIVATE
 * 05/07/2023
 ** Summary
