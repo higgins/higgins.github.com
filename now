@@ -1,3 +1,33 @@
+* 05/14/2023
+** Summary
+
+Not a very focused weekend. Several moments of
+over-caffeination. Decided not to pursue the bike project. Went to the
+library yesterday and prototyped the widget. Figured out that the
+assets need to be < 500KB. Also they need to be referenced at compile time.
+
+I uploaded the assets to remote host and will get it working with an
+async solution. Not great if every client has to download all assets
+like this but it's not terrible. The full bundle size is 300MB. Better
+if those can be initialized with the bundle.
+
+Watched Succession with Mariana earlier tonight. Last night we went to
+a comedy show at Jam-in-the-Van.
+
+<<PRIVATE
+1baf6ceeb0a631deBH2NoQk9uxr2gr4z6rpuVbQgnBjVXvmbcbFZteh0jYtchWtjgm/u++ZlDGcSi2Ntn5JfENzhDkw2mLOIrPabUZ5P3/TUhfY4B3Thz8SgMwdAfl8nHMASA7or1io0J8/Pv8TAiRehw0HpAJmIj9f80xwg4cIfZu8uTNhl/dgrMAtmq+H6582SCR70WIAp0ofhafOqMdT1OHywvFVCkDk3mPaWfly0J9cXBneZUHuUxs0/GabgLP+HqjB52fV0iHt+ERlfuO0be5EOfXeXtmdIgJR+00VS/tViM5aML5H+H4lxxAdoEzVLVUl5R+lJhtBrTMntPQnt9UoVVE/66hnYZoH1eaURSe+frHpZhp3oaHKGZzKXJPtA0n5qf9deinD5Anbl6ulOuU4MPS4qvUFJcx8/LF6Dk24r7NQcAHF+qfsyjdWtP9npbAXyVB93w76oSLvZekWC/ymE9KGUXOvRuaL/xeN3LYa68TzsFs++oKVXBEdNZYKHHky03sZ3IbZexhLPQo+jcmaKd/RQsI1JJXdKMh20yqcu/pD638yx+7t5KryQaaQobJjlRVpsOvJp7oyMNHCwNi1zzIg9DVlaCKVyQfZT6V2+sJETpdFhFzmKLXb9o4HX0Q7sKVg+7XCzB7JCfJcfeiLOPV79Pr/DwPg+3jkHNlmsQy6pRSDCEQAiePHXQ9Zndfa26mroNbTeqEDOG1eI297KwruZxIYzrucIHJ5qMkZc74AWXlUkA0vft2tuxdPZNvHAa/mHX31FcELqphVfmzVdCk61iyzjaMYtWw1JV3hCm92OY6WytMLSntYg4GHG1SmWeMdTFN1g3Zag0+ovjnVH7BLQHdg5/AH3GlH2NAa+mCDcleUv+o+oOkWrw6c0udNhS2NC+da7C3ZiE/fqC1APXtsh5RN6xEOjTw2aJ22OKg1GUr4xWibGjp1p6s0PLVmh2h+GPoCmV+RMTYtHNrltBHt9ElX4+sfM1x0cQcp/RhWcd3QewuRVaeoDyN1NKvBRyKR4AHOnDzFPfKAXSgWlT8MlbFeq4dXvyPWtYQupcIrrpZcN9gN5LqJ3wYy4tb8lVIjo1o7V/m6kXYo=
+PRIVATE
+
+Going to change up my workout tomorrow. Squat, bench, rows, dumbbells,
+etc.
+
+Tomorrow night: make clove cardamom cinamon nighttime tea
+
+* 05/13/2023
+* 05/12/2023
+<<PRIVATE
+7683927d2df27803VRLV0vMekMjz4KakUJySIRNX1cfBDK1Q6JE4khdy/UVVxt688P0/gHFDLb7BYx1BDj7Mb2DbMCODk2k/YlPfx/4u8lqbsgi+Ai2lKGq1PReInYcWDjpd/XGFeB3mDaFGnG4yStjzXHh4BpM5u0OB+M7goaJH+d24xVPdcSIv0hgCKgQ2vmjfcgcqsizz1i3aMTR/OKVgJ+8IO/ocKHEJvWfqwRTOQhgAM/lgLL05/Q9kTL75n4wKASzy+daY/pDT0trQd8VHZP2R1Ay+2iQuZG/FCPNscLMm+j6XxnzTCEfp5ezdKpsudY2iVj4tLYaysOHbGbwQKccjBVzzO6HH15c10G7X3ckiEpDX7IBZSxpVsG2qzPLMWhpz98JO6QAdmA1LC2q7NrgrL4kz4mUXYhCwK2/oWF2LfqBXm5eolR5VfyjzdodgUpm/M3Tx+sgg6BuGodoyvswIm2zaDGRrvTCeovtiNo+wNwPMXsWNRnAI2gFvVbmZVHKtA+rTUURR5wUS83sOvY50kJYvP2G24KV3l6v2STKxNM7BkKEFJmdSr0+/FiaWo884wUOPdCMEevJZqGyxAijv1SHZgpRA1knbs9+bF8J0wGjbcdY=
+PRIVATE
 * 05/11/2023
 ** Summary
 Woke up at 7:30am. Made coffee and took Leche for a walk. 9am "idea
