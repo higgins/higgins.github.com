@@ -1,0 +1,691 @@
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta content="Is this a Matrix? 🦋" property="og:title" />
+    <meta content="https://encapsulate.me/isthisamatrix" property="og:url" />
+    <meta content="https://encapsulate.me/isthisamatrix/background.jpeg" property="og:image" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@justinprojects" />
+    <meta name="twitter:title" content="Is this a Matrix? 🦋" />
+    <meta name="twitter:description" content="Create an alternative Matrix story in a gif." />
+    <meta name="twitter:image" content="https://encapsulate.me/isthisamatrix/background.jpeg" />
+
+    <meta name="description" content="Create an alternative Matrix story in a gif.">
+    <title>Is this a Matrix? 🦋</title>
+    <script src="https://unpkg.com/gifshot@0.4.5/dist/gifshot.min.js"></script>
+    <style>
+      body {
+          font-family: Helvetica, sans-serif;
+          margin: 0px;
+          background-image: url("background2.gif");
+          background-repeat: repeat;
+      }
+      ul {
+          list-style-type: none;
+      }
+      #description {
+          background-image: url("background.jpeg");
+          background-repeat: repeat;
+          background-size: 300px;
+          text-align: center;
+      }
+      #words {
+          background: white;
+          width: 800px;
+          margin: auto;
+          padding: 10px 80px
+      }
+      @media screen and (max-width: 800px) {
+          #words {
+              background: white;
+              max-width: 400px;
+              padding: 0px;
+              font-size: 9px;
+              margin: 10px;
+          }
+      }
+      #title {
+          width: 100%;
+      }
+      #allImages {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+      }
+      .frame {
+          margin: 2px;
+      }
+      .selectedImage {
+          border: 3px solid dodgerblue;
+      }
+      #gifPreview > img {
+          width: 400px;
+      }
+      #downloadGif {
+          color: black;
+          text-decoration: none;
+      }
+      #downloadGifButton {
+          display: none;
+      }
+      #downloadGifButton.visible {
+          display: inline-block;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section id="description">
+        <div id="words">
+          <div>
+            <img id="title" src="/title.png" />
+          </div>
+          <div>
+            <h1>Make a gif from up to 60 images below.</h1>
+            <p>
+              How much can you rearrange from the 1999 masterpiece <em><a href="https://en.wikipedia.org/wiki/The_Matrix" target="_blank">The Matrix</a></em> and
+              still render a coherent story? For example, here is a story in which...
+            </p>
+            <ul>
+              <li><a href="mrClean.gif" target="_blank">...Morpheus claims Neo didn't clean the house and Neo objects.</a></li>
+              <li><a href="phoneVendetta.gif" target="_blank">...Neo has an irrational anger toward phones.</a></li>
+              <li><a href="physicalTherapy.gif" target="_blank">...Morpheus is sure his online shiatsu degree will give some relief.</a></li>
+              <li><a href="mealPrep.gif" target="_blank">...everyone wants to eat. No one wants to set the table.</a></li>
+            </ul>
+            <p>This is an educational tool by <strong><a target="_blank" href="https://twitter.com/justinprojects">Justin Higgins</a></strong></p>
+            <p>If you like 1FPS narratives, check out <strong><a target="_blank" href="https://24hourhomepage.com">24hourhomepage.com</a></strong></p>
+            <button id="makeGif" onclick="makeGif()">Make Gif</button>
+            <button onclick="clearGif()">Clear Gif</button>
+            <button id="downloadGifButton"><a id="downloadGif" download="isThisAMatrix.gif">Download</a></button>
+          </div>
+          <div id="selected"></div>
+          <div id="gifPreview"></div>
+        </div>
+      </section>
+      <section>
+        <div id="allImages">
+          <div class="frame" onclick="selectImage(this)" id="1"><img loading="lazy" src="selections/1.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="2"><img loading="lazy" src="selections/2.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="3"><img loading="lazy" src="selections/3.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="4"><img loading="lazy" src="selections/4.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="5"><img loading="lazy" src="selections/5.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="6"><img loading="lazy" src="selections/6.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="7"><img loading="lazy" src="selections/7.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="8"><img loading="lazy" src="selections/8.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="9"><img loading="lazy" src="selections/9.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="11"><img loading="lazy" src="selections/11.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="12"><img loading="lazy" src="selections/12.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="13"><img loading="lazy" src="selections/13.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="14"><img loading="lazy" src="selections/14.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="15"><img loading="lazy" src="selections/15.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="16"><img loading="lazy" src="selections/16.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="18"><img loading="lazy" src="selections/18.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="19"><img loading="lazy" src="selections/19.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="20"><img loading="lazy" src="selections/20.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="21"><img loading="lazy" src="selections/21.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="22"><img loading="lazy" src="selections/22.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="23"><img loading="lazy" src="selections/23.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="24"><img loading="lazy" src="selections/24.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="25"><img loading="lazy" src="selections/25.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="28"><img loading="lazy" src="selections/28.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="29"><img loading="lazy" src="selections/29.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="30"><img loading="lazy" src="selections/30.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="31"><img loading="lazy" src="selections/31.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="32"><img loading="lazy" src="selections/32.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="33"><img loading="lazy" src="selections/33.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="34"><img loading="lazy" src="selections/34.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="35"><img loading="lazy" src="selections/35.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="36"><img loading="lazy" src="selections/36.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="38"><img loading="lazy" src="selections/38.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="39"><img loading="lazy" src="selections/39.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="40"><img loading="lazy" src="selections/40.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="41"><img loading="lazy" src="selections/41.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="42"><img loading="lazy" src="selections/42.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="43"><img loading="lazy" src="selections/43.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="44"><img loading="lazy" src="selections/44.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="45"><img loading="lazy" src="selections/45.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="46"><img loading="lazy" src="selections/46.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="47"><img loading="lazy" src="selections/47.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="48"><img loading="lazy" src="selections/48.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="49"><img loading="lazy" src="selections/49.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="50"><img loading="lazy" src="selections/50.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="51"><img loading="lazy" src="selections/51.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="52"><img loading="lazy" src="selections/52.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="53"><img loading="lazy" src="selections/53.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="54"><img loading="lazy" src="selections/54.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="55"><img loading="lazy" src="selections/55.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="56"><img loading="lazy" src="selections/56.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="57"><img loading="lazy" src="selections/57.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="58"><img loading="lazy" src="selections/58.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="59"><img loading="lazy" src="selections/59.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="60"><img loading="lazy" src="selections/60.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="61"><img loading="lazy" src="selections/61.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="62"><img loading="lazy" src="selections/62.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="63"><img loading="lazy" src="selections/63.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="64"><img loading="lazy" src="selections/64.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="65"><img loading="lazy" src="selections/65.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="66"><img loading="lazy" src="selections/66.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="67"><img loading="lazy" src="selections/67.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="68"><img loading="lazy" src="selections/68.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="69"><img loading="lazy" src="selections/69.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="70"><img loading="lazy" src="selections/70.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="71"><img loading="lazy" src="selections/71.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="72"><img loading="lazy" src="selections/72.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="74"><img loading="lazy" src="selections/74.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="75"><img loading="lazy" src="selections/75.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="76"><img loading="lazy" src="selections/76.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="76_2"><img loading="lazy" src="selections/76_2.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="77"><img loading="lazy" src="selections/77.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="78"><img loading="lazy" src="selections/78.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="79"><img loading="lazy" src="selections/79.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="80"><img loading="lazy" src="selections/80.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="81"><img loading="lazy" src="selections/81.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="82"><img loading="lazy" src="selections/82.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="83"><img loading="lazy" src="selections/83.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="84"><img loading="lazy" src="selections/84.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="85"><img loading="lazy" src="selections/85.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="86"><img loading="lazy" src="selections/86.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="87"><img loading="lazy" src="selections/87.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="88"><img loading="lazy" src="selections/88.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="89"><img loading="lazy" src="selections/89.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="90"><img loading="lazy" src="selections/90.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="91"><img loading="lazy" src="selections/91.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="92"><img loading="lazy" src="selections/92.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="93"><img loading="lazy" src="selections/93.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="94"><img loading="lazy" src="selections/94.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="95"><img loading="lazy" src="selections/95.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="96"><img loading="lazy" src="selections/96.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="97"><img loading="lazy" src="selections/97.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="98"><img loading="lazy" src="selections/98.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="99"><img loading="lazy" src="selections/99.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="100"><img loading="lazy" src="selections/100.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="101"><img loading="lazy" src="selections/101.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="102"><img loading="lazy" src="selections/102.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="103"><img loading="lazy" src="selections/103.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="104"><img loading="lazy" src="selections/104.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="105"><img loading="lazy" src="selections/105.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="106"><img loading="lazy" src="selections/106.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="107"><img loading="lazy" src="selections/107.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="108"><img loading="lazy" src="selections/108.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="109"><img loading="lazy" src="selections/109.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="110"><img loading="lazy" src="selections/110.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="111"><img loading="lazy" src="selections/111.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="112"><img loading="lazy" src="selections/112.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="114"><img loading="lazy" src="selections/114.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="115"><img loading="lazy" src="selections/115.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="116"><img loading="lazy" src="selections/116.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="117"><img loading="lazy" src="selections/117.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="118"><img loading="lazy" src="selections/118.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="119"><img loading="lazy" src="selections/119.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="120"><img loading="lazy" src="selections/120.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="121"><img loading="lazy" src="selections/121.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="122"><img loading="lazy" src="selections/122.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="123"><img loading="lazy" src="selections/123.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="124"><img loading="lazy" src="selections/124.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="125"><img loading="lazy" src="selections/125.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="126"><img loading="lazy" src="selections/126.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="127"><img loading="lazy" src="selections/127.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="128"><img loading="lazy" src="selections/128.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="129"><img loading="lazy" src="selections/129.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="130"><img loading="lazy" src="selections/130.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="131"><img loading="lazy" src="selections/131.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="132"><img loading="lazy" src="selections/132.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="133"><img loading="lazy" src="selections/133.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="134"><img loading="lazy" src="selections/134.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="135"><img loading="lazy" src="selections/135.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="136"><img loading="lazy" src="selections/136.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="137"><img loading="lazy" src="selections/137.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="138"><img loading="lazy" src="selections/138.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="139"><img loading="lazy" src="selections/139.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="140"><img loading="lazy" src="selections/140.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="140_2"><img loading="lazy" src="selections/140_2.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="141"><img loading="lazy" src="selections/141.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="142"><img loading="lazy" src="selections/142.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="143"><img loading="lazy" src="selections/143.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="144"><img loading="lazy" src="selections/144.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="145"><img loading="lazy" src="selections/145.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="146"><img loading="lazy" src="selections/146.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="147"><img loading="lazy" src="selections/147.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="148"><img loading="lazy" src="selections/148.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="149"><img loading="lazy" src="selections/149.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="150"><img loading="lazy" src="selections/150.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="151"><img loading="lazy" src="selections/151.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="152"><img loading="lazy" src="selections/152.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="153"><img loading="lazy" src="selections/153.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="154"><img loading="lazy" src="selections/154.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="155"><img loading="lazy" src="selections/155.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="156"><img loading="lazy" src="selections/156.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="157"><img loading="lazy" src="selections/157.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="158"><img loading="lazy" src="selections/158.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="159"><img loading="lazy" src="selections/159.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="160"><img loading="lazy" src="selections/160.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="170"><img loading="lazy" src="selections/170.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="171"><img loading="lazy" src="selections/171.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="172"><img loading="lazy" src="selections/172.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="173"><img loading="lazy" src="selections/173.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="174"><img loading="lazy" src="selections/174.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="175"><img loading="lazy" src="selections/175.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="176"><img loading="lazy" src="selections/176.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="177"><img loading="lazy" src="selections/177.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="178"><img loading="lazy" src="selections/178.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="179"><img loading="lazy" src="selections/179.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="180"><img loading="lazy" src="selections/180.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="181"><img loading="lazy" src="selections/181.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="182"><img loading="lazy" src="selections/182.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="183"><img loading="lazy" src="selections/183.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="184"><img loading="lazy" src="selections/184.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="185"><img loading="lazy" src="selections/185.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="186"><img loading="lazy" src="selections/186.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="187"><img loading="lazy" src="selections/187.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="188"><img loading="lazy" src="selections/188.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="189"><img loading="lazy" src="selections/189.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="190"><img loading="lazy" src="selections/190.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="191"><img loading="lazy" src="selections/191.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="192"><img loading="lazy" src="selections/192.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="193"><img loading="lazy" src="selections/193.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="194"><img loading="lazy" src="selections/194.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="195"><img loading="lazy" src="selections/195.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="196"><img loading="lazy" src="selections/196.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="197"><img loading="lazy" src="selections/197.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="198"><img loading="lazy" src="selections/198.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="199"><img loading="lazy" src="selections/199.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="200"><img loading="lazy" src="selections/200.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="200_2"><img loading="lazy" src="selections/200_2.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="201"><img loading="lazy" src="selections/201.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="202"><img loading="lazy" src="selections/202.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="203"><img loading="lazy" src="selections/203.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="204"><img loading="lazy" src="selections/204.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="205"><img loading="lazy" src="selections/205.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="206"><img loading="lazy" src="selections/206.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="207"><img loading="lazy" src="selections/207.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="208"><img loading="lazy" src="selections/208.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="209"><img loading="lazy" src="selections/209.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="210"><img loading="lazy" src="selections/210.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="211"><img loading="lazy" src="selections/211.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="212"><img loading="lazy" src="selections/212.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="213"><img loading="lazy" src="selections/213.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="214"><img loading="lazy" src="selections/214.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="215"><img loading="lazy" src="selections/215.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="216"><img loading="lazy" src="selections/216.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="217"><img loading="lazy" src="selections/217.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="218"><img loading="lazy" src="selections/218.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="219"><img loading="lazy" src="selections/219.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="220"><img loading="lazy" src="selections/220.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="221"><img loading="lazy" src="selections/221.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="222"><img loading="lazy" src="selections/222.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="223"><img loading="lazy" src="selections/223.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="224"><img loading="lazy" src="selections/224.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="225"><img loading="lazy" src="selections/225.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="226"><img loading="lazy" src="selections/226.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="227"><img loading="lazy" src="selections/227.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="228"><img loading="lazy" src="selections/228.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="229"><img loading="lazy" src="selections/229.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="230"><img loading="lazy" src="selections/230.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="231"><img loading="lazy" src="selections/231.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="232"><img loading="lazy" src="selections/232.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="233"><img loading="lazy" src="selections/233.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="234"><img loading="lazy" src="selections/234.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="235"><img loading="lazy" src="selections/235.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="236"><img loading="lazy" src="selections/236.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="237"><img loading="lazy" src="selections/237.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="238"><img loading="lazy" src="selections/238.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="239"><img loading="lazy" src="selections/239.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="240"><img loading="lazy" src="selections/240.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="241"><img loading="lazy" src="selections/241.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="242"><img loading="lazy" src="selections/242.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="243"><img loading="lazy" src="selections/243.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="244"><img loading="lazy" src="selections/244.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="245"><img loading="lazy" src="selections/245.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="246"><img loading="lazy" src="selections/246.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="247"><img loading="lazy" src="selections/247.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="248"><img loading="lazy" src="selections/248.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="249"><img loading="lazy" src="selections/249.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="250"><img loading="lazy" src="selections/250.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="251"><img loading="lazy" src="selections/251.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="252"><img loading="lazy" src="selections/252.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="253"><img loading="lazy" src="selections/253.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="254"><img loading="lazy" src="selections/254.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="254_2"><img loading="lazy" src="selections/254_2.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="255"><img loading="lazy" src="selections/255.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="256"><img loading="lazy" src="selections/256.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="257"><img loading="lazy" src="selections/257.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="258"><img loading="lazy" src="selections/258.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="259"><img loading="lazy" src="selections/259.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="260"><img loading="lazy" src="selections/260.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="261"><img loading="lazy" src="selections/261.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="262"><img loading="lazy" src="selections/262.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="263"><img loading="lazy" src="selections/263.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="264"><img loading="lazy" src="selections/264.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="265"><img loading="lazy" src="selections/265.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="266"><img loading="lazy" src="selections/266.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="267"><img loading="lazy" src="selections/267.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="268"><img loading="lazy" src="selections/268.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="269"><img loading="lazy" src="selections/269.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="270"><img loading="lazy" src="selections/270.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="271"><img loading="lazy" src="selections/271.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="272"><img loading="lazy" src="selections/272.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="273"><img loading="lazy" src="selections/273.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="274"><img loading="lazy" src="selections/274.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="275"><img loading="lazy" src="selections/275.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="276"><img loading="lazy" src="selections/276.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="277"><img loading="lazy" src="selections/277.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="278"><img loading="lazy" src="selections/278.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="279"><img loading="lazy" src="selections/279.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="280"><img loading="lazy" src="selections/280.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="281"><img loading="lazy" src="selections/281.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="282"><img loading="lazy" src="selections/282.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="283"><img loading="lazy" src="selections/283.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="284"><img loading="lazy" src="selections/284.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="285"><img loading="lazy" src="selections/285.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="286"><img loading="lazy" src="selections/286.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="287"><img loading="lazy" src="selections/287.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="288"><img loading="lazy" src="selections/288.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="289"><img loading="lazy" src="selections/289.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="290"><img loading="lazy" src="selections/290.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="291"><img loading="lazy" src="selections/291.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="292"><img loading="lazy" src="selections/292.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="293"><img loading="lazy" src="selections/293.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="294"><img loading="lazy" src="selections/294.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="295"><img loading="lazy" src="selections/295.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="296"><img loading="lazy" src="selections/296.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="297"><img loading="lazy" src="selections/297.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="298"><img loading="lazy" src="selections/298.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="299"><img loading="lazy" src="selections/299.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="299_2"><img loading="lazy" src="selections/299_2.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="300"><img loading="lazy" src="selections/300.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="301"><img loading="lazy" src="selections/301.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="302"><img loading="lazy" src="selections/302.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="303"><img loading="lazy" src="selections/303.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="304"><img loading="lazy" src="selections/304.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="305"><img loading="lazy" src="selections/305.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="306"><img loading="lazy" src="selections/306.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="307"><img loading="lazy" src="selections/307.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="308"><img loading="lazy" src="selections/308.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="309"><img loading="lazy" src="selections/309.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="310"><img loading="lazy" src="selections/310.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="311"><img loading="lazy" src="selections/311.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="311_2"><img loading="lazy" src="selections/311_2.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="312"><img loading="lazy" src="selections/312.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="313"><img loading="lazy" src="selections/313.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="314"><img loading="lazy" src="selections/314.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="315"><img loading="lazy" src="selections/315.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="316"><img loading="lazy" src="selections/316.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="317"><img loading="lazy" src="selections/317.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="318"><img loading="lazy" src="selections/318.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="319"><img loading="lazy" src="selections/319.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="320"><img loading="lazy" src="selections/320.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="321"><img loading="lazy" src="selections/321.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="322"><img loading="lazy" src="selections/322.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="323"><img loading="lazy" src="selections/323.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="324"><img loading="lazy" src="selections/324.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="325"><img loading="lazy" src="selections/325.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="326"><img loading="lazy" src="selections/326.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="327"><img loading="lazy" src="selections/327.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="328"><img loading="lazy" src="selections/328.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="329"><img loading="lazy" src="selections/329.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="330"><img loading="lazy" src="selections/330.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="331"><img loading="lazy" src="selections/331.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="332"><img loading="lazy" src="selections/332.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="333"><img loading="lazy" src="selections/333.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="334"><img loading="lazy" src="selections/334.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="335"><img loading="lazy" src="selections/335.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="336"><img loading="lazy" src="selections/336.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="337"><img loading="lazy" src="selections/337.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="338"><img loading="lazy" src="selections/338.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="339"><img loading="lazy" src="selections/339.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="340"><img loading="lazy" src="selections/340.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="341"><img loading="lazy" src="selections/341.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="342"><img loading="lazy" src="selections/342.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="343"><img loading="lazy" src="selections/343.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="344"><img loading="lazy" src="selections/344.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="345"><img loading="lazy" src="selections/345.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="346"><img loading="lazy" src="selections/346.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="347"><img loading="lazy" src="selections/347.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="348"><img loading="lazy" src="selections/348.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="349"><img loading="lazy" src="selections/349.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="350"><img loading="lazy" src="selections/350.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="351"><img loading="lazy" src="selections/351.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="352"><img loading="lazy" src="selections/352.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="353"><img loading="lazy" src="selections/353.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="354"><img loading="lazy" src="selections/354.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="354_2"><img loading="lazy" src="selections/354_2.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="355"><img loading="lazy" src="selections/355.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="356"><img loading="lazy" src="selections/356.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="357"><img loading="lazy" src="selections/357.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="358"><img loading="lazy" src="selections/358.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="359"><img loading="lazy" src="selections/359.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="360"><img loading="lazy" src="selections/360.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="361"><img loading="lazy" src="selections/361.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="362"><img loading="lazy" src="selections/362.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="363"><img loading="lazy" src="selections/363.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="364"><img loading="lazy" src="selections/364.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="365"><img loading="lazy" src="selections/365.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="366"><img loading="lazy" src="selections/366.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="367"><img loading="lazy" src="selections/367.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="368"><img loading="lazy" src="selections/368.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="368_2"><img loading="lazy" src="selections/368_2.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="369"><img loading="lazy" src="selections/369.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="370"><img loading="lazy" src="selections/370.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="371"><img loading="lazy" src="selections/371.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="372"><img loading="lazy" src="selections/372.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="373"><img loading="lazy" src="selections/373.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="374"><img loading="lazy" src="selections/374.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="375"><img loading="lazy" src="selections/375.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="376"><img loading="lazy" src="selections/376.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="377"><img loading="lazy" src="selections/377.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="378"><img loading="lazy" src="selections/378.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="379"><img loading="lazy" src="selections/379.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="380"><img loading="lazy" src="selections/380.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="381"><img loading="lazy" src="selections/381.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="382"><img loading="lazy" src="selections/382.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="383"><img loading="lazy" src="selections/383.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="384"><img loading="lazy" src="selections/384.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="385"><img loading="lazy" src="selections/385.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="386"><img loading="lazy" src="selections/386.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="387"><img loading="lazy" src="selections/387.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="388"><img loading="lazy" src="selections/388.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="389"><img loading="lazy" src="selections/389.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="390"><img loading="lazy" src="selections/390.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="391"><img loading="lazy" src="selections/391.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="392"><img loading="lazy" src="selections/392.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="393"><img loading="lazy" src="selections/393.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="394"><img loading="lazy" src="selections/394.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="395"><img loading="lazy" src="selections/395.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="396"><img loading="lazy" src="selections/396.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="397"><img loading="lazy" src="selections/397.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="398"><img loading="lazy" src="selections/398.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="399"><img loading="lazy" src="selections/399.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="400"><img loading="lazy" src="selections/400.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="401"><img loading="lazy" src="selections/401.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="402"><img loading="lazy" src="selections/402.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="403"><img loading="lazy" src="selections/403.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="404"><img loading="lazy" src="selections/404.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="405"><img loading="lazy" src="selections/405.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="406"><img loading="lazy" src="selections/406.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="407"><img loading="lazy" src="selections/407.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="408"><img loading="lazy" src="selections/408.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="409"><img loading="lazy" src="selections/409.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="410"><img loading="lazy" src="selections/410.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="411"><img loading="lazy" src="selections/411.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="412"><img loading="lazy" src="selections/412.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="413"><img loading="lazy" src="selections/413.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="414"><img loading="lazy" src="selections/414.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="415"><img loading="lazy" src="selections/415.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="416"><img loading="lazy" src="selections/416.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="417"><img loading="lazy" src="selections/417.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="418"><img loading="lazy" src="selections/418.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="419"><img loading="lazy" src="selections/419.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="420"><img loading="lazy" src="selections/420.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="421"><img loading="lazy" src="selections/421.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="422"><img loading="lazy" src="selections/422.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="423"><img loading="lazy" src="selections/423.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="424"><img loading="lazy" src="selections/424.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="425"><img loading="lazy" src="selections/425.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="426"><img loading="lazy" src="selections/426.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="427"><img loading="lazy" src="selections/427.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="428"><img loading="lazy" src="selections/428.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="429"><img loading="lazy" src="selections/429.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="430"><img loading="lazy" src="selections/430.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="431"><img loading="lazy" src="selections/431.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="432"><img loading="lazy" src="selections/432.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="433"><img loading="lazy" src="selections/433.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="434"><img loading="lazy" src="selections/434.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="435"><img loading="lazy" src="selections/435.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="436"><img loading="lazy" src="selections/436.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="438"><img loading="lazy" src="selections/438.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="439"><img loading="lazy" src="selections/439.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="440"><img loading="lazy" src="selections/440.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="441"><img loading="lazy" src="selections/441.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="442"><img loading="lazy" src="selections/442.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="443"><img loading="lazy" src="selections/443.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="444"><img loading="lazy" src="selections/444.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="445"><img loading="lazy" src="selections/445.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="446"><img loading="lazy" src="selections/446.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="447"><img loading="lazy" src="selections/447.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="448"><img loading="lazy" src="selections/448.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="449"><img loading="lazy" src="selections/449.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="450"><img loading="lazy" src="selections/450.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="451"><img loading="lazy" src="selections/451.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="452"><img loading="lazy" src="selections/452.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="453"><img loading="lazy" src="selections/453.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="454"><img loading="lazy" src="selections/454.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="455"><img loading="lazy" src="selections/455.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="456"><img loading="lazy" src="selections/456.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="457"><img loading="lazy" src="selections/457.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="458"><img loading="lazy" src="selections/458.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="459"><img loading="lazy" src="selections/459.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="460"><img loading="lazy" src="selections/460.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="461"><img loading="lazy" src="selections/461.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="462"><img loading="lazy" src="selections/462.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="463"><img loading="lazy" src="selections/463.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="464"><img loading="lazy" src="selections/464.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="465"><img loading="lazy" src="selections/465.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="466"><img loading="lazy" src="selections/466.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="467"><img loading="lazy" src="selections/467.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="468"><img loading="lazy" src="selections/468.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="469"><img loading="lazy" src="selections/469.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="470"><img loading="lazy" src="selections/470.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="471"><img loading="lazy" src="selections/471.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="472"><img loading="lazy" src="selections/472.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="473"><img loading="lazy" src="selections/473.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="474"><img loading="lazy" src="selections/474.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="475"><img loading="lazy" src="selections/475.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="476"><img loading="lazy" src="selections/476.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="477"><img loading="lazy" src="selections/477.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="478"><img loading="lazy" src="selections/478.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="479"><img loading="lazy" src="selections/479.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="480"><img loading="lazy" src="selections/480.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="481"><img loading="lazy" src="selections/481.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="482"><img loading="lazy" src="selections/482.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="483"><img loading="lazy" src="selections/483.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="484"><img loading="lazy" src="selections/484.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="485"><img loading="lazy" src="selections/485.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="486"><img loading="lazy" src="selections/486.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="487"><img loading="lazy" src="selections/487.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="488"><img loading="lazy" src="selections/488.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="489"><img loading="lazy" src="selections/489.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="490"><img loading="lazy" src="selections/490.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="491"><img loading="lazy" src="selections/491.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="492"><img loading="lazy" src="selections/492.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="493"><img loading="lazy" src="selections/493.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="494"><img loading="lazy" src="selections/494.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="495"><img loading="lazy" src="selections/495.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="496"><img loading="lazy" src="selections/496.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="497"><img loading="lazy" src="selections/497.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="498"><img loading="lazy" src="selections/498.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="499"><img loading="lazy" src="selections/499.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="500"><img loading="lazy" src="selections/500.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="501"><img loading="lazy" src="selections/501.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="502"><img loading="lazy" src="selections/502.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="503"><img loading="lazy" src="selections/503.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="504"><img loading="lazy" src="selections/504.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="505"><img loading="lazy" src="selections/505.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="506"><img loading="lazy" src="selections/506.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="507"><img loading="lazy" src="selections/507.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="508"><img loading="lazy" src="selections/508.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="509"><img loading="lazy" src="selections/509.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="510"><img loading="lazy" src="selections/510.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="513"><img loading="lazy" src="selections/513.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="514"><img loading="lazy" src="selections/514.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="515"><img loading="lazy" src="selections/515.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="516"><img loading="lazy" src="selections/516.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="517"><img loading="lazy" src="selections/517.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="518"><img loading="lazy" src="selections/518.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="519"><img loading="lazy" src="selections/519.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="520"><img loading="lazy" src="selections/520.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="521"><img loading="lazy" src="selections/521.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="525"><img loading="lazy" src="selections/525.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="526"><img loading="lazy" src="selections/526.jpg" /></div>
+          <div class="frame" onclick="selectImage(this)" id="528"><img loading="lazy" src="selections/528.jpg" /></div>
+        </div>
+      </section>
+    </main>
+    <script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+    <noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt="" referrerpolicy="no-referrer-when-downgrade" /></noscript>
+  </body>
+  <script>
+    let counter = 0;
+    let SELECTED = [];
+    const selectedContainer = document.getElementById('selected');
+    const downloadButton = document.getElementById('downloadGifButton');
+    function selectImage(element) {
+        const currentFrameIndex = SELECTED.length;
+        if (currentFrameIndex === 60) {
+            alert('NOTE: you can only make 1-minute gifs here');
+            return
+        }
+        const thumbnail = document.createElement('img');
+        thumbnail.setAttribute('id',`frame_${counter}`);
+        thumbnail.setAttribute('onclick',`removeFrame(${counter})`);
+        thumbnail.src = `thumbnails/${element.id}.jpg`;
+        selectedContainer.appendChild(thumbnail);
+        SELECTED.push(element.id);
+        counter++
+    }
+    function removeFrame(id) {
+        let idx;
+        const parent = document.getElementById('selected');
+        const selectedElement = document.getElementById(`frame_${id}`);
+        for (let i = 0; i < parent.children.length; i++) {
+            if (parent.children[i].id === `frame_${id}`) {
+                idx = i;
+            }
+        }
+        selectedElement.remove();
+        SELECTED.splice(idx,1);
+    }
+    function clearGif() {
+        const preview = document.getElementById('gifPreview');
+        downloadButton.classList.remove('visible');
+        preview.innerHTML = '';
+        selectedContainer.innerHTML = '';
+        SELECTED = [];
+    }
+    function makeGif() {
+        if (!SELECTED.length) { alert('Select at least 2 frames make animated gif'); }
+        downloadButton.classList.remove('visible');
+        const preview = document.getElementById('gifPreview');
+        preview.innerHTML = '';
+        const images = SELECTED.map(imageId => `withBorder/${imageId}.jpg`);
+        gifshot.createGIF({
+            images,
+            gifWidth: 400,
+            gifHeight: 400,
+            interval: 1,
+            numFrames: SELECTED.length,
+            frameDuration: 1,
+            sampleInterval: 100,
+            numWorkers: 20,
+        },function(obj) {
+            const animatedImage = document.createElement('img');
+            const download = document.getElementById('downloadGif');
+            animatedImage.src = obj.image;
+            preview.appendChild(animatedImage);
+            downloadButton.classList.add('visible')
+            download.href = obj.image;
+        });
+    }
+  </script>
+</html>
