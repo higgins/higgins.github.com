@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	  <meta charset="utf-8" />
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	  <meta content="justin higgins" property="og:title" />
+	  <meta content="http://encapsulate.me" property="og:url" />
+	  <meta content="profile" property="og:type" />
+	  <meta content="justin" property="og:profile:first_name" />
+	  <meta content="higgins" property="og:profile:last_name" />
+	  <meta content="higgins" property="og:profile:justinprojects" />
+	  <meta content="male" property="og:profile:gender" />
+	  <title>Justin Higgins</title>
+    <link href="/styles/markdown.css" rel="stylesheet"></link>
+    <link href="/styles/blog-styles.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Work+Sans">
+    <style>
+      html, body {
+          cursor: auto;
+          font-family: 'Work Sans', sans-serif;
+      }
+      .logo {
+          display: flex;
+          align-items: center;
+      }
+      .logo div {
+          width: 20px;
+          height: 20px;
+          margin: 0px 5px;
+      }
+      .logo .i {
+          background: Maroon;
+          filter: brightness(90%);
+      }
+      .logo .w {
+          background: Gold;
+          filter: hue-rotate(-35deg) brightness(110%);
+          opacity: 0.97;
+      }
+      .logo .o {
+          background: DodgerBlue;
+          filter: hue-rotate(-5deg) brightness(80%);
+      }
+      body {
+          display: flex;
+          flex-direction: column;
+      }
+      header {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+      }
+      main {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          margin-bottom: 40px;
+      }
+      #container {
+          display: flex;
+          flex-direction: column;
+          align-self: center;
+          margin-top: 20px;
+          max-width: 80vw;
+      }
+      #about {
+        border-top: 1px solid var(--color-border-muted);
+      }
+    </style>
+    <script src="/scripts/writing.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="logo" style="cursor: pointer" onClick="author()">
+        <div class="i"></div>
+        <div class="w"></div>
+        <div class="o"></div>
+      </div>
+    </header>
+    <main id="container">
+      <article class="markdown-body entry-content" itemprop="text" id="grip-content">
+        <h1>now</h1>
+        <p>I recently re-wrote <a href="https://24HourHomepage.com" target="_blank">24HourHomepage</a> so that people can publish to it for free.</p>
+        <strong>Here is what I'm focusing on next</strong>
+        <ul>
+          <li>Product Hunt launch again</li>
+          <li>Public accountability system for growing <a href="https://24HourHomepage.com" target="_blank">24HourHomepage</a></li>
+          <li>Pay to retweet experiment</li>
+          <li>Nudge experiment</li>
+          <li>Treating this page like a sprint?</li>
+          <li>My spouse and I are going to take a nice long vacation in July. Stoked.</li>
+        </ul>
+        <p id="about">This is my <a href="https://sive.rs/nowff" target="_blank">now page</a>. There are <a href="https://nownownow.com/" target="_blank">many like it</a> but this one is mine.</p>
+        <em id="lastUpdate">(last updated: May 23, 2023. If you want more details, check the <a href="https://encapsulate.me/log" target="_blank">logs</a>)</em>
+      </div>
+    </main>
+  </body>
+  <script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+  <noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt="" referrerpolicy="no-referrer-when-downgrade" /></noscript>
+</html>
