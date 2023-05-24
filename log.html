@@ -217,7 +217,7 @@
     const init = () => {
       initialDate();
       // TODO: render loading
-      fetch('/now')
+      fetch('/day')
             .then((data) => data.text())
             .then(parseLog)
             .then(updateQueryString)
