@@ -1,3 +1,4 @@
 now filter=privatize diff=privatize
+day filter=privatize diff=privatize
 past/* filter=privatize diff=privatize
 savings.org filter=privatize diff=privatize

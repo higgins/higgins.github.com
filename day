@@ -725,51 +725,9 @@ simple as Seen.
 
 Waking up early to lift (skipped today).
 
-** me
-- [X] Bike post on craigslist and next door
-{
-  second_id: 70260,
-  status: "published",
-  token_id: "1a40d60a-f36b-4f6e-8ac9-f0bb4f55d091",
-  published_at: 1681865993513,
-  tokenRef: Ref(Collection("tokens"), "362394673776427589"),
-  website: "https://cphaynes.com"
-}
-
-{
-  token_id: "1a40d60a-f36b-4f6e-8ac9-f0bb4f55d091",
-  email: "ch.24hourhomepage@eeia.com",
-  used: true,
-  created_at: 1681865342760,
-  purchaseInfo:
-    '"{\\"id\\":\\"pi_3MyPCHI42tzHadPh1Et4mpLL\\",\\"object\\":\\"payment_intent\\",\\"amount\\":916,\\"amount_capturable\\":916,\\"amount_details\\":{\\"tip\\":{}},\\"amount_received\\":0,\\"application\\":null,\\"application_fee_amount\\":null,\\"automatic_payment_methods\\":null,\\"canceled_at\\":null,\\"cancellation_reason\\":null,\\"capture_method\\":\\"manual\\",\\"charges\\":{\\"object\\":\\"list\\",\\"data\\":[{\\"id\\":\\"ch_3MyPCHI42tzHadPh1JZ2FHpm\\",\\"object\\":\\"charge\\",\\"amount\\":916,\\"amount_captured\\":0,\\"amount_refunded\\":0,\\"application\\":null,\\"application_fee\\":null,\\"application_fee_amount\\":null,\\"balance_transaction\\":null,\\"billing_details\\":{\\"address\\":{\\"city\\":null,\\"country\\":\\"US\\",\\"line1\\":null,\\"line2\\":null,\\"postal_code\\":\\"37922\\",\\"state\\":null},\\"email\\":\\"ch.24hourhomepage@eeia.com\\",\\"name\\":\\"Christopher P Haynes\\",\\"phone\\":null},\\"calculated_statement_descriptor\\":\\"24HOURHOMEPAGE\\",\\"captured\\":false,\\"created\\":1681865340,\\"currency\\":\\"usd\\",\\"customer\\":\\"cus_NjsyHsxESrnsZ6\\",\\"description\\":null,\\"destination\\":null,\\"dispute\\":null,\\"disputed\\":false,\\"failure_balance_transaction\\":null,\\"failure_code\\":null,\\"failure_message\\":null,\\"fraud_details\\":{},\\"invoice\\":null,\\"livemode\\":true,\\"metadata\\":{\\"quantity\\":\\"1\\",\\"firstSecondPriceCents\\":\\"916\\",\\"longitude\\":\\"-83.91720\\",\\"country\\":\\"US\\",\\"ip\\":\\"96.60.59.147\\",\\"latitude\\":\\"35.95800\\",\\"totalPriceCents\\":\\"916\\"},\\"on_behalf_of\\":null,\\"order\\":null,\\"outcome\\":{\\"network_status\\":\\"approved_by_network\\",\\"reason\\":null,\\"risk_level\\":\\"normal\\",\\"seller_message\\":\\"Payment complete.\\",\\"type\\":\\"authorized\\"},\\"paid\\":true,\\"payment_intent\\":\\"pi_3MyPCHI42tzHadPh1Et4mpLL\\",\\"payment_method\\":\\"pm_1MyPChI42tzHadPh84xnxXoi\\",\\"payment_method_details\\":{\\"card\\":{\\"brand\\":\\"visa\\",\\"checks\\":{\\"address_line1_check\\":null,\\"address_postal_code_check\\":\\"pass\\",\\"cvc_check\\":\\"pass\\"},\\"country\\":\\"US\\",\\"exp_month\\":5,\\"exp_year\\":2024,\\"fingerprint\\":\\"xEi4rOVknohpdcPm\\",\\"funding\\":\\"debit\\",\\"installments\\":null,\\"last4\\":\\"2221\\",\\"mandate\\":null,\\"network\\":\\"visa\\",\\"network_token\\":{\\"used\\":false},\\"three_d_secure\\":null,\\"wallet\\":null},\\"type\\":\\"card\\"},\\"receipt_email\\":\\"ch.24hourhomepage@eeia.com\\",\\"receipt_number\\":null,\\"receipt_url\\":\\"https://pay.stripe.com/receipts/payment/CAcQARoXChVhY2N0XzFHNTJqWkk0MnR6SGFkUGgo_fT8oQYyBp7iS4Zf2TosFiNDaVsIZUObb-ajirbHfaNNH9ismAES9MQebuD9MF5FI_IeNkDiGveK1RU\\",\\"refunded\\":false,\\"refunds\\":{\\"object\\":\\"list\\",\\"data\\":[],\\"has_more\\":false,\\"total_count\\":0,\\"url\\":\\"/v1/charges/ch_3MyPCHI42tzHadPh1JZ2FHpm/refunds\\"},\\"review\\":null,\\"shipping\\":null,\\"source\\":null,\\"source_transfer\\":null,\\"statement_descriptor\\":null,\\"statement_descriptor_suffix\\":null,\\"status\\":\\"succeeded\\",\\"transfer_data\\":null,\\"transfer_group\\":null}],\\"has_more\\":false,\\"total_count\\":1,\\"url\\":\\"/v1/charges?payment_intent=pi_3MyPCHI42tzHadPh1Et4mpLL\\"},\\"client_secret\\":\\"pi_3MyPCHI42tzHadPh1Et4mpLL_secret_aWlhkU7I7fBAV8q4PugNnDYoX\\",\\"confirmation_method\\":\\"automatic\\",\\"created\\":1681865313,\\"currency\\":\\"usd\\",\\"customer\\":\\"cus_NjsyHsxESrnsZ6\\",\\"description\\":null,\\"invoice\\":null,\\"last_payment_error\\":null,\\"latest_charge\\":\\"ch_3MyPCHI42tzHadPh1JZ2FHpm\\",\\"livemode\\":true,\\"metadata\\":{\\"quantity\\":\\"1\\",\\"firstSecondPriceCents\\":\\"916\\",\\"longitude\\":\\"-83.91720\\",\\"country\\":\\"US\\",\\"ip\\":\\"96.60.59.147\\",\\"latitude\\":\\"35.95800\\",\\"totalPriceCents\\":\\"916\\"},\\"next_action\\":null,\\"on_behalf_of\\":null,\\"payment_method\\":\\"pm_1MyPChI42tzHadPh84xnxXoi\\",\\"payment_method_options\\":{\\"card\\":{\\"installments\\":null,\\"mandate_options\\":null,\\"network\\":null,\\"request_three_d_secure\\":\\"automatic\\"}},\\"payment_method_types\\":[\\"card\\"],\\"processing\\":null,\\"receipt_email\\":\\"ch.24hourhomepage@eeia.com\\",\\"review\\":null,\\"setup_future_usage\\":null,\\"shipping\\":null,\\"source\\":null,\\"statement_descriptor\\":null,\\"statement_descriptor_suffix\\":null,\\"status\\":\\"requires_capture\\",\\"transfer_data\\":null,\\"transfer_group\\":null}"',
-  second_id: 70260,
-  published_at: 1681865993513,
-  secondRef: Ref(Collection("seconds"), "70260"),
-  website: "https://cphaynes.com"
-}
-
-- [-] 24HHP
-  - [X] upload cropped override
-  - [ ] player controls
-  - [ ] heatmap
-  - [ ] reserved seconds
-  - [ ] heatmap
-  - [ ] email all customers (before today)
-  - [ ] what happened with guy's upload?
-  - [ ]
-- [ ]
-** tt
-- [ ] web client
-- [ ] build images
-  - [ ] new topology or re-use Sup primer?
-  - [ ] run container on AWS
-- [ ] Spin down Sup
-  - [ ] dump tables
-  - [ ] keep all old sup files
-- [ ] environments for FE
-- [ ] environments for BE
-- [ ]
+<<PRIVATE
+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
+PRIVATE
 * 04/17/2023
 ** Summary
 
@@ -1636,46 +1594,12 @@ tweets per day.
 Going to bed now.
 
 <<PRIVATE
+5c8ccd15dd05e482U69dTIZMbHLk6MYuox3HNGosL1Ld6XIfi9Bc7OgVDAnJLdrImVwIW5FqpuMfrsrfGprBFqGP0kqAtrvgT8tPNlo0DIDePrt7ex5M2zaka+Xe0I6/si+d17o2ls+n08p80ucnVCD5RSphSwKZSAmqJKp2IYIDzEOOOQdO2VqnkMMnD9tE80Opw6VugKUF6NmfH63sVo+GOu6FUFU0SgqAGHxT+Aa829v8/CxEHhhZ3rYGshxs07KTZoVeRe752s4+YMldUCgAPcVE3MvMxbUaeB6iLbWv8wYwFp0p/bHrJ4F6IGK+g1QnOYU/ZtvNrZ0lChsMqleE9JSgj7zDameQ8BuaEfRORUmC+Tc75wV5GCMwblCHJMsQIWXwAcFtQs3gamDHB6UBNDmZljlmp/HsHNfYEDB/v8i5fuqSgQgSsjw9SwQ+rD/NpBidVyXyRkvsYn23ZHCmvBIshtBhADdqufoO9hM40tUgu0fHRsrpLGTbZnjntJNZzfRjtNmuNhKOqidoNi6PVZQ59DIlOHV8CRD2ao6PZrHcFMf/t0vK0UZLC5378qAFAMuukLfCQXYORf3BWVEUCkbyPp9rAd39J0gdEZXqObRMu7EvhJ1U38Q1eHkaMZGsAMMgnIJPJkSV5j/5bQOcuUnFBUoFCL7Dq7X4m02a7vQc0ecukxs70ZUKmU9JHSpWMTsjiqVrxPSzjAMQkW4rEZKbAHGk5cWcxDpXJbcCHiiGR78omm64HNMACzsmWjH7mvlT8PefzmOsToF0Po1IUFFjP67zwxREITNj4p7okglXYgndLRM5UJ0Ztg+YHgQOd5lKt5M4aJfq92lsTCRp9BmLbJKEXShKbcVlTffyEFCTr4e/BVOkiMNVT2j6UWdu/WxlOeefT5JeqBPoYAMTmDXC0t5rnfanP9OGcMjp7Q526mtjTF+uW0ujMoQRNBfyb1wJpOFb7spZndgv/q6NJNwhy7vxp6BLk5ZUArWiwcqttPtLBT54TcbvCQpPFbtOdwQVd/4Qar0fWyV2sw7uN+nxK8nOGNn2FU2X+feSFf5fpkBzuYq9Le5I1DQvySnqQxxBPtkYf6CUZ8A+1p2tVEXv/vBJ/w5gXhqrcE+KMr3b354D6aYQ1b3CsEkgWNpmLJlmfn8yebMpckA1uUbch/LV1+Xz9+cBGsSqJkuecJJ/lDVXy0RriuF5Fg8FQJS0c80msmglb9dbsHDSg3WDveZYJPtC53VrCwWf1Sg1gz8HUGw8If5bWbxKyqQZZZflhOznU2+OxJEBflXbXYiS5SWFTSCnIpGnhS6eWHicfkxhNrJ56Wmwj+A2/uSB/Avk7bNH5HNqFN1JC+hQimzhwJW5mawG9I6CjVtwyjQSGBXGNFN+W4q+mtWlkWpqHpee09hjr0EZgk6RhD+ALkKkp2MyYtAoqvk6hyxCzhzfX1h0I2JMQeCM36C+rRYoRvVpW/uaWRyBoMWvWmQVIgi4zuM9x4w0ntQn0IDNK/sqEUCuZRmpCew17+bl5+sJKx+ipznvfsNTF3w7rgOYO5svaDgC2ToELY2jkA4X26vMSyykDuCrvh/3Oqgo+G8WCR9ajZFrpRYcvMyW6nZTmVZzksCcuiNlHCeT/x3GrjoYDjGTT0LDIRd729wcbQ02s1cbWTlwQ7IyH7aB5MgZ0PqAOrKg+Ourn/iJWVRsFyD1rCP2Oai0gW2enSwTMgEmvhpXCVrnICFUuTR68rxlDS+U4LrsntErlYGwMAtWPXsu/Cqzd6fZ6GhdMEf1jjjGuqjT4W7wMiWcGB7RWVjHPuLUk7pXX81y4hEFg4+2aBkacD43cFjEbZaxWmWb3jhXtfRUCxKlgsJzUPgsqac+XV8NUpQCq8cjqvj+S8zMTTQSZdK6QP4B8kqalLZDavuZY1gH7TfOE/bz3BNF2f2xgxYESedqtyk7LpKnA6ZpG0GxTWYQEGqOq0tVaW6414GXFpBUhqQGihQ=
+PRIVATE
+<<PRIVATE
 77cac6ba4e3c5f6fDl1cFIGjRUoldagunML+qxhnYoYOtJSESNa9FGecVqMNQ2gofVDNZVvXpH7vfqmv2GT34S8fEDck3SQT4bIZWTZAdxzjHztbfDjQohv8s8P7gNgGE6ZgP1PHpi6dSc+aOVEzdL/gguMXCTJxRDdX54q+d5mx4cDg5E3b16EzDfsrsYr55NtRFjrnwGu4TlTOCEsS5oAhvpfEkWN1g5HxChitd3QCWYK5o3rmrKHD91ETORyL6MfjByUsG488eHSO7pyLuokVnOz2xA4RnY6vp4J2iCBdOIb8W2qjrnMSmAD94EKEmYQeWukEInwADMjw30hy6k5OjsbBrSfV6brKLzUmQ0YbMUGKp0bGVm7/w+VMY31IBEd1edWp3yxG5z0Sn6TYDo31FFKdUSo/baZCMmxFten7L3CBQGFc3/eTqZKGKGa+HjhqUglIB3cXfsmbJIvGArlue/GM8nH1YxaPInvGl4iMTjrIEc+dB4tL46ngNYIkVq34FGnYMVcd+1zf6HrTf26xRm99FBsl1fc4D/7XmCzRkE2piJ08F6xHJDu7OdSDY1Hbim9XGdNH3h+3Pz8WILChRDFGmRA7RddUR+ZLZoDXMWghdgXQ2PL3S1hv4Oob5Q2YF9PITku+doOM4omVfqqbGNnZ84fc73xe5hwl5EaMG2wiNV+2J63ffEH2ffKCUzvoqfK4OWcorVBc0uusQqzifvoGT8yY+HLN3BRkwqulQd7gk/duE1WLwTwRQuA8dCDtREVvSG1JBHsxZ9jAHCUGA59t7FX9mI5govY+xTBml1/5kDOb57NRgBq70KyfzM/t2DImnMEdsoh4+WK9e6dLD6LrLj1Jb57aFGeP5ZUL8iyHHN2Lo8nh7mMr9VZMxT7H+cLfTFUrLgWz52kvEnPmQxWZYCkiZtSdcGaFGQ5BEi/ejd2rW0UdN4n2IR9MQntQ69+WLId3VeEg
 PRIVATE
-** tt
-- [ ] lets be as clear as possible
-- [-] heartbeat system
-  - [ ] client -- write to a single place: reaction id
-  - [X] backend -- scheduled function calls out http requests
-  - [ ] backend -- are reactions indexed?
 
-
-state machine:
-- client creates uuid
-- client calls heartbeat and push segment once they are ready to watch
-  vid
-- heartbeat endpoints creates `reactions` for this uuid (the
-  reaction_id) and status = "recording"
-  - [ ] TODO: heartbeat should create the reaction id if not provided
-- every 1 minute we look for `reactions` that have status =
-  "recording" that were last updated over 1 minute ago
-- for every reaction we find that needs to be processed we call
-  /renderReaction
-- /renderReaction assembles the video chunks into one mp4 file and
-  updates the `reactions` doc to status = "reaction_rendered", inserts
-  doc into renders__solo_reaction which is being watched
-- upon new document for renders__solo_reaction,
-  `composeResponseWithClip` is called and creates two compose videos:
-  one with the clear video and one with the blurred image. it
-  finalizes the process by updating the `reactions` doc to "compose_rendered"
-- GET /reactions is called by client and receives asset locations
-
-
-- [X] deploy client to place we can start testing
-  - [X] off branch
-- [ ] GET /reactions
-  - [ ] create reaction in /realtime to some clip that is already rendered
-- [ ] change crop position
-- [ ] securing the db
-- [ ] uploading via firebase client
-
-- [ ]
 * 02/20/2023
 ** Summary
 
