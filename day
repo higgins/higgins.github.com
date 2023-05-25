@@ -1,3 +1,29 @@
+* 05/24/2023
+** Summary
+Woke up at 5:30am, solid sleep. Webcam prototype worked but need to
+clean it up. Was going to do it after work but no time and I'm tired.
+
+Finished the Brand transactions and cutover prod keys. Deploying
+tomorrow after standup. Coworked with evan who is back from paternity
+leave at Airtable. Coworked with Mike in the morning.
+
+Meal crashing. I need to eat more greens and veg. Could also be that I
+woke up 3 hours earlier. Had yerba matte around 1 or 2pm. Weakish
+coffee in the morning.
+
+Watched Ted Lasso with Mariana and had tuna tostadas. It was good
+during the pandemic but I'm glad they're ending it. Had a good run.
+
+Tomorrow morning I will get the webcam version of the site
+working. Two icon buttons, one a file/image and another a camera. Hide
+that camera one if it doesn't work on mobile (the mobile camera picker
+in ios works just fine). Editor vs WebcamEditor or extend? Extend.
+
+Going to bed now.
+
+<<PRIVATE
+619b85405907289f1iRXV5A/btmQ/q3fKjly/3YEc3ysGt0qEGvGMLusOBXkCPOOmNonejVT2fOEMe+qu0+xtxDOxBggIc6EXS8C6Tzq2uzUgKf+ghdtBTbDTMTzo3QnckhfL4DHJnIbCL6eIJbHIVc0CYP/wWyHGFj1GQUmUljjnOlr58s0q/ENkCpPI6B9c7WDJAFytRNuQDxe8RJik8EnmPcsf1ISV6sK8NgQpA8Ff5juR9g9Z1ZyGISdnK9PevdfpECLT7H4akmNN21Gl/j7RZLVlQQZTgTYRqirubGXmEwuTqwAQFJXc0byMYy5xJ83zUJ+ygwN6LHe4TErT1zrvNZNc7/YoyBqosR6nW5vvLBThF8EzBIYqyccDLN1MGkrcxMow+IxnGrghlI6E9GNkuKTYBDKEHF+8lInrleCw9gEMxNH/aoVCdnSSHKqSBOsaCvaKJ7339uYPMFwy/arHbjvOq8qbsdCqhIrQeoq4YnJaRrXOnlWv963fXIWgJWzI23DE9o/sYX2QMexzfaHe/rn3qQgw8gL200Q70hOucgZNjJW5tqpfR8hD/Lhinp4GKiyXaXTgpUxSYu4ItpPRrMHB7f/R+9QDdBbs/EbAXAAbaQ++IQ5Fl+FlSJspEpVdJBvQjjpMqNmTLnEYmkVcxae5Auh
+PRIVATE
 * 05/23/2023
 ** Summary
 Finished the ambassador transactions table.
