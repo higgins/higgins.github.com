@@ -1,3 +1,205 @@
+* 06/27/2023
+** Summary
+
+Woke up at 8am, made coffee and had standup. Chat with James after
+then Tim and Charles about Sup 2.0. Made a polished pitch for
+tomorrow.
+
+Went to hardware store to pick up paint brushes for Mariana to paint
+the stools she found. Walked her to studio and found a color laserjet
+printer near a dumpster. Carried it home with Leche and it freaking
+works! It retails around $500 and and toner is $500 for a 2700 prints
+(or $150 / color tone). Will still use the on-demand print service
+until the buisness proves itself, then consider using this new printer.
+
+Dinner from Versailles. Tomorrow I present the SUP 2.0 product and if
+we like it, start specing out everything until launch.
+
+Going to bed now after watching some standup comedy.
+
+<<PRIVATE
+351ec1113d0ddbe80fHGWQTp7oHxfEL4tSc1kH/IWl+XzNXaa2w+avgh+LOyqfPMCR99jePHKEB8lNtjHNXGoJFuicY7KvSXqjeiy6QBTLKsYA+ekqqoc2LVL4WZB3CFKbKa/4ARZeDW1KxdWmiRF7u02Sxdxk7lL/AP3lNrn9oaHSKgkaQ6C1GYNOhmM34xs18sCRLwRIzITq7nBlLHzEW7I7rGHK69Hpj7wCfUNO+YvcmroEb0DG2NMtQtCa7xUBtLaeCC
+PRIVATE
+* 06/26/2023
+** Summary
+
+Woke up at 7:15am and made coffee. Chat with Dad then had call with
+Billy. Billy wants me to lead the product on Sup's relaunch, including
+sounded push notifications.
+
+Spent the day writing a spec for it. Talked with Charles too.
+
+Will continue writing that spec tomorrow.
+
+<<PRIVATE
+c4739bdcdea85e59rPURIs97DtKLFK2kDKEisWe/FjfOsw1xyJiQweQZrfQ2Y50tb9ogod+OJcsjlOWcnPJ6i8Qw30vsDAESImaYdHsnXMma3G6Hiaz3vcDwuh9NF1gAjxCWzIIEhb4DGsyQgu5XBjwehf0Z1uGbEg+/pTSqtA9KVoX9XAG+PoWoQ6rGoUPQzztdESGIbb5Rn4W+2m7yBwJwzXLVNgPvc/se9CmkV833s3yEBFEQNDnRfdxmG8yXUKPOPtanslPYtr+t07HenR9TaxfRIn+UhhUAFDKv/AAFmgS5fLkvnd9TtkcgEBQ5vjUtF2bSZZE3RjwdoVMj0NK8ZNwWDjWboowHLzsFecKQRMVfd+8i9xt0X7wk58gUWdf3FiJA4d1HxLD/mTTkaLSgLleiXV/D2IF4j17Em+VOMG8JFULJ9IxkJpwmOBBvJiavZkiuXLP/m5RrDqednydMb5Eg7YRt7TKqj17BvmZimK3BMMMcyXS8d4CpNqoaMtIxVVUqw7wnPF5HwN3VMawSAssyLYBcIe3O5QFj7PsBlyoQjLYk9N2QWvxb8KiDSX9/n2Mb8l0lLXhFBTBENIL/98Q+1SW015L/kBdiQQmeLHljtvPYPFh88TBpRgInsxQ6lGkdir7WnE/aT8WT7wRVO0IW5GaMGP9P95LRujJENBJnwCjOGnI4IMhAyL9eNzym2aVVXfl5g5Wfdx+OP/p9Iz+6TU3Pf4V16JXoFeoGgJ2haILesD9IgYeqsS9LVGlW0v6IgdO0vVSQ7f6DmsndunGLzSA6KH12LKq/4ptr2/4oCXVBWXfKkhxSBQIZew2N8QxBAeaxoJ2vJ/gCPjPPHgw69Obed1x22FIFUl/uryBASy0hU8eZu/p6vyNk4TnpUPh0HIUSzgT7dOU8PIjMt0NpIu1uGF6doLXWWFahYh0fMhvCpsIJnTeZBqp2rLFTgtOTAvmzRzfF0N8DGtL/E4SLY7XdRdKRmkue498QqZo9OxrKNTOASye6NX2LDFAVOxL53vKImGgUovVHZYq5dphyW+hGq8jnKdGmeYiswlpnNschIKf1pPsvm1tX8jNeQ9wk9vVV8YyynPI2v/mu4htnueFwyiI6VEC2btcXEQYXqfnAaRyJQIFkGblvjm/X0rmL3wZ6/3kAbRcggvQQYt5CZDSGTt6cu1J190m5xgao50Eq3Jt6SZnhFpnz7wEUk3kAwJb4qL2Xjol5r9n/JgIZvSoQ+Gg4TNGARuv/painy+twZvsY+s65Bos5BYTX70TlJ9o=
+PRIVATE
+**** How to make "push notifications" addicting
+- Top funny sounds
+- Try to get friends spamming each other in funny contexts
+-
+
+**** Spec
+Design Goals:
+  - Fast and fun sound sending that play via Push Notifications
+  - Charge users for something
+  - Rentention loops with launch
+  - Growth loops with launch
+  - Launch date set in stone
+  - Consider this one of many fun products living perpetually in our brand
+  - Lean-into the polarization
+
+Design Anti-goals:
+  - Overthinking
+  - Pleasing everyone
+  - Adding more features without demonstrated growth
+
+Systems:
+  Product -- what people use / buy
+  Retention -- aspects of product and our business to keep people coming back
+  Growth -- getting more people using the product
+  Money -- getting people to pay
+  Marketing -- getting new people aware of the product
+  Engineering -- rubber to the road for all of this ^
+
+-----------Product Systems--------------
+
+Onboard:
+  - Long-lived token like we did with Seen
+    - Choose username, if available, claim it
+    - No password needed
+  - Add profile image
+    - default emoji
+  - Set your "status"
+    - when people tap your profile icon, they will hear your status
+    - when you touch someone's friend-row you'll send your status to that user
+    - the default status is always that "Sup" sound we recorded last year
+  - We require users to use their microphone
+  - We require users to give push notification permmissions
+  - Show invite page:
+    - two buttons: share, skip
+    - Each invite requires: username + invite emoji code
+
+Friends:
+  - Search by username
+  - Add friend
+    - allows them to send each other Sups
+    - states: pending, friends
+  - Remove friend
+    - "Are you sure? Neither of you will be able to Sup with each other until you are friends again"
+
+
+Sup:
+  - By tapping your user icon, you can update your Sup status
+    - you can search existing Sups
+    - you can record a new Sup
+      - microphone only (no speech-to-text)
+      - sup name
+      - tiny image (shrunk and cropped on client) -- 1 MB max
+  - By tapping a different user's icon, you'll hear their status
+  - By tapping one of your friends, you send your Sup status
+  - By tapping one of your friends multiple times, you send your Sup status
+  - By long pressing one of your friends, you can send a <5 second Sup
+    - this sup will have your image icon
+    - no reviewing this sound, it sends automatically
+  - Receiving a Sup will:
+    - play the sup sound as the push notification sound
+    - show who sent it
+    - show the icon of who sent it
+  - Tapping a push notification you missed will:
+    - open the app and play the sound on your friends row
+  - Receiving a Sup while you are listening to a different Sup
+    - Shows a "flash" on top
+
+History / Inbox
+  - A history of the Sups you've received in the last 24 Hours
+  - Mark all as heard
+  - Tap to listen
+  - Listening marks as heard
+
+Monetization:
+  - Free
+    - Send 3 custom Sups per day
+    - Custom Sups can be 1-second long
+  - Unlimited
+    - Record as many custom Sups as you want
+    - Sups can be 5 seconds long
+    - Multi send?
+
+Badges:
+  - Sups sent or received
+    - 10    --
+    - 100   --
+    - 250   --
+    - 500   --
+    - 1K    --
+    - 1.5K  --
+    - 2K    --
+    - 3K    --
+    - 4K    --
+    - 5K    --
+    - 6K    --
+    - 7K    --
+    - 8K    --
+    - 9K    --
+    - 10K+  --
+  - Friendship
+    - friends -- 0-day streak
+    - we tight -- 7-day streak
+    - I fux with them -- 14-day streak
+    - BFF  -- 1-month streek
+    - BFFx2 -- 2-month
+    - Unobtainium -- 1 year
+  - Streaks
+    - 1   streak alive
+    - 5   streaks alive
+    - 10+ streaks alive
+  - Streak
+
+Community:
+  - Free month of service -- 10 people sign up using your code
+  - Free service for life -- the first 100 users who get 100 new people in the product (to send 100 Sups)
+  - Physical Sticker -- send 7 sups per day for 1 week
+  - Store:
+    - Buy a sticker
+    - Buy a hat
+  - People should feel like they are making it popular
+    -- Admin push notification: "We hit 1K DAU", "Over 10K Sups have been sent so far"
+  - We can nudge users
+    -- "It's your turn! don't let your streak with X die!"
+  - Today's top Sup
+
+Website:
+  - The website will render a matrix of public Sups
+  - When clicked/tapped a Sup is played
+  - User can search for public Sups
+  - User can export Sups for use within Discord soundboard
+  - We ask https://slackmojis.com to link to us
+
+Admin:
+  - Mark a Sup as "featured"
+  - Mark a Sup as "public" -- (searchable by the public)
+
+? Invite:
+  - Invite only
+    - Emoji Code to unlock?
+      - looks like a casino spinner -- slot machine
+      - let people spin once per X to see if they can get lucky and get in?
+  - Each invite code can work for X many people
+
+
+* 06/25/2023
+<<PRIVATE
+e7266a49af225f70JedPTTGLtIlcqKf11LDvpmXQrh8iDe2O7mTjtk5ysQ/WCOfyy3QxZRuvqZ5jTR5JH7q4wWY+7UYcoMorks9C/pDCnKmw1akw+v2H16ZbrEClpoERQABHEiDd2EHPYeDJBF/m7btnkQPh/DnX1y8oftCDuE08FCsowz1DlAuoaO2VUA3PAs6BxsLMvsf5tyqFNBsQH1vi548rdFM4aB4YYlOjXr7QSSnq/eGokNswQYuxi9wKG3hPMzme7vvTJzWdli+VAiriED+XDGTEjLMbDb5f0407+VA5IwiSHAmbS0Mvvx+kLJUGnhE67s+2H01U5BSHVm1TmzgqU/PjjexlaFEe2PJ80Y6LZQd+SxZLmxPFJI/5G4SVx060uHECfFUjv/PJUB9dh42rPW+v2/MZe6KM3wmzyD6sLCzqsFCQEYTu9e31dbXEjcBvko67THCsYs+D7y+gk2O4t9b6sXjGaWjn1Yhv5lsk9it1fVHuv0iOEmf6oTA6JtGQxBu4gCNOeZQTZ/uvJBD2Ax1V5KKow/+flVNZ0yL+Ex+2BkBCetuMibNTvFBhSvPFyI5PTt3EMImLWXCWFmvZbH4b7NYOUJ2IKDQUjEeHCM/ueIih0FsRNZXiDKdlg+vr2ThyeHoWDtXXlLwWCSD8lz2Zd4Vjsexg/tnMEYZSOGCJXpzGNmIbdXdxMnhVZVdsPuRG6diwfIYoXEqu9lmO0HH6g1tzZnp5yUhxghfq4xNPjmbMwMfzeL1XN5AZWk1bGtfKmwXcg7p3e3m8lTtuEVyC1yRRitYA5c/D9Qfc/ibwE6XOsy0TEIeVWS7GiYeA1MGDIHpy5UWjNmvQZCgbLeb9cuk320ETyefKvBIQdMQBVnthXgx6+EltlFn2dJivF79oFjKwPFs0RgPlonAvmw0YSaN7VOSCbDsic57FuL0iaT5dJ/HEaYh+SxDvRc8Fv/XcDkakUetEK6KJav21AA3aIJYk4izjf5Ebv9AsAHO6VVGUgIdyLdh1WWe0TVET/wlL67RvIcU+1L63AH4JWEYyv7qedS6pX+NP5rCR/qjgwy1BEkg1CZmR6aEnVLtue/uvTpAPR27h+KbCP/yPxfaztPJMYEi5hKIDF4NO+Rl+q96NF7bmtUx7aZ4SI95zod4R+xnT+0eTE8suzD4ra/GcOOtDl8biOeUASdbEnRSc55Y9a1uAn5qGU3Brc/aQvk+k2MMp03jAsfMtGrCgK/+3wihZfDZCBAE3ueiHBQd5hW//WPa+cJGWh33kD9NK5R6bl23LbnXWfub6UNE2vFm5w+2bpPXSgHB15ZX0eBk3zu0IRTCw3qMIYGdYKOAg6fqg9SpNA3FXp2lPFlwicfAbcl+vjJamllY9pVxogIzMD8RJUQLcCy5d9CyfJ6MDpYqo3k+8IxYV7NfvNPb94FUF1obo+wZSSQzmR/tuxcivVBXRp+PpLLo9gngKjpbLpxB8GOVQjKQf9VDwWzDGNW5nV+N0yuR1FGCzlnYAM5lWFWAJG7CavadpZeHA8+w7Xy+SbXWb92+NA5KkThea+bqXb8vK8zy73IlrB3hElslbBNAwuVzIG/hFg/xV0z6Lul7LVBaDZFcd0+ztdyi9A9bxDUi0GJDwbz/ycJIP6RtR9wgDrJG2cQBnQkLBpESirc5bgAItz7WcR9HGEXK4iEAOCNEsV52KEpgBec9tLTyK9eY3e2+q+A/STSTU4qNrDQsiouL4vOx8mHEn/KlCAypx02ke2H9r2t0vUnUPewGQLZ9yhQIR1Zout5spN/ae9UhWwCslO7j/1abkQA5YRru8dwKsRidQ4ARC9R+XsLxnl79Noe8KzmVl4PXCr+QwQPs9LlfXIovvFr7Z9GoyMvCHfmxl9aTEcoJnWh/VhzvYdIoVPquSkf8Z2YEgZCR5SotsGpj2N52kAQq+J4QNCWKENrdd9Bw=
+PRIVATE
+* 06/24/2023
+<<PRIVATE
+729a0448d043554cZJCpWFaBSVIOd9mwKkyekFXqwhFCDCxm6VlnbdcDz/nBcPDgMYcEAZ1tj7Vxn3QDHAWFad00hXr6CYXfseE4+RKu/b8/Cdr6+GxnMusnZATkSJuDt3ysB7bQDmEugzfAmvokdqRNEOgowi9V87UaLKZmZiLhQidfNNrV9/LnvCURbp3Qyypy/VFDA9ys1oGIXbT5fHYcLjczC/YxNN2xE09Wp2tOxw7jqqtI0BWtIrHXkKIGNeRV6NwSwWBJaU9na3WUJ2gfa/V2AGewTVjiWcacy2ifgdk2/sd6eXufZDY5+Xas9dscbrB3lYQAKeBTlpdSG9JypCRPWN3Pi2719EpMXilFpR0tkkPiug==
+PRIVATE
+* 06/23/2023
+<<PRIVATE
+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
+PRIVATE
 * 06/22/2023
 ** Summary
 Huge sinus irriation all day. Think its related to eating all that
