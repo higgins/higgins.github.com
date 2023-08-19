@@ -220,14 +220,16 @@
       fetch('/day')
             .then((data) => data.text())
             .then(parseLog)
-            .then(updateQueryString)
-            .then(renderDate)
+
       fetch('/past/2022')
+            .then((data) => data.text())
+            .then(parseLog)
+
+      fetch('/past/2023_pt1')
             .then((data) => data.text())
             .then(parseLog)
             .then(updateQueryString)
             .then(renderDate)
-      // TODO: clear loading
     }
     init();
   </script>
