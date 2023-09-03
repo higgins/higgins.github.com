@@ -1,3 +1,26 @@
+* 09/02/2023
+** Summary
+
+Woke up at 8am. It was rainy all day, so Leche and I had a productive
+day inside. We played ball outside twice when it was dryer. I made
+some improvements to 24HHP: accept JPEG, moved buy button up top,
+fetch first 10s on first request. Page renders so fast now and looks
+great.
+
+Started moving a bunch of stuff around for cleaning before Monday
+night. We have a lot of stuff but it looks nice. This was spawned by
+finding a friggen insane amount of living flies behind the couch by
+the plants. Flies have been all over the neighborhood recently from
+the heat but that was nuts. Am on a vendetta to not let any of that
+nasty shit here.
+
+Watched one episode of Deadwood. Going to watch another and eat some
+popcorn.
+
+Tomorrow, I'll write a "Why you should add something" intro to
+24HHP. Make it fun and not marketing-speak. After that more comput
+projects, clean the house and take Leche to park if its not raining.
+
 * 09/01/2023
 ** Summary
 
@@ -15,7 +38,7 @@ some more time to run so gonna take her to the park this weekend.
 Watching a movie as I go to bed.
 
 <<PRIVATE
-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
+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
 PRIVATE
 
 * 08/31/2023
