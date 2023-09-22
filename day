@@ -1,3 +1,36 @@
+* 09/21/2023
+** Summary
+Woke up at 7am, just before the indie call. Didn't meet the 50 leads
+goal but finished them just now in bed. Goal was to email 20 people
+before tomorrow. Doing it in the morning too! Doable. Not going to
+overthink it, just reach out to the people who are doing interesting
+stuff and intro the project. Some advice Stephen gave was (about
+applying for jobs, but I think it works here too): think about how you
+want the person to feel.
+
+Put some intention behind each email.
+
+Record dates sent with each.
+
+Got the error boundary work up for SC review. Next 13 tooling isn't
+great. Lots of magic to determine where a request was filled, which
+components are rendered where. There should be better tools out there.
+
+Also, debugged a build error on master for one route. Have a
+explorator PR for that.
+
+Went to Best Buy after work to pick up Mariana an external
+monitor. Had Leche who was going nuts. I was prarie doggin' it too, so
+felt rushed. Not a good feeling.
+
+Came home, ate rice, eggs and tofu.
+
+Going to bed now. Will WFH office tomorrow and lunch with
+Simon. Walking to Starbucks in the morning for coffee wake up
+
+<<PRIVATE
+4b22b140e0a07dcf+kLYUdwZf0GE5ccYhPj7/94NW/wi+Ymlye+cUln7kY3GRTYjMp4Fd0VoEqzvTcKd+9AjAISSAAGxbWgEoQ/Jd0AjriQLMLESIYu9hY0277edUMHWwR8pFbMp9qFGPQgaTJKfkfE4t6WzDzc8HWv/OHFId+iRalpKmNZZrk3lTxpvQs+j88O+FjsD6Sz7mrwWbABc1tltbEOUmDwD/SKMzq0bEMFk99d2lV+p/1FwedsqjDXNNBnS6RIY+EKardhc4EDgMtcsVX4Nx0J7hcGtdpFiCZ4BjzD39Jh23iDTsDx7CuBq89aoNf4sdj7cfMteVxhiMrEbPZgkQD0ycpRK4Mzx5wjVqqNNsX//K3X2y6J4GEQM13iugc7pCUf9frs8xX0TOIkUmz1GfsobJ3OmtcF+jfchuJODlMsEqkwqoDm+dqQ/Q7LnYsktYi4QyAxqOPellLSW++f2KAh36fTRX4TecE70idzemQoiyW0Bv/jdHPvtTLc1NTClRS3Wh4sLbcv0JtLdYMeYwswXHrU5OI+T9VkCWMSp2GRyajh7k4hP6Z1copXwYKqCLX3deR8TbKMUEF7LeDAZLJMx4J9YV869wYH37ULO+hmHqrTcpHyeYt5mjuw9RblJiMSa2leZcIBO1XQsYzZgobzli4+LgLLLjtMQUEv8iILAZOuk+DwmHtbfLO7TIYXztWHb7dsPD2Q24iH445t3Gq+DM7/fIJQYdQL1Wonu8zop/VZMmZnosYEOPp4CW7R/sFajuPNGGEWSlYgxGHlTvLHYDud766I=
+PRIVATE
 * 09/20/2023
 ** Summary
 Woke up early to finish the 50 user audit. Did just before the indie
