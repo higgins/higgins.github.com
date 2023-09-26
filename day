@@ -1,6 +1,33 @@
 * 09/25/2023
+** Summary
+
+Woke up at 6:30 and made coffee. Indie standup at 7:30 and web sync at
+8am. Lifted. Felt good. Back is pretty tight though. Can feel lower
+back pop as i bend forward while sitting down. Focus on range of
+motion exercises to open the back. Not just squat and the 5x5 lifts.
+
+Simple SC work today. eslint, hide toast error and then sleuthed a
+data display issue.
+
+After work, I wrote the embedded 24HHP. It looks pretty good and
+pre-fetches the first 10 seconds with the initial fetch. I should
+probably note to make the script async in the body so as to not block
+their render.
+
+Right now it directs to the 24HHP directly, but I should stand up a
+page to forward to people's content with a N-second timer so that
+people can decide if they want to stay on the homepage or continue to
+the one the clicked.
+
+Need to add the utm_source search params to the query string.
+
+Made eggs and rice for dinner. Cut up a bunch of vegetables for salad
+ingredients. this week.
+
+Bed time.
+
 <<PRIVATE
-9e28c2ae7c566594+gJGZ28eMFKSPmXjo1bWPGW5vegPxDtl51/maYM1TR7ajoUnNx+hLnPyiSsdlTbnZN8eWFS6m4im1l71Pgl+RsN84O6a4BMIGzRXUlX6ifuIcNyKWmxVfo517+kmjPFu
+52e8c657f78d3779qiX9vN6iW3u301Dx+acV47rDFrZ3zolnkLKAgLRSHL5iAgjy3TdLBZmks+68VkdabnI8NSESk2e5kaDUZuOdj9WMz+dCgh7TRRhu4NoAom4G1LzrWwA9gs/reZmWJGvp8+Mi/dRDN8oWxmdWcq1OXRMwmeUykfPRjFfTZ34b3BDmmQmOJVBcz2/IsRWEfAPC4gjrgLeIcCfd2YUv/N6qL2/IVQy5CIxDlG8MKQ7UkjwrWrUifgu9ur98WJ8gJPbgS3l7vOfQHx4JChYMgbt8R9Z2L9hENtbzgwSSD8G/1RkG3nkQNrIQ3pQlakt385JLDv5+GgS+joV4cgc+4f6ZM0ZPrVFMPVdhvKtXjTBz3N75kOwCDti+h9i5+dkQu960HXEosI7yAlHNBKULMlB3Eeaq5jmO95jmAxF5a2GKmpWq8z8B/ifpMXOkJgxSQ4dORKMAZh3Zozd2gqEz2zZ7zBzlywyRKrsZPpwzmbhrOPitckm89WmZyFrdx6oNVUnn4611Uw2bf+jPAC/KnZGDx4dSA5Ovecd200Jyxi4kmyeOcI+D
 PRIVATE
 * 09/24/2023
 ** Summary
