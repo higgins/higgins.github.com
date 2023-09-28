@@ -1,3 +1,29 @@
+* 09/27/2023
+** Summary
+
+Smoke alarm went off three times last night. Interrupted deep
+sleep. Slept in past alarms and was late to morning call because of
+it.
+
+Finished the hidden track work though I'm getting local build failures
+can't repro in staging env.
+
+Climbed with Mariana after work. Mariana and I joked about going one
+day without petting Leche or showing her any love. It'd be super
+tough.
+
+Asked CF developers in discord about r2 request logs. It's an
+enterprise only feature. another way to get request log data? is it
+too expensive to do proxied through workers? what is the goal here? to
+know which seconds are visited. recording session start end on the
+embed client could do it if important? premature optimization, get
+people installing the sdk.
+
+Bed time.
+
+<<PRIVATE
+62d4d07c3bfbec5cGMw95VfDxMMGAu5eNKXB8q4ci96k5qD9A8BYYjvyNbNpSgW4D7BMDD8VI0oa9Z7qBD512RR55gRKCXJ7MKK+QFCWM4aVCeHTK3XXRGkfgkFUyWPBGwoJlrwlNnfPDoMMxCLWX0jMDZSIiwtD/VUzPt11KW1xFF6pNemjtbXiCcWPpz/aKYm+897ifsBv72rnvDjwrVlB7lJNlUl5tUjIPQhG+Fw5TvnODo8B9qSNB7xPLqeHygZ5JvtJJCM8Jo5NROp9AWuQUBtaFsiAJmMT1xJLg+/74sVqUIr86KBZODS3CS683kd9TjPmdabIJq6L2R4g
+PRIVATE
 * 09/26/2023
 ** Summary
 Good day. Woke up at 7am. Indie standup at 7:30am. Embedded client
