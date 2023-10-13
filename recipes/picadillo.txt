@@ -1,0 +1,23 @@
+Name: Picadillo
+
+Ingriedients:
+ - onion
+ - potatoes
+ - garlic cloves
+ - ground turkey
+ - tomato sauce
+ - white rice
+ - (optional) olives
+
+Directions:
+ 1. Cook rice
+ 2. Dice onion and garlic
+ 3. Dice potatoes into cubic centimeters
+ 4. Cook onion until soft then add garlic
+ 5. Cook potatoes with onion and garlic
+ 6. Once potatoes are cooked, remove from heat
+ 7. Cook ground turkey until browned
+ 8. Mix tomato sauce into turkey
+ 9. Cook for a few minutes
+ 10. Mix cooked tomaotoes into turkey and tomato sauce
+ 11. Season to taste
