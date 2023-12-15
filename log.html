@@ -11,98 +11,124 @@
 	  <meta content="higgins" property="og:profile:username" />
 	  <meta content="male" property="og:profile:gender" />
 	  <title>Justin Higgins</title>
-    <link rel="stylesheet"
-          href="https://fonts.googleapis.com/css?family=Work+Sans">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Varela+Round,Overpass">
     <style>
+      :root {
+        --color-red: rgb(104,0,0);
+        --color-yellow: rgb(255,189,79);
+        --color-blue: rgb(12,110,197);
+        --color-black: rgb(0,0,0);
+        --color-grey: #888;
+      }
+
       html, body {
-          cursor: auto;
-          font-family: 'Work Sans', sans-serif;
-      }
-      .logo {
-          display: flex;
-          align-items: center;
-      }
-      .logo div {
-          width: 20px;
-          height: 20px;
-          margin: 0px 5px;
-      }
-      .logo .i {
-          background: Maroon;
-          filter: brightness(90%);
-      }
-      .logo .w {
-          background: Gold;
-          filter: hue-rotate(-35deg) brightness(110%);
-          opacity: 0.97;
-      }
-      .logo .o {
-          background: DodgerBlue;
-          filter: hue-rotate(-5deg) brightness(80%);
-      }
-      body {
-          display: flex;
-          flex-direction: column;
+        overflow: hidden;
+        cursor: auto;
       }
       header {
-          display: flex;
-          flex-direction: row;
-          justify-content: center;
+        margin: 0rem 0rem 1rem 0rem;
       }
-      main {
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          margin-bottom: 40px;
+      #logo {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+      }
+      #logo div {
+        width: 1rem;
+        height: 1rem;
+        margin: 0px 5px;
+      }
+      #logo .i {
+        background: var(--color-red);
+        margin-left: 0rem;
+      }
+      #logo .w {
+        background: var(--color-yellow);
+        opacity: 0.97;
+      }
+      #logo .o {
+        background: var(--color-blue);
+      }
+      nav {
+        display: flex;
+        justify-content: space-between;
+      }
+      nav > div > a {
+        line-height: 1rem;
+        vertical-align: bottom;
+        margin: 0rem 0rem 0rem 0.5rem;
+      }
+      nav > div > a:hover {
+        text-decoration: underline;
+      }
+      body {
+        max-width: 528px;
+        margin: auto;
+        font-size: 18px;
+        font-family: 'Overpass', sans-serif;
+        padding: 1rem;
+      }
+      h1 {
+        font-family: 'Varela Round', sans-serif;
+      }
+      a {
+        color: var(--color-grey);
+        text-decoration: underline;
+        text-decoration-thickness: 1px;
+        text-underline-offset: 0.14rem;
+        text-decoration-style: dotted;
+      }
+      a:hover {
+        color: var(--color-black);
+      }
+      hr {
+        border: 0px;
+        border-top: 1px dashed var(--color-grey);
       }
       #controls {
-          display: flex;
-          flex-direction: column;
-          align-self: center;
-          margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-self: center;
+        margin: 1rem 0rem;
       }
       #controls > div {
-          margin: auto;
-          font-size: 0.9rem;
-          margin-top: 3px;
-          /* If you want to implement it in very old browser-versions */
-          -webkit-user-select: none; /* Chrome/Safari */
-          -moz-user-select: none; /* Firefox */
-          -ms-user-select: none; /* IE10+ */
+        /* If you want to implement it in very old browser-versions */
+        -webkit-user-select: none; /* Chrome/Safari */
+        -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* IE10+ */
 
-          /* The rule below is not implemented in browsers yet */
-          -o-user-select: none;
+        /* The rule below is not implemented in browsers yet */
+        -o-user-select: none;
 
-          /* The rule below is implemented in most browsers by now */
-          user-select: none;
+        /* The rule below is implemented in most browsers by now */
+        user-select: none;
       }
       #controls > div > span {
-          color: dodgerblue;
-          text-decoration: underline;
-          cursor: pointer;
-      }
-      #container {
-          white-space: pre-wrap;
-          display: flex;
-          flex-direction: column;
-          align-self: center;
-          margin-top: 20px;
-          max-width: 80vw;
-      }
-      .disabled {
-          color: lightgrey !important;
-          cursor: default !important;
+        color: var(--color-grey);
+        text-decoration: underline;
+        text-decoration-thickness: 1px;
+        text-underline-offset: 0.14rem;
+        text-decoration-style: dotted;
+        cursor: pointer;
       }
     </style>
     <script src="/scripts/writing.js"></script>
   </head>
   <body>
     <header>
-      <div class="logo" style="cursor: pointer" onClick="author()">
-        <div class="i"></div>
-        <div class="w"></div>
-        <div class="o"></div>
-      </div>
+      <nav>
+        <a href="/">
+          <div id="logo">
+            <div class="i"></div>
+            <div class="w"></div>
+            <div class="o"></div>
+          </div>
+        </a>
+        <div>
+        <a class="link" href="/now">now</a>
+        </div>
+      </nav>
     </header>
     <main>
       <div id="controls">
