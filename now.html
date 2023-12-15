@@ -1,102 +1,158 @@
-<!DOCTYPE html>
 <html>
-  <head>
-	  <meta charset="utf-8" />
-	  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	  <meta content="justin higgins" property="og:title" />
-	  <meta content="http://encapsulate.me" property="og:url" />
-	  <meta content="profile" property="og:type" />
-	  <meta content="justin" property="og:profile:first_name" />
-	  <meta content="higgins" property="og:profile:last_name" />
-	  <meta content="higgins" property="og:profile:justinprojects" />
-	  <meta content="male" property="og:profile:gender" />
-	  <title>Justin Higgins</title>
-    <link href="/styles/markdown.css" rel="stylesheet"></link>
-    <link href="/styles/blog-styles.css" rel="stylesheet" type="text/css"/>
-    <link rel="stylesheet"
-          href="https://fonts.googleapis.com/css?family=Work+Sans">
-    <style>
-      html, body {
-          cursor: auto;
-          font-family: 'Work Sans', sans-serif;
-      }
-      .logo {
-          display: flex;
-          align-items: center;
-      }
-      .logo div {
-          width: 20px;
-          height: 20px;
-          margin: 0px 5px;
-      }
-      .logo .i {
-          background: Maroon;
-          filter: brightness(90%);
-      }
-      .logo .w {
-          background: Gold;
-          filter: hue-rotate(-35deg) brightness(110%);
-          opacity: 0.97;
-      }
-      .logo .o {
-          background: DodgerBlue;
-          filter: hue-rotate(-5deg) brightness(80%);
-      }
-      body {
-          display: flex;
-          flex-direction: column;
-      }
-      header {
-          display: flex;
-          flex-direction: row;
-          justify-content: center;
-      }
-      main {
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          margin-bottom: 40px;
-      }
-      #container {
-          display: flex;
-          flex-direction: column;
-          align-self: center;
-          margin-top: 20px;
-          max-width: 80vw;
-      }
-      #about {
-        border-top: 1px solid var(--color-border-muted);
-      }
-    </style>
-    <script src="/scripts/writing.js"></script>
-  </head>
-  <body>
-    <header>
-      <div class="logo" style="cursor: pointer" onClick="author()">
-        <div class="i"></div>
-        <div class="w"></div>
-        <div class="o"></div>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta content="justin higgins" property="og:title" />
+	<meta content="http://encapsulate.me" property="og:url" />
+	<meta content="profile" property="og:type" />
+	<meta content="Justin" property="og:profile:first_name" />
+	<meta content="Higgins" property="og:profile:last_name" />
+	<meta content="higgins" property="og:profile:username" />
+	<meta content="male" property="og:profile:gender" />
+	<title>Justin Higgins</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Varela+Round,Overpass">
+  <style>
+   :root {
+     --color-red: rgb(104,0,0);
+     --color-yellow: rgb(255,189,79);
+     --color-blue: rgb(12,110,197);
+     --color-black: rgb(0,0,0);
+     --color-grey: #888;
+   }
+
+   html, body {
+     cursor: auto;
+   }
+   header {
+     margin: 0rem 0rem 1rem 0rem;
+   }
+   #logo {
+     display: flex;
+     justify-content: center;
+     align-items: flex-end;
+   }
+   #logo div {
+     width: 1rem;
+     height: 1rem;
+     margin: 0px 5px;
+   }
+   #logo .i {
+     background: var(--color-red);
+     margin-left: 0rem;
+   }
+   #logo .w {
+     background: var(--color-yellow);
+     opacity: 0.97;
+   }
+   #logo .o {
+     background: var(--color-blue);
+   }
+   nav {
+     display: flex;
+     justify-content: space-between;
+   }
+   nav > div > a {
+     line-height: 1rem;
+     vertical-align: bottom;
+     margin: 0rem 0rem 0rem 0.5rem;
+   }
+   nav > div > a:hover {
+     text-decoration: underline;
+   }
+   body {
+     max-width: 528px;
+     margin: auto;
+     font-size: 18px;
+     font-family: 'Overpass', sans-serif;
+     padding: 1rem;
+   }
+   h1 {
+     font-family: 'Varela Round', sans-serif;
+   }
+   a {
+     color: var(--color-grey);
+     text-decoration: underline;
+     text-decoration-thickness: 1px;
+     text-underline-offset: 0.14rem;
+     text-decoration-style: dotted;
+   }
+   a:hover {
+     color: var(--color-black);
+   }
+   hr {
+     border: 0px;
+     border-top: 1px dashed var(--color-grey);
+   }
+   ul {
+     padding: 0rem 1rem;
+   }
+   .done {
+     display: flex;
+     justify-content: flex-start;
+     align-items: flex-end;
+     gap: 0.8rem;
+   }
+   .context {
+     padding: 0rem 1rem;
+   }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="/">
+        <div id="logo">
+          <div class="i"></div>
+          <div class="w"></div>
+          <div class="o"></div>
+        </div>
+        <div>
+      </a>
+      <a class="link" href="/now">now</a>
       </div>
-    </header>
-    <main id="container">
-      <article class="markdown-body entry-content" itemprop="text" id="grip-content">
-        <h1>now</h1>
-        <p>I recently re-wrote <a href="https://24HourHomepage.com" target="_blank">24HourHomepage</a> so that people can publish to it for free.</p>
-        <strong>Here is what I'm focusing on next</strong>
-        <ul>
-          <li>Product Hunt launch again</li>
-          <li>Public accountability system for growing <a href="https://24HourHomepage.com" target="_blank">24HourHomepage</a></li>
-          <li>Pay to retweet experiment</li>
-          <li>Nudge experiment</li>
-          <li>Treating this page like a sprint?</li>
-          <li>Excited to announce our next project at <a href="https://turntable.fm">Turntable</a></li>
-          <li>My spouse and I are going to take a nice long vacation in July. Stoked.</li>
-        </ul>
-        <p id="about">This is my <a href="https://sive.rs/nowff" target="_blank">now page</a>. There are <a href="https://nownownow.com/" target="_blank">many like it</a> but this one is mine.</p>
-        <em id="lastUpdate">(last updated: May 24, 2023. If you want more details, check the <a href="https://encapsulate.me/log" target="_blank">logs</a>)</em>
-      </div>
-    </main>
-  </body>
+    </nav>
+  </header>
+  <main>
+    <h1>now</h1>
+    <p></p>
+    <p><em>"This is my <a href="https://sive.rs/nowff" target="_blank">now page</a>. There are <a href="https://nownownow.com/" target="_blank">many like it</a> but this one is mine."</em></p>
+    <hr />
+    <p>Before the end of the year, I'm focused on:</p>
+    <ul>
+      <li>Product Hunt launch again (~48 hours)</li>
+      <li>/dollargoals (~8 hours)</li>
+      <li>/nudge (~4 hours)</li>
+      <li>/why (~8 hours)</li>
+      <li>Material prototype (~72 hours)</li>
+      <li>Planning next chapter (∞)</li>
+      <li>Go / no-go on the buzz collar Jason got for Leche (~1 week)</li>
+      <li>Meeting the baby in the family (Lázaro) (1 day)</li>
+    </ul>
+    <p>and playing more pickleball with wife and friends</p>
+    <p><em>(last updated: Dec 14, 2023. If you want more details, ask me.)</em></p>
+    <h2>past</h2>
+    <ul>
+      <li>
+        <div class="done">
+          <div>2023-08-21</div>
+          <div>Get a new job (<a href="https://soundcloud.com" target="_blank">Soundcloud</a>)</div>
+        </div>
+      </li>
+      <li>
+        <div class="done">
+          <div>2023-08-01</div>
+          <div>Rebuild <a href="https://www.producthunt.com/products/sup-5" target="_blank">Sup</a> with <a href="https://testco.de/" target="_blank">Testcode</a> team.</div>
+        </div>
+      </li>
+      <li>
+        <div class="done">
+          <div>2023-07-01</div>
+          <div>Vacation, Oaxaca MX</div>
+        </div>
+      </li>
+    </ul>
+  </main>
   <script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
   <noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt="" referrerpolicy="no-referrer-when-downgrade" /></noscript>
+</body>
 </html>
