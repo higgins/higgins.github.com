@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="An open project to answer 'Who goes first?'">
+    <script src="https://raw.githubusercontent.com/higgins/starting-condition/master/bundle.js"></script>
+    <title>Starting Condition</title>
+    <style>
+      :root {
+        --color-red: rgb(104,0,0);
+        --color-yellow: rgb(255,189,79);
+        --color-blue: rgb(12,110,197);
+        --color-black: rgb(0,0,0);
+        --color-grey: #888;
+      }
+      html, body {
+        overflow: hidden;
+        cursor: auto;
+      }
+      body {
+        max-width: 528px;
+        margin: auto;
+        font-size: 18px;
+        font-family: 'Overpass', sans-serif;
+        padding: 1rem;
+      }
+      a {
+        color: var(--color-grey);
+        text-decoration: underline;
+        text-decoration-thickness: 1px;
+        text-underline-offset: 0.14rem;
+        text-decoration-style: dotted;
+      }
+      a:hover {
+        color: var(--color-black);
+      }
+
+      header {
+        padding: 10px;
+        flex: 1;
+        margin: auto;
+      }
+      nav {
+        display: flex;
+        justify-content: space-between;
+      }
+      nav > div > a {
+        line-height: 1rem;
+        vertical-align: bottom;
+        margin: 0rem 0rem 0rem 0.5rem;
+      }
+      nav > div > a:hover {
+        text-decoration: underline;
+      }
+      #logo {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+      }
+      #logo div {
+        width: 1rem;
+        height: 1rem;
+        margin: 0px 5px;
+      }
+      #logo .i {
+        background: var(--color-red);
+        margin-left: 0rem;
+      }
+      #logo .w {
+        background: var(--color-yellow);
+        opacity: 0.97;
+      }
+      #logo .o {
+        background: var(--color-blue);
+      }
+      #startLogo {
+          width: 300px;
+          margin-bottom: 5px;
+      }
+      main {
+          flex: 3;
+          text-align: center;
+      }
+      h1 {
+          font-size: 4rem;
+      }
+      .subtitle {
+          margin-bottom: 5px;
+      }
+
+      @media only screen
+        and (min-device-width: 375px)
+        and (max-device-width: 812px)
+        and (-webkit-min-device-pixel-ratio: 3)
+        and (orientation: portrait) {
+        body {
+          padding: 20px;
+          padding-top: 80px;
+          max-width: 100vw;
+        }
+        h1 {
+            font-size: 7rem;
+        }
+        header {
+            font-size: 2.5rem;
+            line-height: 3.5rem;
+            margin-bottom: 80px;
+        }
+        #startLogo {
+            width: 800px;
+        }
+        #hint {
+            font-size: 3rem;
+        }
+        #onlyLatestVal {
+            min-height:40px;
+            min-width:40px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="/">
+          <div id="logo">
+            <div class="i"></div>
+            <div class="w"></div>
+            <div class="o"></div>
+          </div>
+        </a>
+        <div>
+          <a class="link" href="/now">now</a>
+        </div>
+      </nav>
+      <img id="startLogo" src="/assets/starting_condition.png"></img>
+      <div>
+        <div class="subtitle"><span id="description">An open project to answer "Who goes first?"</span></div>
+        <div class="subtitle"><span id="madeBy">Made by </span><a id="you" href="https://github.com/higgins/starting-condition">contributors like you</a>.</div>
+        <label id="languageLabel" for="languages">Language:</label>
+        <select class="subtitle" name="languages" id="languages" onchange="render()">
+          <option value="en" selected="selected">English</option>
+          <option value="es">Español</option>
+          <option value="fr">Français</option>
+          <option value="de">Deutsch</option>
+        </select>
+        <div class="subtitle">
+          <input type="checkbox" id="onlyLatestVal" name="onlyLatest" value="onlyLastest" checked onchange="render()">
+          <label id="onlyLatest" for="onlyLatest"> Only show recently added conditions.</label><br>
+        </div>
+      </div>
+    </header>
+    <main>
+      <h1 id="condition"></h1>
+      <div>
+        <button id="hint" onclick="render()">New condition</button>
+      </div>
+    </main>
+    <script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+    <noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt=""/></noscript>
+  </body>
+  <script>
+    const condition = document.getElementById('condition');
+    const languages = document.getElementById('languages');
+    const languageLabel = document.getElementById('languageLabel');
+    const onlyLatest = document.getElementById('onlyLatestVal');
+    const onlyLatestLabel = document.getElementById('onlyLatest');
+    const hint = document.getElementById('hint');
+    const description = document.getElementById('description');
+    const madeBy = document.getElementById('madeBy');
+    const you = document.getElementById('you');
+    // FIXME: gross, why isn't this based off i18n object below?
+    const optionsIndices = ['en', 'es', 'fr', 'de'];
+    const i18n = {
+        en: {
+            languageLabel: 'Language:',
+            onlyLatest: ' Only recently added conditions.',
+            hint: 'New condition',
+            footer: ['An open project to answer "Who goes first?"', 'Made by ', 'contributors like you'],
+        },
+        es: {
+            languageLabel: 'Idioma:',
+            onlyLatest: ' Solo nuevas condiciones.',
+            hint: 'Nueva condición',
+            footer: ['Un proyecto abierto para responder "¿Quien empieza?"', 'Hecho por ', 'gente como tú'],
+        },
+        fr: {
+            languageLabel: 'Langue:',
+            onlyLatest: ' Seulement de nouvelles conditions.',
+            hint: 'Nouvelle condition',
+            footer: ['Un projet ouvert pour répondre "Qui passe en premier?"', 'faite par ', 'des contributeurs comme vous'],
+        },
+        de: {
+            languageLabel: 'Sprache:',
+            onlyLatest: ' Nur neue Bedingungen.',
+            hint: 'Neue Bedingung',
+            footer: ['Ein offenes Projekt um zu beantworten "Wer beginnt"', 'erstellt von ', 'beitragenden Personen wie Dir'],
+        },
+    };
+
+    function render(lang) {
+        if (lang) {
+            // NOTE: set the languages specified in URL in the dropdown
+            const selectedIndex = optionsIndices.indexOf(lang);
+            if (selectedIndex > 0) {
+                languages.selectedIndex = selectedIndex.toString();
+            }
+        }
+        const language = languages.options[languages.selectedIndex].value;
+        const path = language === 'en' ? '/' : `/${language}`;
+        window.history.pushState("", "", path);
+        languageLabel.innerHTML = i18n[language].languageLabel;
+        onlyLatestLabel.innerHTML = i18n[language].onlyLatest;
+        hint.innerHTML = i18n[language].hint;
+        description.innerHTML = i18n[language].footer[0];
+        madeBy.innerHTML = i18n[language].footer[1];
+        you.innerHTML = i18n[language].footer[2];
+        condition.innerHTML = startingCondition(language, onlyLatest.checked);
+    }
+    // NOTE: initial render, use our lang from url path if present
+    const pathLang = window.location.pathname.split('/')[1];
+    const initLang = pathLang.length === 2 ? pathLang : '';
+    render(pathLang);
+
+    document.body.onkeyup = (e) => {
+      // spacebar
+      if (e.keyCode == 32 || e.keyCode == 13) {
+          render()
+      }
+    }
+  </script>
+</html>
