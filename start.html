@@ -4,7 +4,7 @@
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="description" content="An open project to answer 'Who goes first?'">
-    <script src="https://raw.githubusercontent.com/higgins/starting-condition/master/bundle.js"></script>
+    <script src="/assets/starting-condition.js"></script>
     <title>Starting Condition</title>
     <style>
       :root {
@@ -76,7 +76,7 @@
       }
       #startLogo {
           width: 300px;
-          margin-bottom: 5px;
+          margin: 1rem 0rem;
       }
       main {
           flex: 3;
@@ -84,6 +84,8 @@
       }
       h1 {
           font-size: 4rem;
+          line-height: 0.9;
+          font-weight: 900;
       }
       .subtitle {
           margin-bottom: 5px;
@@ -112,6 +114,7 @@
         }
         #hint {
             font-size: 3rem;
+            cursor: pointer;
         }
         #onlyLatestVal {
             min-height:40px;
@@ -145,10 +148,6 @@
           <option value="fr">Français</option>
           <option value="de">Deutsch</option>
         </select>
-        <div class="subtitle">
-          <input type="checkbox" id="onlyLatestVal" name="onlyLatest" value="onlyLastest" checked onchange="render()">
-          <label id="onlyLatest" for="onlyLatest"> Only show recently added conditions.</label><br>
-        </div>
       </div>
     </header>
     <main>
@@ -164,8 +163,8 @@
     const condition = document.getElementById('condition');
     const languages = document.getElementById('languages');
     const languageLabel = document.getElementById('languageLabel');
-    const onlyLatest = document.getElementById('onlyLatestVal');
-    const onlyLatestLabel = document.getElementById('onlyLatest');
+//    const onlyLatest = document.getElementById('onlyLatestVal');
+//    const onlyLatestLabel = document.getElementById('onlyLatest');
     const hint = document.getElementById('hint');
     const description = document.getElementById('description');
     const madeBy = document.getElementById('madeBy');
@@ -210,12 +209,12 @@
         const language = languages.options[languages.selectedIndex].value;
 
         languageLabel.innerHTML = i18n[language].languageLabel;
-        onlyLatestLabel.innerHTML = i18n[language].onlyLatest;
+//        onlyLatestLabel.innerHTML = i18n[language].onlyLatest;
         hint.innerHTML = i18n[language].hint;
         description.innerHTML = i18n[language].footer[0];
         madeBy.innerHTML = i18n[language].footer[1];
         you.innerHTML = i18n[language].footer[2];
-        condition.innerHTML = startingCondition(language, onlyLatest.checked);
+        condition.innerHTML = startingCondition(language, false);
 
     }
     // NOTE: initial render, use our lang from url path if present
