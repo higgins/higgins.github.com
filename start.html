@@ -208,8 +208,7 @@
             }
         }
         const language = languages.options[languages.selectedIndex].value;
-        const path = language === 'en' ? '/' : `/${language}`;
-        window.history.pushState("", "", path);
+
         languageLabel.innerHTML = i18n[language].languageLabel;
         onlyLatestLabel.innerHTML = i18n[language].onlyLatest;
         hint.innerHTML = i18n[language].hint;
@@ -217,11 +216,11 @@
         madeBy.innerHTML = i18n[language].footer[1];
         you.innerHTML = i18n[language].footer[2];
         condition.innerHTML = startingCondition(language, onlyLatest.checked);
+
     }
     // NOTE: initial render, use our lang from url path if present
-    const pathLang = window.location.pathname.split('/')[1];
-    const initLang = pathLang.length === 2 ? pathLang : '';
-    render(pathLang);
+    const userLang = navigator.language.split('-')[0];
+    render(userLang);
 
     document.body.onkeyup = (e) => {
       // spacebar
