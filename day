@@ -1,7 +1,25 @@
 # -*- mode: org; company-mode: nil; -*-
 * 06/17/2024
+** Summary
+Back at work. Lots of context shifting (slack messages) after sprint
+planning. Figured out the AdvancedSettings issue and reviewed a huge
+PR.
+
+Chinese leftovers (tofu, rice, greens) for lunch. Jumped rope after
+work. Mariana went to boxing class then we did a 15min boxing warmup
+after. We're doing a 14 day boxing challenge with her class.
+
+Showered then went to smart & final for Leche's food. Tomorrow have PT
+in the morning. Not going to schedule any more. Waste of money.
+
+Researched D1 a bit and looked into "drizzle" ORM tool. Seems
+promising. Maybe less risk than other cloud dbs (cloudflare, i mean,
+though drizzle is pretty popular)
+
+Bed.
+
 <<PRIVATE
-1b645cdaafe772acwt4wfubhuNzC5EXIoU7wXIFBtBqExNb17Cs7QtPNd5IyEAwJksP4NaJ7Itr+1SrVdIm+hhwO8whMLKNWdHjh5vHkWaIc96Flc5aGeVw29FnFdPJvvuiLL7IEL1JdUK93r5KLU27T0mfpFiT6MCBohXIEavjCP+wV4X8POpMpNdigIEPB+1vus9DFX2y8UoqoMQk+l4Xlg2gJK3Scbp4wBrX1HxLM34wRuWR5EUUzeEY2KcM7L5M7uQPpXaR/zQBTIvJw+plylff5gRGagIHspCKc8HJWkHo0HFnOh6/Ebf5HtZ1lmdBfALaX49EnEmVH1Gergi416SJhdphTeOJIQkwtF9TZRAFly4P21qQSTgrnN7Fi8uZdmwM9OgY/2gI90XbgHd+Rgwnkjnm3rESSqFTcbJUrXd/q1Y2XrFNyeUiBZ4GPeEzF/i8yMxqKlvDOW29yK/do5GP6KzypK78XtdeuY/jlzro004KBV5ikERTVqHltg6J8RvD3la8=
+9dcaeef4a291c3faSWPVhc1lYKX0MotFYviJBQ0+ykzm5QYzAQM4Ig4otAnNNP/OxcUaPaQfBboU0svH7FuPhRtADCaBE3o1AAgxdfNrU5BQLEX7JWpAKnnFO3YGH0tsh2XT1Dc8g9vYsZsmFPIl5xujatBRMH61Z9thmJ4sqXh2iwbSiXFOALEZV0Skvd3OaOejP6WNjaOECH37vudBCN9fZ7fP1hGb9VCNZUGhs8X1O8oS2muPcg41VXW+CRZNhZYAuTL3zkdbLrf4VPSdS82SxAgsUArkYDQ4LWq3G5JaxFKSthGUl5BEgnncPcmMKg==
 PRIVATE
 
 * 06/16/2024
@@ -17,7 +35,6 @@ like now to do chores is great.
 
 Anniversary dinner on Tuesday. Juneteeth holiday on Wednesday. Most of
 this week is about refactoring
-
 
 * 06/15/2024
 * 06/14/2024
