@@ -1,4 +1,33 @@
 # -*- mode: org; company-mode: nil; -*-
+* 08/05/2024
+** Summary
+Shipped 3 MBC orders although tiktok tracking says waiting to
+receive. We'll see if one gets refunded because of that.
+
+SC bug bash and ack'd Jeff's feedback. Tired. Jumped rope to get the
+blood flowing.
+
+Mariana is sick with sore throat and now fever. Stayed home and
+rested. Made some soup and got some otc drugs for her. Leche is good
+girl and sits with her as she knows she feels bad.
+
+Admin MBC app nearly done though i'm having to jump through hoops to
+get it working on old machine. They're on their last leg so I'll start
+budgeting for new one.
+
+After M4 mbp come out would be a good target. Need to spec it. Desktop
+lasted 10 years, laptop lasted 13. Good times. They're still great,
+just not daily drivers.
+
+Need to lower MBC admin dependency versions incrementally. App builds
+just fine, but major/minor versions are messing with xcode.
+
+Bed
+
+<<PRIVATE
+024b143eb3a40b89vUiHv3YAZCsyL0lKoHpZQPo8ckObPbujPKDi984jUjEe+1psuq1qe525MAr9faYwqHDF5op5W+B0tCpI67sIIGZuM59s8OIq/zAxc/mCGuV4EGHiUPbir2iwmzD93m5hAMq9qBtClQ0vwBkKF33V7OX1xYQwlh9eWWjMBCFaojXvb0zAzWEHDTSjIdFDCNSZWbiUuWgs0qGv8ei+vCx2GZwJRc5AMaukeFM6AtEAyYha9PWxOqhs0OM2ztQkTvQMazVIO6ybm0WJkWsg42yQx75x/fQyOywdswGHeV1nlLDVApSbINGkKyJwxUzwr8/UANLfzh4MDiCdBUHITmYkI/hp8khPvgydxboCMdXB4L2gW0LL7j4VTPj+cBth56/oQhFHbTBmOtPCcstsyqG3LNLolMM=
+PRIVATE
+
 * 08/04/2024
 ** Summary
 
