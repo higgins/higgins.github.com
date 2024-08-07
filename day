@@ -1,4 +1,29 @@
 # -*- mode: org; company-mode: nil; -*-
+* 08/06/2024
+** Summary
+
+Mariana was still super sick this morning. High fever and couldn't
+stomach food. Fever went down later but no fun being weak.
+
+FE interview candidate today. Resubmitted sc4a bug fix.
+
+Spent several hours trying to get RN app compiled on my ancient
+machine. Later versions of xcode are required to build most of the RN
+tool chain and delever via testflight or other. Unfortunately later
+versions of xcode only run on newer hardware. Backporting RN to older
+versions seemed promising but then the testflight sdk requirements for
+distribution got in the way.
+
+Was almost ready to sleep but then looked for hosted xcode solutions
+and remembered expo has one! Several others out there too. One of them
+should solve
+
+Bed.
+
+<<PRIVATE
+5618e64d021b95d39Sp52Wda4SRC+XUED095+nxXQCJWwSUtCb0tQQ+Y6FVI33D3CAZBxt5uus1B88kHPr6RZtSrzPQpP8EUclsGe2WOsOfSy8vC1jenFig0H2Mrt8nXV4hT8qNJJ6D27JRl5xPHFaIDWG0JFRtE+KFrJrmUqiHjoRvJtBYZFFZq/t5VV1XJpofOJC2/aqZAeKusSxpb/nwLd54NpQ==
+PRIVATE
+
 * 08/05/2024
 ** Summary
 Shipped 3 MBC orders although tiktok tracking says waiting to
