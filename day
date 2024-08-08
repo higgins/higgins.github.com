@@ -1,4 +1,22 @@
 # -*- mode: org; company-mode: nil; -*-
+* 08/07/2024
+** Summary
+Not much sleep last night while trying to figure out Xcode issue. EAS
+for the win. Our intern Anna demo'd her summer project and the team
+loved it.
+
+Fixed a bug; had going away empanadas.
+
+Back home, got the admin app working (basics).  Should refactor it to
+"Step 1 -- Step 2 -- Confirm -- Finalize". The finalization step will
+help show when order is done. Return count in response and alert.
+
+Bed.
+
+<<PRIVATE
+ed8e251b477d742dtOYMxGHCMqvuya6OPTIP0jwRIchkcMCKQcfWTmZA2azU1VOCXiDO/njEIlcSWme9akZOMG9Jt0FsVaBttpRtXtalNrY+rqd8KYcslm/P382uoHoz9XdmsytL/iShIJ84inLgwKcHIYQpldDRzggCL5PgdLZWuifqWKdIGE3k+HPkoeqchAAEWvfIQgHqPVi5P+U5p9VIShhPYzMdETqpfMq6JQ/W9LNGnvV7PhDDbRrRwGc6WNFev89kekGVwcwoGwbwVx3TQ+WwDtpJe2wepIOs/6s9gGT7v1MmKRXMLeuxxi+5UzebkXKVRTpB9nly+0KzeiEf5DetUR+69+P+
+PRIVATE
+
 * 08/06/2024
 ** Summary
 
@@ -160,7 +178,6 @@ Bed
 f2bc889a14cb61e2hI+qv19vm+c1VY8HYfdOQJiBPPnqXjwMSHQ3QL6Gx8LsQ3JSKBzTT6AmXj6FItDoAn9kfgLinMOGGXSoakAtFwSvIiUR52YP8FCubyE7m8QF35QVdympaivQGRca+ObR6FZa+T11hwBgQTO7fuHiBlcjKdrvxaH+jylrB/+IuEhw7XfjomvB6G7iHI9z8I9V5+zh77jNO1JdCkohJSrAbwKXMRhn9Qv6VOMvJd4Wb1zDmvYzI217IKk+DiFDL8SFy4UAzu1JBJF/W5N3fnR2/rzWTZftDxYuCZSFHzVMoPbTswei4ipe0TgHRWtC18Z8sl1ZWIGidzbjOiI+W7UwRk3JWQKJjw6RmtSdNPo4oeFOI9IDZRO0gtOiKkM4
 PRIVATE
 
-
 * 07/26/2024
 ** Summary
 <<PRIVATE
@@ -205,7 +222,6 @@ Bed
 <<PRIVATE
 962418771148f38fhwuGb1pqBfIOZAWl
 PRIVATE
-
 
 
 
