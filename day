@@ -1,4 +1,24 @@
 # -*- mode: org; company-mode: nil; -*-
+* 08/13/2024
+** Summary
+Woke up. Deep sleep. Synced with Janik on upload ticket. Dove into the
+sc4a modal condition ticket. Hairy.
+
+After work, nearly finished the consumer mobile app. Have to do all
+builds through eas until i get a new machine (waiting for m4) since
+it's near the end of release cycle.
+
+EAS updates should work (as a codepush alternative) though cost $ per
+user install. That's fine for now, but maybe codepush is better if its
+still in development. Tradeoffs since I'll hit EAS cap anyway. It's
+expensive to be poor as they say.
+
+New build is going up, then bed. Tomorrow wfh.
+
+<<PRIVATE
+369eb8a840085c350uCufG8HDlbpznXHGrd1Ahq7ERUpPRSD7uhpMS3kM+ud6i0C4Nq3Np5byOjeTWn9RnGOLpbynQ9lqbpuBPX+j+DetXvk5WuWTnyi9O5wjUn3hCg7YsU5BvhCbZqj9HmsSnYz4xO3rO6Xhz5vNCRM91br9C4RXax/C4QmiE+LWkSjmHMHDDX7jrkLwPSuc56r0Ax7G/EyR9JGXQMKRThx94C6n+41oUNZ96YxsskfUD+7xk5U1QBA+vmh6A3PJs4PZdPPrXceCKnIU71gX9rGCGFugeswHjasD4+ukqVctVn2Oxg00itbI9iL6RZ5ejBLBjmVlhonY03vHAvrK/ShC74LO8tifk9EW9+//apYK+Xx+15W+YsToZCOk7f0vJTw88bU6MBgvlBVrx95Tq0cBqv/lnayVRwS/m9rjfJHVRsuIYJydbZMHydUvPQyLbnT5qgtbEQtqxD8xPR/IeG2uQD1W3Bok+MC26L+mN8tr/1sAgAVP7csAAJlsef8fk75u1z+Y0ZpHGqitayBacWl8uESV0+nN6jFgZjzyhkmJ040MjiRB5YbGuCTwbBPbGU8uA7p2KgTlG7zRaKy0XSbS56hZineFbW+wcGA
+PRIVATE
+
 * 08/12/2024
 ** Summary
 
