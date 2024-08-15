@@ -1,4 +1,29 @@
 # -*- mode: org; company-mode: nil; -*-
+* 08/15/2024
+<<PRIVATE
+7f7411b6c6802542WuUQBHzWiGAGcvb2SJ8jlQmvalnDgJxgyLqBeRijIj+CIOksh3LDZ6p3jH1aUWihPphrFvRP/TOWPH7q2kGyAYSxxnM+uLPaP+7O5k3FrXP9vT6fVH+OHpu0womawLQgJQEeqG2k5dSEwrUfrberq7ar65lyhwA2Z8VV0GO06M0MWK9j1P+s418//ii+NBCgPMhI+ENWUbBd8jOOp+5MuQUSBw7+S3O7JtvtlkKFvwDDaditnFwWA6mjgCtnFHGqKTwSTBv2NvzvwlzY2lgXs63Jl9v34l+gIGlO/3rlX1exa6ROy0Pv6uYO5HybGKUnwgcincBMoQa9TDTB9TcO5jkoizXEoVSD7nsLm/MPZu8o1Zrf2+ep
+PRIVATE
+
+* 08/14/2024
+** Summary
+Some conflicts on work today with other devs. Repro'd how to fix but
+then had to rebase after Jeffs work. Github also went down making
+things even more fun.
+
+Did a lift after work. My neck is better after that tweak (two weeks
+ago) and I felt pretty good in the hours to follow.
+
+After work, charged my old android phone to test expo app, made custom
+tiktok shop order, login working, app looks good. Need to confirm it
+works on android then its production polish (gifs) after making test
+assets. Should be able to submit by EOD tomorrow.
+
+Bed.
+
+<<PRIVATE
+168c3c301046a9dcqFcLeNlwq6gT4CPSPDwuiFatr/spzJ5xmrPzIbMg8jSxub100dPQ8VZzwQXVc+OieE0K+NcyJ+4Wl/PE1L70yDufwWO7ykjS8jKaDK4yZ6pJFqfpIQ2dboLZC1G2g5tl2UpfZa+LeJkfwYN74QUOhhaORgfZu2b7UN+8VeRMUSvwU4SuhVfZ06FMACE4WQoPqZ19jEowuzjWwu3NwQcksDAXD9dHHeOQgEbGGEolNtBhEVqFOkYPcl8e3kmgwsK+m6AUnMPx6stgKdcWigkBx1IPMZPVSaxIdtEQaM4hUaee50IQsIUDts5hNknRKfNIdHuUZZephHrhHeG/Rw9/c7elVPqQ283GgBX9JWXm+txPmGMvNq94BbzN0fi88vdrMFvSmBGS6I1EmvKEnJtPc+73voHANj+d+QdBiAfq8DPS6GB2MKGrF+/q4YPm7liwH8wYHtDIcSdEeRgE3xUqsb1QVC3mRfaUz8lfQ/1NSRAaQKvc1UEeEhh0PZ1Bl0ohg2Ddhhuus8J3PWmZN7e8eSroKuRmI+luDlV68SUnlPT4uSdcFekqAHX3n9vOS+z7cWWWXZM4du2mt3gAFrmtVcDEXx1EqbORNPAZJOWPguiiFS4rweZ2M99qoEHTpZsgPCEx0aOiLdvIGg2nCBalRI1W4HSsmauhD2S3Tc57VIaZIpPQ4JJJDN0e78HVR48GXvwGwtpNB9sQSL70Jhks46YciAxoRgh13n2UXmZszyQFSHIt+2gDAdshxBJunY22FwJ6yQxgNt1/C5a8mq/VoeH9r1GRqHgpM7eEl6YbsLYNOu64Dw+bBMos6WFYLLcucCfl//pIonHGwBDI8hS5AOdJYMmmDVabGqcPCyOLQOrEwSYxSWY421eqPAsSremrR9+MQOrenKd+Oko2+72HNroh5j/i12K5CYmdkYOw2hPVKTq8GVCZVADsPQBUbByhRvK82z6uJgHzJyHvoT60AZqsv6ABqD7Vf+rqCfZqiKkB3F1WVgb4DH7Ju4Ds7CLsx9unqD53A5a1SeMel5kE9caWmN3J1MggQqMHLSxcnx5DERgOzLnEmpckx4goTcN7f2UBFLBcLK18PfKetm4I0cA2D16tSsEUUGFpA9G16TPWhfHg+zbWJFrdB4OGILlOeJN0uJvKh1VMKZHxgVxWY0kIqvx/K9GZjw4Guhz6Q2yRvV9TZ8Mpa7n/yx30BIKmvdC0ZZw0zeNWfz96eWKV6ujqE7BR0mA4FzoB4tG+3WPCjhEG+Zbus/WY2gYU+HPWx7rtUzNfHXt/jzO5zY6LcW4WmyB2t3o80G5aUghsQAdr+CFyBtLWx++2cwzaRjuJavDPs8UxnjayMIhw/XeJ5PGIQ90fafj8+ZmWtOcu2Zv2Fi8XpQ6Fxcpyp9co08XiSUjtqmQjqWi2hwP4d4zKusEZ7BngrUsN/dhB+T+z1hf6xXTDEXNsExOQC7QCSb6VaHQMEepHiaiKQmfjPEN8GIolXrhA1ifLLat9MVMTDaMULEtoMh2rQDwb+zLgta2zajE1IX9Gb+2AWECBE4xnYtRJE46l8EQElshesfr7yahdBr02oyuoS00eLmzkGiVDN/wE/P/d+mw=
+PRIVATE
+
 * 08/13/2024
 ** Summary
 Woke up. Deep sleep. Synced with Janik on upload ticket. Dove into the
