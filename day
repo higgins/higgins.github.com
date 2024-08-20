@@ -1,7 +1,28 @@
 # -*- mode: org; company-mode: nil; -*-
 * 08/19/2024
+** Summary
+
+After some tedious debugging, got the distro cap modal work sorted
+out. After work, packed order for bangbangcon and juggled building new
+version of app. Old hardware makes the test loop slow (remote build,
+async unbound time waiting for apple).
+
+Had a bit of a scare but just before attempting to deploy a patch for
+more exploring; realized it was user (me) error in the write
+process. Yes!!!! Consistent production and reading modes now.
+
+Tomorrows work is video creation, provisional patent and production
+cutover. Also packaging and mailing the buttons for
+bangbangcon. Ziplock bags + padding in big box? Probably good
+call. UPS or USPS?
+
+For SC work tomorrow, get us set up with Rive animation. More bug
+backlog. Ping Lunch.js.
+
+Bed
+
 <<PRIVATE
-d597eb866ab621adabZrmyE8ijaXvj7aP8KT2cUlbE57LSGmRBtyZMvf+d1F3N3IDBlNENVVugPS7WtfyQnYzonLdDXT4Xr26dmMQ+OM/wXQNHXUU+SZp4i6hOJ8x+YdrtdYGs+O38TVALsECJByPPgpENjXyNFHHEZNcrNOBiRanFHaazjgzcpfc0ibpB5q1BiCaTPrEdeZMzUwDkvB3bu1v6s9rrLrlQoyyZZLFzgOijNmjfJ7Xf29Now5o5T33li0hHX8JmRwbgMAfuH/uNn9fjQo14T/6y4boE9cqysQ74qP23Ryfxo95UGzo+pY1iYSq2aOaezyyDBMEyjfq0L7TVSshdvE1ssJawv8jUSMWOedPSPXa0jEaX534U6ny9GPWIP/Q0rXNjLL9Uz5z8srPazw8BnEwxk71I0s+NMYxvLOHZOoJE04TyZ82BaUxVtvC45sh3P3BQKtUlv2xcbQ1sHDbI61td3xTTa4N2rnb3cMmv25vh1XV1IrU8qq8lthIa1p9vrwAVj8S+NvBcdCi9K+KuQV+aP9Dw==
+7f08d2c9d25fc33cg3HwmGfSadHabI8TiTRiisay52E7YJj1fY7l+Pl/+NK4r3Kgfykj5XTsoLogc41CDmAM2W754OuZ6z8IpduD0ofeZahdAU8R6+vdu1Crsb2jE081gLGruFJFNQczMjMKF6VLOKx9gbAIl/hQMyZNKiDp1I1xuAhHxy5/nBjTr8gDgNf/ob9uxAWcY+VcMnBTBaHtKVu8t++qDXvIofnsIpvWQ3y1fciYkjUTNYF39j60zjzoSkudgLA6IIaUae1LGOah/JRKtstuYM/dfER+VMPLiq+ebJCNiUYgF5+hFRQJe/Abl2Gmdg8b4dUXz0CS23jUgrSWPxQHKBFabxcWW6rtcjRB09GmrvKGSidP9CWcPCKNHETxWapJ9VI29MSY4rGr58fjQ3BVTSlmiusMF5Kj5DicQC0mmkDCSqyaf/i8NE5WieA0yc7+rTBGx+yTDPjU9J5kJZOLfvtu9VZ1VkW+ga9LtaHn9Y0OHov5fj8V8PEDd/tudhyOtWYsNR5SXIpBHQGOV/vvfFLkTtTS+GEm1fNw+Nk1BdRO0aezGKvF15ybJsaPjlEoi0ZsQvRFaWYjCBx8b4ddhw4x0Wnwe6QzURR85QhAfLeyPijl9an1mtF4QVmHb1oFqobgajY9mMRn7t3ZiQ0S8LE=
 PRIVATE
 * 08/18/2024
 ** Summary
