@@ -1,4 +1,36 @@
 # -*- mode: org; company-mode: nil; -*-
+* 09/12/2024
+<<PRIVATE
+35b88cf0fe67eaf10Mcqse9KIKyPAl62lhUEsrky+7EAkJ9X0TXgLRZRytOcLPl+cGQLIymSNoZONOen+CGs+FNWgWA41KaRyfuCWSDdFJREywrMmyD3WdHzXCNHJn4WBE9sx8UEGtUGQffCFFnC6fJ76LHSP8WPbXL8gWfHg9r4rhDoCSR/bEWBMRN0DM4YLLFY0xmHen4jeX+/m8XYcYjuNEuyW9A9Xg7iPQtnQevvqIIHem6wIiqQjF0YwOTNcYWz3zi0OZyistfvjUR9CiJmHmhAk2oBJpsiF3U6wBNYR5D2U3VwjV9ZFGKTsiLR2q0JaepPSQhJF5eRVR2SpvHLeK/mVfO8csEH2mAoN/nqlLHYRykdTDU0p3Unm0jT4mfuTiuvP8Lgjwax0ETDxLU/Jr5A6bna4+v9pxffKgPW/HJ5lH0AWtdIkZtPH5PA1Hc/k+UxSphkj4Df49OFxlS4XRGNqXaEZsGdTIpi6ygX+aa16/Wl/PYt2slU9sRg4Jxo1JXzqZ8vta/ZHXqW4lns1+mZOMLUH3K+GR/rCspunv5jzISo+xkd96wWotDVMowmyr5Od1uCPH/miThH/2OFH5C2uzrr9j6JnFN/nKDtN/dEFoh+VCgOTSKDKCjqR9YzqrPTKrVmKiSw4+TolOZ1dV3LTVcH3PPpxgfu0EfK8Nm3bRbuK7S7FVacJiurMMGYiGE7UxzCKGz1wQztpZuYSkv+WY0nkh2Da74n813g0+hRSYvGAG0wF4DCb10VDf1aOsnGRukI+JgPmJ9FwpMjoAbFqyTj/5bs/2y1GNS55NVMJw796zeMfv9KT6iYWpdOV48lE8GdpaITPLw7MWwVZ9jjkk0IgoE87LrFT7xawoY=
+PRIVATE
+
+* 09/11/2024
+** Summary
+Four PRs reviewed, fixed inheritance issue. It'll be a long weekend to
+hit the deadline. The whole team is overworked or tasks are poorly
+managed. I think slack is a good tool, but boy is it
+distracting. Maybe the whole "developer time" "manager time" concept
+is useful here. No interruptions allow for work to get done.
+
+Really, it's the PR reviewing. When code is fixed together, it's
+reviewed immediately (the driver/navigator). Can we do that
+systematically?
+
+Maybe for getting our test coverage up.
+
+More replies on MBC. Potential sales in April. Logged scans now (but
+eventually a db record, if in product).
+
+Product(s) and platform.
+
+Making Qatar demo in the morning.
+
+Busy for others, busy for self, tactics for future.
+
+<<PRIVATE
+69feea9c57354995B50aHTCL3Y+b/FG6gwfsML31AQB5pdjbL7EX8qtE88jB1AzuruuVnIkJ/XjeT0wFXiwLHMgceNWmQEMeuvv7wbsIcb3DjoyLfI6CRJbOr2+/FW7KQ46J98v7TXz/8rb7mT9IXEL2YhMnqgYWbWEfyOiifGsf0wxuLPTKAOXcok/iT4Mc034jJcI5bhn8DYHEpBiZnALzfyPU7x5qx5Y5MhneSRStpra32Dy0EycWVhk59VHlqaBBRY+8dbH2YIAc4UH4PUcT8Uc1ybobqmPLqRlzZKoLRArXHY3L+Gfi2Gk=
+PRIVATE
+
 * 09/10/2024
 ** Summary
 
