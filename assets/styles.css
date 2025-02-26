@@ -97,3 +97,6 @@ ul {
   font-size: 16px;
   text-align: right;
 }
+.intro {
+  line-height: 0.8rem;
+}
