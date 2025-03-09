@@ -1,4 +1,11 @@
 # -*- mode: org; company-mode: nil; -*-
+* 03/08/2025
+** Summary
+Wrote merch drop code for MBC. Stripe part at least. Not
+auto-payout. 3D object looks good enough. Tuning in time.
+
+Drop page delivered before tomorrow afternoon
+
 * 03/07/2025
 ** Summary
 Week is done. Writing the MBC stripe connect interface tomorrow and
