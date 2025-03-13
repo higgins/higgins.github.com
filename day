@@ -1,4 +1,32 @@
 # -*- mode: org; company-mode: nil; -*-
+* 03/12/2025
+** Summary
+Ready. After tomorrow a different phase of focus.
+
+Went to SC office today. Modal, conditional, rive, talk in the AM,
+hiring chat with prospect, summer intern application. Vision.
+
+I'd like to spend one friday hacking on a "ground up" build. Not an
+entire change obviously. Still use same arch decisions (next, mui),
+but see how fast to build with "agentic" tools. Page by page assuming
+the data APIs are stubbed.
+
+That's a dream. Ahead of that, better to audit every page we have to
+understand what is "soundcloud.com".
+
+Chat with Tommy about our systems. Get it over the line or its not a
+web priority.
+
+We'll see how this "interceptor" responsibilty of on-call shakes
+out. Not a strong attendance on the call today so some education needs
+to happen. The big thing is: people should feel empowered to interrupt
+any threadpull and say "who is on-call? why am i not speaking to
+them?". The goal being to preserve team focus.
+
+In addition, having regular talks with comms.
+
+Anyway. Tomorrow. Ready.
+
 * 03/11/2025
 ** Summary
 Rained today. Haven't been walking on treadmill. That helps. Dumb
