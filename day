@@ -1,4 +1,16 @@
 # -*- mode: org; company-mode: nil; -*-
+* 03/17/2025
+** Summary
+Start of sprints are usually noisy. Our release process is notably
+worse now with this "shephard every PR to prod" on merge. Consumes
+lots of time/attention. Work for work's sake at least until we trust
+each other not to break prod?
+
+ios pair coding with Kristen later.
+
+Found workaround for MBC create content. Testing it tonight before
+bed.
+
 * 03/16/2025
 ** Summary
 
