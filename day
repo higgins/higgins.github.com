@@ -1,4 +1,13 @@
 # -*- mode: org; company-mode: nil; -*-
+* 05/01/2025
+** Summary
+RecordRTC is the way to go for dynamic rendering. Puppeteer will call
+it and upload to shared location. Needs to be only canvas element, so
+that's the job: make a rendering that is good enough for stories size
+1080 x 1920...huge.
+
+SC work was focused but took a while with some staging issues.
+
 * 04/30/2025
 ** Summary
 Better
