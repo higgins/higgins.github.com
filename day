@@ -1,4 +1,19 @@
 # -*- mode: org; company-mode: nil; -*-
+* 05/15/2025
+** Summary
+Sprint work done early. Awesome. PR proposals to move artists pages.
+
+After work, prototyped new site. Migration starts soon. Minimal since assets aren't moving.
+Some bigger schema changes, but KV atomic counters will be new lever and daily updates for graphs / stats.
+
+New design will feel more professional. logo/brand will get reworked after app restructred.
+
+Made beans for in slow cooker for dinner. Mariana went to boxing and went out for burgers with her classmates
+
+Leche and I went on one big walk up the hill.
+
+Bed.
+
 * 05/14/2025
 ** Summary
 Busy but not focused day. Have patch to demo the inline-checkout. Some
