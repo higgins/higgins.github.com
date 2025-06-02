@@ -91,7 +91,7 @@
       let dayFMT = now.getDate() - 1;
       let yearFMT = now.getFullYear();
       if (dayFMT === 0) {
-          prevMonth = (now.getMonth() - 1) % 12;
+          prevMonth = now.getMonth()% 12;
           dayFMT = daysInMonth[prevMonth];
       }
 
