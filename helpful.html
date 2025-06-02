@@ -93,7 +93,6 @@
       if (dayFMT === 0) {
           prevMonth = (now.getMonth() - 1) % 12;
           dayFMT = daysInMonth[prevMonth];
-          yearFMT = yearFMT - 1;
       }
 
       const since = `${yearFMT}-${monthFMT}-${dayFMT}`;
