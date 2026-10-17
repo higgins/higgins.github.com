@@ -9,6 +9,9 @@
 html, body {
   cursor: auto;
 }
+html {
+  scrollbar-gutter: stable;
+}
 header {
   margin: 0rem 0rem 1rem 0rem;
 }
@@ -49,11 +52,14 @@ body {
   max-width: 528px;
   margin: auto;
   font-size: 18px;
-  font-family: 'Overpass', sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   padding: 1rem;
 }
 h1 {
-  font-family: 'Varela Round', sans-serif;
+  font-family: inherit;
+}
+.face {
+  vertical-align: middle;
 }
 a {
   color: var(--color-grey);
@@ -77,6 +83,7 @@ ul {
 }
 .done {
   display: flex;
+  align-items: baseline;
   justify-content: flex-start;
   gap: 0.8rem;
   font-size: 16px;
@@ -101,4 +108,143 @@ ul {
   line-height: 1.5rem;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
+}
+
+/* Shared document layout; standalone experiments keep their own styling. */
+.site-page {
+  --color-grey: #666;
+  color: var(--color-black);
+  background: white;
+  line-height: 1.6;
+  overflow-wrap: break-word;
+  padding-bottom: 3rem;
+}
+.site-page a:hover {
+  text-decoration-style: solid;
+}
+.site-page :focus-visible {
+  outline: 2px solid var(--color-blue);
+  outline-offset: 3px;
+}
+.site-page .site-header {
+  margin-bottom: 1.5rem;
+}
+.site-header nav {
+  align-items: center;
+  line-height: 1;
+}
+.site-page :is(h1, h2, h3, h4, h5, h6) {
+  font-family: inherit;
+  line-height: 1.2;
+}
+.site-page h1 {
+  font-size: 2em;
+}
+.site-page h2 {
+  font-size: 1.5em;
+}
+.site-page h3 {
+  font-size: 1.17em;
+}
+.site-page :is(h2, h3, h4, h5, h6) {
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+.site-page :is(h1, h2, h3, h4, h5, h6)[id] {
+  scroll-margin-top: 1.5rem;
+}
+.site-page hr {
+  margin: 1.75rem 0;
+}
+:where(.site-page) :is(ul, ol) {
+  padding-left: 1.25rem;
+}
+.site-page li {
+  line-height: 1.25;
+}
+.site-page li + li {
+  margin-top: 0;
+}
+.site-page ul > li::marker {
+  color: #bbb;
+}
+.site-page .intro {
+  line-height: inherit;
+}
+.site-page .publishedAt {
+  color: #888;
+  font-size: 0.8125rem;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+.site-page li > .publishedAt {
+  margin-right: 0.5rem;
+}
+.site-page .done .publishedAt {
+  flex-shrink: 0;
+}
+.site-page :is(img, video) {
+  max-width: 100%;
+  height: auto;
+}
+.site-page iframe {
+  max-width: 100%;
+}
+.site-page figure {
+  margin: 1.5rem 0;
+}
+.site-page blockquote {
+  margin: 1rem 0;
+  padding-left: 1rem;
+  border-left: 2px solid #ddd;
+}
+.site-page :is(code, pre) {
+  font-family: ui-monospace, monospace;
+  font-size: 0.875em;
+}
+.site-page code {
+  background: #f5f5f5;
+  padding: 0.1em 0.2em;
+}
+.site-page pre {
+  overflow-x: auto;
+  padding: 1rem;
+  background: #f5f5f5;
+  line-height: 1.45;
+}
+.site-page pre code {
+  font-size: inherit;
+  padding: 0;
+}
+.site-page table {
+  display: block;
+  max-width: 100%;
+  overflow-x: auto;
+  border-collapse: collapse;
+}
+.site-page :is(th, td) {
+  padding: 0.4rem 0.6rem;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+.site-page :is(input, button, select, textarea) {
+  font: inherit;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+.site-page .smallImage {
+  max-width: min(400px, 100%);
+}
+.site-page .subtitle {
+  font-size: 0.875em;
+  font-style: italic;
+}
+.site-page .home h2 {
+  font-size: 1.17em;
+}
+.home .writing-entry {
+  display: grid;
+  grid-template-columns: max-content minmax(0, 1fr);
+  align-items: baseline;
+  column-gap: 0.75rem;
 }

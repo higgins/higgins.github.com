@@ -1,61 +1,77 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
 	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<meta content="justin higgins" property="og:title" />
-	<meta content="http://encapsulate.me" property="og:url" />
-	<meta content="profile" property="og:type" />
-	<meta content="Justin" property="og:profile:first_name" />
-	<meta content="Higgins" property="og:profile:last_name" />
-	<meta content="higgins" property="og:profile:username" />
-	<meta content="male" property="og:profile:gender" />
-  <meta name="robots" content="noai, noimageai" />
-	<title>Justin Higgins</title>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Varela+Round,Overpass">
+  <title>Justin Higgins — Engineering Leader</title>
+  <meta name="description" content="Justin Higgins, Director of Engineering at SoundCloud. Projects, writing, and notes on everyday life." />
+  <link rel="canonical" href="https://encapsulate.me/" />
+  <link rel="alternate" type="application/rss+xml" title="Justin Higgins — RSS" href="/rss.xml" />
+  <meta property="og:title" content="Justin Higgins — Engineering Leader" />
+  <meta property="og:description" content="Justin Higgins, Director of Engineering at SoundCloud. Projects, writing, and notes on everyday life." />
+  <meta property="og:url" content="https://encapsulate.me/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://encapsulate.me/assets/avatar.jpg" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@justinprojects" />
+  <meta name="twitter:title" content="Justin Higgins — Engineering Leader" />
+  <meta name="twitter:description" content="Justin Higgins, Director of Engineering at SoundCloud. Projects, writing, and notes on everyday life." />
+  <meta name="twitter:image" content="https://encapsulate.me/assets/avatar.jpg" />
   <link rel="stylesheet" href="/assets/styles.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noai, noimageai" />
 </head>
-<body>
-  <header>
-    <nav>
-      <a href="/">
-        <div id="logo">
+<body class="site-page">
+  <!-- site-header:start -->
+  <header class="site-header">
+    <nav aria-label="Main">
+      <a href="/" aria-label="Home">
+        <div id="logo" aria-hidden="true">
           <div class="i"></div>
           <div class="w"></div>
           <div class="o"></div>
         </div>
       </a>
       <div>
-      <a class="link" href="/now">now</a>
+        <a class="link" href="/now">now</a>
       </div>
     </nav>
   </header>
-  <main>
-    <h1>Hi, I am Justin. <img class="face" src="/assets/face_small.gif"/></h1>
-    <p class="intro">Here, I share <a href="/projects">fun projects</a> I grow.</p>
-    <p class="intro">I also share ideas from, hopes for and aspects of my life.</p>
-    <p class="intro">I live in Los Angeles, CA with my wife and dog.</p>
+  <!-- site-header:end -->
+  <main class="home">
+    <h1>Hi, I’m Justin Higgins. <img class="face" src="/assets/avatar.jpg" width="48" height="48" alt="Portrait of Justin Higgins"/></h1>
+    <p class="intro">I build consumer products and lead engineering teams.</p>
+    <p class="intro">This is my notebook for <a href="/projects">projects</a>, ideas, and everyday life.</p>
+    <p class="intro">I live in Los Angeles with my wife and dog.</p>
+    <p class="intro">
+      <a href="/projects">Projects</a> ·
+      <a href="https://www.linkedin.com/in/higginsjustin" aria-label="Work on LinkedIn">Work</a> ·
+      <a href="https://github.com/higgins">GitHub</a> ·
+      <a href="mailto:justinhiggy@gmail.com">Email</a> ·
+      <a href="/JustinHigginsResume.pdf">CV (2025)</a>
+    </p>
     <hr/>
-    <h3>Indices</h3>
-    <ul>
-      <li><a class="link" href="/projects">Projects</a></li>
-      <li><a class="link" href="/log">My Daily Log</a> (enabled via <a class="link" href="https://github.com/higgins/privatize" target="_blank">privatize</a>)</li>
-      <li><a class="link" href="/recipes">Recipes</a></li>
-      <li><a class="link" href="/reading">Reading</a></li>
-      <li><a class="link" href="/yearlygoals">Yearly Goals</a></li>
-      <li><a class="link" href="https://24hourhomepage.com/#blogHistory" target="_blank">Growth: 24HourHomepage.com</a></li>
-      <li><a class="link" href="/JustinHigginsResume.pdf">CV</a></li>
-      <li><a class="link" href="/rss.xml">RSS</a></li>
-    </ul>
-    <h3>Writing</h3>
-    <ul>
-      <li><span class="publishedAt">2026-06-26</span> <a class="link" href="/writing/2025">2025</a></li>
-      <li><span class="publishedAt">2024-12-31</span> <a class="link" href="/writing/2024">2024</a></li>
-      <li><span class="publishedAt">2024-01-08</span> <a class="link" href="/writing/2023">2023</a></li>
-      <li><span class="publishedAt">2023-12-31</span> <a class="link" href="/why">Why?</a></li>
-      <li><span class="publishedAt">2022-12-31</span> <a class="link" href="/writing/2022">2022</a></li>
-      <li><span class="publishedAt">2022-06-06</span> <a class="link" href="/writing/e25n">English Numerical Contraction (e25n)</a></li>
-      <li><span class="publishedAt">2021-12-31</span> <a class="link" href="/writing/2021">2021</a></li>
-    </ul>
+    <section aria-labelledby="writing-heading">
+      <h2 id="writing-heading">Writing</h2>
+      <ul>
+        <li><div class="writing-entry"><time class="publishedAt" datetime="2026-06-26">2026-06-26</time> <a class="link" href="/writing/2025">2025</a></div></li>
+        <li><div class="writing-entry"><time class="publishedAt" datetime="2024-12-31">2024-12-31</time> <a class="link" href="/writing/2024">2024</a></div></li>
+        <li><div class="writing-entry"><time class="publishedAt" datetime="2024-01-08">2024-01-08</time> <a class="link" href="/writing/2023">2023</a></div></li>
+        <li><div class="writing-entry"><time class="publishedAt" datetime="2023-12-31">2023-12-31</time> <a class="link" href="/why">Why?</a></div></li>
+        <li><div class="writing-entry"><time class="publishedAt" datetime="2022-12-31">2022-12-31</time> <a class="link" href="/writing/2022">2022</a></div></li>
+        <li><div class="writing-entry"><time class="publishedAt" datetime="2022-06-06">2022-06-06</time> <a class="link" href="/writing/e25n">English Numerical Contraction (e25n)</a></div></li>
+        <li><div class="writing-entry"><time class="publishedAt" datetime="2021-12-31">2021-12-31</time> <a class="link" href="/writing/2021">2021</a></div></li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="notebooks-heading">
+      <h2 id="notebooks-heading">Notes</h2>
+      <ul>
+        <li><a class="link" href="/reading">Reading</a></li>
+        <li><a class="link" href="/log">Daily Log</a></li>
+        <li><a class="link" href="/recipes">Recipes</a></li>
+        <li><a class="link" href="/yearlygoals">Yearly Goals</a></li>
+      </ul>
+    </section>
   </main>
 </body>
 </html>

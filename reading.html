@@ -1,305 +1,339 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
 	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<meta content="justin higgins" property="og:title" />
-	<meta content="http://encapsulate.me" property="og:url" />
-	<meta content="profile" property="og:type" />
-	<meta content="Justin" property="og:profile:first_name" />
-	<meta content="Higgins" property="og:profile:last_name" />
-	<meta content="higgins" property="og:profile:username" />
-	<meta content="male" property="og:profile:gender" />
-	<title>Justin Higgins</title>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Varela+Round,Overpass">
+  <title>Reading — Justin Higgins</title>
+  <meta name="description" content="Book reviews, ratings, and notes from my reading." />
+  <link rel="canonical" href="https://encapsulate.me/reading" />
+  <link rel="alternate" type="application/rss+xml" title="Justin Higgins — RSS" href="/rss.xml" />
+  <meta property="og:title" content="Reading — Justin Higgins" />
+  <meta property="og:description" content="Book reviews, ratings, and notes from my reading." />
+  <meta property="og:url" content="https://encapsulate.me/reading" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://encapsulate.me/assets/avatar.jpg" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@justinprojects" />
+  <meta name="twitter:title" content="Reading — Justin Higgins" />
+  <meta name="twitter:description" content="Book reviews, ratings, and notes from my reading." />
+  <meta name="twitter:image" content="https://encapsulate.me/assets/avatar.jpg" />
   <link rel="stylesheet" href="/assets/styles.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <style>
-   ul {
-     padding: 0rem;
-     list-style-type: none
-   }
-   .review-list {
-     padding: 0rem 1rem;
-     list-style-type: unset
-   }
-   .review {
-     display: flex;
-     justify-content: flex-start;
-     align-items: flex-end;
-     font-size: 0.8rem;
-     gap: 0.8rem;
+   .site-page :is(.rating-legend, .reading-index, .reading-next) {
+     padding: 0;
+     list-style: none;
    }
    .legend {
-     display: flex;
-     justify-content: flex-start;
-     align-items: flex-end;
-     font-size: 0.8rem;
-     gap: 0.8rem;
+     display: grid;
+     grid-template-columns: max-content auto minmax(0, 1fr);
+     align-items: baseline;
+     gap: 0.5rem;
+     font-size: 1rem;
+   }
+   .legend > :first-child {
+     white-space: nowrap;
+   }
+   .site-page .reading-index > li + li {
+     margin-top: 0;
+   }
+   .review {
+     display: grid;
+     grid-template-columns: 4.5rem 6rem minmax(0, 1fr);
+     grid-template-areas: "rating date title";
+     align-items: baseline;
+     gap: 0.75rem;
+     padding: 0.5rem 0;
+     font-size: 1rem;
+   }
+   .review-title {
+     grid-area: title;
+   }
+   .review-rating {
+     grid-area: rating;
+     white-space: nowrap;
+     font-size: 0.875rem;
+   }
+   .review time {
+     grid-area: date;
+     color: var(--color-grey);
+     font-size: 0.875rem;
+     font-variant-numeric: tabular-nums;
+     white-space: nowrap;
    }
    .social {
      width: 1rem;
    }
-   .star {
-     font-size: 0.8rem;
-   }
    .nextbook {
-     display: flex;
-     flex-direction: column;
-     justify-content: flex-start;
-     align-items: flex-end;
-     font-size: 0.8rem;
+     font-size: 1rem;
    }
-   .why {
-     margin-left: 1rem;
+   .nextbook .why {
+     margin-top: 0.25rem;
+   }
+   .site-page .reading-next > li + li {
+     margin-top: 1rem;
+   }
+   @media (max-width: 32rem) {
+     .review {
+       grid-template-columns: 4.5rem minmax(0, 1fr);
+       grid-template-areas: "title title" "rating date";
+       row-gap: 0.125rem;
+       padding: 0.75rem 0;
+     }
+     .review-title {
+       font-size: 1.125rem;
+     }
    }
   </style>
 </head>
-<body>
-  <header>
-    <nav>
-      <a href="/">
-        <div id="logo">
+<body class="site-page">
+  <!-- site-header:start -->
+  <header class="site-header">
+    <nav aria-label="Main">
+      <a href="/" aria-label="Home">
+        <div id="logo" aria-hidden="true">
           <div class="i"></div>
           <div class="w"></div>
           <div class="o"></div>
         </div>
-        <div>
       </a>
-      <a class="link" href="/now">now</a>
+      <div>
+        <a class="link" href="/now">now</a>
       </div>
     </nav>
   </header>
+  <!-- site-header:end -->
   <main>
     <h1>Reading</h1>
     <p><em>"You can&apos;t learn to plough by reading books."</em></p>
     <hr />
     <p>Were you jealous of the kids who got to go on <a href="https://en.wikipedia.org/wiki/Reading_Rainbow" target="_blank">Reading Rainbow</a>? Ditto. Inspired by <a href="https://taylor.town/books" target="_blank">taylor.town&apos;s</a> efforts, I write short reviews of what I read.</p>
     <p>Here&apos;s how these readings are graded:</p>
-    <ul>
+    <ul class="rating-legend" aria-label="Rating guide">
       <li>
         <div class="legend">
-          <div>★★★★★</div>
-          <div>-</div>
+          <div role="img" aria-label="5 out of 5 stars">★★★★★</div>
+          <div aria-hidden="true">-</div>
           <div>I will definitely talk to you about it. Might re-read</div>
         </div>
       </li>
       <li>
         <div class="legend">
-          <div>★★★★☆</div>
-          <div>-</div>
+          <div role="img" aria-label="4 out of 5 stars">★★★★☆</div>
+          <div aria-hidden="true">-</div>
           <div>I will probably make reference to it.</div>
         </div>
       </li>
       <li>
         <div class="legend">
-          <div>★★★☆☆</div>
-          <div>-</div>
+          <div role="img" aria-label="3 out of 5 stars">★★★☆☆</div>
+          <div aria-hidden="true">-</div>
           <div>If it comes up in conversation. Some nuggets worth considering.</div>
         </div>
       </li>
       <li>
         <div class="legend">
-          <div>★★☆☆☆</div>
-          <div>-</div>
+          <div role="img" aria-label="2 out of 5 stars">★★☆☆☆</div>
+          <div aria-hidden="true">-</div>
           <div>I might warn you about it.</div>
         </div>
       </li>
       <li>
         <div class="legend">
-          <div>★☆☆☆☆</div>
-          <div>-</div>
+          <div role="img" aria-label="1 out of 5 stars">★☆☆☆☆</div>
+          <div aria-hidden="true">-</div>
           <div>Will definitely warn you about it.</div>
         </div>
       </li>
       <li>
         <div class="legend">
-          <div>☆☆☆☆☆</div>
-          <div>-</div>
+          <div role="img" aria-label="0 out of 5 stars">☆☆☆☆☆</div>
+          <div aria-hidden="true">-</div>
           <div>Hasn&apos;t happened yet. ¯\_(ツ)_/¯</div>
         </div>
       </li>
     </ul>
     <hr />
-    <ul>
+    <ul class="reading-index" aria-label="Book reviews">
       <li>
         <div class="review">
-          <div>★★★★★</div>
-          <div>2026-08-01</div>
-          <div><a href="#confessions">"Confessions" -- St Augustine of Hippo</a></div>
+          <a class="review-title" href="#confessions">"Confessions" -- St Augustine of Hippo</a>
+          <span class="review-rating" role="img" aria-label="5 out of 5 stars">★★★★★</span>
+          <time datetime="2026-08-01">2026-08-01</time>
         </div>
       </li>
       <li>
         <div class="review">
-          <div>★★★★</div>
-          <div>2026-08-01</div>
-          <div><a href="#mothers-smile">"The Mother's Smile" -- Esther Lightcap Meek</a></div>
+          <a class="review-title" href="#mothers-smile">"The Mother's Smile" -- Esther Lightcap Meek</a>
+          <span class="review-rating" role="img" aria-label="4 out of 5 stars">★★★★</span>
+          <time datetime="2026-08-01">2026-08-01</time>
         </div>
       </li>
       <li>
         <div class="review">
-          <div>★★★★</div>
-          <div>2026-08-01</div>
-          <div><a href="#pragmatic-thinking">"Pragmatic Thinking & Learning: Refactor Your Wetware" -- Andy Hunt</a></div>
+          <a class="review-title" href="#pragmatic-thinking">"Pragmatic Thinking & Learning: Refactor Your Wetware" -- Andy Hunt</a>
+          <span class="review-rating" role="img" aria-label="4 out of 5 stars">★★★★</span>
+          <time datetime="2026-08-01">2026-08-01</time>
         </div>
       </li>
       <li>
         <div class="review">
-          <div>★★★★★</div>
-          <div>2026-08-01</div>
-          <div><a href="#against-heresies">"Against Heresies" -- St Irenaeus of Lyon</a></div>
+          <a class="review-title" href="#against-heresies">"Against Heresies" -- St Irenaeus of Lyon</a>
+          <span class="review-rating" role="img" aria-label="5 out of 5 stars">★★★★★</span>
+          <time datetime="2026-08-01">2026-08-01</time>
         </div>
       </li>
       <li>
         <div class="review">
-          <div>★★★★★</div>
-          <div>2026-06-12</div>
-          <div><a href="#mere-christianity">"Mere Christianity" -- C.S. Lewis</a></div>
+          <a class="review-title" href="#mere-christianity">"Mere Christianity" -- C.S. Lewis</a>
+          <span class="review-rating" role="img" aria-label="5 out of 5 stars">★★★★★</span>
+          <time datetime="2026-06-12">2026-06-12</time>
         </div>
       </li>
       <li>
         <div class="review">
-          <div>★★★★</div>
-          <div>2026-01-10</div>
-          <div><a href="#dopamine-nation">"Dopamine Nation" -- Anna Lembke</a></div>
+          <a class="review-title" href="#dopamine-nation">"Dopamine Nation" -- Anna Lembke</a>
+          <span class="review-rating" role="img" aria-label="4 out of 5 stars">★★★★</span>
+          <time datetime="2026-01-10">2026-01-10</time>
         </div>
       </li>
       <li>
         <div class="review">
-          <div>★★★★★</div>
-          <div>2025-04-01</div>
-          <div><a href="#yay-or-nay">"Hell Yeah or No" -- Derek Sivers</a></div>
+          <a class="review-title" href="#yay-or-nay">"Hell Yeah or No" -- Derek Sivers</a>
+          <span class="review-rating" role="img" aria-label="5 out of 5 stars">★★★★★</span>
+          <time datetime="2025-04-01">2025-04-01</time>
         </div>
       </li>
       <li>
         <div class="review">
-          <div>★★★★★</div>
-          <div>2024-12-20</div>
-          <div><a href="#kon-mari">"The Life-Changing Magic of Tidying up" -- Marie Kondo</a></div>
+          <a class="review-title" href="#kon-mari">"The Life-Changing Magic of Tidying up" -- Marie Kondo</a>
+          <span class="review-rating" role="img" aria-label="5 out of 5 stars">★★★★★</span>
+          <time datetime="2024-12-20">2024-12-20</time>
         </div>
       </li>
       <li>
         <div class="review">
-          <div>★</div>
-          <div>2024-12-17</div>
-          <div><a href="#the-power">"The Power" -- Naomi Alderman</a></div>
+          <a class="review-title" href="#the-power">"The Power" -- Naomi Alderman</a>
+          <span class="review-rating" role="img" aria-label="1 out of 5 stars">★</span>
+          <time datetime="2024-12-17">2024-12-17</time>
         </div>
       </li>
       <li>
         <div class="review">
-          <div>★★★</div>
-          <div>2024-11-17</div>
-          <div><a href="#tesla-inventions">"My Invensions" -- Tesla</a></div>
+          <a class="review-title" href="#tesla-inventions">"My Invensions" -- Tesla</a>
+          <span class="review-rating" role="img" aria-label="3 out of 5 stars">★★★</span>
+          <time datetime="2024-11-17">2024-11-17</time>
         </div>
       </li>
       <li>
         <div class="review">
-          <div>★★★</div>
-          <div>2024-10-25</div>
-          <div><a href="#five-second-rule">Five Second Rule -- Mel Robbins</a></div>
+          <a class="review-title" href="#five-second-rule">Five Second Rule -- Mel Robbins</a>
+          <span class="review-rating" role="img" aria-label="3 out of 5 stars">★★★</span>
+          <time datetime="2024-10-25">2024-10-25</time>
         </div>
       </li>
       <li>
         <div class="review">
-          <div>★★★★</div>
-          <div>2024-10-23</div>
-          <div><a href="#atomic-habits">Atomic Habits -- James Clear</a></div>
+          <a class="review-title" href="#atomic-habits">Atomic Habits -- James Clear</a>
+          <span class="review-rating" role="img" aria-label="4 out of 5 stars">★★★★</span>
+          <time datetime="2024-10-23">2024-10-23</time>
         </div>
       </li>
       <li>
         <div class="review">
-          <div>★★★★</div>
-          <div>2024-10-22</div>
-          <div><a href="#hackers-painters">Hackers & Painters -- Paul Graham</a></div>
+          <a class="review-title" href="#hackers-painters">Hackers & Painters -- Paul Graham</a>
+          <span class="review-rating" role="img" aria-label="4 out of 5 stars">★★★★</span>
+          <time datetime="2024-10-22">2024-10-22</time>
         </div>
       </li>
       <li>
         <div class="review">
-          <div>★★★★</div>
-          <div>2024-10-20</div>
-          <div><a href="#convict-conditioning">Convict Conditioning -- Paul Wade</a></div>
+          <a class="review-title" href="#convict-conditioning">Convict Conditioning -- Paul Wade</a>
+          <span class="review-rating" role="img" aria-label="4 out of 5 stars">★★★★</span>
+          <time datetime="2024-10-20">2024-10-20</time>
         </div>
       </li>
       <li>
         <div class="review">
-          <div>★★★★</div>
-          <div>2024-10-15</div>
-          <div><a href="#project-hail-mary">Project Hail Mary -- Andy Weir</a></div>
+          <a class="review-title" href="#project-hail-mary">Project Hail Mary -- Andy Weir</a>
+          <span class="review-rating" role="img" aria-label="4 out of 5 stars">★★★★</span>
+          <time datetime="2024-10-15">2024-10-15</time>
         </div>
       </li>
       <li>
         <div class="review">
-          <div>★★★★★</div>
-          <div>2024-04-27</div>
-          <div><a href="#solaris">Solaris -- Stanislaw Lem</a></div>
+          <a class="review-title" href="#solaris">Solaris -- Stanislaw Lem</a>
+          <span class="review-rating" role="img" aria-label="5 out of 5 stars">★★★★★</span>
+          <time datetime="2024-04-27">2024-04-27</time>
         </div>
       </li>
       <li>
         <div class="review">
-          <div>★★★★</div>
-          <div>2024-03-30</div>
-          <div><a href="#creativeact">The Creative Act: A Way of Being - Rick Rubin</a></div>
+          <a class="review-title" href="#creativeact">The Creative Act: A Way of Being - Rick Rubin</a>
+          <span class="review-rating" role="img" aria-label="4 out of 5 stars">★★★★</span>
+          <time datetime="2024-03-30">2024-03-30</time>
         </div>
       </li>
       <li>
         <div class="review">
-          <div>★★★★</div>
-          <div>2024-03-11</div>
-          <div><a href="#howtolive">How to Live: 27 conflicting answers and one weird conclusion</a></div>
+          <a class="review-title" href="#howtolive">How to Live: 27 conflicting answers and one weird conclusion</a>
+          <span class="review-rating" role="img" aria-label="4 out of 5 stars">★★★★</span>
+          <time datetime="2024-03-11">2024-03-11</time>
         </div>
       </li>
       <li>
         <div class="review">
-          <div>★★★</div>
-          <div>2024-03-05</div>
-          <div><a href="#onething">The ONE Thing -- Keller & Papasan</a></div>
+          <a class="review-title" href="#onething">The ONE Thing -- Keller & Papasan</a>
+          <span class="review-rating" role="img" aria-label="3 out of 5 stars">★★★</span>
+          <time datetime="2024-03-05">2024-03-05</time>
         </div>
       </li>
       <li>
         <div class="review">
-          <div>★★★★</div>
-          <div>2024-01-31</div>
-          <div><a href="#howtowinfriends">How to Win Friends & Influence People</a></div>
+          <a class="review-title" href="#howtowinfriends">How to Win Friends & Influence People</a>
+          <span class="review-rating" role="img" aria-label="4 out of 5 stars">★★★★</span>
+          <time datetime="2024-01-31">2024-01-31</time>
         </div>
       </li>
       <li>
         <div class="review">
-          <div>★★★</div>
-          <div>2024-01-20</div>
-          <div><a href="#thisismarketing">This is Marketing: You Can&apos;t Be Seen Until you Learn to See</a></div>
+          <a class="review-title" href="#thisismarketing">This is Marketing: You Can&apos;t Be Seen Until you Learn to See</a>
+          <span class="review-rating" role="img" aria-label="3 out of 5 stars">★★★</span>
+          <time datetime="2024-01-20">2024-01-20</time>
         </div>
       </li>
       <li>
         <div class="review">
-          <div>★★</div>
-          <div>2024-01-08</div>
-          <div><a href="#communicationbook">The Communication Book: 44 Ideas for Better Conversations</a></div>
+          <a class="review-title" href="#communicationbook">The Communication Book: 44 Ideas for Better Conversations</a>
+          <span class="review-rating" role="img" aria-label="2 out of 5 stars">★★</span>
+          <time datetime="2024-01-08">2024-01-08</time>
         </div>
       </li>
       <li>
         <div class="review">
-          <div>★★</div>
-          <div>2023-12-27</div>
-          <div><a href="#dontmakemethink">Don&apos;t Make Me Think, Revisited -- Steve Krug</a></div>
+          <a class="review-title" href="#dontmakemethink">Don&apos;t Make Me Think, Revisited -- Steve Krug</a>
+          <span class="review-rating" role="img" aria-label="2 out of 5 stars">★★</span>
+          <time datetime="2023-12-27">2023-12-27</time>
         </div>
       </li>
       <li>
         <div class="review">
-          <div>★★★</div>
-          <div>2023-12-21</div>
-          <div><a href="#buckminsterpoet">Buckminster Fuller, Poet Of Geometry -- Cole Gerst</a></div>
+          <a class="review-title" href="#buckminsterpoet">Buckminster Fuller, Poet Of Geometry -- Cole Gerst</a>
+          <span class="review-rating" role="img" aria-label="3 out of 5 stars">★★★</span>
+          <time datetime="2023-12-21">2023-12-21</time>
         </div>
       </li>
       <li>
         <div class="review">
-          <div>★★★</div>
-          <div>2023-12-11</div>
-          <div><a href="#luciddreaming">Lucid Dreaming - Robert Waggoner</a></div>
+          <a class="review-title" href="#luciddreaming">Lucid Dreaming - Robert Waggoner</a>
+          <span class="review-rating" role="img" aria-label="3 out of 5 stars">★★★</span>
+          <time datetime="2023-12-11">2023-12-11</time>
         </div>
       </li>
       <li>
         <div class="review">
-          <div>★★★</div>
-          <div>2023-11-09</div>
-          <div><a href="#timewars">Time Wars - Jeremy Rifkin</a></div>
+          <a class="review-title" href="#timewars">Time Wars - Jeremy Rifkin</a>
+          <span class="review-rating" role="img" aria-label="3 out of 5 stars">★★★</span>
+          <time datetime="2023-11-09">2023-11-09</time>
         </div>
       </li>
     </ul>
@@ -678,7 +712,7 @@
       <li>Can I afford this?</li>
     </ol>
     <p>As an exercise in that spirit, here I write down <em>why</em> I think I should / will read this. For now, affording is easy: I rent from the library or ask my work to buy it.</p>
-    <ul>
+    <ul class="reading-next">
       <li>
         <div class="nextbook">
           <div><strong>Benjamin Franklin's autobiography</strong></div>

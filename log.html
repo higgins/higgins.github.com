@@ -1,99 +1,38 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
 	  <meta charset="utf-8" />
+  <title>Daily Log — Justin Higgins</title>
+  <meta name="description" content="A public journal of daily life, projects, and reflections." />
+  <link rel="canonical" href="https://encapsulate.me/log" />
+  <link rel="alternate" type="application/rss+xml" title="Justin Higgins — RSS" href="/rss.xml" />
+  <meta property="og:title" content="Daily Log — Justin Higgins" />
+  <meta property="og:description" content="A public journal of daily life, projects, and reflections." />
+  <meta property="og:url" content="https://encapsulate.me/log" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://encapsulate.me/assets/avatar.jpg" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@justinprojects" />
+  <meta name="twitter:title" content="Daily Log — Justin Higgins" />
+  <meta name="twitter:description" content="A public journal of daily life, projects, and reflections." />
+  <meta name="twitter:image" content="https://encapsulate.me/assets/avatar.jpg" />
+  <link rel="stylesheet" href="/assets/styles.css">
 	  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	  <meta content="justin higgins" property="og:title" />
-	  <meta content="http://encapsulate.me" property="og:url" />
-	  <meta content="profile" property="og:type" />
-	  <meta content="justin" property="og:profile:first_name" />
-	  <meta content="higgins" property="og:profile:last_name" />
-	  <meta content="higgins" property="og:profile:username" />
-	  <meta content="male" property="og:profile:gender" />
     <meta name="robots" content="noai, noimageai" />
 
-	  <title>Justin Higgins</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Varela+Round,Overpass">
     <style>
-      :root {
-        --color-red: rgb(104,0,0);
-        --color-yellow: rgb(255,189,79);
-        --color-blue: rgb(12,110,197);
-        --color-black: rgb(0,0,0);
-        --color-grey: #888;
-      }
-
-      html, body {
-        cursor: auto;
-      }
-      header {
-        margin: 0rem 0rem 1rem 0rem;
-      }
-      #logo {
-        display: flex;
-        justify-content: center;
-        align-items: flex-end;
-      }
-      #logo div {
-        width: 1rem;
-        height: 1rem;
-        margin: 0px 5px;
-      }
-      #logo .i {
-        background: var(--color-red);
-        margin-left: 0rem;
-      }
-      #logo .w {
-        background: var(--color-yellow);
-        opacity: 0.97;
-      }
-      #logo .o {
-        background: var(--color-blue);
-      }
-      nav {
-        display: flex;
-        justify-content: space-between;
-      }
-      nav > div > a {
-        line-height: 1rem;
-        vertical-align: bottom;
-        margin: 0rem 0rem 0rem 0.5rem;
-      }
-      nav > div > a:hover {
-        text-decoration: underline;
-      }
-      body {
-        max-width: 528px;
-        margin: auto;
-        font-size: 18px;
-        font-family: 'Overpass', sans-serif;
-        padding: 1rem;
-      }
-      h1 {
-        font-family: 'Varela Round', sans-serif;
-      }
-      a {
-        color: var(--color-grey);
-        text-decoration: underline;
-        text-decoration-thickness: 1px;
-        text-underline-offset: 0.14rem;
-        text-decoration-style: dotted;
-      }
-      a:hover {
-        color: var(--color-black);
-      }
-      hr {
-        border: 0px;
-        border-top: 1px dashed var(--color-grey);
-      }
       #controls {
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
+        gap: 0.25rem 1rem;
         justify-content: space-between;
         align-self: center;
         margin: 1rem 0rem;
       }
       #controls > div {
+        display: flex;
+        gap: 0.75rem;
         /* If you want to implement it in very old browser-versions */
         -webkit-user-select: none; /* Chrome/Safari */
         -moz-user-select: none; /* Firefox */
@@ -114,23 +53,24 @@
         cursor: pointer;
       }
     </style>
-    <script src="/scripts/writing.js"></script>
   </head>
-  <body>
-    <header>
-      <nav>
-        <a href="/">
-          <div id="logo">
-            <div class="i"></div>
-            <div class="w"></div>
-            <div class="o"></div>
-          </div>
-        </a>
-        <div>
-        <a class="link" href="/now">now</a>
+  <body class="site-page">
+  <!-- site-header:start -->
+  <header class="site-header">
+    <nav aria-label="Main">
+      <a href="/" aria-label="Home">
+        <div id="logo" aria-hidden="true">
+          <div class="i"></div>
+          <div class="w"></div>
+          <div class="o"></div>
         </div>
-      </nav>
-    </header>
+      </a>
+      <div>
+        <a class="link" href="/now">now</a>
+      </div>
+    </nav>
+  </header>
+  <!-- site-header:end -->
     <main>
       <div id="controls">
         <strong id="renderDate"></strong>

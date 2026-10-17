@@ -3,32 +3,231 @@
   <channel>
     <title>Encapsulate.me -- Justin Higgins</title>
     <link>https://encapsulate.me</link>
-    <atom:link href="http://encapsulate.me/rss.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://encapsulate.me/rss.xml" rel="self" type="application/rss+xml" />
     <description>Ideas, systems and fun writings of Justin Higgins</description>
     <language>en-us</language>
-    <pubDate>Mon, 15 Jan 2024 11:32:00 GMT</pubDate>
-    <lastBuildDate>Mon, 15 Jan 2024 11:32:00 GMT</lastBuildDate>
-
+    <pubDate>Fri, 26 Jun 2026 00:00:00 GMT</pubDate>
+    <image>
+      <url>https://encapsulate.me/assets/avatar.jpg</url>
+      <title>Encapsulate.me -- Justin Higgins</title>
+      <link>https://encapsulate.me</link>
+    </image>
     <item>
-      <title>2023: goals year in review</title>
+      <title>2025: Personal Goals in Review — Justin Higgins</title>
+      <link>https://encapsulate.me/writing/2025</link>
+      <description>Reflections on finishing a marathon and rethinking a personal business goal.</description>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://encapsulate.me/writing/2025</guid>
+    </item>
+    <item>
+      <title>2024: Personal Goals in Review — Justin Higgins</title>
+      <link>https://encapsulate.me/writing/2024</link>
+      <description>A year of building and launching a direct-to-consumer product.</description>
+      <pubDate>Tue, 31 Dec 2024 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://encapsulate.me/writing/2024</guid>
+    </item>
+    <item>
+      <title>2023: Personal Goals in Review — Justin Higgins</title>
       <link>https://encapsulate.me/writing/2023</link>
-      <description>My year's goals in review</description>
-      <pubDate>Mon, 15 Jan 2024 11:32:00 GMT</pubDate>
+      <description>Reflecting on personal goals, finances, fitness, and side projects in 2023.</description>
+      <pubDate>Mon, 08 Jan 2024 00:00:00 GMT</pubDate>
       <guid isPermaLink="true">https://encapsulate.me/writing/2023</guid>
     </item>
     <item>
-      <title>Why? A simple tool for the "Five Whys"</title>
+      <title>Why? — Justin Higgins</title>
       <link>https://encapsulate.me/why</link>
-      <description>Ask yourself "why?" until it makes sense.</description>
-      <pubDate>Mon, 15 Jan 2024 11:32:00 GMT</pubDate>
+      <description>A simple Five Whys tool for exploring cause and effect.</description>
+      <pubDate>Sun, 31 Dec 2023 00:00:00 GMT</pubDate>
       <guid isPermaLink="true">https://encapsulate.me/why</guid>
+    </item>
+    <item>
+      <title>2022 Personal Goals Retrospective</title>
+      <link>https://encapsulate.me/writing/2022</link>
+      <description>A retrospective of my personal goals for 2022</description>
+      <pubDate>Sat, 31 Dec 2022 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://encapsulate.me/writing/2022</guid>
+    </item>
+    <item>
+      <title>Save money: Cancel your email SAAS 💸</title>
+      <link>https://encapsulate.me/writing/alternative-saas-email</link>
+      <description>Save money: Cancel your email SAAS 💸</description>
+      <pubDate>Fri, 15 Jul 2022 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://encapsulate.me/writing/alternative-saas-email</guid>
     </item>
     <item>
       <title>e25n: English Numerical Contraction</title>
       <link>https://encapsulate.me/writing/e25n</link>
-      <description>a11y, i18n, k8s...e25n?</description>
-      <pubDate>Mon, 15 Jan 2024 11:32:00 GMT</pubDate>
+      <description>e25n: English Numerical Contraction</description>
+      <pubDate>Mon, 06 Jun 2022 00:00:00 GMT</pubDate>
       <guid isPermaLink="true">https://encapsulate.me/writing/e25n</guid>
+    </item>
+    <item>
+      <title>Privatize: encrypt/decrypt only files&apos; HEREDOCs</title>
+      <link>https://encapsulate.me/writing/Privatize</link>
+      <description>Privatize: Partially encrypt/decrypt files&apos; heredocs</description>
+      <pubDate>Mon, 21 Feb 2022 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://encapsulate.me/writing/Privatize</guid>
+    </item>
+    <item>
+      <title>2021 -- Justin Higgins</title>
+      <link>https://encapsulate.me/writing/2021</link>
+      <description>2021 yearly goals</description>
+      <pubDate>Fri, 31 Dec 2021 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://encapsulate.me/writing/2021</guid>
+    </item>
+    <item>
+      <title>This page was posted automatically from a commit</title>
+      <link>https://encapsulate.me/writing/This-Was-Automatic</link>
+      <description>Using a new github action, a commit triggered the sharing of this page with hackernews</description>
+      <pubDate>Tue, 23 Nov 2021 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://encapsulate.me/writing/This-Was-Automatic</guid>
+    </item>
+    <item>
+      <title>Introducing 24HourHomepage.com</title>
+      <link>https://encapsulate.me/writing/24HourHomepage-Intro</link>
+      <description>An experiment in advertising, sales and uncomfortable work.</description>
+      <pubDate>Tue, 19 Oct 2021 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://encapsulate.me/writing/24HourHomepage-Intro</guid>
+    </item>
+    <item>
+      <title>Special Post — Vinyl Moon on 24HourHomepage</title>
+      <link>https://encapsulate.me/writing/24HourHomepage-VinylMoon</link>
+      <description>tl;dr: My favorite creative product (Vinyl Moon) has joined 24hourhomepage! Read more about their product, how we got connected and their special discount for you to join their service.</description>
+      <pubDate>Tue, 19 Oct 2021 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://encapsulate.me/writing/24HourHomepage-VinylMoon</guid>
+    </item>
+    <item>
+      <title>24HourHomepage.com: Week 1 and sales won 🏆</title>
+      <link>https://encapsulate.me/writing/24HourHomepage-Week1</link>
+      <description>Last week I launched 24HourHomepage and took my first steps toward improving my sales and marketing skills. Knowing nothing about either of those subjects, I jumped in headfirst with cold emailing and made my first sales on the product.</description>
+      <pubDate>Tue, 19 Oct 2021 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://encapsulate.me/writing/24HourHomepage-Week1</guid>
+    </item>
+    <item>
+      <title>24hourhomepage.com — Week 2 — 100 ads for you</title>
+      <link>https://encapsulate.me/writing/24HourHomepage-Week2</link>
+      <description>I’ve gotten more published content on 24hourhomepage.com by offering an ad in my initial outreach. This week, I’m doing more of that and offering to create 100 ads for 100 products/services. Read more.</description>
+      <pubDate>Tue, 19 Oct 2021 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://encapsulate.me/writing/24HourHomepage-Week2</guid>
+    </item>
+    <item>
+      <title>24HourHomepage.com — Week 3 — Growth and feedback</title>
+      <link>https://encapsulate.me/writing/24HourHomepage-Week3</link>
+      <description>More sales and published content this week after making A LOT more gifs for prospects. I reached out to several communities of reddit and got some great feedback. I’m still creating 100 gifs for interesting products/projects. If you know of a project/product you’d like more people to know about let me know!</description>
+      <pubDate>Tue, 19 Oct 2021 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://encapsulate.me/writing/24HourHomepage-Week3</guid>
+    </item>
+    <item>
+      <title>24HourHomepage.com — Week 4 — Product Hunt research, outreach, testimonials</title>
+      <link>https://encapsulate.me/writing/24HourHomepage-Week4</link>
+      <description>This week I hunkered down on my goal to create 100 gifs for cool products and companies and offered A LOT more. It’s keeping the conversation going and a number have accepted the free ad even if they didn’t publish on the site. I researched and declared when I will launch to Product Hunt, spoke to a columnist, started gathering testimonials from customers and wrote some administrative tools. As always, don’t be shy!</description>
+      <pubDate>Tue, 19 Oct 2021 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://encapsulate.me/writing/24HourHomepage-Week4</guid>
+    </item>
+    <item>
+      <title>24HourHomepage.com — Week 5 — More flair, more established brands</title>
+      <link>https://encapsulate.me/writing/24HourHomepage-Week5</link>
+      <description>I started reaching out to more established brands, with larger marketing teams and a history of creative advertising. Conversations are going well. Made more sales and some mobile improvements to help with conversion there.</description>
+      <pubDate>Tue, 19 Oct 2021 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://encapsulate.me/writing/24HourHomepage-Week5</guid>
+    </item>
+    <item>
+      <title>24HourHomepage — Week 6 — Three questions I ask before engaging</title>
+      <link>https://encapsulate.me/writing/24HourHomepage-Week6</link>
+      <description>Last week I reached out to 70+ marketers at brands with a history of creative advertising. I don’t want to waste anyone’s time, so I ask 3 questions before reaching out.</description>
+      <pubDate>Tue, 19 Oct 2021 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://encapsulate.me/writing/24HourHomepage-Week6</guid>
+    </item>
+    <item>
+      <title>24HourHomepage.com — Week 7 — Mentorship with master marketers</title>
+      <link>https://encapsulate.me/writing/24HourHomepage-Week7</link>
+      <description>Last week I continued reaching out to leads on LinkedIn and discovered a marketing mentorship group. I introduced myself to the group, had conversations with a dozen of them and got some actionable feedback in my marketing approach.</description>
+      <pubDate>Tue, 19 Oct 2021 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://encapsulate.me/writing/24HourHomepage-Week7</guid>
+    </item>
+    <item>
+      <title>24hourhomepage.com—Weeks 8 &amp; 9— Leading with video, talking toward the shark tank</title>
+      <link>https://encapsulate.me/writing/24HourHomepage-Week8</link>
+      <description>I ran an email experiment on all retail products that have pitched on the 11 seasons of Shark Tank. Leading with video, these initial messages were good but not as effective as tailored messages at starting conversations.</description>
+      <pubDate>Tue, 19 Oct 2021 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://encapsulate.me/writing/24HourHomepage-Week8</guid>
+    </item>
+    <item>
+      <title>24HourHomepage.com — Week 10 — Ads that leverage the medium</title>
+      <link>https://encapsulate.me/writing/24HourHomepage-Week10</link>
+      <description>Last week I focused on getting more creative and engaging content on the site. Two features of the site led to two interesting advertisements.</description>
+      <pubDate>Tue, 19 Oct 2021 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://encapsulate.me/writing/24HourHomepage-Week10</guid>
+    </item>
+    <item>
+      <title>24hourhomepage.com — Week 13 — Public talk at JS.LA</title>
+      <link>https://encapsulate.me/writing/24HourHomepage-Week13</link>
+      <description>I&apos;m speaking at JS.LA</description>
+      <pubDate>Tue, 19 Oct 2021 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://encapsulate.me/writing/24HourHomepage-Week13</guid>
+    </item>
+    <item>
+      <title>24HourHomepage.com — Week 14 — Public talk, Publicity on Twitter and Podcasting</title>
+      <link>https://encapsulate.me/writing/24HourHomepage-Week14</link>
+      <description>tl;dr: On the heels of my big talk and my first podcast interview last week, this week I’m reaching out to podcasters and bloggers about my work. I also finished my 100 ads in 100 days project and ran an experiment on Twitter.</description>
+      <pubDate>Tue, 19 Oct 2021 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://encapsulate.me/writing/24HourHomepage-Week14</guid>
+    </item>
+    <item>
+      <title>24hourhomepage.com — Week 15 — Is this a Matrix? 🦋</title>
+      <link>https://encapsulate.me/writing/24HourHomepage-Week15</link>
+      <description>Last week I started reaching out to 25 podcasts. Three have gotten back to me for an initial chat and another one is already published! I’m doing a Podcast Blitz after my talk at js.la is posted. Finally, I wanted to demonstrate how expressive 1FPS gifs can be in telling a story so I made a meme website: isthisamatrix.com</description>
+      <pubDate>Tue, 19 Oct 2021 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://encapsulate.me/writing/24HourHomepage-Week15</guid>
+    </item>
+    <item>
+      <title>24hourhomepage.com — Week 16 &amp; 17 — Podcasts, Pitching and Paid media</title>
+      <link>https://encapsulate.me/writing/24HourHomepage-Week16</link>
+      <description>Last week I focused on reaching out to bloggers and journalists. Had 3 podcast interviews, discussions with press release experts and an interesting opportunity came up to promote 24hourhomepage.com</description>
+      <pubDate>Tue, 19 Oct 2021 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://encapsulate.me/writing/24HourHomepage-Week16</guid>
+    </item>
+    <item>
+      <title>24hourhomepage.com — Week 18—Pitching local TV</title>
+      <link>https://encapsulate.me/writing/24HourHomepage-Week18</link>
+      <description>Last week I emailed and called all the TV newsrooms in Los Angeles. Heard “…that does sound like an interesting story”. More organic growth this week.</description>
+      <pubDate>Tue, 19 Oct 2021 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://encapsulate.me/writing/24HourHomepage-Week18</guid>
+    </item>
+    <item>
+      <title>24HourHomepage.com — Weeks 19 &amp; 20 — Recharging, Reddit and Releasing the Press</title>
+      <link>https://encapsulate.me/writing/24HourHomepage-Week19</link>
+      <description>After a great, recharging vacation, I engaged with more communities on Reddit, booked more podcasts, planned my Product Hunt launch and hired a PR company to help get the word out.</description>
+      <pubDate>Tue, 19 Oct 2021 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://encapsulate.me/writing/24HourHomepage-Week19</guid>
+    </item>
+    <item>
+      <title>24HourHomepage.com — Week 21 — A focus on marketing, affiliate sales</title>
+      <link>https://encapsulate.me/writing/24HourHomepage-Week21</link>
+      <description>Last week I prototyped some new marketing “stunts” to execute to get more people aware of 24HourHomepage.com. I made a small change to the checkout system to show itemized features at the payment decision point. I also made a browser extension (finally) for the site but we’ll have to wait for Google to approve it for you to use it.</description>
+      <pubDate>Tue, 19 Oct 2021 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://encapsulate.me/writing/24HourHomepage-Week21</guid>
+    </item>
+    <item>
+      <title>24HourHomepage.com — Week 22 —$24.7K Giveaway, Product Hunt, Chrome Extension</title>
+      <link>https://encapsulate.me/writing/24HourHomepage-Week22</link>
+      <description>Last week I deployed a Chrome Extension for people to set 24HourHomepage.com as their homepage. Finalized the Product Hunt marketing assets (for this Sunday, August 1st!) and am giving away $24.7K.</description>
+      <pubDate>Tue, 19 Oct 2021 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://encapsulate.me/writing/24HourHomepage-Week22</guid>
+    </item>
+    <item>
+      <title>24HourHomepage.com — Week 23 — What I learned as Product Hunt’s #2 Best Product Of The Day</title>
+      <link>https://encapsulate.me/writing/24HourHomepage-Week23</link>
+      <description>I launched 24HourHomepage.com on Product Hunt this last Sunday and for 24 hours I responded to questions, invited more to discuss and ultimately earned the #2 Best Product of the Day</description>
+      <pubDate>Tue, 19 Oct 2021 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://encapsulate.me/writing/24HourHomepage-Week23</guid>
+    </item>
+    <item>
+      <title>24HourHomepage.com — Weeks 24–28 — A long break for a new focus</title>
+      <link>https://encapsulate.me/writing/24HourHomepage-Week24</link>
+      <description>I took several weeks off hard outreach on the product while interviewing for a new job. I’m joining a GREAT new consumer product and will continue to creatively grow 24HourHomepage.com</description>
+      <pubDate>Tue, 19 Oct 2021 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://encapsulate.me/writing/24HourHomepage-Week24</guid>
     </item>
   </channel>
 </rss>

@@ -1,56 +1,126 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
 	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<meta content="justin higgins" property="og:title" />
-	<meta content="http://encapsulate.me" property="og:url" />
-	<meta content="profile" property="og:type" />
-	<meta content="Justin" property="og:profile:first_name" />
-	<meta content="Higgins" property="og:profile:last_name" />
-	<meta content="higgins" property="og:profile:username" />
-	<meta content="male" property="og:profile:gender" />
-	<title>Justin Higgins</title>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Varela+Round,Overpass">
+  <title>Projects — Justin Higgins</title>
+  <meta name="description" content="Professional work and personal projects from Justin Higgins, Director of Engineering at SoundCloud." />
+  <link rel="canonical" href="https://encapsulate.me/projects" />
+  <link rel="alternate" type="application/rss+xml" title="Justin Higgins — RSS" href="/rss.xml" />
+  <meta property="og:title" content="Projects — Justin Higgins" />
+  <meta property="og:description" content="Professional work and personal projects from Justin Higgins, Director of Engineering at SoundCloud." />
+  <meta property="og:url" content="https://encapsulate.me/projects" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://encapsulate.me/assets/avatar.jpg" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@justinprojects" />
+  <meta name="twitter:title" content="Projects — Justin Higgins" />
+  <meta name="twitter:description" content="Professional work and personal projects from Justin Higgins, Director of Engineering at SoundCloud." />
+  <meta name="twitter:image" content="https://encapsulate.me/assets/avatar.jpg" />
   <link rel="stylesheet" href="/assets/styles.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <style>
-   ul {
+   .project-list {
      padding: 0rem;
-     list-style-type: none
+     list-style-type: none;
+   }
+   .project-list > li + li {
+     margin-top: 1.5rem;
+   }
+   .project-list h3 {
+     font-size: 1em;
+     margin: 0;
+   }
+   .project-list p {
+     line-height: 1.5;
+     margin: 0.35rem 0 0;
+   }
+   .project-role {
+     font-size: 0.875em;
    }
    .emoji {
      margin-right: 0.5rem;
    }
   </style>
 </head>
-<body>
-  <header>
-    <nav>
-      <a href="/">
-        <div id="logo">
+<body class="site-page">
+  <!-- site-header:start -->
+  <header class="site-header">
+    <nav aria-label="Main">
+      <a href="/" aria-label="Home">
+        <div id="logo" aria-hidden="true">
           <div class="i"></div>
           <div class="w"></div>
           <div class="o"></div>
         </div>
-        <div>
       </a>
-      <a class="link" href="/now">now</a>
+      <div>
+        <a class="link" href="/now">now</a>
       </div>
     </nav>
   </header>
+  <!-- site-header:end -->
   <main>
     <h1>Projects</h1>
-    <p>I work on projects I enjoy and that I think others will too. I'm frugal and don't buy domain names anymore.</p>
-    <ul>
-      <li><span class="emoji">⏰</span><a href="https://24HourHomepage.com" target="_blank">24HourHomepage.com</a></li>
-      <li><span class="emoji">☁️</span><a href="https://soundcloud.com" target="_blank">soundcloud.com</a></li>
+    <p class="intro">Products I’ve helped build at work, and projects I make for fun, curiosity, and everyday life.</p>
+
+    <h2>Professional work</h2>
+    <ul class="project-list">
+      <li>
+        <h3><a href="https://soundcloud.com">SoundCloud</a></h3>
+        <p class="project-role">Director of Engineering</p>
+        <p>I designed and built an architecture for introducing a new web application inside the existing site, helping increase creator subscription conversions by about 22%.</p>
+        <p>I also established code review, testing, and architecture decision practices, and led the 2024 and 2025 engineering internship programs.</p>
+      </li>
+      <li>
+        <h3><a href="https://turntable.fm">Turntable.fm</a></h3>
+        <p class="project-role">Head of Engineering · 2021–2023</p>
+        <p>I led engineering through the launch of four consumer web and mobile products: Glow.dev, Sup.audio, Seen.lol, and Hightide.link. I also designed and built backend services for real-time video streaming, audio messaging, and video messaging.</p>
+      </li>
     </ul>
+    <p><a href="/JustinHigginsResume.pdf">CV (July 2025, PDF)</a> — before my current role.</p>
+
     <hr/>
-    <ul>
-      <li><span class="emoji">🦋</span><a href="/matrix">Is this a Matrix?</a></li>
-      <li><span class="emoji">🌮</span><a href="/streetfoodle">Street Foodle</a></li>
-      <li><span class="emoji">🌎</span><a href="/eeaao">Everyone Everywhere All At Once</a></li>
-      <li><span class="emoji">🤝</span><a href="https://selfless.io" target="_blank">selfless</a></li>
-      <li><span class="emoji">🏁</span><a href="/start">Starting Condition</a></li>
+    <h2>Active Projects</h2>
+    <ul class="project-list">
+      <li>
+        <h3><span class="emoji" aria-hidden="true">💪</span><a href="https://gitpushups.com">GitPushups</a></h3>
+        <p>A fitness tool and community for developers that makes pushups part of their coding routine. I launched it in September 2025.</p>
+      </li>
+      <li>
+        <h3><span class="emoji" aria-hidden="true">⏰</span><a href="https://24hourhomepage.com">24HourHomepage</a></h3>
+        <p>An internet art project where people buy seconds in a loop that repeats every day. I built it and documented the work of finding artists and growing it. It reached #2 Product of the Day on Product Hunt.</p>
+        <p><a href="/writing/24HourHomepage-Intro">How it started</a></p>
+      </li>
+      <li>
+        <h3><span class="emoji" aria-hidden="true">👀</span><a href="https://github.com/higgins/privatize">Privatize</a></h3>
+        <p>An open-source Git tool I wrote to encrypt selected sections of text files while keeping the rest readable. I built it so I could keep private notes alongside my public daily log.</p>
+        <p><a href="/writing/Privatize">Why I built it and how it works</a></p>
+      </li>
+    </ul>
+
+    <hr/>
+    <h2>Earlier projects</h2>
+    <ul class="project-list">
+      <li>
+        <h3><span class="emoji" aria-hidden="true">🦋</span><a href="/matrix">Is this a Matrix?</a></h3>
+        <p>A GIF-making toy I built for rearranging scenes from <em>The Matrix</em> into alternative stories.</p>
+      </li>
+      <li>
+        <h3><span class="emoji" aria-hidden="true">🌮</span><a href="/streetfoodle">Street Foodle</a></h3>
+        <p>A daily guessing game I made about street foods from around the world.</p>
+      </li>
+      <li>
+        <h3><span class="emoji" aria-hidden="true">🌎</span><a href="/eeaao">Everyone Everywhere All At Once</a></h3>
+        <p>A collaborative internet art project I built, inspired by <em>Everything Everywhere All at Once</em>.</p>
+      </li>
+      <li>
+        <h3><span class="emoji" aria-hidden="true">🤝</span>Selfless</h3>
+        <p>A web and mobile service I founded and built for sharing physical goods with friends and neighbors. Now closed.</p>
+      </li>
+      <li>
+        <h3><span class="emoji" aria-hidden="true">🏁</span><a href="/start">Starting Condition</a></h3>
+        <p>An open project I started to answer “Who goes first?” with playful prompts contributed in several languages.</p>
+      </li>
     </ul>
   </main>
 </body>

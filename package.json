@@ -4,7 +4,11 @@
     "description": "https://encapsulate.me",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "node scripts/serve.js",
+        "layout": "node scripts/sync-layout.js",
+        "check:layout": "node scripts/sync-layout.js --check",
+        "test": "node --test tests/*.test.js",
+        "check:feed": "node build.js --check",
         "build": "node build.js"
     },
     "repository": {
