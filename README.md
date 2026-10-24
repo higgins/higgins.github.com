@@ -51,6 +51,5 @@ dates and stable extensionless IDs; rebuilding or cloning the repo does not
 change publication dates. The build only writes the local RSS file.
 
 The `/now` date should reflect a personal update, not a styling change. The
-linked PDF is the July 2025 CV and predates the current Director role; `/work`
-is explicitly archived. Refresh the CV when its content is ready. Project
+linked PDF is the current CV; `/work` is explicitly archived. Project
 descriptions still need a less résumé-like editorial pass.
